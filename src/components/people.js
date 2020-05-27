@@ -1,37 +1,89 @@
 import React, {Component} from 'react';
-import {Container, Row, Col, Image} from 'react-bootstrap';
+import {Container,Card,CardDeck} from 'react-bootstrap';
+import {Navbar, Nav, NavLink, Button} from 'react-bootstrap';
+import { Link, Element, animateScroll as scroll} from 'react-scroll'
+import logo from '../images/GT_White.png';
 
 class People extends Component{
+    constructor(props) {
+        super(props);
+        this.scrollToTop = this.scrollToTop.bind(this);
+      }
+    
+      scrollToTop() {
+        scroll.scrollToTop();
+      }
     render(){
         return (
-            <Container fluid className="people">
-                <Row>
-                    <Col>
-                        <h1 align="center" className="sec-heading"> Meet the Team </h1>
-                    <br />
-                    </Col>
-                </Row>
+            <div className="people">
+                 <Navbar className ="second-navbar fixed-top" variant="warning" bg ="warning" expand = "xl"> 
+                 <Navbar.Brand className = "d-inline p-0 text-white" to ="/people"><strong>People</strong></Navbar.Brand>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <Nav className="mr-auto">
+                            <NavLink className = "d-inline p-2 text-white">
+                                <Link activeClass="active" className="director" to="director" spy={true} smooth={true} duration={500} >
+                                    Director (Sudheer Chava)
+                                </Link>
+                            </NavLink>
+                            <NavLink className = "d-inline p-2 text-white">
+                                <Link activeClass="active" className="faculty" to="faculty" spy={true} smooth={true} duration={500} >
+                                    Faculty
+                                </Link>
+                            </NavLink>
+                            <NavLink className = "d-inline p-2 text-white">
+                                <Link activeClass="active" className="phd" to="phd" spy={true} smooth={true} duration={500} >
+                                    PhD Students
+                                </Link>
+                            </NavLink>
+                            <NavLink className = "d-inline p-2 text-white">
+                                <Link activeClass="active" className="ms" to="ms" spy={true} smooth={true} duration={500} >
+                                    Master Students
+                                </Link>
+                                </NavLink>
+                            <NavLink className = "d-inline p-2 text-white">
+                                <Link activeClass="active" className="undergrad" to="undergrad" spy={true} smooth={true} duration={500} >
+                                    Undergrad Students
+                                </Link>
+                            </NavLink>
+                        </Nav>
+                    </div>
+                 </Navbar>
+                <Card className="bg-dark text-white">
+                    <Card.Img class="card-img-top" fluid src="https://www.scheller.gatech.edu/pix/why-scheller/unrestricted-endowment.jpg.pagespeed.ce.9X1ZWk_qnv.jpg" alt="Card image" />
+                </Card>    
 
-                <Row>
-                    <Col>
-                        <h1 align="center"> Director </h1>
-                    <br />
-                    </Col>
-                </Row>
-
+                <br/>    
+                <Container fluid>
+                 <Element name="director" className="element" >
+                    <Card>
+                        <Card.Header className = "bg-warning text-white" as="h3">Director</Card.Header>
+                    </Card>
+                </Element>
+                <br/>
                 <div class="row">
                     <div class="col-3">
-                    <Image src="https://www.scheller.gatech.edu/thumb/width/600/cropratio/1:1/pix/directory/chava_sudeer_profile.jpg" height="250" roundedCircle></Image>
-                    <a href="http://www.prism.gatech.edu/~schava6/"><h4>Sudheer Chava</h4></a>
-                        <p >Alton M. Costley Chair and Professor of Finance 
-                        <br/>Area Coordinator, Finance
-                        <br/>Director, Quantitative and Computational Finance (QCF) Program
-                        <br/>Director, Financial Services Innovation Lab
-                        <br/>Associate Director, Risk Management, Institute for Information Security and Privacy (IISP)
-                        </p>
-                        </div>
-                    <div class="col-9 single-post-content-wrapper p-3">
+                            <Card>
+                                <Card.Img variant="top" src="https://www.scheller.gatech.edu/thumb/width/600/cropratio/1:1/pix/directory/chava_sudeer_profile.jpg"></Card.Img>
+                                <Card.Body>
+                                    <Card.Title><strong>Sudheer Chava</strong></Card.Title>
+                                    <Card.Text>
+                                    <p >Alton M. Costley Chair and Professor of Finance 
+                                    <br/>Area Coordinator, Finance
+                                    <br/>Director, Quantitative and Computational Finance (QCF) Program
+                                    <br/>Director, Financial Services Innovation Lab
+                                    <br/>Associate Director, Risk Management, Institute for Information Security and Privacy (IISP)
+                                    </p>
+                                    </Card.Text>
+                                </Card.Body>
+                            </Card>
+                    </div>
+                    <div class="col-9">
+                    <row>
                       <p align = "justify"> 
+                            <br/>
+                            <br/>
+                            <br/>
+                            <br/>
                               Sudheer Chava is Alton M. Costley Chair and Professor of Finance at Scheller College of Business at Georgia Tech.
                               He has received his Ph.D. from Cornell University in 2003. Prior to that he has an MBA degree from Indian Institute of Management – Bangalore 
                               and worked as a fixed income analyst at a leading investment bank in India. 
@@ -45,267 +97,452 @@ class People extends Component{
                               Dr. Chava is the recipient of multiple external research grants such as FDIC-CFR Fellowship, Morgan Stanley Research grant, Financial Service Exchange Research grant, Q group 
                               research award (2010, 2012) and GARP research award. He has presented his work at numerous finance conferences such as AFA, WFA, EFA, FDIC and Federal Reserve Banks and at many
                               universities in the U.S. and abroad.
-                    </p>
+                        </p>
+                    </row>
                     </div>
                 </div>
+                </Container>
 
-                <Row>
-                    <Col>
-                        <h1 align="center"> Faculty </h1>
-                    <br />
-                    </Col>
-                </Row>
+                <Container fluid>
+                    <Element name="faculty" className="element" >
+                    <Card>
+                        <Card.Header className = "bg-warning text-white" as="h3">Faculty</Card.Header>
+                    </Card>
+                    </Element>
+                    <br/>
+                    <CardDeck>
+                             <Card>
+                                <a href = "https://sites.google.com/site/alexchiahsu/home">
+                                <Card.Img variant="top" src="https://www.scheller.gatech.edu/thumb/width/600/cropratio/1:1/pix/directory/hsu_alex_profile.jpg"></Card.Img>
+                                </a>
+                                <Card.Body>
+                                    <Card.Title>Alex Hsu</Card.Title>
+                                    <Card.Text>Assistant Professor</Card.Text>
+                                </Card.Body>
+                            </Card>
 
+                            <Card>
+                                <Card.Img variant="top" src="https://career.gatech.edu/sites/default/files/uploads/images/superblock_images/career_buzz_logo.png"></Card.Img>
+                                <Card.Body>
+                                    <Card.Title>
+                                    Student Name
+                                    </Card.Title>
+                                    <Card.Text>Specialisation</Card.Text>
+                                </Card.Body>
+                            </Card>
+                            
+                            <Card>
+                                <Card.Img variant="top" src="https://career.gatech.edu/sites/default/files/uploads/images/superblock_images/career_buzz_logo.png"></Card.Img>
+                                <Card.Body>
+                                    <Card.Title>Student Name</Card.Title>
+                                    <Card.Text>Specialisation</Card.Text>
+                                </Card.Body>
+                            </Card>
+                            <Card>
+                                <Card.Img variant="top" src="https://career.gatech.edu/sites/default/files/uploads/images/superblock_images/career_buzz_logo.png"></Card.Img>
+                                <Card.Body>
+                                    <Card.Title>Student Name</Card.Title>
+                                    <Card.Text>Specialisation</Card.Text>
+                                </Card.Body>
+                            </Card> 
+                    </CardDeck>
+                    <br/>
+                    <CardDeck>
+                            <Card>
+                                <Card.Img variant="top" src="https://career.gatech.edu/sites/default/files/uploads/images/superblock_images/career_buzz_logo.png"></Card.Img>
+                                <Card.Body>
+                                    <Card.Title>Student Name</Card.Title>
+                                    <Card.Text>Specialisation</Card.Text>
+                                </Card.Body>
+                            </Card>
+                            <Card>
+                                <Card.Img variant="top" src="https://career.gatech.edu/sites/default/files/uploads/images/superblock_images/career_buzz_logo.png"></Card.Img>
+                                <Card.Body>
+                                    <Card.Title>Student Name</Card.Title>
+                                    <Card.Text>Specialisation</Card.Text>
+                                </Card.Body>
+                            </Card>
+                            <Card>
+                                <Card.Img variant="top" src="https://career.gatech.edu/sites/default/files/uploads/images/superblock_images/career_buzz_logo.png"></Card.Img>
+                                <Card.Body>
+                                    <Card.Title>Student Name</Card.Title>
+                                    <Card.Text>Specialisation</Card.Text>
+                                </Card.Body>
+                            </Card>
+                            <Card>
+                                <Card.Img variant="top" src="https://career.gatech.edu/sites/default/files/uploads/images/superblock_images/career_buzz_logo.png"></Card.Img>
+                                <Card.Body>
+                                    <Card.Title>Student Name</Card.Title>
+                                    <Card.Text>Specialisation</Card.Text>
+                                </Card.Body>
+                            </Card> 
+                    </CardDeck>
 
-                <div class="row">
-                    <div class="col">
-                        <Image src="https://career.gatech.edu/sites/default/files/uploads/images/superblock_images/career_buzz_logo.png" width = "250px" roundedCircle></Image>
-                        <h4>Faculty Name</h4>
-                        <h5> Specialisation </h5>
-                    </div>
-                    <div class="col">
-                        <Image src="https://career.gatech.edu/sites/default/files/uploads/images/superblock_images/career_buzz_logo.png" width = "250px" roundedCircle></Image>
-                         <h4>Faculty Name</h4>
-                        <h5> Specialisation </h5>
-                    </div>
-                    <div class="col">
-                        <Image src="https://career.gatech.edu/sites/default/files/uploads/images/superblock_images/career_buzz_logo.png" width = "250px" roundedCircle></Image>
-                         <h4>Faculty Name</h4>
-                        <h5> Specialisation </h5>
-                    </div>
-                    <div class="col">
-                        <Image src="https://career.gatech.edu/sites/default/files/uploads/images/superblock_images/career_buzz_logo.png" width = "250px" roundedCircle></Image>
-                         <h4>Faculty Name</h4>
-                        <h5> Specialisation </h5>
-                    </div>
-                </div>
-
-                <Row>
-                    <Col>
-                        <h1 align="center"> PhD Students </h1>
-                    <br />
-                    </Col>
-                </Row>
-
-
-                <div class="row">
-                    <div class="col">
-                        <Image src="https://career.gatech.edu/sites/default/files/uploads/images/superblock_images/career_buzz_logo.png" width = "175px" roundedCircle></Image>
-                        <h5> Student Name</h5>
-                        <h6> Specialisation </h6>
-                    </div>
-                    <div class="col">
-                        <Image src="https://career.gatech.edu/sites/default/files/uploads/images/superblock_images/career_buzz_logo.png" width = "175px" roundedCircle></Image>
-                        <h5> Student Name</h5>
-                        <h6> Specialisation </h6>
-                    </div>
-                    <div class="col">
-                        <Image src="https://career.gatech.edu/sites/default/files/uploads/images/superblock_images/career_buzz_logo.png" width = "175px" roundedCircle></Image>
-                        <h5> Student Name</h5>
-                        <h6> Specialisation </h6>
-                    </div>
-                    <div class="col">
-                        <Image src="https://career.gatech.edu/sites/default/files/uploads/images/superblock_images/career_buzz_logo.png" width = "175px" roundedCircle></Image>
-                        <h5> Student Name</h5>
-                        <h6> Specialisation </h6>
-                    </div>
-                    <div class="col">
-                        <Image src="https://career.gatech.edu/sites/default/files/uploads/images/superblock_images/career_buzz_logo.png" width = "175px" roundedCircle></Image>
-                        <h5> Student Name</h5>
-                        <h6> Specialisation </h6>
-                    </div>
-                    <div class="col">
-                        <Image src="https://career.gatech.edu/sites/default/files/uploads/images/superblock_images/career_buzz_logo.png" width = "175px" roundedCircle></Image>
-                        <h5> Student Name</h5>
-                        <h6> Specialisation </h6>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col">
-                        <Image src="https://career.gatech.edu/sites/default/files/uploads/images/superblock_images/career_buzz_logo.png" width = "175px" roundedCircle></Image>
-                        <h5> Student Name</h5>
-                        <h6> Specialisation </h6>
-                    </div>
-                    <div class="col">
-                        <Image src="https://career.gatech.edu/sites/default/files/uploads/images/superblock_images/career_buzz_logo.png" width = "175px" roundedCircle></Image>
-                        <h5> Student Name</h5>
-                        <h6> Specialisation </h6>
-                    </div>
-                    <div class="col">
-                        <Image src="https://career.gatech.edu/sites/default/files/uploads/images/superblock_images/career_buzz_logo.png" width = "175px" roundedCircle></Image>
-                        <h5> Student Name</h5>
-                        <h6> Specialisation </h6>
-                    </div>
-                    <div class="col">
-                        <Image src="https://career.gatech.edu/sites/default/files/uploads/images/superblock_images/career_buzz_logo.png" width = "175px" roundedCircle></Image>
-                        <h5> Student Name</h5>
-                        <h6> Specialisation </h6>
-                    </div>
-                    <div class="col">
-                        <Image src="https://career.gatech.edu/sites/default/files/uploads/images/superblock_images/career_buzz_logo.png" width = "175px" roundedCircle></Image>
-                        <h5> Student Name</h5>
-                        <h6> Specialisation </h6>
-                    </div>
-                    <div class="col">
-                        <Image src="https://career.gatech.edu/sites/default/files/uploads/images/superblock_images/career_buzz_logo.png" width = "175px" roundedCircle></Image>
-                        <h5> Student Name</h5>
-                        <h6> Specialisation </h6>
-                    </div>
-                </div>
-
-                <Row>
-                    <Col>
-                        <h1 align="center"> Masters Students </h1>
-                    <br />
-                    </Col>
-                </Row>
-
-
-                <div class="row">
-                    <div class="col">
-                        <Image src="https://career.gatech.edu/sites/default/files/uploads/images/superblock_images/career_buzz_logo.png" width = "125px" roundedCircle></Image>
-                        <h5> Student Name</h5>
-                        <h6> Specialisation </h6>
-                    </div>
-                    <div class="col">
-                        <Image src="https://career.gatech.edu/sites/default/files/uploads/images/superblock_images/career_buzz_logo.png" width = "125px" roundedCircle></Image>
-                        <h5> Student Name</h5>
-                        <h6> Specialisation </h6>
-                    </div>
-                    <div class="col">
-                        <Image src="https://career.gatech.edu/sites/default/files/uploads/images/superblock_images/career_buzz_logo.png" width = "125px" roundedCircle></Image>
-                        <h5> Student Name</h5>
-                        <h6> Specialisation </h6>
-                    </div>
-                    <div class="col">
-                        <Image src="https://career.gatech.edu/sites/default/files/uploads/images/superblock_images/career_buzz_logo.png" width = "125px" roundedCircle></Image>
-                        <h5> Student Name</h5>
-                        <h6> Specialisation </h6>
-                    </div>
-                    <div class="col">
-                        <Image src="https://career.gatech.edu/sites/default/files/uploads/images/superblock_images/career_buzz_logo.png" width = "125px" roundedCircle></Image>
-                        <h5> Student Name</h5>
-                        <h6> Specialisation </h6>
-                    </div>
-                    <div class="col">
-                        <Image src="https://career.gatech.edu/sites/default/files/uploads/images/superblock_images/career_buzz_logo.png" width = "125px" roundedCircle></Image>
-                        <h5> Student Name</h5>
-                        <h6> Specialisation </h6>
-                    </div>
-                    <div class="col">
-                        <Image src="https://career.gatech.edu/sites/default/files/uploads/images/superblock_images/career_buzz_logo.png" width = "125px" roundedCircle></Image>
-                        <h5> Student Name</h5>
-                        <h6> Specialisation </h6>
-                    </div>
-                    <div class="col">
-                        <Image src="https://career.gatech.edu/sites/default/files/uploads/images/superblock_images/career_buzz_logo.png" width = "125px" roundedCircle></Image>
-                        <h5> Student Name</h5>
-                        <h6> Specialisation </h6>
-                    </div>
-                    
-                </div>
-
-
-                <div class="row">
-                    <div class="col">
-                        <Image src="https://career.gatech.edu/sites/default/files/uploads/images/superblock_images/career_buzz_logo.png" width = "125px" roundedCircle></Image>
-                        <h5> Student Name</h5>
-                        <h6> Specialisation </h6>
-                    </div>
-                    <div class="col">
-                        <Image src="https://career.gatech.edu/sites/default/files/uploads/images/superblock_images/career_buzz_logo.png" width = "125px" roundedCircle></Image>
-                        <h5> Student Name</h5>
-                        <h6> Specialisation </h6>
-                    </div>
-                    <div class="col">
-                        <Image src="https://career.gatech.edu/sites/default/files/uploads/images/superblock_images/career_buzz_logo.png" width = "125px" roundedCircle></Image>
-                        <h5> Student Name</h5>
-                        <h6> Specialisation </h6>
-                    </div>
-                    <div class="col">
-                        <Image src="https://career.gatech.edu/sites/default/files/uploads/images/superblock_images/career_buzz_logo.png" width = "125px" roundedCircle></Image>
-                        <h5> Student Name</h5>
-                        <h6> Specialisation </h6>
-                    </div>
-                    <div class="col">
-                        <Image src="https://career.gatech.edu/sites/default/files/uploads/images/superblock_images/career_buzz_logo.png" width = "125px" roundedCircle></Image>
-                        <h5> Student Name</h5>
-                        <h6> Specialisation </h6>
-                    </div>
-                    <div class="col">
-                        <Image src="https://career.gatech.edu/sites/default/files/uploads/images/superblock_images/career_buzz_logo.png" width = "125px" roundedCircle></Image>
-                        <h5> Student Name</h5>
-                        <h6> Specialisation </h6>
-                    </div>
-                    <div class="col">
-                        <Image src="https://career.gatech.edu/sites/default/files/uploads/images/superblock_images/career_buzz_logo.png" width = "125px" roundedCircle></Image>
-                        <h5> Student Name</h5>
-                        <h6> Specialisation </h6>
-                    </div>
-                    <div class="col">
-                        <Image src="https://career.gatech.edu/sites/default/files/uploads/images/superblock_images/career_buzz_logo.png" width = "125px" roundedCircle></Image>
-                        <h5> Student Name</h5>
-                        <h6> Specialisation </h6>
-                    </div>
-                    
-                </div>
-
+                </Container>
+            
+            <br/>
                 
-                <Row>
-                    <Col>
-                        <h1 align="center"> Undergrad Students </h1>
-                    <br />
-                    </Col>
-                </Row>
+            <Container fluid>
+                <Element name="phd" className="element" >
+                    <Card>
+                        <Card.Header className = "bg-warning text-white" as="h3">PhD Students</Card.Header>
+                    </Card>
+                    <br/>
+                </Element>
 
+                <CardDeck>
+                            <Card>
+                                <Card.Img variant="top" src="https://career.gatech.edu/sites/default/files/uploads/images/superblock_images/career_buzz_logo.png"></Card.Img>
+                                <Card.Body>
+                                    <Card.Title>Student Name</Card.Title>
+                                    <Card.Text>Specialisation</Card.Text>
+                                </Card.Body>
+                            </Card>
+                            <Card>
+                                <Card.Img variant="top" src="https://career.gatech.edu/sites/default/files/uploads/images/superblock_images/career_buzz_logo.png"></Card.Img>
+                                <Card.Body>
+                                    <Card.Title>Student Name</Card.Title>
+                                    <Card.Text>Specialisation</Card.Text>
+                                </Card.Body>
+                            </Card>
+                            <Card>
+                                <Card.Img variant="top" src="https://career.gatech.edu/sites/default/files/uploads/images/superblock_images/career_buzz_logo.png"></Card.Img>
+                                <Card.Body>
+                                    <Card.Title>Student Name</Card.Title>
+                                    <Card.Text>Specialisation</Card.Text>
+                                </Card.Body>
+                            </Card>
+                            <Card>
+                                <Card.Img variant="top" src="https://career.gatech.edu/sites/default/files/uploads/images/superblock_images/career_buzz_logo.png"></Card.Img>
+                                <Card.Body>
+                                    <Card.Title>Student Name</Card.Title>
+                                    <Card.Text>Specialisation</Card.Text>
+                                </Card.Body>
+                            </Card> 
+                            <Card>
+                                <Card.Img variant="top" src="https://career.gatech.edu/sites/default/files/uploads/images/superblock_images/career_buzz_logo.png"></Card.Img>
+                                <Card.Body>
+                                    <Card.Title>Student Name</Card.Title>
+                                    <Card.Text>Specialisation</Card.Text>
+                                </Card.Body>
+                            </Card> 
+                            <Card>
+                                <Card.Img variant="top" src="https://career.gatech.edu/sites/default/files/uploads/images/superblock_images/career_buzz_logo.png"></Card.Img>
+                                <Card.Body>
+                                    <Card.Title>Student Name</Card.Title>
+                                    <Card.Text>Specialisation</Card.Text>
+                                </Card.Body>
+                            </Card> 
+                    </CardDeck>
 
-                <div class="row">
-                    <div class="col">
-                        <Image src="https://career.gatech.edu/sites/default/files/uploads/images/superblock_images/career_buzz_logo.png" width = "125px" roundedCircle></Image>
-                        <h5> Student Name</h5>
-                        <h6> Specialisation </h6>
-                    </div>
-                    <div class="col">
-                        <Image src="https://career.gatech.edu/sites/default/files/uploads/images/superblock_images/career_buzz_logo.png" width = "125px" roundedCircle></Image>
-                        <h5> Student Name</h5>
-                        <h6> Specialisation </h6>
-                    </div>
-                    <div class="col">
-                        <Image src="https://career.gatech.edu/sites/default/files/uploads/images/superblock_images/career_buzz_logo.png" width = "125px" roundedCircle></Image>
-                        <h5> Student Name</h5>
-                        <h6> Specialisation </h6>
-                    </div>
-                    <div class="col">
-                        <Image src="https://career.gatech.edu/sites/default/files/uploads/images/superblock_images/career_buzz_logo.png" width = "125px" roundedCircle></Image>
-                        <h5> Student Name</h5>
-                        <h6> Specialisation </h6>
-                    </div>
-                    <div class="col">
-                        <Image src="https://career.gatech.edu/sites/default/files/uploads/images/superblock_images/career_buzz_logo.png" width = "125px" roundedCircle></Image>
-                        <h5> Student Name</h5>
-                        <h6> Specialisation </h6>
-                    </div>
-                    <div class="col">
-                        <Image src="https://career.gatech.edu/sites/default/files/uploads/images/superblock_images/career_buzz_logo.png" width = "125px" roundedCircle></Image>
-                        <h5> Student Name</h5>
-                        <h6> Specialisation </h6>
-                    </div>
-                    <div class="col">
-                        <Image src="https://career.gatech.edu/sites/default/files/uploads/images/superblock_images/career_buzz_logo.png" width = "125px" roundedCircle></Image>
-                        <h5> Student Name</h5>
-                        <h6> Specialisation </h6>
-                    </div>
-                    <div class="col">
-                        <Image src="https://career.gatech.edu/sites/default/files/uploads/images/superblock_images/career_buzz_logo.png" width = "125px" roundedCircle></Image>
-                        <h5> Student Name</h5>
-                        <h6> Specialisation </h6>
-                    </div>
-                    
-                </div>
+                    <br/>
 
-                
+                    <CardDeck>
+                            <Card>
+                                <Card.Img variant="top" src="https://career.gatech.edu/sites/default/files/uploads/images/superblock_images/career_buzz_logo.png"></Card.Img>
+                                <Card.Body>
+                                    <Card.Title>Student Name</Card.Title>
+                                    <Card.Text>Specialisation</Card.Text>
+                                </Card.Body>
+                            </Card>
+                            <Card>
+                                <Card.Img variant="top" src="https://career.gatech.edu/sites/default/files/uploads/images/superblock_images/career_buzz_logo.png"></Card.Img>
+                                <Card.Body>
+                                    <Card.Title>Student Name</Card.Title>
+                                    <Card.Text>Specialisation</Card.Text>
+                                </Card.Body>
+                            </Card>
+                            <Card>
+                                <Card.Img variant="top" src="https://career.gatech.edu/sites/default/files/uploads/images/superblock_images/career_buzz_logo.png"></Card.Img>
+                                <Card.Body>
+                                    <Card.Title>Student Name</Card.Title>
+                                    <Card.Text>Specialisation</Card.Text>
+                                </Card.Body>
+                            </Card>
+                            <Card>
+                                <Card.Img variant="top" src="https://career.gatech.edu/sites/default/files/uploads/images/superblock_images/career_buzz_logo.png"></Card.Img>
+                                <Card.Body>
+                                    <Card.Title>Student Name</Card.Title>
+                                    <Card.Text>Specialisation</Card.Text>
+                                </Card.Body>
+                            </Card> 
+                            <Card>
+                                <Card.Img variant="top" src="https://career.gatech.edu/sites/default/files/uploads/images/superblock_images/career_buzz_logo.png"></Card.Img>
+                                <Card.Body>
+                                    <Card.Title>Student Name</Card.Title>
+                                    <Card.Text>Specialisation</Card.Text>
+                                </Card.Body>
+                            </Card> 
+                            <Card>
+                                <Card.Img variant="top" src="https://career.gatech.edu/sites/default/files/uploads/images/superblock_images/career_buzz_logo.png"></Card.Img>
+                                <Card.Body>
+                                    <Card.Title>Student Name</Card.Title>
+                                    <Card.Text>Specialisation</Card.Text>
+                                </Card.Body>
+                            </Card> 
+                    </CardDeck>
             </Container>
+            <br/>
+            <Container fluid>
+                <Element name="ms" className="element" >
+                    <Card>
+                        <Card.Header className = "bg-warning text-white" as="h3">Masters Students</Card.Header>
+                    </Card>
+                </Element>
+                    <br/>
+                <CardDeck>
+                            <Card>
+                                <Card.Img variant="top" src="https://career.gatech.edu/sites/default/files/uploads/images/superblock_images/career_buzz_logo.png"></Card.Img>
+                                <Card.Body>
+                                    <Card.Title>Student Name</Card.Title>
+                                    <Card.Text>Specialisation</Card.Text>
+                                </Card.Body>
+                            </Card>
+                            <Card>
+                                <Card.Img variant="top" src="https://career.gatech.edu/sites/default/files/uploads/images/superblock_images/career_buzz_logo.png"></Card.Img>
+                                <Card.Body>
+                                    <Card.Title>Student Name</Card.Title>
+                                    <Card.Text>Specialisation</Card.Text>
+                                </Card.Body>
+                            </Card>
+                            <Card>
+                                <Card.Img variant="top" src="https://career.gatech.edu/sites/default/files/uploads/images/superblock_images/career_buzz_logo.png"></Card.Img>
+                                <Card.Body>
+                                    <Card.Title>Student Name</Card.Title>
+                                    <Card.Text>Specialisation</Card.Text>
+                                </Card.Body>
+                            </Card>
+                            <Card>
+                                <Card.Img variant="top" src="https://career.gatech.edu/sites/default/files/uploads/images/superblock_images/career_buzz_logo.png"></Card.Img>
+                                <Card.Body>
+                                    <Card.Title>Student Name</Card.Title>
+                                    <Card.Text>Specialisation</Card.Text>
+                                </Card.Body>
+                            </Card> 
+                            <Card>
+                                <Card.Img variant="top" src="https://career.gatech.edu/sites/default/files/uploads/images/superblock_images/career_buzz_logo.png"></Card.Img>
+                                <Card.Body>
+                                    <Card.Title>Student Name</Card.Title>
+                                    <Card.Text>Specialisation</Card.Text>
+                                </Card.Body>
+                            </Card> 
+                            <Card>
+                                <Card.Img variant="top" src="https://career.gatech.edu/sites/default/files/uploads/images/superblock_images/career_buzz_logo.png"></Card.Img>
+                                <Card.Body>
+                                    <Card.Title>Student Name</Card.Title>
+                                    <Card.Text>Specialisation</Card.Text>
+                                </Card.Body>
+                            </Card> 
+                            <Card>
+                                <Card.Img variant="top" src="https://career.gatech.edu/sites/default/files/uploads/images/superblock_images/career_buzz_logo.png"></Card.Img>
+                                <Card.Body>
+                                    <Card.Title>Student Name</Card.Title>
+                                    <Card.Text>Specialisation</Card.Text>
+                                </Card.Body>
+                            </Card> 
+                            <Card>
+                                <Card.Img variant="top" src="https://career.gatech.edu/sites/default/files/uploads/images/superblock_images/career_buzz_logo.png"></Card.Img>
+                                <Card.Body>
+                                    <Card.Title>Student Name</Card.Title>
+                                    <Card.Text>Specialisation</Card.Text>
+                                </Card.Body>
+                            </Card> 
+                    </CardDeck>
+
+                    <br/>
+                    
+                    <CardDeck>
+                            <Card>
+                                <Card.Img variant="top" src="https://career.gatech.edu/sites/default/files/uploads/images/superblock_images/career_buzz_logo.png"></Card.Img>
+                                <Card.Body>
+                                    <Card.Title>Student Name</Card.Title>
+                                    <Card.Text>Specialisation</Card.Text>
+                                </Card.Body>
+                            </Card>
+                            <Card>
+                                <Card.Img variant="top" src="https://career.gatech.edu/sites/default/files/uploads/images/superblock_images/career_buzz_logo.png"></Card.Img>
+                                <Card.Body>
+                                    <Card.Title>Student Name</Card.Title>
+                                    <Card.Text>Specialisation</Card.Text>
+                                </Card.Body>
+                            </Card>
+                            <Card>
+                                <Card.Img variant="top" src="https://career.gatech.edu/sites/default/files/uploads/images/superblock_images/career_buzz_logo.png"></Card.Img>
+                                <Card.Body>
+                                    <Card.Title>Student Name</Card.Title>
+                                    <Card.Text>Specialisation</Card.Text>
+                                </Card.Body>
+                            </Card>
+                            <Card>
+                                <Card.Img variant="top" src="https://career.gatech.edu/sites/default/files/uploads/images/superblock_images/career_buzz_logo.png"></Card.Img>
+                                <Card.Body>
+                                    <Card.Title>Student Name</Card.Title>
+                                    <Card.Text>Specialisation</Card.Text>
+                                </Card.Body>
+                            </Card> 
+                            <Card>
+                                <Card.Img variant="top" src="https://career.gatech.edu/sites/default/files/uploads/images/superblock_images/career_buzz_logo.png"></Card.Img>
+                                <Card.Body>
+                                    <Card.Title>Student Name</Card.Title>
+                                    <Card.Text>Specialisation</Card.Text>
+                                </Card.Body>
+                            </Card> 
+                            <Card>
+                                <Card.Img variant="top" src="https://career.gatech.edu/sites/default/files/uploads/images/superblock_images/career_buzz_logo.png"></Card.Img>
+                                <Card.Body>
+                                    <Card.Title>Student Name</Card.Title>
+                                    <Card.Text>Specialisation</Card.Text>
+                                </Card.Body>
+                            </Card> 
+                            <Card>
+                                <Card.Img variant="top" src="https://career.gatech.edu/sites/default/files/uploads/images/superblock_images/career_buzz_logo.png"></Card.Img>
+                                <Card.Body>
+                                    <Card.Title>Student Name</Card.Title>
+                                    <Card.Text>Specialisation</Card.Text>
+                                </Card.Body>
+                            </Card> 
+                            <Card>
+                                <Card.Img variant="top" src="https://career.gatech.edu/sites/default/files/uploads/images/superblock_images/career_buzz_logo.png"></Card.Img>
+                                <Card.Body>
+                                    <Card.Title>Student Name</Card.Title>
+                                    <Card.Text>Specialisation</Card.Text>
+                                </Card.Body>
+                            </Card> 
+                    </CardDeck>
+                </Container>
+                <br/>
+
+                <Container fluid>
+                    <Element name="undergrad" className="element" >
+                        <Card>
+                            <Card.Header className = "bg-warning text-white" as="h3">Undergrad Students</Card.Header>
+                        </Card>
+                    </Element>
+                <br/>
+                <CardDeck>
+                            <Card>
+                                <Card.Img variant="top" src="https://career.gatech.edu/sites/default/files/uploads/images/superblock_images/career_buzz_logo.png"></Card.Img>
+                                <Card.Body>
+                                    <Card.Title>Student Name</Card.Title>
+                                    <Card.Text>Specialisation</Card.Text>
+                                </Card.Body>
+                            </Card>
+                            <Card>
+                                <Card.Img variant="top" src="https://career.gatech.edu/sites/default/files/uploads/images/superblock_images/career_buzz_logo.png"></Card.Img>
+                                <Card.Body>
+                                    <Card.Title>Student Name</Card.Title>
+                                    <Card.Text>Specialisation</Card.Text>
+                                </Card.Body>
+                            </Card>
+                            <Card>
+                                <Card.Img variant="top" src="https://career.gatech.edu/sites/default/files/uploads/images/superblock_images/career_buzz_logo.png"></Card.Img>
+                                <Card.Body>
+                                    <Card.Title>Student Name</Card.Title>
+                                    <Card.Text>Specialisation</Card.Text>
+                                </Card.Body>
+                            </Card>
+                            <Card>
+                                <Card.Img variant="top" src="https://career.gatech.edu/sites/default/files/uploads/images/superblock_images/career_buzz_logo.png"></Card.Img>
+                                <Card.Body>
+                                    <Card.Title>Student Name</Card.Title>
+                                    <Card.Text>Specialisation</Card.Text>
+                                </Card.Body>
+                            </Card> 
+                            <Card>
+                                <Card.Img variant="top" src="https://career.gatech.edu/sites/default/files/uploads/images/superblock_images/career_buzz_logo.png"></Card.Img>
+                                <Card.Body>
+                                    <Card.Title>Student Name</Card.Title>
+                                    <Card.Text>Specialisation</Card.Text>
+                                </Card.Body>
+                            </Card> 
+                            <Card>
+                                <Card.Img variant="top" src="https://career.gatech.edu/sites/default/files/uploads/images/superblock_images/career_buzz_logo.png"></Card.Img>
+                                <Card.Body>
+                                    <Card.Title>Student Name</Card.Title>
+                                    <Card.Text>Specialisation</Card.Text>
+                                </Card.Body>
+                            </Card> 
+                            <Card>
+                                <Card.Img variant="top" src="https://career.gatech.edu/sites/default/files/uploads/images/superblock_images/career_buzz_logo.png"></Card.Img>
+                                <Card.Body>
+                                    <Card.Title>Student Name</Card.Title>
+                                    <Card.Text>Specialisation</Card.Text>
+                                </Card.Body>
+                            </Card> 
+                            <Card>
+                                <Card.Img variant="top" src="https://career.gatech.edu/sites/default/files/uploads/images/superblock_images/career_buzz_logo.png"></Card.Img>
+                                <Card.Body>
+                                    <Card.Title>Student Name</Card.Title>
+                                    <Card.Text>Specialisation</Card.Text>
+                                </Card.Body>
+                            </Card> 
+                    </CardDeck>
+                    <br/>
+                    <CardDeck>
+                            <Card>
+                                <Card.Img variant="top" src="https://career.gatech.edu/sites/default/files/uploads/images/superblock_images/career_buzz_logo.png"></Card.Img>
+                                <Card.Body>
+                                    <Card.Title>Student Name</Card.Title>
+                                    <Card.Text>Specialisation</Card.Text>
+                                </Card.Body>
+                            </Card>
+                            <Card>
+                                    <Card.Img variant="top" src="https://career.gatech.edu/sites/default/files/uploads/images/superblock_images/career_buzz_logo.png"></Card.Img>
+                                <Card.Body>
+                                    <Card.Title>Student Name</Card.Title>
+                                    <Card.Text>Specialisation</Card.Text>
+                                </Card.Body>
+                            </Card>
+                            <Card>
+                                <Card.Img variant="top" src="https://career.gatech.edu/sites/default/files/uploads/images/superblock_images/career_buzz_logo.png"></Card.Img>
+                                <Card.Body>
+                                    <Card.Title>Student Name</Card.Title>
+                                    <Card.Text>Specialisation</Card.Text>
+                                </Card.Body>
+                            </Card>
+                            <Card>
+                                <Card.Img variant="top" src="https://career.gatech.edu/sites/default/files/uploads/images/superblock_images/career_buzz_logo.png"></Card.Img>
+                                <Card.Body>
+                                    <Card.Title>Student Name</Card.Title>
+                                    <Card.Text>Specialisation</Card.Text>
+                                </Card.Body>
+                            </Card> 
+                            <Card>
+                                <Card.Img variant="top" src="https://career.gatech.edu/sites/default/files/uploads/images/superblock_images/career_buzz_logo.png"></Card.Img>
+                                <Card.Body>
+                                    <Card.Title>Student Name</Card.Title>
+                                    <Card.Text>Specialisation</Card.Text>
+                                </Card.Body>
+                            </Card> 
+                            <Card>
+                                <Card.Img variant="top" src="https://career.gatech.edu/sites/default/files/uploads/images/superblock_images/career_buzz_logo.png"></Card.Img>
+                                <Card.Body>
+                                    <Card.Title>Student Name</Card.Title>
+                                    <Card.Text>Specialisation</Card.Text>
+                                </Card.Body>
+                            </Card> 
+                            <Card>
+                                <Card.Img variant="top" src="https://career.gatech.edu/sites/default/files/uploads/images/superblock_images/career_buzz_logo.png"></Card.Img>
+                                <Card.Body>
+                                    <Card.Title>Student Name</Card.Title>
+                                    <Card.Text>Specialisation</Card.Text>
+                                </Card.Body>
+                            </Card> 
+                            <Card>
+                                <Card.Img variant="top" src="https://career.gatech.edu/sites/default/files/uploads/images/superblock_images/career_buzz_logo.png"></Card.Img>
+                                <Card.Body>
+                                    <Card.Title>Student Name</Card.Title>
+                                    <Card.Text>Specialisation</Card.Text>
+                                </Card.Body>
+                            </Card> 
+                    </CardDeck>
+
+                </Container>
+            <br/>
+            <Button variant = "warning" onClick={this.scrollToTop}>Scroll to Top</Button>{' '}
+            <br/>
+            <br/>
+            </div>
         );
     }
 }

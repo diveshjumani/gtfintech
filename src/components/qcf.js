@@ -1,17 +1,15 @@
 import React, {Component} from 'react';
+import {Card} from 'react-bootstrap';
 import {Container, Row, Col} from 'react-bootstrap';
 
 class QCF extends Component{
     render(){
     	return(
-    	<Container fluid>
-    		<Row>
-            <Col>
-              <h1 align="center" className="sec-heading"> QCF Program</h1>
-              <br />
-            </Col>
-        </Row>
-    
+    	<div>
+			<Card className="research bg-dark text-white">
+                <Card.Img fluid src="https://pbs.twimg.com/media/Ct8sxeDWAAASWAG.jpg" alt="Card image" />
+            </Card> 
+			<br/>
    			<div class="row text-center">
       				<div class="col-xs-6 col-sm-3">
               				<div class="image-wrapper float-left pr-3">
@@ -37,7 +35,7 @@ class QCF extends Component{
               			</div>
       				</div>
   			</div>
-    	</Container>
+    	</div>
     	);
     }
 }
