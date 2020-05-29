@@ -14,29 +14,25 @@ import Footer from './components/footer';
 import {BrowserRouter,Router, Route, Switch} from 'react-router-dom';
 import history from './components/history';
 
-class App extends Component {
-  render() {
+function App() {
     return (
-      <BrowserRouter>
-      <Router history = {history}>
       <div className="App">
+      <Router history = {history}>
         <Header />
         <Switch>
-          <Route path = '/' component = {About} exact />
-          <Route path = '/people' component = {People} exact />
-          <Route path = '/research' component = {Research} exact />
-          <Route path = '/research/banking' component = {Banking} exact />
-          <Route path = '/events' component = {Events} exact />
-          <Route path = '/corporateaffiliates' component = {CorporateAffiliates} exact />
-          <Route path = '/qcf' component = {QCF} exact />
-          <Route path = '/news' component = {News} exact />
+          <Route path = '/gtfintech' component = {About} exact />
+          <Route path = '/gtfintech/people' component = {People} exact />
+          <Route path = '/gtfintech/research' component = {Research} exact />
+          <Route path = '/gtfintech/research/banking' component = {Banking} exact />
+          <Route path = '/gtfintech/events' component = {Events} exact />
+          <Route path = '/gtfintech/corporateaffiliates' component = {CorporateAffiliates} exact />
+          <Route path = '/gtfintech/qcf' component = {QCF} exact />
+          <Route path = '/gtfintech/news' component = {News} exact />
         </Switch>
         <Footer />
-      </div>
       </Router>
-      </BrowserRouter>
+     </div>
     );
   }
-}
 
 export default App;

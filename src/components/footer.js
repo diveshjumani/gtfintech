@@ -13,7 +13,13 @@ class Footer extends Component{
                 </div>
                 <div id="footer-links">
                 <br></br>
-                <p id="links">Emergency Information : Legal & Privacy Information : Accessibility : Accountability : Accreditation : Employment</p>    
+                <p id="links">
+                    <a href="https://www.gatech.edu/emergency/">Emergency Information  </a>
+                    <a href="https://www.gatech.edu/privacy">Privacy & Legal Notice  </a>
+                    <a href="https://www.gatech.edu/accessibility">Accessibility  </a>
+                    <a href="https://www.gatech.edu/accountability">Accountability  </a>
+                    <a href="https://www.scheller.gatech.edu/contact-us.html">Contact Us  </a>
+                </p>    
                 </div>
             </footer>
         );

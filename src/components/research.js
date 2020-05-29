@@ -1,26 +1,48 @@
-import React, {Component} from 'react';
+import React, {useState, useEffect } from 'react';
 import {Card, Image, Button, Container,Navbar,NavLink,Nav,Row,Col} from 'react-bootstrap';
 import { Link, Element, animateScroll as scroll} from 'react-scroll'
 import logo from '../images/GT_White.png';
 import '../App.css';
 import history from './history';
+import { CSSTransition } from "react-transition-group";
+import { FaBars } from 'react-icons/fa';
 
-class Research extends Component{
-    constructor(props) {
-        super(props);
-        this.scrollToTop = this.scrollToTop.bind(this);
+function Research() {
+    const [isNavVisible, setNavVisibility] = useState(false);
+    const [isSmallScreen, setIsSmallScreen] = useState(false);
+  
+    useEffect(() => {
+      const mediaQuery = window.matchMedia("(max-width: 700px)");
+      mediaQuery.addListener(handleMediaQueryChange);
+      handleMediaQueryChange(mediaQuery);
+  
+      return () => {
+        mediaQuery.removeListener(handleMediaQueryChange);
+      };
+    }, []);
+  
+    const handleMediaQueryChange = mediaQuery => {
+      if (mediaQuery.matches) {
+        setIsSmallScreen(true);
+      } else {
+        setIsSmallScreen(false);
       }
-    
-      scrollToTop() {
-        scroll.scrollToTop();
-      }       
-    render(){
+    };
+  
+    const toggleNav = () => {
+      setNavVisibility(!isNavVisible);
+    };
         return(
             <div className = "research">
-                <Navbar className ="second-navbar fixed-top"  variant="warning" bg ="warning" expand = "xl"> 
-                 <Navbar.Brand className = "d-inline p-0 text-white" to ="/research"><strong>Research</strong></Navbar.Brand>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <Nav className="mr-auto">
+                <Navbar className ="second-navbar fixed-top Header"  variant="warning" bg ="warning" expand = "xl"> 
+                 <Navbar.Brand className = "d-inline p-0 text-white" to ="/gtfintech/research"><img alt = "" src={logo} width="0" height="35"></img><strong>Research</strong></Navbar.Brand>
+                 <CSSTransition
+                        in={!isSmallScreen || isNavVisible}
+                        timeout={350}
+                        classNames="NavAnimation"
+                        unmountOnExit
+                    >
+                        <Nav className="mr-auto Nav">
                             <NavLink className = "d-inline p-2 text-white">
                                 <Link activeClass="active" className="banking" to="banking" spy={true} smooth={true} duration={500} >
                                     Banking
@@ -72,7 +94,10 @@ class Research extends Component{
                                 </Link>
                             </NavLink>
                         </Nav>
-                    </div>
+                        </CSSTransition>
+                            <button onClick={toggleNav} className="Burger">
+                                <FaBars />
+                            </button>
                  </Navbar>
 
                 <Card className="research bg-dark text-white">
@@ -99,7 +124,7 @@ class Research extends Component{
                             <p> 
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.       
                             </p>
-                            <Button className = "btnr" onClick={() => history.push('/research/banking')} variant="warning" size="lg">
+                            <Button className = "btnr" onClick={() => history.push('/gtfintech/research/banking')} variant="warning" size="lg">
                                 <div style = {{color:'white'}}>
                                 View Research
                                 </div>
@@ -361,14 +386,10 @@ class Research extends Component{
                     </Col>  
                 </Row> 
             <br/>
-
-            <Button variant = "warning" onClick={this.scrollToTop}>Scroll to Top</Button>{' '}
-            <br/>
             <br/>
 
             </div>
         );
     }
-}
 
 export default Research;
