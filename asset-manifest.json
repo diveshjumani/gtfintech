@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/gtfintech/static/css/main.92738be9.chunk.css",
-    "main.js": "/gtfintech/static/js/main.42f19370.chunk.js",
-    "main.js.map": "/gtfintech/static/js/main.42f19370.chunk.js.map",
+    "main.css": "/gtfintech/static/css/main.fbd8d504.chunk.css",
+    "main.js": "/gtfintech/static/js/main.68294924.chunk.js",
+    "main.js.map": "/gtfintech/static/js/main.68294924.chunk.js.map",
     "runtime-main.js": "/gtfintech/static/js/runtime-main.acddfa5a.js",
     "runtime-main.js.map": "/gtfintech/static/js/runtime-main.acddfa5a.js.map",
     "static/css/2.d805e148.chunk.css": "/gtfintech/static/css/2.d805e148.chunk.css",
-    "static/js/2.eb1efb3b.chunk.js": "/gtfintech/static/js/2.eb1efb3b.chunk.js",
-    "static/js/2.eb1efb3b.chunk.js.map": "/gtfintech/static/js/2.eb1efb3b.chunk.js.map",
+    "static/js/2.14b42dd3.chunk.js": "/gtfintech/static/js/2.14b42dd3.chunk.js",
+    "static/js/2.14b42dd3.chunk.js.map": "/gtfintech/static/js/2.14b42dd3.chunk.js.map",
     "index.html": "/gtfintech/index.html",
-    "precache-manifest.20532381399e1117936f9f30b4b9236c.js": "/gtfintech/precache-manifest.20532381399e1117936f9f30b4b9236c.js",
+    "precache-manifest.1ca7158b8b5a8f6887885a425a38bad9.js": "/gtfintech/precache-manifest.1ca7158b8b5a8f6887885a425a38bad9.js",
     "service-worker.js": "/gtfintech/service-worker.js",
     "static/css/2.d805e148.chunk.css.map": "/gtfintech/static/css/2.d805e148.chunk.css.map",
-    "static/css/main.92738be9.chunk.css.map": "/gtfintech/static/css/main.92738be9.chunk.css.map",
-    "static/js/2.eb1efb3b.chunk.js.LICENSE.txt": "/gtfintech/static/js/2.eb1efb3b.chunk.js.LICENSE.txt",
+    "static/css/main.fbd8d504.chunk.css.map": "/gtfintech/static/css/main.fbd8d504.chunk.css.map",
+    "static/js/2.14b42dd3.chunk.js.LICENSE.txt": "/gtfintech/static/js/2.14b42dd3.chunk.js.LICENSE.txt",
     "static/media/GT_White.png": "/gtfintech/static/media/GT_White.750ec09c.png",
     "static/media/GeorgiaTechLogo-RGB-Gray.png": "/gtfintech/static/media/GeorgiaTechLogo-RGB-Gray.ade237cf.png"
   },
   "entrypoints": [
     "static/js/runtime-main.acddfa5a.js",
     "static/css/2.d805e148.chunk.css",
-    "static/js/2.eb1efb3b.chunk.js",
-    "static/css/main.92738be9.chunk.css",
-    "static/js/main.42f19370.chunk.js"
+    "static/js/2.14b42dd3.chunk.js",
+    "static/css/main.fbd8d504.chunk.css",
+    "static/js/main.68294924.chunk.js"
   ]
 }
