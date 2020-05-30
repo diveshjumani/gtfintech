@@ -33,51 +33,48 @@ function People() {
     };
         return (
             <div className="people">
-                <Navbar className ="second-navbar fixed-top Header" variant="warning" bg ="warning" expand = "xl"> 
-                    <Navbar.Brand className = "d-inline p-0 text-white Logo" to ="/people"><img alt = "" src={logo} width="0" height="35"></img><strong>People</strong></Navbar.Brand>
-                    <CSSTransition
-                        in={!isSmallScreen || isNavVisible}
-                        timeout={350}
-                        classNames="NavAnimation"
-                        unmountOnExit
-                    >
-                        <Nav className="mr-auto Nav">
-                            <NavLink className = "d-inline p-2 text-white">
-                                <Link activeClass="active" className="director" to="director" spy={true} smooth={true} duration={500} >
-                                    Director (Sudheer Chava)
-                                </Link>
-                            </NavLink>
-                            <NavLink className = "d-inline p-2 text-white">
-                                <Link activeClass="active" className="faculty" to="faculty" spy={true} smooth={true} duration={500} >
-                                    Faculty
-                                </Link>
-                            </NavLink>
-                            <NavLink className = "d-inline p-2 text-white">
-                                <Link activeClass="active" className="phd" to="phd" spy={true} smooth={true} duration={500} >
-                                    PhD Students
-                                </Link>
-                            </NavLink>
-                            <NavLink className = "d-inline p-2 text-white">
-                                <Link activeClass="active" className="ms" to="ms" spy={true} smooth={true} duration={500} >
-                                    Master Students
-                                </Link>
-                                </NavLink>
-                            <NavLink className = "d-inline p-2 text-white">
-                                <Link activeClass="active" className="undergrad" to="undergrad" spy={true} smooth={true} duration={500} >
-                                    Undergrad Students
-                                </Link>
-                            </NavLink>
-                        </Nav>
-                    </CSSTransition>
-                    
-                    <button onClick={toggleNav} className="Burger">
-                        <FaBars />
-                    </button>
-                 </Navbar>
+                <Navbar className = 'second-navbar fixed-top' collapseOnSelect expand="lg" bg="warning" variant="dark">
+                <Navbar.Brand className = "d-inline p-0 text-white" href="/gtfintech/people"><img alt = "" src={logo} width="0" height="35"></img><strong>People</strong></Navbar.Brand>
+                <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                <Navbar.Collapse id="responsive-navbar-nav">
+                    <Nav className="mr-auto">
+                    <NavLink className = "d-inline p-2 text-white">
+                        <Link activeClass="active" className="director" to="director" spy={true} smooth={true} duration={500} >
+                            Director (Sudheer Chava)
+                        </Link>
+                    </NavLink>
+                    <NavLink className = "d-inline p-2 text-white">
+                        <Link activeClass="active" className="faculty" to="faculty" spy={true} smooth={true} duration={500} >
+                            Faculty
+                        </Link>
+                    </NavLink>
+                    <NavLink className = "d-inline p-2 text-white">
+                        <Link activeClass="active" className="phd" to="phd" spy={true} smooth={true} duration={500} >
+                            PhD Students
+                        </Link>
+                    </NavLink>
+                    <NavLink className = "d-inline p-2 text-white">
+                        <Link activeClass="active" className="ms" to="ms" spy={true} smooth={true} duration={500} >
+                            Master Students
+                        </Link>
+                        </NavLink>
+                    <NavLink className = "d-inline p-2 text-white">
+                        <Link activeClass="active" className="undergrad" to="undergrad" spy={true} smooth={true} duration={500} >
+                            Undergrad Students
+                        </Link>
+                    </NavLink>
+                    </Nav>
+                </Navbar.Collapse>
+                </Navbar>
 
-                <Card className="bg-dark text-white">
-                    <Card.Img class="card-img-top" fluid src="https://www.scheller.gatech.edu/pix/why-scheller/unrestricted-endowment.jpg.pagespeed.ce.9X1ZWk_qnv.jpg" alt="Card image" />
-                </Card>    
+                <div >
+                <img src="https://www.scheller.gatech.edu/pix/why-scheller/unrestricted-endowment.jpg.pagespeed.ce.9X1ZWk_qnv.jpg" alt="Nature" style={{width:'100%'}}/>
+                <div class="text-block">
+                    <h4>People</h4>
+                    <p align ="justify">The Georgia Tech Financial Services Innovation Lab consists of the Directore (Dr. Sudheer Chava), faculty as well as 
+                        students from undergraduate, Masters and PhD </p>
+                </div>
+                </div>
 
                 <br/> 
 

@@ -51,10 +51,10 @@ class Banking extends Component{
                     </Navbar.Collapse>
                  </Navbar>
 
-                <Card style={{ height:'100vh'}} className="research bg-dark text-white">
-                    <Card.Img style={{ height:'100vh'}} fluid src="https://www.imaginesolutions.com/hubfs/Digital%20Banking%20Conference.jpg" alt="Card image" />
-                </Card> 
-
+                <br/>
+                <br/>
+                <br/>
+                <br/>
                 <br/>
 
                 <Card className = "researchcard">

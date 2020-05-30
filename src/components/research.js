@@ -34,18 +34,14 @@ function Research() {
     };
         return(
             <div className = "research">
-                <Navbar className ="second-navbar fixed-top Header"  variant="warning" bg ="warning" expand = "xl"> 
+                <Navbar className ="second-navbar fixed-top" collapseOnSelect variant="dark" bg ="warning" expand = "lg"> 
                  <Navbar.Brand className = "d-inline p-0 text-white" to ="/gtfintech/research"><img alt = "" src={logo} width="0" height="35"></img><strong>Research</strong></Navbar.Brand>
-                 <CSSTransition
-                        in={!isSmallScreen || isNavVisible}
-                        timeout={350}
-                        classNames="NavAnimation"
-                        unmountOnExit
-                    >
-                        <Nav className="mr-auto Nav">
+                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                    <Navbar.Collapse id="responsive-navbar-nav">
+                        <Nav className="mr-auto">
                             <NavLink className = "d-inline p-2 text-white">
-                                <Link activeClass="active" className="banking" to="banking" spy={true} smooth={true} duration={500} >
-                                    Banking
+                                <Link activeClass="active" className="covid" to="covid" spy={true} smooth={true} duration={500} >
+                                    COVID-19
                                 </Link>
                             </NavLink>
                             <NavLink className = "d-inline p-2 text-white">
@@ -89,42 +85,39 @@ function Research() {
                                 </Link>
                                 </NavLink>
                             <NavLink className = "d-inline p-2 text-white">
-                                <Link activeClass="active" className="covid" to="covid" spy={true} smooth={true} duration={500} >
-                                    COVID-19
+                                <Link activeClass="active" className="banking" to="banking" spy={true} smooth={true} duration={500} >
+                                    Banking
                                 </Link>
                             </NavLink>
                         </Nav>
-                        </CSSTransition>
-                            <button onClick={toggleNav} className="Burger">
-                                <FaBars />
-                            </button>
+                    </Navbar.Collapse>
                  </Navbar>
 
-                <Card className="research bg-dark text-white">
-                    <Card.Img fluid src="https://pbs.twimg.com/media/Ct8sxeDWAAASWAG.jpg" alt="Card image" />
-                </Card> 
-                
+                <br/>
+                <br/>
+                <br/>
+                <br/>
                 <br/>
 
-                <Element name="banking" className="banking" >
+                <Element name="covid" className="covid" >
                 </Element>
                 
                 <Row>
                     <Col>
                         <div class="wrapperimage">
                         <Card className="bg-dark text-white">
-                            <Card.Img fluid height = "100%" src="https://www.pymnts.com/wp-content/uploads/2020/03/nucleus.jpg" alt="Card image" />
+                            <Card.Img fluid height = "100%" src="https://www.worldbank.org/content/dam/photos/780x439/2020/apr/Covid-Response2020444.jpg" alt="Card image" />
                         </Card>
                         </div>
                     </Col>  
                     <Col>
                     <div class="wrapper">
                         <div class="centerthis">
-                            <h2><strong>Banking</strong></h2>
+                            <h2><strong>COVID-19</strong></h2>
                             <p> 
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.       
                             </p>
-                            <Button className = "btnr" onClick={() => history.push('/gtfintech/research/banking')} variant="warning" size="lg">
+                            <Button className = "btnr" onClick={() => history.push('/gtfintech/research/covid')} variant="warning" size="lg">
                                 <div style = {{color:'white'}}>
                                 View Research
                                 </div>
@@ -358,14 +351,14 @@ function Research() {
                     </Col> 
                 </Row>
 
-                <Element name="covid" className="covid" >
+                <Element name="banking" className="banking" >
                 </Element>
 
                 <Row>
                 <Col>
                 <div class="wrapper">
                         <div class="centerthis">
-                            <h2><strong>COVID-19</strong></h2>
+                            <h2><strong>Banking</strong></h2>
                             <p> 
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.       
                             </p>
@@ -380,7 +373,7 @@ function Research() {
                     <Col>
                         <div class="wrapperimage">
                         <Card className="bg-dark text-white">
-                            <Card.Img fluid height = "100%" src="https://www.worldbank.org/content/dam/photos/780x439/2020/apr/Covid-Response2020444.jpg" alt="Card image" />
+                            <Card.Img fluid height = "100%" src="https://www.pymnts.com/wp-content/uploads/2020/03/nucleus.jpg" alt="Card image" />
                         </Card>
                         </div>
                     </Col>  

@@ -23,7 +23,7 @@ function App() {
           <Route path = '/gtfintech' component = {About} exact />
           <Route path = '/gtfintech/people' component = {People} exact />
           <Route path = '/gtfintech/research' component = {Research} exact />
-          <Route path = '/gtfintech/research/banking' component = {Banking} exact />
+          <Route path = '/gtfintech/research/covid' component = {Banking} exact />
           <Route path = '/gtfintech/events' component = {Events} exact />
           <Route path = '/gtfintech/corporateaffiliates' component = {CorporateAffiliates} exact />
           <Route path = '/gtfintech/qcf' component = {QCF} exact />
