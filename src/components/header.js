@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import {Navbar, Nav, Form, FormControl, Button, NavDropdown} from 'react-bootstrap';
-import {NavLink} from 'react-router-dom'
-import { CSSTransition } from "react-transition-group";
-import { FaBars } from 'react-icons/fa';
+
 import logo from '../images/GT_White.png';
 
 function Header () {
@@ -36,15 +34,15 @@ function Header () {
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="mr-auto">
-                    <Nav.Link href="/gtfintech">About</Nav.Link>
-                    <Nav.Link href="/gtfintech/people">People</Nav.Link>
-                    <Nav.Link href="/gtfintech/research"> Research </Nav.Link>
+                    <Nav.Link href="/gtfintech"><strong>About</strong></Nav.Link>
+                    <Nav.Link href="/gtfintech/people"><strong>People</strong></Nav.Link>
+                    <Nav.Link href="/gtfintech/research"><strong>Research </strong></Nav.Link>
                     {/* <NavDropdown title="Research" id="collasible-nav-dropdown">
                     <NavDropdown.Item href="/gtfintech/research/banking">Banking</NavDropdown.Item>
                     </NavDropdown> */}
-                    <Nav.Link href="/gtfintech/corporateaffiliates">Corporate Affiliates</Nav.Link>
-                    <Nav.Link href="/gtfintech/qcf">QCF</Nav.Link>
-                    <Nav.Link href="/gtfintech/news">News & Events</Nav.Link>
+                    <Nav.Link href="/gtfintech/corporateaffiliates"><strong>Corporate Affiliates </strong> </Nav.Link>
+                    <Nav.Link href="/gtfintech/qcf"><strong>QCF</strong> </Nav.Link>
+                    <Nav.Link href="/gtfintech/news"><strong>News & Events</strong> </Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
                 </Navbar>

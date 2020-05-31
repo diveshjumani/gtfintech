@@ -2,6 +2,19 @@ import React, { Component } from 'react';
 import {Card, Image, Button, Container,Navbar,NavLink,Nav,Row,Col,Carousel} from 'react-bootstrap';
 import logo from '../images/GT_White.png';
 import { Link, Element, animateScroll as scroll} from 'react-scroll'
+import Nikhil_1 from '../images/Nikhil_1.png';
+import Nikhil_2 from '../images/Nikhil_2.png';
+import Nikhil_3 from '../images/Nikhil_3.png';
+import Nikhil_4 from '../images/Nikhil_4.png';
+import Nikhil_5 from '../images/Nikhil_5.png';
+import Nikhil_6 from '../images/Nikhil_6.png';
+import Nikhil_7 from '../images/Nikhil_7.png';
+import Nikhil_8 from '../images/Nikhil_8.png';
+import Nikhil_9 from '../images/Nikhil_9.png';
+import Nikhil_10 from '../images/Nikhil_10.png';
+import Nikhil_11 from '../images/Nikhil_11.jpg';
+import Nikhil_12 from '../images/Nikhil_12.jpg';
+import Nikhil_13 from '../images/Nikhil_13.jpg';
 
 class Banking extends Component{
     scrollToTop() {
@@ -10,14 +23,13 @@ class Banking extends Component{
     render(){
         return(
             <div className = "research">
-                 <Navbar className ="second-navbar fixed-top" variant="warning" bg ="warning" expand = "xl"> 
+                 <Navbar className ="second-navbar fixed-top" collapseOnSelect variant="dark" bg ="warning" expand = "lg"> 
                  <Navbar.Brand className = "d-inline p-0 text-white" to ="/gtfintech/research"><img alt = "" src={logo} width="0" height="35"></img><strong>Research</strong></Navbar.Brand>
-                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                 <Navbar.Collapse id="basic-navbar-nav">
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                    <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="mr-auto">
                             <NavLink className = "d-inline p-2 text-white">
-                                    Banking
+                                    COVID-19
                             </NavLink>
                             <NavLink className = "d-inline p-2 text-white">
                                     Household Finance
@@ -44,10 +56,9 @@ class Banking extends Component{
                                     Fixed Income
                                 </NavLink>
                             <NavLink className = "d-inline p-2 text-white">
-                                    COVID-19
+                                    Banking
                             </NavLink>
                         </Nav>
-                    </div>
                     </Navbar.Collapse>
                  </Navbar>
 
@@ -57,6 +68,7 @@ class Banking extends Component{
                 <br/>
                 <br/>
 
+                <Container fluid>
                 <Card className = "researchcard">
                     <Card.Header> 
                         <h3> Reducing Risk or Reaching for Yield? Impact of Stress Tests on Credit Card Lending (Job Market Paper) </h3>
@@ -70,35 +82,35 @@ class Banking extends Component{
                                     <Carousel.Item>
                                         <img
                                         className="d-block w-100"
-                                        src="https://lh5.googleusercontent.com/4HBpiHSwrVC8RS6NAh_mNt7vmiAVHZmY8VPkUJPSX7rpOfVnb_RiD82JtQ0ESi1nx5-zoG0o=w16383"
+                                        src={Nikhil_1}
                                         alt=""
                                         />
                                     </Carousel.Item>
                                     <Carousel.Item>
                                         <img
                                         className="d-block w-100"
-                                        src="https://lh5.googleusercontent.com/dTeZkPiAG5dAquT-OpCouQxjyUKn1pNqlceTr8QyHPSVWVi2AaTl-guK73k7zeuPxV444PM=w16383"
+                                        src={Nikhil_2}
                                         alt=""
                                         />
                                     </Carousel.Item>
                                     <Carousel.Item>
                                         <img
                                         className="d-block w-100"
-                                        src="https://lh5.googleusercontent.com/ljVmX6b3Vp4PBgnGYW-m9rQsXwWljjtVwCE7MPa9BvS1ah9Gp0VHbr6Dvq6dUpJAOMWCKZ3UxQ=w16383"
+                                        src={Nikhil_3}
                                         alt=""
                                         />
                                     </Carousel.Item>
                                     <Carousel.Item>
                                         <img
                                         className="d-block w-100"
-                                        src="https://lh6.googleusercontent.com/JrLUBXFykeLpGvFrTmgwlMMzPdhV4AwpM_ZaVDS0whyc4ME2YgfnyrPRAwIkhRZcoQcmDqo=w16383"
+                                        src={Nikhil_4}
                                         alt=""
                                         />
                                     </Carousel.Item>
                                     <Carousel.Item>
                                         <img
                                         className="d-block w-100"
-                                        src="https://lh3.googleusercontent.com/21rEW81fQer8baWlgnGOErXJurBWJIfUJIhj9e3mowVdHslRXAi6KCEg6bIaXsbssGncR-dH=w16383"
+                                        src={Nikhil_5}
                                         alt=""
                                         />
                                     </Carousel.Item>
@@ -147,35 +159,35 @@ class Banking extends Component{
                     <Carousel.Item>
                         <img
                         className="d-block w-100"
-                        src="https://lh3.googleusercontent.com/_oXm_X0RGyACjHeBxFgAgWiF7HPKnU0gXhbXvZB0SyhwhkSqN-Y9eLrPvptBZxoSmglQR8Ah=w16383"
+                        src={Nikhil_6}
                         alt=""
                         />
                     </Carousel.Item>
                     <Carousel.Item>
                         <img
                         className="d-block w-100"
-                        src="https://lh3.googleusercontent.com/WpVDiKlxzmb1uleqt1Gxm9D9lGf6qeIRMgUdIUyizqNY_PzjCvjimEYVgwF1SzYx4hUS995ntw=w16383"
+                        src={Nikhil_7}
                         alt=""
                         />
                     </Carousel.Item>
                     <Carousel.Item>
                         <img
                         className="d-block w-100"
-                        src="https://lh3.googleusercontent.com/qDW-bmpm7SKhpu8y8h5MOUlhh4IE5_7Qxfsb2Yr8fyt_thbB4ui7-amybh5bbeOse5T0DfM=w16383"
+                        src={Nikhil_8}
                         alt=""
                         />
                     </Carousel.Item>
                     <Carousel.Item>
                         <img
                         className="d-block w-100"
-                        src="https://lh4.googleusercontent.com/nMGr3VfRxyQTsmoe58SZMxeVSyx3vJ2wySp_NGi3LtcTfY0AbytuRnSYr1rh8hSxCOXFtojIkA=w16383"
+                        src={Nikhil_9}
                         alt=""
                         />
                     </Carousel.Item>
                     <Carousel.Item>
                         <img
                         className="d-block w-100"
-                        src="https://lh3.googleusercontent.com/foio7PnIHfb8rpF3wZAQRcsSQ5zySSLpaM-m3p7SIdjZZv05OFNH9ODqTPmwEDwqGFdlVbud0g=w16383"
+                        src={Nikhil_10}
                         alt=""
                         />
                     </Carousel.Item>
@@ -226,7 +238,7 @@ class Banking extends Component{
                     <Col>
                         <img
                         className="d-block w-100"
-                        src="https://lh6.googleusercontent.com/0MFkN8Q6rm6dhbmdpUDTefHSOL6ZSAyLwoNsuJRKwgNRNn99vOlNrW-VJzzoUex-LnbZOhrOPTs6lawjD87UbTART7MW4vld3VuJweXUDgVAX8NUMjk=w1280"
+                        src={Nikhil_11}
                         alt=""
                         />
                     </Col>
@@ -275,14 +287,14 @@ class Banking extends Component{
                     <Carousel.Item>
                         <img
                         className="d-block w-100"
-                        src="https://lh4.googleusercontent.com/9ZcgjyP6Wpv-wN6oPd-yxh259Go9Z-OQeAPxCBYbbfWkQWyj6-iDrKufDfP7DP21kwGll2e2=w16383"
+                        src={Nikhil_12}
                         alt=""
                         />
                     </Carousel.Item>
                     <Carousel.Item>
                         <img
                         className="d-block w-100"
-                        src="https://lh6.googleusercontent.com/URNXveCoFKki_zls-f15_7XK7pPbwZ7f41ZmGivt1FPUxPs1TcC0609XMNvpKjakmrJiYsjzyA=w16383"
+                        src={Nikhil_13}
                         alt=""
                         />
                     </Carousel.Item>
@@ -316,6 +328,7 @@ class Banking extends Component{
                     </Row>
                     </Card.Body>
                 </Card>
+                </Container>
 
             <br/>
             <Button variant = "warning" onClick={this.scrollToTop}>Scroll to Top</Button>{' '}

@@ -16,22 +16,11 @@ class CorporateAffiliates extends Component{
     render(){
     	return(
         <Fragment>            
-
-          <Container fluid>
-    		  <Row>
-            <Col>
-              <h1 align="center" className="sec-heading"> Corporate Affiliates </h1>
-              <br />
-            </Col>
-          </Row>
-      		</Container>
-          <br />
+          
 
           <Fragment>
             <Container fluid>
-            <Card className="research bg-dark text-white">
-              <Card.Img fluid src="https://pbs.twimg.com/media/Ct8sxeDWAAASWAG.jpg" alt="Card image" />
-            </Card> 
+             
             <br />
               
             <Element className = "about"> 

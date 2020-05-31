@@ -40,52 +40,52 @@ function Research() {
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="mr-auto">
                             <NavLink className = "d-inline p-2 text-white">
-                                <Link activeClass="active" className="covid" to="covid" spy={true} smooth={true} duration={500} >
+                                <Link activeClass="active" className="covid" to="covid" offset ={-117} spy={true} smooth={true} duration={500} >
                                     COVID-19
                                 </Link>
                             </NavLink>
                             <NavLink className = "d-inline p-2 text-white">
-                                <Link activeClass="active" className="hfin" to="hfin" spy={true} smooth={true} duration={500} >
+                                <Link activeClass="active" className="hfin" to="hfin" offset ={-117} spy={true} smooth={true} duration={500} >
                                     Household Finance
                                 </Link>
                             </NavLink>
                             <NavLink className = "d-inline p-2 text-white">
-                                <Link activeClass="active" className="fintech" to="fintech" spy={true} smooth={true} duration={500} >
+                                <Link activeClass="active" className="fintech" to="fintech" offset ={-117} spy={true} smooth={true} duration={500} >
                                     FinTech and Innovation
                                 </Link>
                             </NavLink>
                             <NavLink className = "d-inline p-2 text-white">
-                                <Link activeClass="active" className="rfin" to="rfin" spy={true} smooth={true} duration={500} >
+                                <Link activeClass="active" className="rfin" to="rfin" offset ={-117} spy={true} smooth={true} duration={500} >
                                     Responsible Finance
                                 </Link>
                                 </NavLink>
                             <NavLink className = "d-inline p-2 text-white">
-                                <Link activeClass="active" className="trading" to="trading" spy={true} smooth={true} duration={500} >
+                                <Link activeClass="active" className="trading" to="trading" offset ={-117} spy={true} smooth={true} duration={500} >
                                     Trading Strategies
                                 </Link>
                             </NavLink>
                             <NavLink className = "d-inline p-2 text-white">
-                                <Link activeClass="active" className="creditrisk" to="creditrisk" spy={true} smooth={true} duration={500} >
+                                <Link activeClass="active" className="creditrisk" to="creditrisk" offset ={-117} spy={true} smooth={true} duration={500} >
                                     Credit Risk
                                 </Link>
                             </NavLink>
                             <NavLink className = "d-inline p-2 text-white">
-                                <Link activeClass="active" className="MLfin" to="MLfin" spy={true} smooth={true} duration={500} >
+                                <Link activeClass="active" className="MLfin" to="MLfin" offset ={-117} spy={true} smooth={true} duration={500} >
                                     ML and Finance
                                 </Link>
                             </NavLink>
                             <NavLink className = "d-inline p-2 text-white">
-                                <Link activeClass="active" className="NLPFin" to="NLPFin" spy={true} smooth={true} duration={500} >
+                                <Link activeClass="active" className="NLPFin" to="NLPFin" offset ={-117} spy={true} smooth={true} duration={500} >
                                     NLP and Finance
                                 </Link>
                             </NavLink>
                             <NavLink className = "d-inline p-2 text-white">
-                                <Link activeClass="active" className="FI" to="FI" spy={true} smooth={true} duration={500} >
+                                <Link activeClass="active" className="FI" to="FI" offset ={-117} spy={true} smooth={true} duration={500} >
                                     Fixed Income
                                 </Link>
                                 </NavLink>
                             <NavLink className = "d-inline p-2 text-white">
-                                <Link activeClass="active" className="banking" to="banking" spy={true} smooth={true} duration={500} >
+                                <Link activeClass="active" className="banking" to="banking" offset ={-117} spy={true} smooth={true} duration={500} >
                                     Banking
                                 </Link>
                             </NavLink>
@@ -101,7 +101,8 @@ function Research() {
 
                 <Element name="covid" className="covid" >
                 </Element>
-                
+
+                <Container fluid>
                 <Row>
                     <Col>
                         <div class="wrapperimage">
@@ -138,7 +139,7 @@ function Research() {
                             <p> 
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.       
                             </p>
-                            <Button className = "btnr" href="#" variant="warning" size="lg">
+                            <Button className = "btnr" target="_blank" href="#" variant="warning" size="lg">
                                 <div style = {{color:'white'}}>
                                 View Research
                                 </div>
@@ -173,7 +174,7 @@ function Research() {
                             <p> 
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.       
                             </p>
-                            <Button className = "btnr" href="#" variant="warning" size="lg">
+                            <Button className = "btnr" target="_blank" href="#" variant="warning" size="lg">
                                 <div style = {{color:'white'}}>
                                 View Research
                                 </div>
@@ -194,7 +195,7 @@ function Research() {
                             <p> 
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.       
                             </p>
-                            <Button className = "btnr" href="#" variant="warning" size="lg">
+                            <Button className = "btnr" target="_blank" href="#" variant="warning" size="lg">
                                 <div style = {{color:'white'}}>
                                 View Research
                                 </div>
@@ -229,7 +230,7 @@ function Research() {
                             <p> 
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.       
                             </p>
-                            <Button className = "btnr" href="#" variant="warning" size="lg">
+                            <Button className = "btnr" target="_blank" href="#" variant="warning" size="lg">
                                 <div style = {{color:'white'}}>
                                 View Research
                                 </div>
@@ -250,7 +251,7 @@ function Research() {
                             <p> 
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.       
                             </p>
-                            <Button className = "btnr" href="#" variant="warning" size="lg">
+                            <Button className = "btnr" target="_blank" href="#" variant="warning" size="lg">
                                 <div style = {{color:'white'}}>
                                 View Research
                                 </div>
@@ -285,7 +286,7 @@ function Research() {
                             <p> 
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.       
                             </p>
-                            <Button className = "btnr" href="#" variant="warning" size="lg">
+                            <Button className = "btnr" target="_blank" href="#" variant="warning" size="lg">
                                 <div style = {{color:'white'}}>
                                 View Research
                                 </div>
@@ -306,7 +307,7 @@ function Research() {
                             <p> 
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.       
                             </p>
-                            <Button className = "btnr" href="#" variant="warning" size="lg">
+                            <Button className = "btnr" target="_blank" href="#" variant="warning" size="lg">
                                 <div style = {{color:'white'}}>
                                 View Research
                                 </div>
@@ -341,7 +342,7 @@ function Research() {
                             <p> 
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.       
                             </p>
-                            <Button className = "btnr" href="#" variant="warning" size="lg">
+                            <Button className = "btnr" target="_blank" href="#" variant="warning" size="lg">
                                 <div style = {{color:'white'}}>
                                 View Research
                                 </div>
@@ -362,7 +363,7 @@ function Research() {
                             <p> 
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.       
                             </p>
-                            <Button className = "btnr" href="#" variant="warning" size="lg">
+                            <Button className = "btnr" target="_blank" href="#" variant="warning" size="lg">
                                 <div style = {{color:'white'}}>
                                 View Research
                                 </div>
@@ -378,6 +379,7 @@ function Research() {
                         </div>
                     </Col>  
                 </Row> 
+                </Container>
             <br/>
             <br/>
 

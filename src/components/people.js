@@ -3,13 +3,23 @@ import {Container,Card,CardDeck} from 'react-bootstrap';
 import {Navbar, Nav, NavLink, Button} from 'react-bootstrap';
 import { Link, Element, animateScroll as scroll} from 'react-scroll'
 import logo from '../images/GT_White.png';
-import { CSSTransition } from "react-transition-group";
-import { FaBars } from 'react-icons/fa';
+import Sudheer_Chava from '../images/Sudheer_Chava.jpg';
+import Alex_Hsu from '../images/Alex_Hsu.jpg';
+import Daniel_Weagley from '../images/Daniel_Weagley.jpg';
+import Shijie_Deng from '../images/Shijie_Deng.jpg';
+import Soohun_Kim from '../images/Soohun_Kim.jpg';
+import David_Goldsman from '../images/David_Goldsman.jpg';
+import Baridhi_Malakar from '../images/Baridhi_Malakar.jpg';
+import Wendi_Du from '../images/Wendi_Du.jpg';
+import Ernest_Jang from '../images/Ernest_Jang.jpg';
+import Nikhil_Paradkar from '../images/Nikhil_Paradkar.jpg';
+import Peter_Simasek from '../images/Peter_Simasek.jpg';
+import Mingxun_Wang from '../images/Mingxun_Wang.jpg';
 
 function People() {
     const [isNavVisible, setNavVisibility] = useState(false);
     const [isSmallScreen, setIsSmallScreen] = useState(false);
-  
+    
     useEffect(() => {
       const mediaQuery = window.matchMedia("(max-width: 700px)");
       mediaQuery.addListener(handleMediaQueryChange);
@@ -19,6 +29,9 @@ function People() {
         mediaQuery.removeListener(handleMediaQueryChange);
       };
     }, []);
+
+    var Scroll = require('react-scroll');
+    var scroll = Scroll.animateScroll;
   
     const handleMediaQueryChange = mediaQuery => {
       if (mediaQuery.matches) {
@@ -34,32 +47,32 @@ function People() {
         return (
             <div className="people">
                 <Navbar className = 'second-navbar fixed-top' collapseOnSelect expand="lg" bg="warning" variant="dark">
-                <Navbar.Brand className = "d-inline p-0 text-white" href="/gtfintech/people"><img alt = "" src={logo} width="0" height="35"></img><strong>People</strong></Navbar.Brand>
+                <Navbar.Brand className = "d-inline p-0 text-white" target="_blank" href="/gtfintech/people"><img alt = "" src={logo} width="0" height="35"></img><strong>People</strong></Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="mr-auto">
                     <NavLink className = "d-inline p-2 text-white">
-                        <Link activeClass="active" className="director" to="director" spy={true} smooth={true} duration={500} >
+                        <Link activeClass="active" className="director" to="director" offset ={-120} spy={true} smooth={true} duration={500} >
                             Director (Sudheer Chava)
                         </Link>
                     </NavLink>
                     <NavLink className = "d-inline p-2 text-white">
-                        <Link activeClass="active" className="faculty" to="faculty" spy={true} smooth={true} duration={500} >
+                        <Link activeClass="active" className="faculty" to="faculty" offset ={-120} spy={true} smooth={true} duration={500} >
                             Faculty
                         </Link>
                     </NavLink>
                     <NavLink className = "d-inline p-2 text-white">
-                        <Link activeClass="active" className="phd" to="phd" spy={true} smooth={true} duration={500} >
+                        <Link activeClass="active" className="phd" to="phd" offset ={-120} spy={true} smooth={true} duration={500} >
                             PhD Students
                         </Link>
                     </NavLink>
                     <NavLink className = "d-inline p-2 text-white">
-                        <Link activeClass="active" className="ms" to="ms" spy={true} smooth={true} duration={500} >
+                        <Link activeClass="active" className="ms" to="ms" offset ={-120} spy={true} smooth={true} duration={500} >
                             Master Students
                         </Link>
                         </NavLink>
                     <NavLink className = "d-inline p-2 text-white">
-                        <Link activeClass="active" className="undergrad" to="undergrad" spy={true} smooth={true} duration={500} >
+                        <Link activeClass="active" className="undergrad" offset ={-120} to="undergrad" spy={true} smooth={true} duration={500} >
                             Undergrad Students
                         </Link>
                     </NavLink>
@@ -70,8 +83,9 @@ function People() {
                 <div >
                 <img src="https://www.scheller.gatech.edu/pix/why-scheller/unrestricted-endowment.jpg.pagespeed.ce.9X1ZWk_qnv.jpg" alt="Nature" style={{width:'100%'}}/>
                 <div class="text-block">
+                    <br/> <br/> 
                     <h4>People</h4>
-                    <p align ="justify">The Georgia Tech Financial Services Innovation Lab consists of the Directore (Dr. Sudheer Chava), faculty as well as 
+                    <p align ="justify">The Georgia Tech Financial Services Innovation Lab consists of the Director (Dr. Sudheer Chava), Faculty as well as 
                         students from undergraduate, Masters and PhD </p>
                 </div>
                 </div>
@@ -90,7 +104,9 @@ function People() {
                     <div class="row">
                         <div class="col-3">
                             <Card>
-                                <Card.Img variant="top" src="https://www.scheller.gatech.edu/thumb/width/600/cropratio/1:1/pix/directory/chava_sudeer_profile.jpg"></Card.Img>
+                                <a target="_blank" href = "https://www.scheller.gatech.edu/directory/faculty/chava/index.html">
+                                <Card.Img style = {{height:'21vw'}} variant="top" src={Sudheer_Chava}></Card.Img>
+                                </a>
                                 <Card.Body>
                                     <Card.Title><strong>Sudheer Chava</strong></Card.Title>
                                     <Card.Text>
@@ -108,10 +124,7 @@ function People() {
                         <div class="col-9">
                             <row>
                                 <p align = "justify"> 
-                                <br/>
-                                <br/>
-                                <br/>
-                                <br/>
+                                
                                 Sudheer Chava is Alton M. Costley Chair and Professor of Finance at Scheller College of Business at Georgia Tech.
                                 He has received his Ph.D. from Cornell University in 2003. Prior to that he has an MBA degree from Indian Institute of Management – Bangalore 
                                 and worked as a fixed income analyst at a leading investment bank in India. 
@@ -127,9 +140,19 @@ function People() {
                                 universities in the U.S. and abroad.
                                 </p>
                             </row>
+                            <br/>
+                            <br/>
+                            <row>
+                            <Button target="_blank" href = "https://scholar.google.com/citations?user=AXYf-i8AAAAJ" variant="warning">Google Scholar</Button>{' '}
+                            <Button target="_blank" href = "https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=292365" variant="warning">SSRN</Button>{' '}
+                            <Button target="_blank" href = "https://www.linkedin.com/in/sudheer-chava-b5883021/" variant="warning">LinkedIn</Button>{' '}
+                            <Button target="_blank" href = "http://www.prism.gatech.edu/~schava6/Chava_CV_Web.pdf"  variant="warning">CV</Button>{' '}
+                            </row>
                         </div>
                     </div>
                 </Container>
+
+                <br/>
 
                 <Container fluid>
                     <Element name="faculty" className="element" >
@@ -141,9 +164,9 @@ function People() {
                     <br/>
 
                     <CardDeck>
-                        <Card>
-                            <a href = "https://sites.google.com/site/alexchiahsu/home">
-                                <Card.Img variant="top" src="https://www.scheller.gatech.edu/thumb/width/600/cropratio/1:1/pix/directory/hsu_alex_profile.jpg"></Card.Img>
+                        <Card  className = 'card-img-faculty'>
+                            <a target="_blank" href = "https://sites.google.com/site/alexchiahsu/home">
+                                <Card.Img style = {{height:'20vw'}} variant="top" src={Alex_Hsu}></Card.Img>
                             </a>
                             <Card.Body>
                                 <Card.Title>Alex Hsu</Card.Title>
@@ -151,70 +174,52 @@ function People() {
                             </Card.Body>
                         </Card>
 
-                        <Card>
-                            <Card.Img variant="top" src="https://career.gatech.edu/sites/default/files/uploads/images/superblock_images/career_buzz_logo.png"></Card.Img>
+                        <Card  className = 'card-img-faculty'>
+                            <a target="_blank" href ="https://www.scheller.gatech.edu/directory/faculty/kim.s/index.html">
+                            <Card.Img style = {{height:'20vw'}} variant="top" src={Soohun_Kim}></Card.Img>
+                            </a>
                             <Card.Body>
-                                <Card.Title>Faculty Name</Card.Title>
-                                <Card.Text>Specialisation</Card.Text>
+                                <Card.Title>Soohun Kim</Card.Title>
+                                <Card.Text>Assistant Professor</Card.Text>
                             </Card.Body>
                         </Card>
 
-                        <Card>
-                            <Card.Img variant="top" src="https://career.gatech.edu/sites/default/files/uploads/images/superblock_images/career_buzz_logo.png"></Card.Img>
+                        <Card  className = 'card-img-faculty'>
+                            <a target="_blank" href = "https://www.danielweagley.com/">
+                            <Card.Img style = {{height:'20vw'}} variant="top" src={Daniel_Weagley}></Card.Img>
+                            </a>
                             <Card.Body>
-                                <Card.Title>Faculty Name</Card.Title>
-                                <Card.Text>Specialisation</Card.Text>
+                                <Card.Title>Daniel Weagley</Card.Title>
+                                <Card.Text>Assistant Professor</Card.Text>
                             </Card.Body>
                         </Card>
 
-                        <Card>
-                            <Card.Img variant="top" src="https://career.gatech.edu/sites/default/files/uploads/images/superblock_images/career_buzz_logo.png"></Card.Img>
+                        <Card  className = 'card-img-faculty'>
+                            <a target="_blank" href = "https://www2.isye.gatech.edu/people/faculty/Shijie_Deng/">
+                            <Card.Img style = {{height:'20vw'}} variant="top" src={Shijie_Deng}></Card.Img>
+                            </a>
                             <Card.Body>
-                                <Card.Title>Faculty Name</Card.Title>
-                                <Card.Text>Specialisation</Card.Text>
+                                <Card.Title>Shijie Deng</Card.Title>
+                                <Card.Text>Associate Professor</Card.Text>
                             </Card.Body>
                         </Card>  
+
+                        <Card>
+                            <a target="_blank" href = "https://www2.isye.gatech.edu/people/faculty/David_Goldsman/">
+                            <Card.Img style={{height:'20vw'}} variant="top" src={David_Goldsman}></Card.Img>
+                            </a>
+                            <Card.Body>
+                                <Card.Title>David Goldsman</Card.Title>
+                                <Card.Text>Specialisation</Card.Text>
+                            </Card.Body>
+                        </Card>
+
                     </CardDeck>
 
                     <br/>
 
-                    <CardDeck>
-                        <Card>
-                            <Card.Img variant="top" src="https://career.gatech.edu/sites/default/files/uploads/images/superblock_images/career_buzz_logo.png"></Card.Img>
-                            <Card.Body>
-                                <Card.Title>Faculty Name</Card.Title>
-                                <Card.Text>Specialisation</Card.Text>
-                            </Card.Body>
-                        </Card>
-
-                        <Card>
-                            <Card.Img variant="top" src="https://career.gatech.edu/sites/default/files/uploads/images/superblock_images/career_buzz_logo.png"></Card.Img>
-                            <Card.Body>
-                                <Card.Title>Faculty Name</Card.Title>
-                                <Card.Text>Specialisation</Card.Text>
-                            </Card.Body>
-                        </Card> 
-
-                        <Card>
-                            <Card.Img variant="top" src="https://career.gatech.edu/sites/default/files/uploads/images/superblock_images/career_buzz_logo.png"></Card.Img>
-                            <Card.Body>
-                                <Card.Title>Faculty Name</Card.Title>
-                                <Card.Text>Specialisation</Card.Text>
-                            </Card.Body>
-                        </Card> 
-
-                        <Card>
-                            <Card.Img variant="top" src="https://career.gatech.edu/sites/default/files/uploads/images/superblock_images/career_buzz_logo.png"></Card.Img>
-                            <Card.Body>
-                                <Card.Title>Faculty Name</Card.Title>
-                                <Card.Text>Specialisation</Card.Text>
-                            </Card.Body>
-                        </Card> 
-                    </CardDeck>
-
                 </Container>
             
-                <br/>
                 
                 <Container fluid>
                     <Element name="phd" className="element" >
@@ -227,50 +232,52 @@ function People() {
 
                     <CardDeck>
                         <Card>
-                            <Card.Img variant="top" src="https://career.gatech.edu/sites/default/files/uploads/images/superblock_images/career_buzz_logo.png"></Card.Img>
+                            <Card.Img style={{height:'15vw'}} variant="top" src={Wendi_Du}></Card.Img>
                             <Card.Body>
-                                <Card.Title>Student Name</Card.Title>
-                                <Card.Text>Specialisation</Card.Text>
+                                <Card.Title>Wendi Du</Card.Title>
+                                <Card.Text>Finance</Card.Text>
                             </Card.Body>
                         </Card>
 
                         <Card>
-                            <Card.Img variant="top" src="https://career.gatech.edu/sites/default/files/uploads/images/superblock_images/career_buzz_logo.png"></Card.Img>
+                            <Card.Img style={{height:'15vw'}} variant="top" src={Ernest_Jang}></Card.Img>
                             <Card.Body>
-                                <Card.Title>Student Name</Card.Title>
-                                <Card.Text>Specialisation</Card.Text>
+                                <Card.Title>Ernest Jang</Card.Title>
+                                <Card.Text>Finance</Card.Text>
                             </Card.Body>
                         </Card>
 
                         <Card>
-                            <Card.Img variant="top" src="https://career.gatech.edu/sites/default/files/uploads/images/superblock_images/career_buzz_logo.png"></Card.Img>
+                            <Card.Img style={{height:'15vw'}} variant="top" src={Baridhi_Malakar}></Card.Img>
                             <Card.Body>
-                                <Card.Title>Student Name</Card.Title>
-                                <Card.Text>Specialisation</Card.Text>
+                                <Card.Title>Baridhi Malakar</Card.Title>
+                                <Card.Text>Finance</Card.Text>
                             </Card.Body>
                         </Card>
 
                         <Card>
-                            <Card.Img variant="top" src="https://career.gatech.edu/sites/default/files/uploads/images/superblock_images/career_buzz_logo.png"></Card.Img>
+                            <a target="_blank" href= "https://www.nikhil-paradkar.com/home">
+                            <Card.Img style={{height:'15vw'}} variant="top" src={Nikhil_Paradkar}></Card.Img>
+                            </a>
                             <Card.Body>
-                                <Card.Title>Student Name</Card.Title>
-                                <Card.Text>Specialisation</Card.Text>
+                                <Card.Title>Nikhil Paradkar</Card.Title>
+                                <Card.Text>Finance</Card.Text>
                             </Card.Body>
                         </Card>
 
                         <Card>
-                            <Card.Img variant="top" src="https://career.gatech.edu/sites/default/files/uploads/images/superblock_images/career_buzz_logo.png"></Card.Img>
+                            <Card.Img style={{height:'15vw'}} variant="top" src={Peter_Simasek}></Card.Img>
                             <Card.Body>
-                                <Card.Title>Student Name</Card.Title>
-                                <Card.Text>Specialisation</Card.Text>
+                                <Card.Title>Peter Simasek</Card.Title>
+                                <Card.Text>Finance</Card.Text>
                             </Card.Body>
                         </Card>
 
                         <Card>
-                            <Card.Img variant="top" src="https://career.gatech.edu/sites/default/files/uploads/images/superblock_images/career_buzz_logo.png"></Card.Img>
+                            <Card.Img style={{height:'15vw'}} variant="top" src={Mingxun_Wang}></Card.Img>
                             <Card.Body>
-                                <Card.Title>Student Name</Card.Title>
-                                <Card.Text>Specialisation</Card.Text>
+                                <Card.Title>Mingxun Wang</Card.Title>
+                                <Card.Text>Finance</Card.Text>
                             </Card.Body>
                         </Card>
                     </CardDeck>
@@ -625,6 +632,9 @@ function People() {
 
                     </CardDeck>
                 </Container>
+
+                <br/>
+                <br/>
          
             </div>
         );
