@@ -15,7 +15,8 @@ class CorporateAffiliates extends Component{
   }       
     render(){
     	return(
-        <Fragment>          
+        <Fragment>            
+
           <Container fluid>
     		  <Row>
             <Col>
