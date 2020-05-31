@@ -11,7 +11,9 @@ class Banking extends Component{
         return(
             <div className = "research">
                  <Navbar className ="second-navbar fixed-top" variant="warning" bg ="warning" expand = "xl"> 
-                 <Navbar.Brand className = "d-inline p-0 text-white" to ="/research"><img alt = "" src={logo} width="0" height="35"></img><strong>Research</strong></Navbar.Brand>
+                 <Navbar.Brand className = "d-inline p-0 text-white" to ="/gtfintech/research"><img alt = "" src={logo} width="0" height="35"></img><strong>Research</strong></Navbar.Brand>
+                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                 <Navbar.Collapse id="basic-navbar-nav">
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <Nav className="mr-auto">
                             <NavLink className = "d-inline p-2 text-white">
@@ -46,84 +48,86 @@ class Banking extends Component{
                             </NavLink>
                         </Nav>
                     </div>
+                    </Navbar.Collapse>
                  </Navbar>
 
-                <Card style={{ height:'100vh'}} className="research bg-dark text-white">
-                    <Card.Img style={{ height:'100vh'}} fluid src="https://www.imaginesolutions.com/hubfs/Digital%20Banking%20Conference.jpg" alt="Card image" />
-                </Card> 
-
+                <br/>
+                <br/>
+                <br/>
+                <br/>
                 <br/>
 
-                <Card>
+                <Card className = "researchcard">
                     <Card.Header> 
                         <h3> Reducing Risk or Reaching for Yield? Impact of Stress Tests on Credit Card Lending (Job Market Paper) </h3>
                         <h4> - Nikhil Paradkar </h4>
                     </Card.Header>
-                    <Card.Body>
-                    <Row>
-                    <Col>
-                    <Carousel>
-                    <Carousel.Item>
-                        <img
-                        className="d-block w-100"
-                        src="https://lh6.googleusercontent.com/nVFCN5Crx-DcmDpLRieuJyacKvUE9NpVrAQSq0GX7IfNmO0ka7nLNfPqebT3hbKBbB7S6VFe=w16383"
-                        alt=""
-                        />
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <img
-                        className="d-block w-100"
-                        src="https://lh5.googleusercontent.com/UECMHg_7gsgoAz7An0umRoB43Gd3-jRGyDcMSJ3e3QdhHmE0JSH5yGCZRVlIm8Bp8yqyWOk=w16383"
-                        alt=""
-                        />
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <img
-                        className="d-block w-100"
-                        src="https://lh3.googleusercontent.com/3tWiytb4YCRA9EK8rvT1BwckMc1dUoeZTELveWf9EnrrpZfy3Urf-W4SPnmLWfJB53pKN0K8HA=w16383"
-                        alt=""
-                        />
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <img
-                        className="d-block w-100"
-                        src="https://lh6.googleusercontent.com/Y0on1_gvMSq3k7qqYatGekjWUySchFWV2z6JpeI6AOMiQn2JCxTxbvS9Y9rajzqBRXX9ZwE=w16383"
-                        alt=""
-                        />
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <img
-                        className="d-block w-100"
-                        src="https://lh5.googleusercontent.com/7Bjo3TxpnYmwXusZsTYuyEx6p3TfzHj0ny92Ke1ua2PNJsCea5FwCS8xc2Pb2nYacFi5RMUa=w16383"
-                        alt=""
-                        />
-                    </Carousel.Item>
-                    </Carousel>
-                    </Col>
 
-                    <Col>
-                    <p align = "justify">
-                        <strong>Abstract: </strong>
-                        Using proprietary account-level data from a major credit bureau, I examine the impact of stress tests 
-                        on bank risk-taking in the U.S. consumer credit card market. I decompose credit supply and demand effects 
-                        by exploiting credit card--level data on limits and balances matched to both consumers and banks. 
-                        For the same consumer, I examine the lending response of banks experiencing higher stress-test induced 
-                        capital requirements (i.e., high-exposure banks) relative to less-exposed banks. I find that the earlier 
-                        rounds of stress tests induced high-exposure banks to sharply reduce credit limits, especially to ex-ante 
-                        risky borrowers. In contrast, more exposed banks in later rounds have increased limits for risky consumers. 
-                        Consistent with higher bank risk-taking in later rounds, cards issued by highly-exposed banks have a higher 
-                        ex-post likelihood of default. Additionally, I document that more affected non-prime borrowers are more 
-                        likely to default subsequently, and that this effect is markedly pronounced for the low-income and 
-                        less-educated consumer segments. My findings suggest that stress-test induced increases in capital requirements
-                        can encourage higher bank risk-taking, with distributional consequences for consumer creditworthiness.
-                        <br/>
-                        <br/>
-                        <strong>Key Takeaway: </strong>
-                        Higher capital requirements can induce higher bank risk-taking, with significant distributional impact on 
-                        consumer creditworthiness.
-                        </p>
-                    </Col>
-                    </Row>
+                    <Card.Body>
+                        <Row>
+                            <Col>
+                                <Carousel>
+                                    <Carousel.Item>
+                                        <img
+                                        className="d-block w-100"
+                                        src="https://lh5.googleusercontent.com/4HBpiHSwrVC8RS6NAh_mNt7vmiAVHZmY8VPkUJPSX7rpOfVnb_RiD82JtQ0ESi1nx5-zoG0o=w16383"
+                                        alt=""
+                                        />
+                                    </Carousel.Item>
+                                    <Carousel.Item>
+                                        <img
+                                        className="d-block w-100"
+                                        src="https://lh5.googleusercontent.com/dTeZkPiAG5dAquT-OpCouQxjyUKn1pNqlceTr8QyHPSVWVi2AaTl-guK73k7zeuPxV444PM=w16383"
+                                        alt=""
+                                        />
+                                    </Carousel.Item>
+                                    <Carousel.Item>
+                                        <img
+                                        className="d-block w-100"
+                                        src="https://lh5.googleusercontent.com/ljVmX6b3Vp4PBgnGYW-m9rQsXwWljjtVwCE7MPa9BvS1ah9Gp0VHbr6Dvq6dUpJAOMWCKZ3UxQ=w16383"
+                                        alt=""
+                                        />
+                                    </Carousel.Item>
+                                    <Carousel.Item>
+                                        <img
+                                        className="d-block w-100"
+                                        src="https://lh6.googleusercontent.com/JrLUBXFykeLpGvFrTmgwlMMzPdhV4AwpM_ZaVDS0whyc4ME2YgfnyrPRAwIkhRZcoQcmDqo=w16383"
+                                        alt=""
+                                        />
+                                    </Carousel.Item>
+                                    <Carousel.Item>
+                                        <img
+                                        className="d-block w-100"
+                                        src="https://lh3.googleusercontent.com/21rEW81fQer8baWlgnGOErXJurBWJIfUJIhj9e3mowVdHslRXAi6KCEg6bIaXsbssGncR-dH=w16383"
+                                        alt=""
+                                        />
+                                    </Carousel.Item>
+                                </Carousel>
+                            </Col>
+
+                            <Col>
+                                <p align = "justify">
+                                    <strong>Abstract: </strong>
+                                    Using proprietary account-level data from a major credit bureau, I examine the impact of stress tests 
+                                    on bank risk-taking in the U.S. consumer credit card market. I decompose credit supply and demand effects 
+                                    by exploiting credit card--level data on limits and balances matched to both consumers and banks. 
+                                    For the same consumer, I examine the lending response of banks experiencing higher stress-test induced 
+                                    capital requirements (i.e., high-exposure banks) relative to less-exposed banks. I find that the earlier 
+                                    rounds of stress tests induced high-exposure banks to sharply reduce credit limits, especially to ex-ante 
+                                    risky borrowers. In contrast, more exposed banks in later rounds have increased limits for risky consumers. 
+                                    Consistent with higher bank risk-taking in later rounds, cards issued by highly-exposed banks have a higher 
+                                    ex-post likelihood of default. Additionally, I document that more affected non-prime borrowers are more 
+                                    likely to default subsequently, and that this effect is markedly pronounced for the low-income and 
+                                    less-educated consumer segments. My findings suggest that stress-test induced increases in capital requirements
+                                    can encourage higher bank risk-taking, with distributional consequences for consumer creditworthiness.
+                                    <br/>
+                                    <br/>
+                                    <strong>Key Takeaway: </strong>
+                                    Higher capital requirements can induce higher bank risk-taking, with significant distributional impact on 
+                                    consumer creditworthiness.
+                                </p>
+                            </Col>
+                        </Row>
                     </Card.Body>
                 </Card>
 
@@ -143,35 +147,35 @@ class Banking extends Component{
                     <Carousel.Item>
                         <img
                         className="d-block w-100"
-                        src="https://lh5.googleusercontent.com/cVVU9qxXmemnMOqf0-eXjowBtDqyVfp1mW5vBH9Z91hEyiJKWdgGnmT_7Z9uNUCGE_O14LAk=w16383"
+                        src="https://lh3.googleusercontent.com/_oXm_X0RGyACjHeBxFgAgWiF7HPKnU0gXhbXvZB0SyhwhkSqN-Y9eLrPvptBZxoSmglQR8Ah=w16383"
                         alt=""
                         />
                     </Carousel.Item>
                     <Carousel.Item>
                         <img
                         className="d-block w-100"
-                        src="https://lh4.googleusercontent.com/mPIZC4VzWT8WyRBgfTqgbI2HrLRLrEEK4QeWCJ0KV36zVqCbWyj_M6nuZUX0-ff7ayFa893gSQ=w16383"
+                        src="https://lh3.googleusercontent.com/WpVDiKlxzmb1uleqt1Gxm9D9lGf6qeIRMgUdIUyizqNY_PzjCvjimEYVgwF1SzYx4hUS995ntw=w16383"
                         alt=""
                         />
                     </Carousel.Item>
                     <Carousel.Item>
                         <img
                         className="d-block w-100"
-                        src="https://lh6.googleusercontent.com/zG8y-fdIkQ0qcB4izrFmz0XRLOYJ7bWb3FdAgyfSGRpsZGquNFWZma788KBjFLnsulbADtk=w16383"
+                        src="https://lh3.googleusercontent.com/qDW-bmpm7SKhpu8y8h5MOUlhh4IE5_7Qxfsb2Yr8fyt_thbB4ui7-amybh5bbeOse5T0DfM=w16383"
                         alt=""
                         />
                     </Carousel.Item>
                     <Carousel.Item>
                         <img
                         className="d-block w-100"
-                        src="https://lh5.googleusercontent.com/pKzFWGtgmjUYuN8ewvFNEEYLBYLzvG9uRqRnMEnzeNH19qLRD2biVUuiOtC4c55jS61rmrd3_A=w16383"
+                        src="https://lh4.googleusercontent.com/nMGr3VfRxyQTsmoe58SZMxeVSyx3vJ2wySp_NGi3LtcTfY0AbytuRnSYr1rh8hSxCOXFtojIkA=w16383"
                         alt=""
                         />
                     </Carousel.Item>
                     <Carousel.Item>
                         <img
                         className="d-block w-100"
-                        src="https://lh4.googleusercontent.com/qcvWFJ--Y8QIcHxzErlSPAur4UQaie0b60wUT9YvxdJK5GWN1SKpHIjzo_uuuwiDqbyOCahDiQ=w16383"
+                        src="https://lh3.googleusercontent.com/foio7PnIHfb8rpF3wZAQRcsSQ5zySSLpaM-m3p7SIdjZZv05OFNH9ODqTPmwEDwqGFdlVbud0g=w16383"
                         alt=""
                         />
                     </Carousel.Item>
@@ -222,7 +226,7 @@ class Banking extends Component{
                     <Col>
                         <img
                         className="d-block w-100"
-                        src="https://lh3.googleusercontent.com/8OEicQ3EDS2ScLZiXRPGFXmUr5XJFdNGr8OOwXlaY5mkZjxOb5gHZJNRdu5uCEB7xVjEW87FZ5Lw2vUFTjoo-Aj3vjBP3THCBNc7FI3fj3Mjl2OvLco=w1280"
+                        src="https://lh6.googleusercontent.com/0MFkN8Q6rm6dhbmdpUDTefHSOL6ZSAyLwoNsuJRKwgNRNn99vOlNrW-VJzzoUex-LnbZOhrOPTs6lawjD87UbTART7MW4vld3VuJweXUDgVAX8NUMjk=w1280"
                         alt=""
                         />
                     </Col>
@@ -271,14 +275,14 @@ class Banking extends Component{
                     <Carousel.Item>
                         <img
                         className="d-block w-100"
-                        src="https://lh3.googleusercontent.com/Le968BdGC1HyMpyxoDSiDGZoOgjYi869R3NWgT3SbjjOH95Ak7IEnK2W2NSK7trpbBHoLszi=w16383"
+                        src="https://lh4.googleusercontent.com/9ZcgjyP6Wpv-wN6oPd-yxh259Go9Z-OQeAPxCBYbbfWkQWyj6-iDrKufDfP7DP21kwGll2e2=w16383"
                         alt=""
                         />
                     </Carousel.Item>
                     <Carousel.Item>
                         <img
                         className="d-block w-100"
-                        src="https://lh6.googleusercontent.com/N8F7RzV288DXKEqsRhtAUVLVf4bBLxgXN410zmmfCQ4WWy1Ev94X8ku7S2UXSjq0Lff-h5BL6Q=w16383"
+                        src="https://lh6.googleusercontent.com/URNXveCoFKki_zls-f15_7XK7pPbwZ7f41ZmGivt1FPUxPs1TcC0609XMNvpKjakmrJiYsjzyA=w16383"
                         alt=""
                         />
                     </Carousel.Item>

@@ -5,10 +5,10 @@ import {Container, Row, Col} from 'react-bootstrap';
 class QCF extends Component{
     render(){
     	return(
-    	<div>
-			<Card className="research bg-dark text-white">
-                <Card.Img fluid src="https://pbs.twimg.com/media/Ct8sxeDWAAASWAG.jpg" alt="Card image" />
-            </Card> 
+    	<div className = "qcf">	
+			<br/>
+			<br/>
+			<br/>
 			<br/>
    			<div class="row text-center">
       				<div class="col-xs-6 col-sm-3">

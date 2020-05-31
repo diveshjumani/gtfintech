@@ -15,37 +15,8 @@ class CorporateAffiliates extends Component{
   }       
     render(){
     	return(
-        <Fragment>
-          
-        <div className = "corpaffiliates">  </div>
-                <Navbar className ="second-navbar fixed-top"  variant="warning" bg ="warning" expand = "xl"> 
-                 <Navbar.Brand className = "d-inline p-0 text-black" to ="/corpaffiliates"><strong>Corporate Affiliates</strong></Navbar.Brand>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <Nav className="mr-auto">
-                            <NavLink className = "d-inline p-2 text-black">
-                                <Link activeClass="active" to="about" spy={true} smooth={true} duration={500} >
-                                    About
-                                </Link>
-                            </NavLink>
-                            <NavLink className = "d-inline p-2 text-black">
-                                <Link activeClass="active" to="corppart" spy={true} smooth={true} duration={500} >
-                                    Corporate Partners
-                                </Link>
-                            </NavLink>
-                            <NavLink className = "d-inline p-2 text-black">
-                                <Link activeClass="active" to="becomingpart" spy={true} smooth={true} duration={500} >
-                                    Becoming a Partner
-                                </Link>
-                            </NavLink>
-                            <NavLink className = "d-inline p-2 text-black">
-                                <Link activeClass="active" to="contact" spy={true} smooth={true} duration={500} >
-                                    Contact
-                                </Link>
-                                </NavLink>
-                        </Nav>
-          </div>
-                 </Navbar>
-          
+        <Fragment>            
+
           <Container fluid>
     		  <Row>
             <Col>
