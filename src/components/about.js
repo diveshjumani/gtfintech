@@ -63,7 +63,7 @@ class About extends Component {
                       </MDBView>
                       <MDBCarouselCaption>
                         <div class="text-block-about">
-                        <h3 className="h3-responsive"><b>About Our Projects</b></h3>
+                        <h3 className="h3-responsive"><b>About Our Research</b></h3>
                         <p align = "justify">Georgia Tech’s Financial Services Innovation Lab (fintech.gatech.edu) is located at Scheller College of Business in the heart of the Technology Square Innovation ecosystem. 
                                     The Lab’s vision is to become a hub for finance education, research and industry in the Southeast. 
                                     The lab ac  ts as a platform to connect and bring together faculty and students across Georgia Tech with the financial services industry and FinTech entrepreneurs. 

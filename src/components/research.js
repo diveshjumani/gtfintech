@@ -41,52 +41,52 @@ function Research() {
                         <Nav className="mr-auto">
                             <NavLink className = "d-inline p-2 text-white">
                                 <Link activeClass="active" className="covid" to="covid" offset ={-117} spy={true} smooth={true} duration={500} >
-                                    COVID-19
+                                    <strong>COVID-19</strong>
                                 </Link>
                             </NavLink>
                             <NavLink className = "d-inline p-2 text-white">
                                 <Link activeClass="active" className="hfin" to="hfin" offset ={-117} spy={true} smooth={true} duration={500} >
-                                    Household Finance
+                                    <strong>Household Finance</strong>
                                 </Link>
                             </NavLink>
                             <NavLink className = "d-inline p-2 text-white">
                                 <Link activeClass="active" className="fintech" to="fintech" offset ={-117} spy={true} smooth={true} duration={500} >
-                                    FinTech and Innovation
+                                    <strong>FinTech and Innovation</strong>
                                 </Link>
                             </NavLink>
                             <NavLink className = "d-inline p-2 text-white">
                                 <Link activeClass="active" className="rfin" to="rfin" offset ={-117} spy={true} smooth={true} duration={500} >
-                                    Responsible Finance
+                                    <strong>Responsible Finance</strong>
                                 </Link>
                                 </NavLink>
                             <NavLink className = "d-inline p-2 text-white">
                                 <Link activeClass="active" className="trading" to="trading" offset ={-117} spy={true} smooth={true} duration={500} >
-                                    Trading Strategies
+                                    <strong>Trading Strategies</strong>
                                 </Link>
                             </NavLink>
                             <NavLink className = "d-inline p-2 text-white">
                                 <Link activeClass="active" className="creditrisk" to="creditrisk" offset ={-117} spy={true} smooth={true} duration={500} >
-                                    Credit Risk
+                                    <strong>Credit Risk</strong>
                                 </Link>
                             </NavLink>
                             <NavLink className = "d-inline p-2 text-white">
                                 <Link activeClass="active" className="MLfin" to="MLfin" offset ={-117} spy={true} smooth={true} duration={500} >
-                                    ML and Finance
+                                    <strong>ML and Finance</strong>
                                 </Link>
                             </NavLink>
                             <NavLink className = "d-inline p-2 text-white">
                                 <Link activeClass="active" className="NLPFin" to="NLPFin" offset ={-117} spy={true} smooth={true} duration={500} >
-                                    NLP and Finance
+                                   <strong> NLP and Finance</strong>
                                 </Link>
                             </NavLink>
                             <NavLink className = "d-inline p-2 text-white">
                                 <Link activeClass="active" className="FI" to="FI" offset ={-117} spy={true} smooth={true} duration={500} >
-                                    Fixed Income
+                                    <strong>Fixed Income</strong>
                                 </Link>
                                 </NavLink>
                             <NavLink className = "d-inline p-2 text-white">
                                 <Link activeClass="active" className="banking" to="banking" offset ={-117} spy={true} smooth={true} duration={500} >
-                                    Banking
+                                    <strong>Banking</strong>
                                 </Link>
                             </NavLink>
                         </Nav>

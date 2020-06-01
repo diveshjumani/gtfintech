@@ -53,27 +53,27 @@ function People() {
                     <Nav className="mr-auto">
                     <NavLink className = "d-inline p-2 text-white">
                         <Link activeClass="active" className="director" to="director" offset ={-120} spy={true} smooth={true} duration={500} >
-                            Director (Sudheer Chava)
+                            <strong>Director</strong>
                         </Link>
                     </NavLink>
                     <NavLink className = "d-inline p-2 text-white">
                         <Link activeClass="active" className="faculty" to="faculty" offset ={-120} spy={true} smooth={true} duration={500} >
-                            Faculty
+                            <strong>Faculty</strong>
                         </Link>
                     </NavLink>
                     <NavLink className = "d-inline p-2 text-white">
                         <Link activeClass="active" className="phd" to="phd" offset ={-120} spy={true} smooth={true} duration={500} >
-                            PhD Students
+                            <strong>PhD Students</strong>
                         </Link>
                     </NavLink>
                     <NavLink className = "d-inline p-2 text-white">
                         <Link activeClass="active" className="ms" to="ms" offset ={-120} spy={true} smooth={true} duration={500} >
-                            Master Students
+                            <strong>Master Students</strong>
                         </Link>
                         </NavLink>
                     <NavLink className = "d-inline p-2 text-white">
                         <Link activeClass="active" className="undergrad" offset ={-120} to="undergrad" spy={true} smooth={true} duration={500} >
-                            Undergrad Students
+                            <strong>Undergrad Students</strong>
                         </Link>
                     </NavLink>
                     </Nav>
@@ -84,7 +84,7 @@ function People() {
                 <img src="https://www.scheller.gatech.edu/pix/why-scheller/unrestricted-endowment.jpg.pagespeed.ce.9X1ZWk_qnv.jpg" alt="Nature" style={{width:'100%'}}/>
                 <div class="text-block">
                     <br/> <br/> 
-                    <h4>People</h4>
+                    <h4><b>People</b></h4>
                     <p align ="justify">The Georgia Tech Financial Services Innovation Lab consists of the Director (Dr. Sudheer Chava), Faculty as well as 
                         students from undergraduate, Masters and PhD </p>
                 </div>

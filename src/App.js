@@ -14,8 +14,9 @@ import Footer from './components/footer';
 import {BrowserRouter,Router, Route, Switch} from 'react-router-dom';
 import history from './components/history';
 
-function App() {
-    return (
+class App extends Component {
+    render(){
+        return (
       <div className="App">
       <Router history = {history}>
         <Header />
@@ -34,5 +35,6 @@ function App() {
      </div>
     );
   }
+}
 
 export default App;

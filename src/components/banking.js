@@ -62,10 +62,15 @@ class Banking extends Component{
                     </Navbar.Collapse>
                  </Navbar>
 
-                <br/>
-                <br/>
-                <br/>
-                <br/>
+                <div >
+                <img src="https://www.tradefinanceglobal.com/wp-content/uploads/2020/04/coronavirus-trade-finance.jpg" alt="" style={{width:'100%'}}/>
+               
+				<div class="text-block-research">
+                    <br/> <br/> 	
+                    <h1 style = {{fontSize: '600%'}} ><strong>COVID-19</strong></h1>
+                </div>
+                </div>
+
                 <br/>
 
                 <Container fluid>
