@@ -20,7 +20,7 @@ class App extends Component {
       <div className="App">
       <Router history = {history}>
         <Header />
-        <Switch>
+        <Switch>  
           <Route path = '/gtfintech' component = {About} exact />
           <Route path = '/gtfintech/people' component = {People} exact />
           <Route path = '/gtfintech/research' component = {Research} exact />
