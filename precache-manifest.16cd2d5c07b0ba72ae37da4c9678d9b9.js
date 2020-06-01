@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a60317268a2c4da8e9b0a89f6acc05ee",
+    "revision": "f59e7af0891ff8f8c623ba444be0dc4d",
     "url": "/gtfintech/index.html"
   },
   {
-    "revision": "e8ac1bd20c93a7156058",
+    "revision": "ebfec848f9fa8415c1cc",
     "url": "/gtfintech/static/css/2.d805e148.chunk.css"
   },
   {
-    "revision": "a9ffc91d0866aa9d6e66",
-    "url": "/gtfintech/static/css/main.b880b267.chunk.css"
+    "revision": "a24988c1f10565cdf7b6",
+    "url": "/gtfintech/static/css/main.db3ed18d.chunk.css"
   },
   {
-    "revision": "e8ac1bd20c93a7156058",
-    "url": "/gtfintech/static/js/2.d91e4e95.chunk.js"
+    "revision": "ebfec848f9fa8415c1cc",
+    "url": "/gtfintech/static/js/2.89bc97a1.chunk.js"
   },
   {
     "revision": "d2966845b94a3318bf32eecc7af8015d",
-    "url": "/gtfintech/static/js/2.d91e4e95.chunk.js.LICENSE.txt"
+    "url": "/gtfintech/static/js/2.89bc97a1.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a9ffc91d0866aa9d6e66",
-    "url": "/gtfintech/static/js/main.6bedaa12.chunk.js"
+    "revision": "a24988c1f10565cdf7b6",
+    "url": "/gtfintech/static/js/main.3437f690.chunk.js"
   },
   {
     "revision": "97a79a0606e5611a86f3",
@@ -30,6 +30,18 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "681adeb69a3a6869d3106479cde98cd8",
     "url": "/gtfintech/static/media/Alex_Hsu.681adeb6.jpg"
+  },
+  {
+    "revision": "80f1d0f383dac7d6c676edcc3971b212",
+    "url": "/gtfintech/static/media/BOA_logo.80f1d0f3.png"
+  },
+  {
+    "revision": "7b61d83c1fcc29e7e9201d04d2aa54df",
+    "url": "/gtfintech/static/media/Bloomberg_logo.7b61d83c.jpg"
+  },
+  {
+    "revision": "6b9a60a426a29ee1c420082b5133ba08",
+    "url": "/gtfintech/static/media/CapitalOne_logo.6b9a60a4.png"
   },
   {
     "revision": "adaa11de1a4f85d31e7b872bc99d6996",
@@ -46,6 +58,18 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ade237cf6e0e7f67f4ec14f295a1eb18",
     "url": "/gtfintech/static/media/GeorgiaTechLogo-RGB-Gray.ade237cf.png"
+  },
+  {
+    "revision": "0d68f5a7bc393b12c8118ac898a1e3c1",
+    "url": "/gtfintech/static/media/IBM_logo.0d68f5a7.jpg"
+  },
+  {
+    "revision": "2958714be38364d76b561904a26a557a",
+    "url": "/gtfintech/static/media/JPM_logo.2958714b.jpg"
+  },
+  {
+    "revision": "011bf697a58d2990abedb7022fea4ac5",
+    "url": "/gtfintech/static/media/Microsoft_logo.011bf697.png"
   },
   {
     "revision": "72bfc2021da6d9f643f5c5314a7f3c92",
@@ -112,7 +136,27 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/gtfintech/static/media/Soohun_Kim.31b7c93e.jpg"
   },
   {
+    "revision": "c93fc58f8d41028880e3d11edad1e37f",
+    "url": "/gtfintech/static/media/Sponsors.c93fc58f.jpg"
+  },
+  {
     "revision": "93c1f9f806f925b49a2a5fab74ec5860",
     "url": "/gtfintech/static/media/Sudheer_Chava.93c1f9f8.jpg"
+  },
+  {
+    "revision": "e15187bcab25ee70b22bfb794b78ba9d",
+    "url": "/gtfintech/static/media/Truist_logo.e15187bc.jpg"
+  },
+  {
+    "revision": "8cdf3ce37e744fc721618fd9aa7bcd11",
+    "url": "/gtfintech/static/media/Walmart_logo.8cdf3ce3.jpg"
+  },
+  {
+    "revision": "3314fb97bf1e61697ea2f07a82bcb1a1",
+    "url": "/gtfintech/static/media/Workday_Logo.3314fb97.png"
+  },
+  {
+    "revision": "a122431df8375cc775f93c0b245b056e",
+    "url": "/gtfintech/static/media/amazon_logo.a122431d.jpg"
   }
 ]);
