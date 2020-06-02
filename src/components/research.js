@@ -3,9 +3,9 @@ import {Card, Image, Button, Container,Navbar,NavLink,Nav,Row,Col} from 'react-b
 import { Link, Element, animateScroll as scroll} from 'react-scroll'
 import logo from '../images/GT_White.png';
 import '../App.css';
-import history from './history';
 import { CSSTransition } from "react-transition-group";
 import { FaBars } from 'react-icons/fa';
+import {Link as Link1} from 'react-router-dom';
 
 function Research() {
     const [isNavVisible, setNavVisibility] = useState(false);
@@ -118,11 +118,13 @@ function Research() {
                             <p> 
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.       
                             </p>
-                            <Button className = "btnr" onClick={() => history.push('/gtfintech/research/covid')} variant="warning" size="lg">
+                              <Link1 to='/gtfintech/research/covid'>
+                            <Button className = "btnr" variant="warning" size="lg">
                                 <div style = {{color:'white'}}>
                                 View Research
                                 </div>
                             </Button>{' '}
+                            </Link1>
                         </div>
                     </div>
                     </Col> 

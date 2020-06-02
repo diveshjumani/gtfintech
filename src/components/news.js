@@ -1,97 +1,68 @@
 import React, {Component} from 'react';
 import {Card, CardGroup, Image, Button, Container,Navbar,NavLink,Nav,Row,Col} from 'react-bootstrap';
-import Calendar from './Calendar';
 
 
 class News extends Component{
     render(){
     	return(
-    		<div className = "news">
+    		<div className = "news">  
           <br/>
           <br/>
-          <br/>
-          <Container fluid>
-          <CardGroup>
-              <Card className="bg-dark text-white" >
-                    <Image  style = {{height: '40vh'}} class="card-img-top" fluid src="https://www.scheller.gatech.edu/news-events/latest-news/2020/clorox.jpg" alt="Card image" />
-                    <div class="text-block-card">
+          <div className="row no-gutters">
+            <div className="col">
+              <a target="_blank" href="https://www.scheller.gatech.edu/news-events/latest-news/2020/do-the-right-thing-clorox-vp-and-scheller-alum-rick-mcdonald-on-the-fight-against-covid-19.html">
+                <Card  className="bg-dark text-white noHover" >
+                  <Image style = {{width: '785px', height: '80.2vh'}} class="card-img-top" fluid src="https://www.scheller.gatech.edu/news-events/latest-news/2020/clorox.jpg" alt="Card image" />
+                  <div class="text-block-card">
                     <h6 align = "justify">‘Do the Right Thing’: Clorox VP and Scheller Alum Rick McDonald on the Fight Against COVID-19</h6><br/>
-                    
-                    </div>
-                    <div class="text-block-btn">
-                    <Button className = "btnr" variant="warning" size="sm" target="_blank" href="https://www.scheller.gatech.edu/news-events/latest-news/2020/do-the-right-thing-clorox-vp-and-scheller-alum-rick-mcdonald-on-the-fight-against-covid-19.html">
-                        Read more
-                      </Button>{' '}
-                    </div>
-                </Card>    
-            
-              <Card className="bg-dark text-white">
-                    <Image  style = {{height: '40vh'}} class="card-img-top" fluid src="https://www.scheller.gatech.edu/news-events/latest-news/2020/scheller-building-front-facing-v2.jpg" alt="Card image" />
-                    <div class="text-block-card">
-                    <h6 align = "justify">Four Scheller College of Business Faculty Receive Award for Excellence in Teaching</h6><br/>
-                    </div>
-                    <div class="text-block-btn">
-                    <Button className = "btnr" variant="warning" size="sm" target="_blank" href="https://www.scheller.gatech.edu/news-events/latest-news/2020/four-scheller-college-of-business-faculty-receive-award-for-excellence-in-teaching.html">
-                        Read more
-                      </Button>{' '}
-                      </div>
-                
-                </Card>    
-                <Card className="bg-dark text-white">
-                    <Image  style = {{height: '40vh'}} class="card-img-top" fluid src="https://www.scheller.gatech.edu/news-events/latest-news/2020/Nona-Black-768x480.jpeg" alt="Card image" />
-                    <div class="text-block-card">
-                    <h6 align = "justify">Passion, Drive, and a Commitment to Diversity and Inclusion: Meet Nona Black, Poet’s & Quants 2020 MBA to Watch</h6>
-                    </div>
-                    <div class="text-block-btn">
-                      <Button className = "btnr" variant="warning" size="sm" target="_blank" href="https://www.scheller.gatech.edu/news-events/latest-news/2020/passion-drive-and-a-commitment-to-diversity-and-inclusion-meet-nona-black-poets-and-quants-2020-mba-to-watch.html">
-                        Read more
-                      </Button>{' '}
-                      </div>
-                
+                  </div>
                 </Card>  
-              
-            </CardGroup>
-            <CardGroup>
-           
-           <Card className="bg-dark text-white">
-                 <Image  style = {{height: '40vh'}} class="card-img-top" fluid src="https://www.scheller.gatech.edu/news-events/latest-news/2020/emba-jon-michael-thomas-2.jpg" alt="Card image" />
-                 <div class="text-block-card">
-                    <h6 align = "justify">The Role of an EMBA During a Merger, Career Shift, and COVID-19: Perspectives from Alum Jon Michael Thomas</h6>
-                    </div>
-                    <div class="text-block-btn">
-                    <Button className = "btnr" variant="warning" size="sm" target="_blank" href="https://www.scheller.gatech.edu/news-events/latest-news/2020/the-role-of-an-emba-during-a-merger-career-shift-and-covid-19-perspectives-from-alum-jon-michael-thomas.html">
-                        Read more
-                      </Button>{' '}
-                      </div>
-               
-             </Card>    
-         
-           <Card className="bg-dark text-white">
-                 <Image  style = {{height: '40vh'}} class="card-img-top" fluid src="https://www.scheller.gatech.edu/news-events/latest-news/2020/alex-hsu-faculty.JPG" alt="Card image" />
-                < div class="text-block-card">
-                    <h6 align = "justify">How are Equity Valuations Affected by the COVID-19 Crisis</h6><br/><br/>
-                    </div>
-                    <div class="text-block-btn">
-                    <Button className = "btnr" variant="warning" size="sm" target="_blank" href="https://www.scheller.gatech.edu/news-events/latest-news/2020/how-are-equity-valuations-affected-by-the-covid-19-crisis.html">
-                        Read more
-                      </Button>{' '}
-                      </div>
-                
-             </Card> 
-             <Card className="bg-dark text-white">
-                    <Image  style = {{height: '40vh'}} class="card-img-top" fluid src="https://www.scheller.gatech.edu/news-events/latest-news/2020/green_chris_profile.jpg" alt="Card image" />
+              </a>  
+            </div>
+
+            <div className="col">
+              <div className="row">
+                <a target="_blank" href="https://www.scheller.gatech.edu/news-events/latest-news/2020/the-role-of-an-emba-during-a-merger-career-shift-and-covid-19-perspectives-from-alum-jon-michael-thomas.html">
+                  <Card className="bg-dark text-white noHover">
+                    <Image style = {{width: '392px', height: '40vh'}} class="card-img-top" fluid src="https://www.scheller.gatech.edu/news-events/latest-news/2020/emba-jon-michael-thomas-2.jpg" alt="Card image" />
                     <div class="text-block-card">
-                    <h6 align = "justify">Scheller Doctoral Student Chris Green Promoted to Lieutenant Colonel</h6><br/><br/>
+                      <h6 align = "justify">The Role of an EMBA During a Merger, Career Shift, and COVID-19: Perspectives from Alum Jon Michael Thomas</h6>
                     </div>
-                    <div class="text-block-btn">
-                    <Button className = "btnr" variant="warning" size="sm" target="_blank" href="https://www.scheller.gatech.edu/news-events/latest-news/2020/scheller-doctoral-student-chris-green-promoted-to-lieutenant-colonel.html">
-                        Read more
-                      </Button>{' '}
-                      </div>
-               
-                </Card>         
-         </CardGroup>
-         </Container>
+                  </Card>    
+                </a>
+
+                <a target="_blank" href="https://www.scheller.gatech.edu/news-events/latest-news/2020/how-are-equity-valuations-affected-by-the-covid-19-crisis.html">
+                  <Card className="bg-dark text-white noHover">
+                    <Image style = {{width: '392px', height: '40vh'}} class="card-img-top" fluid src="https://www.scheller.gatech.edu/news-events/latest-news/2020/alex-hsu-faculty.JPG" alt="Card image" />
+                    <div class="text-block-card">
+                      <h6 align = "justify">How are Equity Valuations Affected by the COVID-19 Crisis</h6><br/><br/>
+                    </div>
+                  </Card> 
+                </a>
+
+              </div>
+                
+              <div className="row">
+                <a target="_blank" href="https://www.scheller.gatech.edu/news-events/latest-news/2020/four-scheller-college-of-business-faculty-receive-award-for-excellence-in-teaching.html">
+                  <Card className="bg-dark text-white noHover">
+                    <Image style = {{width: '392px', height: '40vh'}} class="card-img-top" fluid src="https://www.scheller.gatech.edu/news-events/latest-news/2020/scheller-building-front-facing-v2.jpg" alt="Card image" />
+                    <div class="text-block-card">
+                      <h6 align = "justify">Four Scheller College of Business Faculty Receive Award for Excellence in Teaching</h6><br/>
+                    </div>
+                  </Card>  
+                </a>
+
+                <a target="_blank" href="https://www.scheller.gatech.edu/news-events/latest-news/2020/passion-drive-and-a-commitment-to-diversity-and-inclusion-meet-nona-black-poets-and-quants-2020-mba-to-watch.html">
+                  <Card className="bg-dark text-white noHover">
+                    <Image style = {{width: '392px', height: '40vh'}} class="card-img-top" fluid src="https://www.scheller.gatech.edu/news-events/latest-news/2020/Nona-Black-768x480.jpeg" alt="Card image" />
+                    <div class="text-block-card">
+                      <h6 align = "justify">Passion, Drive, and a Commitment to Diversity and Inclusion: Meet Nona Black, Poet’s & Quants 2020 MBA to Watch</h6>
+                    </div>
+                  </Card>  
+                </a>
+              </div>
+            </div>
+          </div>
 
           <br/>
 
@@ -101,16 +72,16 @@ class News extends Component{
               <Card.Header>
                 <Nav variant="tabs" defaultActiveKey="#first">
                   <Nav.Item>
-                    <Nav.Link target="_blank" href="#first">2020</Nav.Link>
+                    <Nav.Link href="#first">2020</Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <Nav.Link target="_blank" href="#link">2019</Nav.Link>
+                    <Nav.Link href="#link">2019</Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <Nav.Link target="_blank" href="#link">2018</Nav.Link>
+                    <Nav.Link href="#link">2018</Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <Nav.Link target="_blank" href="#link">Archives</Nav.Link>
+                    <Nav.Link href="#link">Archives</Nav.Link>
                   </Nav.Item>
                 </Nav>
               </Card.Header>
@@ -312,10 +283,11 @@ class News extends Component{
           </Card>
 
           </div>
-          </Row>
+        </Row>
           
-          <br/>  
-          <br/>
+        <br/>  
+        <br/>
+        <br/>
 
         </div>
       		);

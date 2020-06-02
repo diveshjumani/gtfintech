@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import {Navbar, Nav, Form, FormControl, Button, NavDropdown} from 'react-bootstrap';
+import {Navbar, NavLink, Nav, Form, FormControl, Button, NavDropdown} from 'react-bootstrap';
+import {Link} from 'react-router-dom';
 
 import logo from '../images/GT_White.png';
 
@@ -30,22 +31,19 @@ function Header () {
     };
         return(
             <Navbar fixed='top' collapseOnSelect expand="lg" bg="dark" variant="dark">
-                <Navbar.Brand href="/gtfintech"><img className="Logo" alt = "" src={logo} width="200" height="40" className="d-inline-block align-top"/></Navbar.Brand>
-                <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-                <Navbar.Collapse id="responsive-navbar-nav">
-                    <Nav className="mr-auto">
-                    <Nav.Link href="/gtfintech"><strong>About</strong></Nav.Link>
-                    <Nav.Link href="/gtfintech/people"><strong>People</strong></Nav.Link>
-                    <Nav.Link href="/gtfintech/research"><strong>Research </strong></Nav.Link>
-                    {/* <NavDropdown title="Research" id="collasible-nav-dropdown">
-                    <NavDropdown.Item href="/gtfintech/research/banking">Banking</NavDropdown.Item>
-                    </NavDropdown> */}
-                    <Nav.Link href="/gtfintech/corporateaffiliates"><strong>Corporate Affiliates </strong> </Nav.Link>
-                    <Nav.Link href="/gtfintech/qcf"><strong>QCF</strong> </Nav.Link>
-                    <Nav.Link href="/gtfintech/news"><strong>News & Events</strong> </Nav.Link>
-                    </Nav>
-                </Navbar.Collapse>
-                </Navbar>
+              <Navbar.Brand href="/gtfintech"><img className="Logo" alt = "" src={logo} width="200" height="40" className="d-inline-block align-top"/></Navbar.Brand>
+              <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+              <Navbar.Collapse id="responsive-navbar-nav">
+                <Nav className="mr-auto">
+                      <Nav.Link><Link to='/'><strong>About</strong></Link></Nav.Link>
+                      <Nav.Link><Link to='/gtfintech/people'><strong>People</strong></Link></Nav.Link>
+                      <Nav.Link><Link to='/gtfintech/research'><strong>Research </strong></Link></Nav.Link>
+                      <Nav.Link><Link to='/gtfintech/corporateaffiliates'><strong>Corporate Affiliates </strong></Link></Nav.Link>
+                      <Nav.Link><Link to='/gtfintech/qcf'><strong>QCF</strong></Link></Nav.Link>
+                      <Nav.Link><Link to='/gtfintech/news'><strong>News & Events</strong></Link></Nav.Link>
+                </Nav>
+              </Navbar.Collapse>
+            </Navbar>
         );
     }
 

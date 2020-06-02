@@ -334,12 +334,12 @@ body {
 
 .text-block-card {
   height: 60px;
-  width: 400px;
+  width: 350px;
   background: rgb(0, 0, 0); /* Fallback color */
-  background: rgba(0, 0, 0, 0.2); /* Black background with 0.5 opacity */
+  background: rgba(0, 0, 0, 0.15); /* Black background with 0.5 opacity */
   color: white;
   position: absolute;
-  bottom: 10%;
+  bottom: 0%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -393,4 +393,36 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+}
+
+.text-block-ca {
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0); /* Black background with 0.5 opacity */
+  color: white;
+  position: absolute;
+  top: 25%;
+  width:1000px;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  text-align: left;
+}
+
+.padding-0{
+    padding-right:0;
+    padding-left:0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  display: inline;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }

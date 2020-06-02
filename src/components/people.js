@@ -47,55 +47,55 @@ function People() {
         return (
             <div className="people">
                 <Navbar className = 'second-navbar fixed-top' collapseOnSelect expand="lg" bg="warning" variant="dark">
-                <Navbar.Brand className = "d-inline p-0 text-white" target="_blank" href="/gtfintech/people"><img alt = "" src={logo} width="0" height="35"></img><strong>People</strong></Navbar.Brand>
-                <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-                <Navbar.Collapse id="responsive-navbar-nav">
-                    <Nav className="mr-auto">
-                    <NavLink className = "d-inline p-2 text-white">
-                        <Link activeClass="active" className="director" to="director" offset ={-120} spy={true} smooth={true} duration={500} >
-                            <strong>Director</strong>
-                        </Link>
-                    </NavLink>
-                    <NavLink className = "d-inline p-2 text-white">
-                        <Link activeClass="active" className="faculty" to="faculty" offset ={-120} spy={true} smooth={true} duration={500} >
-                            <strong>Faculty</strong>
-                        </Link>
-                    </NavLink>
-                    <NavLink className = "d-inline p-2 text-white">
-                        <Link activeClass="active" className="phd" to="phd" offset ={-120} spy={true} smooth={true} duration={500} >
-                            <strong>PhD Students</strong>
-                        </Link>
-                    </NavLink>
-                    <NavLink className = "d-inline p-2 text-white">
-                        <Link activeClass="active" className="ms" to="ms" offset ={-120} spy={true} smooth={true} duration={500} >
-                            <strong>Master Students</strong>
-                        </Link>
+                    <Navbar.Brand className = "d-inline p-0 text-white" target="_blank" href="/gtfintech/people"><img alt = "" src={logo} width="0" height="35"></img><strong>People</strong></Navbar.Brand>
+                    <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                    <Navbar.Collapse id="responsive-navbar-nav">
+                        <Nav className="mr-auto">
+                        <NavLink className = "d-inline p-2 text-white">
+                            <Link activeClass="active" className="director" to="director" offset ={-120} spy={true} smooth={true} duration={500} >
+                                <strong>Director</strong>
+                            </Link>
                         </NavLink>
-                    <NavLink className = "d-inline p-2 text-white">
-                        <Link activeClass="active" className="undergrad" offset ={-120} to="undergrad" spy={true} smooth={true} duration={500} >
-                            <strong>Undergrad Students</strong>
-                        </Link>
-                    </NavLink>
-                    </Nav>
-                </Navbar.Collapse>
+                        <NavLink className = "d-inline p-2 text-white">
+                            <Link activeClass="active" className="faculty" to="faculty" offset ={-120} spy={true} smooth={true} duration={500} >
+                                <strong>Faculty</strong>
+                            </Link>
+                        </NavLink>
+                        <NavLink className = "d-inline p-2 text-white">
+                            <Link activeClass="active" className="phd" to="phd" offset ={-120} spy={true} smooth={true} duration={500} >
+                                <strong>PhD Students</strong>
+                            </Link>
+                        </NavLink>
+                        <NavLink className = "d-inline p-2 text-white">
+                            <Link activeClass="active" className="ms" to="ms" offset ={-120} spy={true} smooth={true} duration={500} >
+                                <strong>Master Students</strong>
+                            </Link>
+                            </NavLink>
+                        <NavLink className = "d-inline p-2 text-white">
+                            <Link activeClass="active" className="undergrad" offset ={-120} to="undergrad" spy={true} smooth={true} duration={500} >
+                                <strong>Undergrad Students</strong>
+                            </Link>
+                        </NavLink>
+                        </Nav>
+                    </Navbar.Collapse>
                 </Navbar>
 
                 <div >
-                <img src="https://www.scheller.gatech.edu/pix/why-scheller/unrestricted-endowment.jpg.pagespeed.ce.9X1ZWk_qnv.jpg" alt="Nature" style={{width:'100%'}}/>
-                <div class="text-block">
-                    <br/> <br/> 
-                    <h4><b>People</b></h4>
-                    <p align ="justify">The Georgia Tech Financial Services Innovation Lab consists of the Director (Dr. Sudheer Chava), Faculty as well as 
-                        students from undergraduate, Masters and PhD </p>
-                </div>
+                    <img src="https://www.scheller.gatech.edu/pix/why-scheller/unrestricted-endowment.jpg.pagespeed.ce.9X1ZWk_qnv.jpg" alt="Nature" style={{width:'100%'}}/>
+                    <div class="text-block">
+                        <br/> <br/> 
+                        <h4><b>People</b></h4>
+                        <p align ="justify">The Georgia Tech Financial Services Innovation Lab consists of the Director (Dr. Sudheer Chava), Faculty as well as 
+                            students from undergraduate, Masters and PhD </p>
+                    </div>
                 </div>
 
                 <br/> 
 
                 <Container fluid>
                     <Element name="director" className="element" >
-                        <Card>
-                            <Card.Header className = "bg-warning text-white" as="h3">Director</Card.Header>
+                        <Card border="light" className = "noHover">
+                            <Card.Header as="h3"><b>Director</b></Card.Header>
                         </Card>
                     </Element>
 
@@ -140,13 +140,15 @@ function People() {
                                 universities in the U.S. and abroad.
                                 </p>
                             </row>
+
                             <br/>
                             <br/>
+
                             <row>
-                            <Button target="_blank" href = "https://scholar.google.com/citations?user=AXYf-i8AAAAJ" variant="warning">Google Scholar</Button>{' '}
-                            <Button target="_blank" href = "https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=292365" variant="warning">SSRN</Button>{' '}
-                            <Button target="_blank" href = "https://www.linkedin.com/in/sudheer-chava-b5883021/" variant="warning">LinkedIn</Button>{' '}
-                            <Button target="_blank" href = "http://www.prism.gatech.edu/~schava6/Chava_CV_Web.pdf"  variant="warning">CV</Button>{' '}
+                                <Button target="_blank" href = "https://scholar.google.com/citations?user=AXYf-i8AAAAJ" variant="warning">Google Scholar</Button>{' '}
+                                <Button target="_blank" href = "https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=292365" variant="warning">SSRN</Button>{' '}
+                                <Button target="_blank" href = "https://www.linkedin.com/in/sudheer-chava-b5883021/" variant="warning">LinkedIn</Button>{' '}
+                                <Button target="_blank" href = "http://www.prism.gatech.edu/~schava6/Chava_CV_Web.pdf"  variant="warning">CV</Button>{' '}
                             </row>
                         </div>
                     </div>
@@ -156,8 +158,8 @@ function People() {
 
                 <Container fluid>
                     <Element name="faculty" className="element" >
-                        <Card>
-                            <Card.Header className = "bg-warning text-white" as="h3">Faculty</Card.Header>
+                         <Card border="light" className = "noHover">
+                            <Card.Header as="h3"><b>Faculty</b></Card.Header>
                         </Card>
                     </Element>
 
@@ -176,7 +178,7 @@ function People() {
 
                         <Card  className = 'card-img-faculty'>
                             <a target="_blank" href ="https://www.scheller.gatech.edu/directory/faculty/kim.s/index.html">
-                            <Card.Img style = {{height:'20vw'}} variant="top" src={Soohun_Kim}></Card.Img>
+                                <Card.Img style = {{height:'20vw'}} variant="top" src={Soohun_Kim}></Card.Img>
                             </a>
                             <Card.Body>
                                 <Card.Title>Soohun Kim</Card.Title>
@@ -186,7 +188,7 @@ function People() {
 
                         <Card  className = 'card-img-faculty'>
                             <a target="_blank" href = "https://www.danielweagley.com/">
-                            <Card.Img style = {{height:'20vw'}} variant="top" src={Daniel_Weagley}></Card.Img>
+                                <Card.Img style = {{height:'20vw'}} variant="top" src={Daniel_Weagley}></Card.Img>
                             </a>
                             <Card.Body>
                                 <Card.Title>Daniel Weagley</Card.Title>
@@ -196,7 +198,7 @@ function People() {
 
                         <Card  className = 'card-img-faculty'>
                             <a target="_blank" href = "https://www2.isye.gatech.edu/people/faculty/Shijie_Deng/">
-                            <Card.Img style = {{height:'20vw'}} variant="top" src={Shijie_Deng}></Card.Img>
+                                <Card.Img style = {{height:'20vw'}} variant="top" src={Shijie_Deng}></Card.Img>
                             </a>
                             <Card.Body>
                                 <Card.Title>Shijie Deng</Card.Title>
@@ -206,7 +208,7 @@ function People() {
 
                         <Card>
                             <a target="_blank" href = "https://www2.isye.gatech.edu/people/faculty/David_Goldsman/">
-                            <Card.Img style={{height:'20vw'}} variant="top" src={David_Goldsman}></Card.Img>
+                                <Card.Img style={{height:'20vw'}} variant="top" src={David_Goldsman}></Card.Img>
                             </a>
                             <Card.Body>
                                 <Card.Title>David Goldsman</Card.Title>
@@ -223,9 +225,9 @@ function People() {
                 
                 <Container fluid>
                     <Element name="phd" className="element" >
-                        <Card>
-                            <Card.Header className = "bg-warning text-white" as="h3">PhD Students</Card.Header>
-                        </Card>           
+                         <Card border="light" className = "noHover">
+                            <Card.Header as="h3"><b>PhD Students</b></Card.Header>
+                        </Card>         
                     </Element>
 
                     <br/>
@@ -341,8 +343,8 @@ function People() {
 
                 <Container fluid>
                     <Element name="ms" className="element" >
-                        <Card>
-                            <Card.Header className = "bg-warning text-white" as="h3">Masters Students</Card.Header>
+                         <Card border="light" className = "noHover">
+                            <Card.Header as="h3"><b>MS Students</b></Card.Header>
                         </Card>
                     </Element>
 
@@ -489,8 +491,8 @@ function People() {
 
                 <Container fluid>
                     <Element name="undergrad" className="element" >
-                        <Card>
-                            <Card.Header className = "bg-warning text-white" as="h3">Undergrad Students</Card.Header>
+                         <Card border="light" className = "noHover">
+                            <Card.Header as="h3"><b>Undergrad Students</b></Card.Header>
                         </Card>
                     </Element>
 
