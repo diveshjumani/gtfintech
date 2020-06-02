@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/gtfintech/static/css/main.fc1a8bd4.chunk.css",
-    "main.js": "/gtfintech/static/js/main.b9838410.chunk.js",
-    "main.js.map": "/gtfintech/static/js/main.b9838410.chunk.js.map",
+    "main.js": "/gtfintech/static/js/main.408d41b7.chunk.js",
+    "main.js.map": "/gtfintech/static/js/main.408d41b7.chunk.js.map",
     "runtime-main.js": "/gtfintech/static/js/runtime-main.acddfa5a.js",
     "runtime-main.js.map": "/gtfintech/static/js/runtime-main.acddfa5a.js.map",
     "static/css/2.d805e148.chunk.css": "/gtfintech/static/css/2.d805e148.chunk.css",
-    "static/js/2.cf97df70.chunk.js": "/gtfintech/static/js/2.cf97df70.chunk.js",
-    "static/js/2.cf97df70.chunk.js.map": "/gtfintech/static/js/2.cf97df70.chunk.js.map",
+    "static/js/2.a9ddb0b5.chunk.js": "/gtfintech/static/js/2.a9ddb0b5.chunk.js",
+    "static/js/2.a9ddb0b5.chunk.js.map": "/gtfintech/static/js/2.a9ddb0b5.chunk.js.map",
     "index.html": "/gtfintech/index.html",
-    "precache-manifest.e90bbfa51311eda9efe5fb30cc776ce6.js": "/gtfintech/precache-manifest.e90bbfa51311eda9efe5fb30cc776ce6.js",
+    "precache-manifest.570d79f7e7edbcdd07c0c1f91e455e03.js": "/gtfintech/precache-manifest.570d79f7e7edbcdd07c0c1f91e455e03.js",
     "service-worker.js": "/gtfintech/service-worker.js",
     "static/css/2.d805e148.chunk.css.map": "/gtfintech/static/css/2.d805e148.chunk.css.map",
     "static/css/main.fc1a8bd4.chunk.css.map": "/gtfintech/static/css/main.fc1a8bd4.chunk.css.map",
-    "static/js/2.cf97df70.chunk.js.LICENSE.txt": "/gtfintech/static/js/2.cf97df70.chunk.js.LICENSE.txt",
+    "static/js/2.a9ddb0b5.chunk.js.LICENSE.txt": "/gtfintech/static/js/2.a9ddb0b5.chunk.js.LICENSE.txt",
     "static/media/Alex_Hsu.jpg": "/gtfintech/static/media/Alex_Hsu.681adeb6.jpg",
     "static/media/BOA_logo.png": "/gtfintech/static/media/BOA_logo.80f1d0f3.png",
     "static/media/Bloomberg_logo.jpg": "/gtfintech/static/media/Bloomberg_logo.7b61d83c.jpg",
@@ -51,8 +51,8 @@
   "entrypoints": [
     "static/js/runtime-main.acddfa5a.js",
     "static/css/2.d805e148.chunk.css",
-    "static/js/2.cf97df70.chunk.js",
+    "static/js/2.a9ddb0b5.chunk.js",
     "static/css/main.fc1a8bd4.chunk.css",
-    "static/js/main.b9838410.chunk.js"
+    "static/js/main.408d41b7.chunk.js"
   ]
 }
