@@ -1,25 +1,26 @@
 {
   "files": {
-    "main.css": "/gtfintech/static/css/main.fc1a8bd4.chunk.css",
-    "main.js": "/gtfintech/static/js/main.408d41b7.chunk.js",
-    "main.js.map": "/gtfintech/static/js/main.408d41b7.chunk.js.map",
+    "main.css": "/gtfintech/static/css/main.27038b15.chunk.css",
+    "main.js": "/gtfintech/static/js/main.6c694de8.chunk.js",
+    "main.js.map": "/gtfintech/static/js/main.6c694de8.chunk.js.map",
     "runtime-main.js": "/gtfintech/static/js/runtime-main.acddfa5a.js",
     "runtime-main.js.map": "/gtfintech/static/js/runtime-main.acddfa5a.js.map",
     "static/css/2.d805e148.chunk.css": "/gtfintech/static/css/2.d805e148.chunk.css",
-    "static/js/2.a9ddb0b5.chunk.js": "/gtfintech/static/js/2.a9ddb0b5.chunk.js",
-    "static/js/2.a9ddb0b5.chunk.js.map": "/gtfintech/static/js/2.a9ddb0b5.chunk.js.map",
+    "static/js/2.34be72df.chunk.js": "/gtfintech/static/js/2.34be72df.chunk.js",
+    "static/js/2.34be72df.chunk.js.map": "/gtfintech/static/js/2.34be72df.chunk.js.map",
     "index.html": "/gtfintech/index.html",
-    "precache-manifest.570d79f7e7edbcdd07c0c1f91e455e03.js": "/gtfintech/precache-manifest.570d79f7e7edbcdd07c0c1f91e455e03.js",
+    "precache-manifest.0522a992566a72ff7b32a1fa815fd560.js": "/gtfintech/precache-manifest.0522a992566a72ff7b32a1fa815fd560.js",
     "service-worker.js": "/gtfintech/service-worker.js",
     "static/css/2.d805e148.chunk.css.map": "/gtfintech/static/css/2.d805e148.chunk.css.map",
-    "static/css/main.fc1a8bd4.chunk.css.map": "/gtfintech/static/css/main.fc1a8bd4.chunk.css.map",
-    "static/js/2.a9ddb0b5.chunk.js.LICENSE.txt": "/gtfintech/static/js/2.a9ddb0b5.chunk.js.LICENSE.txt",
+    "static/css/main.27038b15.chunk.css.map": "/gtfintech/static/css/main.27038b15.chunk.css.map",
+    "static/js/2.34be72df.chunk.js.LICENSE.txt": "/gtfintech/static/js/2.34be72df.chunk.js.LICENSE.txt",
     "static/media/Alex_Hsu.jpg": "/gtfintech/static/media/Alex_Hsu.681adeb6.jpg",
     "static/media/BOA_logo.png": "/gtfintech/static/media/BOA_logo.80f1d0f3.png",
     "static/media/Bloomberg_logo.jpg": "/gtfintech/static/media/Bloomberg_logo.7b61d83c.jpg",
     "static/media/CapitalOne_logo.png": "/gtfintech/static/media/CapitalOne_logo.6b9a60a4.png",
     "static/media/Daniel_Weagley.jpg": "/gtfintech/static/media/Daniel_Weagley.adaa11de.jpg",
     "static/media/David_Goldsman.jpg": "/gtfintech/static/media/David_Goldsman.fad3501a.jpg",
+    "static/media/GT_QCF_Logo.png": "/gtfintech/static/media/GT_QCF_Logo.dfc5832e.png",
     "static/media/GT_White.png": "/gtfintech/static/media/GT_White.750ec09c.png",
     "static/media/GeorgiaTechLogo-RGB-Gray.png": "/gtfintech/static/media/GeorgiaTechLogo-RGB-Gray.ade237cf.png",
     "static/media/IBM_logo.jpg": "/gtfintech/static/media/IBM_logo.0d68f5a7.jpg",
@@ -46,13 +47,15 @@
     "static/media/Truist_logo.jpg": "/gtfintech/static/media/Truist_logo.e15187bc.jpg",
     "static/media/Walmart_logo.jpg": "/gtfintech/static/media/Walmart_logo.8cdf3ce3.jpg",
     "static/media/Workday_Logo.png": "/gtfintech/static/media/Workday_Logo.3314fb97.png",
-    "static/media/amazon_logo.jpg": "/gtfintech/static/media/amazon_logo.a122431d.jpg"
+    "static/media/amazon_logo.jpg": "/gtfintech/static/media/amazon_logo.a122431d.jpg",
+    "static/media/q.png": "/gtfintech/static/media/q.a3faee4e.png",
+    "static/media/qcf.png": "/gtfintech/static/media/qcf.c2288443.png"
   },
   "entrypoints": [
     "static/js/runtime-main.acddfa5a.js",
     "static/css/2.d805e148.chunk.css",
-    "static/js/2.a9ddb0b5.chunk.js",
-    "static/css/main.fc1a8bd4.chunk.css",
-    "static/js/main.408d41b7.chunk.js"
+    "static/js/2.34be72df.chunk.js",
+    "static/css/main.27038b15.chunk.css",
+    "static/js/main.6c694de8.chunk.js"
   ]
 }

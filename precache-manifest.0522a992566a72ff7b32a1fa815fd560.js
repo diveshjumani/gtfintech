@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6acc4006579babddd7afdb29ff551db2",
+    "revision": "278ae04dc38bf18ac8ea3a3d0e1d4042",
     "url": "/gtfintech/index.html"
   },
   {
-    "revision": "8f6a2b5c97d0407e63e1",
+    "revision": "ac776b0f9da94ec1534e",
     "url": "/gtfintech/static/css/2.d805e148.chunk.css"
   },
   {
-    "revision": "5ba1da2a4ae784da5177",
-    "url": "/gtfintech/static/css/main.fc1a8bd4.chunk.css"
+    "revision": "3b3ddba98f8aceb7faf9",
+    "url": "/gtfintech/static/css/main.27038b15.chunk.css"
   },
   {
-    "revision": "8f6a2b5c97d0407e63e1",
-    "url": "/gtfintech/static/js/2.a9ddb0b5.chunk.js"
+    "revision": "ac776b0f9da94ec1534e",
+    "url": "/gtfintech/static/js/2.34be72df.chunk.js"
   },
   {
     "revision": "d2966845b94a3318bf32eecc7af8015d",
-    "url": "/gtfintech/static/js/2.a9ddb0b5.chunk.js.LICENSE.txt"
+    "url": "/gtfintech/static/js/2.34be72df.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5ba1da2a4ae784da5177",
-    "url": "/gtfintech/static/js/main.408d41b7.chunk.js"
+    "revision": "3b3ddba98f8aceb7faf9",
+    "url": "/gtfintech/static/js/main.6c694de8.chunk.js"
   },
   {
     "revision": "97a79a0606e5611a86f3",
@@ -50,6 +50,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "fad3501a4ad1e35e8a055cad4c024080",
     "url": "/gtfintech/static/media/David_Goldsman.fad3501a.jpg"
+  },
+  {
+    "revision": "dfc5832ee31778c2a90a65573c222223",
+    "url": "/gtfintech/static/media/GT_QCF_Logo.dfc5832e.png"
   },
   {
     "revision": "750ec09c2488ef91218c6baa844502fd",
@@ -158,5 +162,13 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "a122431df8375cc775f93c0b245b056e",
     "url": "/gtfintech/static/media/amazon_logo.a122431d.jpg"
+  },
+  {
+    "revision": "a3faee4ea6b83549b8092c6c619a182a",
+    "url": "/gtfintech/static/media/q.a3faee4e.png"
+  },
+  {
+    "revision": "c22884436e1328b179441aef20e4b112",
+    "url": "/gtfintech/static/media/qcf.c2288443.png"
   }
 ]);
