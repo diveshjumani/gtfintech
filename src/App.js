@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import './GT.css';
-import {HashRouter,Router, Route, Switch} from 'react-router-dom';
+import {HashRouter, Route, Switch} from 'react-router-dom';
 import Header from './components/header';
 import About from './components/about';
 import Research from './components/research';

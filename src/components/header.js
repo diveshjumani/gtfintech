@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import {Navbar, NavLink, Nav, Form, FormControl, Button, NavDropdown} from 'react-bootstrap';
 import {Link} from 'react-router-dom';
-
 import logo from '../images/GT_White.png';
 
 function Header () {
