@@ -1,6 +1,6 @@
-import React, {Component, Fragment} from 'react';
-import {Card, Image, Button, Container,Navbar,NavLink,Nav,Row,Col, CardGroup} from 'react-bootstrap';
-import { Link, Element, animateScroll as scroll} from 'react-scroll';
+import React, {Component} from 'react';
+import {Card, Container, CardGroup} from 'react-bootstrap';
+import {animateScroll as scroll} from 'react-scroll';
 import '../App.css';
 import Amazon from '../images/amazon_logo.jpg';
 import Bloomberg from '../images/Bloomberg_logo.jpg';
@@ -121,10 +121,8 @@ class CorporateAffiliates extends Component{
                     <br/>
                 </Container>
 
-                <Button variant = "outline-warning" onClick={this.scrollToTop}>Scroll to Top</Button>{' '}
-
                 <br/>
-                <br/>
+                
        </div>
     ); 
     }

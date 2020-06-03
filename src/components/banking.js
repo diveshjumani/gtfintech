@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import {Card, Image, Button, Container,Navbar,NavLink,Nav,Row,Col,Carousel} from 'react-bootstrap';
+import {Card, Container,Navbar,NavLink,Nav,Row,Col,Carousel} from 'react-bootstrap';
 import logo from '../images/GT_White.png';
-import { Link, Element, animateScroll as scroll} from 'react-scroll'
+import { animateScroll as scroll} from 'react-scroll'
 import Nikhil_1 from '../images/Nikhil_1.png';
 import Nikhil_2 from '../images/Nikhil_2.png';
 import Nikhil_3 from '../images/Nikhil_3.png';
@@ -63,7 +63,7 @@ class Banking extends Component{
                 </Navbar>
 
                 <div >
-                    <img src="https://www.tradefinanceglobal.com/wp-content/uploads/2020/04/coronavirus-trade-finance.jpg" alt="" style={{width:'100%'}}/>
+                    <img height = "500px" src="https://www.tradefinanceglobal.com/wp-content/uploads/2020/04/coronavirus-trade-finance.jpg" alt="" style={{width:'100%'}}/>
                     <div class="text-block-research">
                         <br/> 
                         <br/> 	
@@ -77,7 +77,8 @@ class Banking extends Component{
                     <Card className = "researchcard">
                         <Card.Header> 
                             <h3> Reducing Risk or Reaching for Yield? Impact of Stress Tests on Credit Card Lending (Job Market Paper) </h3>
-                            <h4> - Nikhil Paradkar </h4>
+                            <h4> - <a target="_blank" href= "https://www.nikhil-paradkar.com/home">Nikhil Paradkar</a></h4>
+                            
                         </Card.Header>
                         <Card.Body>
                             <Row>
@@ -154,7 +155,12 @@ class Banking extends Component{
                             <a href = "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3178322">
                             <h3> Winners and Losers of Marketplace Lending: Evidence from Borrower Credit Dynamics </h3>
                             </a>
-                            <h4> - Sudheer Chava, Nikhil Paradkar and Yafei Zhang </h4>
+                            <h4>
+                                - <a target="_blank" href = "https://www.scheller.gatech.edu/directory/faculty/chava/index.html">Sudheer Chava</a>
+                                , <a target="_blank" href= "https://www.nikhil-paradkar.com/home">Nikhil Paradkar</a>
+                                and 
+                                Yafei Zhang 
+                            </h4>
                         </Card.Header>
                         <Card.Body>
                             <Row>
@@ -235,7 +241,10 @@ class Banking extends Component{
                             <a href = "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2962476">
                             <h3> December Doldrums, Investor Distraction, and Stock Market Reaction to Unscheduled News Events </h3>
                             </a>
-                            <h4> - Sudheer Chava, Nikhil Paradkar </h4>
+                            <h4> 
+                                - <a target="_blank" href = "https://www.scheller.gatech.edu/directory/faculty/chava/index.html">Sudheer Chava</a>
+                                , <a target="_blank" href= "https://www.nikhil-paradkar.com/home">Nikhil Paradkar</a> 
+                            </h4>
                         </Card.Header>
                         <Card.Body>
                             <Row>
@@ -282,7 +291,14 @@ class Banking extends Component{
                             <a href = "https://drive.google.com/file/d/1L-MUljdxlI7CQGZHP0Hy4VCurNJKFsTn/view">
                             <h3> Shocked by Bank Funding Shocks: Evidence from 500 Million Consumer Credit Cards </h3>
                             </a>
-                            <h4> - Sudheer Chava, Nikhil Paradkar, Rohan Ganduri and Linghang Zeng  </h4>
+                            <h4> 
+                                - <a target="_blank" href = "https://www.scheller.gatech.edu/directory/faculty/chava/index.html">Sudheer Chava</a>
+                                , <a target="_blank" href= "https://www.nikhil-paradkar.com/home">Nikhil Paradkar</a>
+                                , 
+                                Rohan Ganduri 
+                                and 
+                                Linghang Zeng  
+                            </h4>
                         </Card.Header>
                         <Card.Body>
                             <Row>
@@ -332,12 +348,10 @@ class Banking extends Component{
                             </Row>
                         </Card.Body>
                     </Card>
+                    
+                    <br/>
                 </Container>
 
-                <br/>
-                <Button variant = "outline-warning" onClick={this.scrollToTop}>Scroll to Top</Button>{' '}
-                <br/>
-                <br/>
 
             </div>
             );
