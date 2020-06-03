@@ -4,12 +4,13 @@ import logo from '../images/GeorgiaTechLogo-RGB-Gray.png';
 class Footer extends Component{
     render(){
         return (
-            <footer id="footer" fixed='bottom'>
+            <div id="footer">
                 <div id="footer-logo">
+                
                     <a href="http://www.gatech.edu/">
                         <img alt="Georgia Tech" width="130" height="40" src={logo} />
                     </a>
-                    <p id="inst">&copy; Georgia Institute of Technology</p>
+                    <h6 id="inst">&copy; Georgia Institute of Technology</h6>
                 </div>
 
                 <div id="footer-links">
@@ -23,7 +24,7 @@ class Footer extends Component{
                         <a href="https://www.scheller.gatech.edu/contact-us.html">Contact Us  </a>
                     </p>    
                 </div>
-            </footer>
+            </div>
         );
     }
 }

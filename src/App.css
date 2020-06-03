@@ -12,6 +12,9 @@ body {
   font-family: "Roboto", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
     font-weight: 300;
     color: #262626;
+    margin-bottom: 0px;
+     margin:0;
+    padding:0;
 }
 
 
@@ -40,10 +43,14 @@ body {
 }
 
 #footer {
-  background-color: #1a1a1a;
-  bottom: 0;
+  background-color: #050505;
+  display: block;
   position: relative;
-  height: 75px;
+  width: 100%;
+  height: 65px;
+  padding:0;
+  bottom:0px;
+  margin-bottom: 0px;
 }
 
 #footer-links {
@@ -344,7 +351,7 @@ body {
   background: rgba(0, 0, 0, 0.85); /* Black background with 0.5 opacity */
   color: white;
   position: absolute;
-  top: 75%;
+  top: 70%;
   left: 50%;
   transform: translate(-50%, -50%);
   align-items: center;
@@ -398,15 +405,16 @@ body {
 }
 
 .text-block-qcf {
-  background: rgb(0, 0, 0); /* Fallback color */
-  background: rgba(0, 0, 0, 0); /* Black background with 0.5 opacity */
+  background: white; /* Fallback color */
+  background: white; /* Black background with 0.5 opacity */
   color: white;
   position: absolute;
-  top: 11%;
-  width:1300px;
-  left: 44%;
+  top: 10%;
+  width:100%;
+  left: 50%;
   transform: translate(-50%, -50%);
   text-align: left;
+  border-color: black;
 }
 
 .a{
@@ -475,3 +483,4 @@ li {
    position: absolute;
    bottom: 0;
 }
+

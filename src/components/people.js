@@ -87,7 +87,7 @@ function People() {
                     <div class="text-block">
                         <br/> <br/> 
                         <h4><b>People</b></h4>
-                        <p align ="center">The Georgia Tech Financial Services Innovation Lab consists of the Director (Dr. Sudheer Chava), Faculty as well as 
+                        <p align ="justify">The Georgia Tech Financial Services Innovation Lab consists of the Director (Dr. Sudheer Chava), Faculty as well as 
                             students from undergraduate, Masters and PhD </p>
                     </div>
                 </div>

@@ -282,6 +282,25 @@ class News extends Component{
             </Card.Link>
           </Card>
 
+          <br/>
+
+          <Card text = "black">
+          <Card.Link target="_blank" href="https://www.scheller.gatech.edu/news-events/events/event.html?event_id=a0b1K00000iihzjQAA">
+            <Card.Body align = "left">
+              <Card.Title>03 June</Card.Title>
+              <Card.Subtitle className="mb-2 text-muted">12:00 pm - 1:00 pm </Card.Subtitle>
+              <Card.Text as="h5">
+                <strong>
+                Executive MBA Webinar Info Session
+                </strong>
+              </Card.Text>
+              <Card.Text align = "justify">
+                Attend this webinar to learn more about Georgia Tech Scheller's top-ranked Executive MBA program
+              </Card.Text>
+            </Card.Body>
+            </Card.Link>
+          </Card>
+
           </div>
         </Row>
           

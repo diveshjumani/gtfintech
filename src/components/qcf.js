@@ -9,7 +9,7 @@ class QCF extends Component{
     	<div className = "qcf">	
 				<div >
 					<a target="_blank" href = "https://www.scheller.gatech.edu/degree-programs/interdisciplinary-ms/quantitative-and-computational-finance/index.html">
-						<img height = '326px' src="https://www2.deloitte.com/content/dam/Deloitte/lu/Images/header_images/lu-quant-master-class-2019-4x1.jpg/_jcr_content/renditions/cq5dam.web.768.192.mobile.jpeg" alt="Nature" style={{width:'100%'}} />
+						<img height = '313px' src="https://www.imperial.ac.uk/ImageCropToolT4/imageTool/uploaded-images/spread--tojpeg_1466430752374_x1.jpg" alt="Nature" style={{width:'100%'}} />
 						<div class="text-block-qcf">
 							<img src = {qcf_logo}></img>	
 						</div>
@@ -17,7 +17,7 @@ class QCF extends Component{
                 </div>
 
 				<br/>
-				
+				<br/>
    				<div class="row text-center">
       				<div class="col-xs-6 col-sm-3">
               				<div class="image-wrapper float-left pr-3">
