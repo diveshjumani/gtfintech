@@ -35,12 +35,12 @@ function Header () {
               <Navbar.Toggle aria-controls="responsive-navbar-nav" />
               <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="mr-auto">
-                      <Nav.Link><Link to='/'><strong>About</strong></Link></Nav.Link>
-                      <Nav.Link><Link to='/gtfintech/people'><strong>People</strong></Link></Nav.Link>
-                      <Nav.Link><Link to='/gtfintech/research'><strong>Research </strong></Link></Nav.Link>
-                      <Nav.Link><Link to='/gtfintech/corporateaffiliates'><strong>Corporate Affiliates </strong></Link></Nav.Link>
-                      <Nav.Link><Link to='/gtfintech/qcf'><strong>QCF</strong></Link></Nav.Link>
-                      <Nav.Link><Link to='/gtfintech/news'><strong>News & Events</strong></Link></Nav.Link>
+                      <Nav.Link className="CL_header_texts"><Link to='/'><strong>About</strong></Link></Nav.Link>
+                      <Nav.Link className="CL_header_texts"><Link to='/gtfintech/people'><strong>People</strong></Link></Nav.Link>
+                      <Nav.Link className="CL_header_texts"><Link to='/gtfintech/research'><strong>Research </strong></Link></Nav.Link>
+                      <Nav.Link className="CL_header_texts"><Link to='/gtfintech/corporateaffiliates'><strong>Corporate Affiliates </strong></Link></Nav.Link>
+                      <Nav.Link className="CL_header_texts"><Link to='/gtfintech/qcf'><strong>QCF</strong></Link></Nav.Link>
+                      <Nav.Link className="CL_header_texts"><Link to='/gtfintech/news'><strong>News & Events</strong></Link></Nav.Link>
                 </Nav>
               </Navbar.Collapse>
             </Navbar>

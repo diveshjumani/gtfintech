@@ -4,7 +4,7 @@ import logo from '../images/GeorgiaTechLogo-RGB-Gray.png';
 class Footer extends Component{
     render(){
         return (
-            <footer id="footer">
+            <footer id="footer" fixed='bottom'>
                 <div id="footer-logo">
                     <a href="http://www.gatech.edu/">
                         <img alt="Georgia Tech" width="130" height="40" src={logo} />

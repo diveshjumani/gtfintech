@@ -14,7 +14,7 @@ class News extends Component{
                 <Card  className="bg-dark text-white noHover" >
                   <Image style = {{width: '785px', height: '80.2vh'}} class="card-img-top" fluid src="https://www.scheller.gatech.edu/news-events/latest-news/2020/clorox.jpg" alt="Card image" />
                   <div class="text-block-card">
-                    <h6 align = "justify">‘Do the Right Thing’: Clorox VP and Scheller Alum Rick McDonald on the Fight Against COVID-19</h6><br/>
+                    <h6 align = "center">‘Do the Right Thing’: Clorox VP and Scheller Alum Rick McDonald on the Fight Against COVID-19</h6><br/>
                   </div>
                 </Card>  
               </a>  
@@ -26,7 +26,7 @@ class News extends Component{
                   <Card className="bg-dark text-white noHover">
                     <Image style = {{width: '392px', height: '40vh'}} class="card-img-top" fluid src="https://www.scheller.gatech.edu/news-events/latest-news/2020/emba-jon-michael-thomas-2.jpg" alt="Card image" />
                     <div class="text-block-card">
-                      <h6 align = "justify">The Role of an EMBA During a Merger, Career Shift, and COVID-19: Perspectives from Alum Jon Michael Thomas</h6>
+                      <h6 align = "center">The Role of an EMBA During a Merger, Career Shift, and COVID-19: Perspectives from Alum Jon Michael Thomas</h6>
                     </div>
                   </Card>    
                 </a>
@@ -35,7 +35,7 @@ class News extends Component{
                   <Card className="bg-dark text-white noHover">
                     <Image style = {{width: '392px', height: '40vh'}} class="card-img-top" fluid src="https://www.scheller.gatech.edu/news-events/latest-news/2020/alex-hsu-faculty.JPG" alt="Card image" />
                     <div class="text-block-card">
-                      <h6 align = "justify">How are Equity Valuations Affected by the COVID-19 Crisis</h6><br/><br/>
+                      <h6 align = "center">How are Equity Valuations Affected by the COVID-19 Crisis</h6><br/><br/>
                     </div>
                   </Card> 
                 </a>
@@ -47,7 +47,7 @@ class News extends Component{
                   <Card className="bg-dark text-white noHover">
                     <Image style = {{width: '392px', height: '40vh'}} class="card-img-top" fluid src="https://www.scheller.gatech.edu/news-events/latest-news/2020/scheller-building-front-facing-v2.jpg" alt="Card image" />
                     <div class="text-block-card">
-                      <h6 align = "justify">Four Scheller College of Business Faculty Receive Award for Excellence in Teaching</h6><br/>
+                      <h6 align = "center">Four Scheller College of Business Faculty Receive Award for Excellence in Teaching</h6><br/>
                     </div>
                   </Card>  
                 </a>
@@ -56,7 +56,7 @@ class News extends Component{
                   <Card className="bg-dark text-white noHover">
                     <Image style = {{width: '392px', height: '40vh'}} class="card-img-top" fluid src="https://www.scheller.gatech.edu/news-events/latest-news/2020/Nona-Black-768x480.jpeg" alt="Card image" />
                     <div class="text-block-card">
-                      <h6 align = "justify">Passion, Drive, and a Commitment to Diversity and Inclusion: Meet Nona Black, Poet’s & Quants 2020 MBA to Watch</h6>
+                      <h6 align = "center">Passion, Drive, and a Commitment to Diversity and Inclusion: Meet Nona Black, Poet’s & Quants 2020 MBA to Watch</h6>
                     </div>
                   </Card>  
                 </a>
