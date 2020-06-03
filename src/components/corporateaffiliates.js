@@ -119,10 +119,7 @@ class CorporateAffiliates extends Component{
                         <a href = "mailto: Sudheer.Chava@scheller.gatech.edu">Sudheer.Chava@scheller.gatech.edu</a>
                     </p>
                     <br/>
-                </Container>
-
-                <br/>
-                
+                </Container>  
        </div>
     ); 
     }

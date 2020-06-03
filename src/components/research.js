@@ -380,9 +380,7 @@ function Research() {
                     </Col>  
                 </Row> 
                 </Container>
-            <br/>
-            <br/>
-
+                <br/>
             </div>
         );
     }

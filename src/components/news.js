@@ -286,8 +286,6 @@ class News extends Component{
         </Row>
           
         <br/>  
-        <br/>
-        <br/>
 
         </div>
       		);
