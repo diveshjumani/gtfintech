@@ -402,7 +402,7 @@ body {
   background: rgba(0, 0, 0, 0); /* Black background with 0.5 opacity */
   color: white;
   position: absolute;
-  top: 15%;
+  top: 11%;
   width:1300px;
   left: 44%;
   transform: translate(-50%, -50%);
