@@ -405,8 +405,8 @@ body {
 }
 
 .text-block-qcf {
-  background: white; /* Fallback color */
-  background: white; /* Black background with 0.5 opacity */
+  background:  rgb(0, 0, 0); /* Fallback color */
+  background:  rgba(255, 255, 255, 0.75 ); /* Black background with 0.5 opacity */
   color: white;
   position: absolute;
   top: 10%;
