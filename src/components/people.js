@@ -46,7 +46,7 @@ function People() {
     };
         return (
             <div className="people">
-                <Navbar className = 'second-navbar fixed-top' collapseOnSelect expand="lg" bg="warning" variant="dark">
+                <Navbar className = 'second-navbar fixed-top CL_height_navbar' collapseOnSelect expand="lg" bg="warning" variant="dark">
                     <Navbar.Brand className = "d-inline p-0 text-white" className="CL_people_header_people text-white" target="_blank" href="/gtfintech/people"><img alt = "" src={logo} width="0" height="35"></img><strong>People</strong></Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">

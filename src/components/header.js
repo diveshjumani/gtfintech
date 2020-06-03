@@ -29,7 +29,7 @@ function Header () {
       setNavVisibility(!isNavVisible);
     };
         return(
-            <Navbar fixed='top' collapseOnSelect expand="lg" bg="dark" variant="dark">
+            <Navbar fixed='top' collapseOnSelect expand="lg" bg="dark" variant="dark"  className="CL_height_navbar">
               <Navbar.Brand href="/gtfintech"><img className="Logo" alt = "" src={logo} width="200" height="40" className="d-inline-block align-top"/></Navbar.Brand>
               <Navbar.Toggle aria-controls="responsive-navbar-nav" />
               <Navbar.Collapse id="responsive-navbar-nav">

@@ -67,6 +67,10 @@ body {
   text-align: center;
 }
 
+.CL_height_navbar{
+  height: 50px;
+}
+
 .navbar {
   font-size: .88em;
   display: flex;
@@ -315,7 +319,7 @@ body {
 }
 
 .navbar.second-navbar {
-  margin-top: 65px;
+  margin-top: 50px;
   transition: all .5s ease-in-out;
 }
 
@@ -459,8 +463,8 @@ li {
 
 .CL_img-container {
   overflow: hidden;
- height: 1040px;
-  max-height: 1040px;
+ height: 1020px;
+  max-height: 1020px;
   position: relative;
 }
 
