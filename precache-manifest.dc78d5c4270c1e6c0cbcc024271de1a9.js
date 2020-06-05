@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fadbb89c31482a3619939ebc0769d689",
+    "revision": "2ba476d11f7df5e9788c8f23a3aecfc4",
     "url": "/gtfintech/index.html"
   },
   {
-    "revision": "ac776b0f9da94ec1534e",
+    "revision": "5d427fc75b423c4c2aa4",
     "url": "/gtfintech/static/css/2.d805e148.chunk.css"
   },
   {
-    "revision": "2faab5a1b2baca7e8343",
+    "revision": "8b0a267158b2e98ed96f",
     "url": "/gtfintech/static/css/main.48cf5c64.chunk.css"
   },
   {
-    "revision": "ac776b0f9da94ec1534e",
-    "url": "/gtfintech/static/js/2.34be72df.chunk.js"
+    "revision": "5d427fc75b423c4c2aa4",
+    "url": "/gtfintech/static/js/2.935c802c.chunk.js"
   },
   {
     "revision": "d2966845b94a3318bf32eecc7af8015d",
-    "url": "/gtfintech/static/js/2.34be72df.chunk.js.LICENSE.txt"
+    "url": "/gtfintech/static/js/2.935c802c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2faab5a1b2baca7e8343",
-    "url": "/gtfintech/static/js/main.6e2e93fc.chunk.js"
+    "revision": "8b0a267158b2e98ed96f",
+    "url": "/gtfintech/static/js/main.6a1db170.chunk.js"
   },
   {
     "revision": "97a79a0606e5611a86f3",
@@ -162,6 +162,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "a122431df8375cc775f93c0b245b056e",
     "url": "/gtfintech/static/media/amazon_logo.a122431d.jpg"
+  },
+  {
+    "revision": "8faa90f1c0db4a5a23faf69460e1b597",
+    "url": "/gtfintech/static/media/coronavirus.8faa90f1.jpg"
+  },
+  {
+    "revision": "931c2b66ed6bf95b0addb3f38618e99c",
+    "url": "/gtfintech/static/media/household_finance.931c2b66.jpg"
   },
   {
     "revision": "a3faee4ea6b83549b8092c6c619a182a",

@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/gtfintech/static/css/main.48cf5c64.chunk.css",
-    "main.js": "/gtfintech/static/js/main.6e2e93fc.chunk.js",
-    "main.js.map": "/gtfintech/static/js/main.6e2e93fc.chunk.js.map",
+    "main.js": "/gtfintech/static/js/main.6a1db170.chunk.js",
+    "main.js.map": "/gtfintech/static/js/main.6a1db170.chunk.js.map",
     "runtime-main.js": "/gtfintech/static/js/runtime-main.acddfa5a.js",
     "runtime-main.js.map": "/gtfintech/static/js/runtime-main.acddfa5a.js.map",
     "static/css/2.d805e148.chunk.css": "/gtfintech/static/css/2.d805e148.chunk.css",
-    "static/js/2.34be72df.chunk.js": "/gtfintech/static/js/2.34be72df.chunk.js",
-    "static/js/2.34be72df.chunk.js.map": "/gtfintech/static/js/2.34be72df.chunk.js.map",
+    "static/js/2.935c802c.chunk.js": "/gtfintech/static/js/2.935c802c.chunk.js",
+    "static/js/2.935c802c.chunk.js.map": "/gtfintech/static/js/2.935c802c.chunk.js.map",
     "index.html": "/gtfintech/index.html",
-    "precache-manifest.e29c2451c21890bdd937fd28be0066ee.js": "/gtfintech/precache-manifest.e29c2451c21890bdd937fd28be0066ee.js",
+    "precache-manifest.dc78d5c4270c1e6c0cbcc024271de1a9.js": "/gtfintech/precache-manifest.dc78d5c4270c1e6c0cbcc024271de1a9.js",
     "service-worker.js": "/gtfintech/service-worker.js",
     "static/css/2.d805e148.chunk.css.map": "/gtfintech/static/css/2.d805e148.chunk.css.map",
     "static/css/main.48cf5c64.chunk.css.map": "/gtfintech/static/css/main.48cf5c64.chunk.css.map",
-    "static/js/2.34be72df.chunk.js.LICENSE.txt": "/gtfintech/static/js/2.34be72df.chunk.js.LICENSE.txt",
+    "static/js/2.935c802c.chunk.js.LICENSE.txt": "/gtfintech/static/js/2.935c802c.chunk.js.LICENSE.txt",
     "static/media/Alex_Hsu.jpg": "/gtfintech/static/media/Alex_Hsu.681adeb6.jpg",
     "static/media/BOA_logo.png": "/gtfintech/static/media/BOA_logo.80f1d0f3.png",
     "static/media/Bloomberg_logo.jpg": "/gtfintech/static/media/Bloomberg_logo.7b61d83c.jpg",
@@ -48,14 +48,16 @@
     "static/media/Walmart_logo.jpg": "/gtfintech/static/media/Walmart_logo.8cdf3ce3.jpg",
     "static/media/Workday_Logo.png": "/gtfintech/static/media/Workday_Logo.3314fb97.png",
     "static/media/amazon_logo.jpg": "/gtfintech/static/media/amazon_logo.a122431d.jpg",
+    "static/media/coronavirus.jpg": "/gtfintech/static/media/coronavirus.8faa90f1.jpg",
+    "static/media/household_finance.jpg": "/gtfintech/static/media/household_finance.931c2b66.jpg",
     "static/media/q.png": "/gtfintech/static/media/q.a3faee4e.png",
     "static/media/qcf.png": "/gtfintech/static/media/qcf.c2288443.png"
   },
   "entrypoints": [
     "static/js/runtime-main.acddfa5a.js",
     "static/css/2.d805e148.chunk.css",
-    "static/js/2.34be72df.chunk.js",
+    "static/js/2.935c802c.chunk.js",
     "static/css/main.48cf5c64.chunk.css",
-    "static/js/main.6e2e93fc.chunk.js"
+    "static/js/main.6a1db170.chunk.js"
   ]
 }
