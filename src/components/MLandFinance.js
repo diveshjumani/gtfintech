@@ -27,11 +27,11 @@ class MLandFinance extends Component{
                 <ResearchNavbar/>
 
                 <div >
-                    <img height = "500px" src="https://www.tradefinanceglobal.com/wp-content/uploads/2020/04/coronavirus-trade-finance.jpg" alt="" style={{width:'100%'}}/>
+                    <img height = "500px" src="https://www.techslang.com/wp-content/uploads/2019/06/artificial-intelligence-in-finance111-e1570189091293.jpg" alt="" style={{width:'100%'}}/>
                     <div class="text-block-research">
                         <br/> 
                         <br/> 	
-                        <h1 style = {{fontSize: '600%'}} ><strong>COVID-19</strong></h1>
+                        <h1 style = {{fontSize: '500%'}} ><strong>Machine Learning</strong></h1>
                     </div>
                 </div>
 

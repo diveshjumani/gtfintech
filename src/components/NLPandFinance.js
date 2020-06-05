@@ -26,11 +26,11 @@ class NLPandFinance extends Component{
             <div className = "research">
                 <ResearchNavbar/>
                 <div >
-                    <img height = "500px" src="https://www.tradefinanceglobal.com/wp-content/uploads/2020/04/coronavirus-trade-finance.jpg" alt="" style={{width:'100%'}}/>
+                    <img height = "500px" src="https://www.sr-sv.com/wp-content/uploads/2019/06/NLP_0000.jpg" alt="" style={{width:'100%'}}/>
                     <div class="text-block-research">
                         <br/> 
                         <br/> 	
-                        <h1 style = {{fontSize: '600%'}} ><strong>COVID-19</strong></h1>
+                        <h1 style = {{fontSize: '450%'}} ><strong>Natural Language Processing</strong></h1>
                     </div>
                 </div>
 

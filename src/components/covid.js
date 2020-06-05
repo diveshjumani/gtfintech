@@ -30,7 +30,7 @@ class COVID extends Component{
                     <div class="text-block-research">
                         <br/> 
                         <br/> 	
-                        <h1 style = {{fontSize: '600%'}} ><strong>COVID-19</strong></h1>
+                        <h1 style = {{fontSize: '500%'}} ><strong>COVID-19</strong></h1>
                     </div>
                 </div>
 

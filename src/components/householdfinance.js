@@ -31,7 +31,7 @@ class HouseholdFinance extends Component{
                     <div class="text-block-research">
                         <br/> 
                         <br/> 	
-                        <h1 style = {{fontSize: '600%'}} ><strong>Household Finance</strong></h1>
+                        <h1 style = {{fontSize: '500%'}} ><strong>Household Finance</strong></h1>
                     </div>
                 </div>
 

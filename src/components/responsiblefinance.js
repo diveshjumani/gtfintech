@@ -26,11 +26,11 @@ class ResponsibleFinance extends Component{
                 <ResearchNavbar/>
 
                 <div >
-                    <img height = "500px" src="https://www.tradefinanceglobal.com/wp-content/uploads/2020/04/coronavirus-trade-finance.jpg" alt="" style={{width:'100%'}}/>
+                    <img height = "500px" src="https://www.scotcash.net/media/66661/money-2724241_1920.jpg" alt="" style={{width:'100%'}}/>
                     <div class="text-block-research">
                         <br/> 
                         <br/> 	
-                        <h1 style = {{fontSize: '600%'}} ><strong>COVID-19</strong></h1>
+                        <h1 style = {{fontSize: '450%'}} ><strong>Responsible Finance</strong></h1>
                     </div>
                 </div>
 
@@ -39,72 +39,28 @@ class ResponsibleFinance extends Component{
                 <Container fluid>
                     <Card className = "researchcard">
                         <Card.Header> 
-                            <h3> Reducing Risk or Reaching for Yield? Impact of Stress Tests on Credit Card Lending (Job Market Paper) </h3>
-                            <h4> - <a target="_blank" href= "https://www.nikhil-paradkar.com/home">Nikhil Paradkar</a></h4>
-                            
+                            <h3> The Economic Impact of Right-to-Work Laws: Evidence from Collective Bargaining Agreements and Corporate Policies </h3>
+                            <h4>
+                            - <a target="_blank" href = "https://www.scheller.gatech.edu/directory/faculty/chava/index.html">Sudheer Chava</a>
+                            , <a target="_blank" href= "https://www.scheller.gatech.edu/directory/faculty/danis/index.html">Andras Danis</a>
+                            and <a target="_blank" href= "https://www.scheller.gatech.edu/directory/faculty/hsu/index.html">Alex Hsu</a>
+                            </h4>
                         </Card.Header>
                         <Card.Body>
                             <Row>
                                 <Col>
                                     <Carousel>
-                                        <Carousel.Item>
-                                            <img
-                                            className="d-block w-100"
-                                            src={Nikhil_1}
-                                            alt=""
-                                            />
-                                        </Carousel.Item>
-                                        <Carousel.Item>
-                                            <img
-                                            className="d-block w-100"
-                                            src={Nikhil_2}
-                                            alt=""
-                                            />
-                                        </Carousel.Item>
-                                        <Carousel.Item>
-                                            <img
-                                            className="d-block w-100"
-                                            src={Nikhil_3}
-                                            alt=""
-                                            />
-                                        </Carousel.Item>
-                                        <Carousel.Item>
-                                            <img
-                                            className="d-block w-100"
-                                            src={Nikhil_4}
-                                            alt=""
-                                            />
-                                        </Carousel.Item>
-                                        <Carousel.Item>
-                                            <img
-                                            className="d-block w-100"
-                                            src={Nikhil_5}
-                                            alt=""
-                                            />
-                                        </Carousel.Item>
                                     </Carousel>
                                 </Col>
 
                                 <Col>
                                     <p align = "justify">
                                         <strong>Abstract: </strong>
-                                        Using proprietary account-level data from a major credit bureau, I examine the impact of stress tests 
-                                        on bank risk-taking in the U.S. consumer credit card market. I decompose credit supply and demand effects 
-                                        by exploiting credit card--level data on limits and balances matched to both consumers and banks. 
-                                        For the same consumer, I examine the lending response of banks experiencing higher stress-test induced 
-                                        capital requirements (i.e., high-exposure banks) relative to less-exposed banks. I find that the earlier 
-                                        rounds of stress tests induced high-exposure banks to sharply reduce credit limits, especially to ex-ante 
-                                        risky borrowers. In contrast, more exposed banks in later rounds have increased limits for risky consumers. 
-                                        Consistent with higher bank risk-taking in later rounds, cards issued by highly-exposed banks have a higher 
-                                        ex-post likelihood of default. Additionally, I document that more affected non-prime borrowers are more 
-                                        likely to default subsequently, and that this effect is markedly pronounced for the low-income and 
-                                        less-educated consumer segments. My findings suggest that stress-test induced increases in capital requirements
-                                        can encourage higher bank risk-taking, with distributional consequences for consumer creditworthiness.
+                                        We analyze the economic and financial impact of right-to-work (RTW) laws in the US. Using data from collective bargaining agreements, we show that there is a decrease in wages for unionized workers after RTW laws. Firms increase investment and employment but reduce financial leverage. Labor-intensive firms experience higher profits and labor-to-asset ratios. Dividends and executive compensation also increase post-RTW. Our results are consistent with a canonical theory of the firm augmented with an exogenous bargaining power of labor and suggest that RTW laws impact corporate policies by decreasing that bargaining power.
                                         <br/>
                                         <br/>
-                                        <strong>Key Takeaway: </strong>
-                                        Higher capital requirements can induce higher bank risk-taking, with significant distributional impact on 
-                                        consumer creditworthiness.
+                                        <strong>Keywords: </strong>
+                                        Right to Work, Collective Bargaining, Unions, Wage Growth, Investment
                                     </p>
                                 </Col>
                             </Row>

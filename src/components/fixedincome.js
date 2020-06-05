@@ -26,11 +26,11 @@ class FixedIncome extends Component{
                 <ResearchNavbar/>
 
                 <div >
-                    <img height = "500px" src="https://www.tradefinanceglobal.com/wp-content/uploads/2020/04/coronavirus-trade-finance.jpg" alt="" style={{width:'100%'}}/>
+                    <img height = "500px" src="https://www.upal.com/wp-content/uploads/2018/12/fixedincome.jpg" alt="" style={{width:'100%'}}/>
                     <div class="text-block-research">
                         <br/> 
                         <br/> 	
-                        <h1 style = {{fontSize: '600%'}} ><strong>COVID-19</strong></h1>
+                        <h1 style = {{fontSize: '500%'}} ><strong></strong></h1>
                     </div>
                 </div>
 
