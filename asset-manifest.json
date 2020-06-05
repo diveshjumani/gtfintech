@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/gtfintech/static/css/main.48cf5c64.chunk.css",
-    "main.js": "/gtfintech/static/js/main.6a1db170.chunk.js",
-    "main.js.map": "/gtfintech/static/js/main.6a1db170.chunk.js.map",
+    "main.js": "/gtfintech/static/js/main.75000a9d.chunk.js",
+    "main.js.map": "/gtfintech/static/js/main.75000a9d.chunk.js.map",
     "runtime-main.js": "/gtfintech/static/js/runtime-main.acddfa5a.js",
     "runtime-main.js.map": "/gtfintech/static/js/runtime-main.acddfa5a.js.map",
     "static/css/2.d805e148.chunk.css": "/gtfintech/static/css/2.d805e148.chunk.css",
     "static/js/2.935c802c.chunk.js": "/gtfintech/static/js/2.935c802c.chunk.js",
     "static/js/2.935c802c.chunk.js.map": "/gtfintech/static/js/2.935c802c.chunk.js.map",
     "index.html": "/gtfintech/index.html",
-    "precache-manifest.dc78d5c4270c1e6c0cbcc024271de1a9.js": "/gtfintech/precache-manifest.dc78d5c4270c1e6c0cbcc024271de1a9.js",
+    "precache-manifest.9871d4f71c8490961e80d0fbb0ee71a1.js": "/gtfintech/precache-manifest.9871d4f71c8490961e80d0fbb0ee71a1.js",
     "service-worker.js": "/gtfintech/service-worker.js",
     "static/css/2.d805e148.chunk.css.map": "/gtfintech/static/css/2.d805e148.chunk.css.map",
     "static/css/main.48cf5c64.chunk.css.map": "/gtfintech/static/css/main.48cf5c64.chunk.css.map",
@@ -58,6 +58,6 @@
     "static/css/2.d805e148.chunk.css",
     "static/js/2.935c802c.chunk.js",
     "static/css/main.48cf5c64.chunk.css",
-    "static/js/main.6a1db170.chunk.js"
+    "static/js/main.75000a9d.chunk.js"
   ]
 }
