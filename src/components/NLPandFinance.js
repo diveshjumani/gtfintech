@@ -17,7 +17,7 @@ import Nikhil_12 from '../images/Nikhil_12.jpg';
 import Nikhil_13 from '../images/Nikhil_13.jpg';
 import ResearchNavbar from './researchnavbar';
 
-class Banking extends Component{
+class NLPandFinance extends Component{
     scrollToTop() {
         scroll.scrollToTop();
       }
@@ -25,7 +25,6 @@ class Banking extends Component{
         return(
             <div className = "research">
                 <ResearchNavbar/>
-
                 <div >
                     <img height = "500px" src="https://www.tradefinanceglobal.com/wp-content/uploads/2020/04/coronavirus-trade-finance.jpg" alt="" style={{width:'100%'}}/>
                     <div class="text-block-research">
@@ -322,4 +321,4 @@ class Banking extends Component{
   }
 }
 
-export default Banking;
+export default NLPandFinance;

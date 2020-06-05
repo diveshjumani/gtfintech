@@ -17,7 +17,7 @@ import Nikhil_12 from '../images/Nikhil_12.jpg';
 import Nikhil_13 from '../images/Nikhil_13.jpg';
 import ResearchNavbar from './researchnavbar';
 
-class Banking extends Component{
+class MLandFinance extends Component{
     scrollToTop() {
         scroll.scrollToTop();
       }
@@ -322,4 +322,4 @@ class Banking extends Component{
   }
 }
 
-export default Banking;
+export default MLandFinance;

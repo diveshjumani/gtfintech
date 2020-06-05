@@ -17,14 +17,14 @@ import Nikhil_12 from '../images/Nikhil_12.jpg';
 import Nikhil_13 from '../images/Nikhil_13.jpg';
 import ResearchNavbar from './researchnavbar';
 
-class Banking extends Component{
+class CreditRisk extends Component{
     scrollToTop() {
         scroll.scrollToTop();
       }
     render(){
         return(
             <div className = "research">
-                <ResearchNavbar/>
+                <ResearchNavbar />
 
                 <div >
                     <img height = "500px" src="https://www.tradefinanceglobal.com/wp-content/uploads/2020/04/coronavirus-trade-finance.jpg" alt="" style={{width:'100%'}}/>
@@ -322,4 +322,4 @@ class Banking extends Component{
   }
 }
 
-export default Banking;
+export default CreditRisk;

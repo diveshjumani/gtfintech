@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import {Card, Container,Navbar,NavLink,Nav,Row,Col,Carousel} from 'react-bootstrap';
-import logo from '../images/GT_White.png';
+import {Card, Container,Row,Col,Carousel} from 'react-bootstrap';
 import { animateScroll as scroll} from 'react-scroll'
 import Nikhil_1 from '../images/Nikhil_1.png';
 import Nikhil_2 from '../images/Nikhil_2.png';
@@ -17,7 +16,7 @@ import Nikhil_12 from '../images/Nikhil_12.jpg';
 import Nikhil_13 from '../images/Nikhil_13.jpg';
 import ResearchNavbar from './researchnavbar';
 
-class Banking extends Component{
+class FixedIncome extends Component{
     scrollToTop() {
         scroll.scrollToTop();
       }
@@ -322,4 +321,4 @@ class Banking extends Component{
   }
 }
 
-export default Banking;
+export default FixedIncome;

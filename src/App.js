@@ -5,6 +5,15 @@ import {HashRouter, Route, Switch} from 'react-router-dom';
 import Header from './components/header';
 import About from './components/about';
 import Research from './components/research';
+import COVID from './components/covid';
+import HouseholdFinance from './components/householdfinance';
+import FinTech from './components/fintech';
+import ResponsibleFinance from './components/responsiblefinance';
+import Trading from './components/trading';
+import CreditRisk from './components/creditrisk';
+import MLandFinance from './components/MLandFinance';
+import NLPandFinance from './components/NLPandFinance';
+import FixedIncome from './components/fixedincome';
 import Banking from './components/banking';
 import QCF from './components/qcf';
 import CorporateAffiliates from './components/corporateaffiliates';
@@ -22,7 +31,16 @@ class App extends Component {
           <Route exact path = '/' component = {About} />
           <Route path = '/gtfintech/people' component = {People} exact />
           <Route path = '/gtfintech/research' component = {Research} exact />
-          <Route path = '/gtfintech/research/covid' component = {Banking} exact />
+          <Route path = '/gtfintech/research/covid' component = {COVID} exact />
+          <Route path = '/gtfintech/research/householdfinance' component = {HouseholdFinance} exact />
+          <Route path = '/gtfintech/research/fintech' component = {FinTech} exact />
+          <Route path = '/gtfintech/research/responsiblefinance' component = {ResponsibleFinance} exact />
+          <Route path = '/gtfintech/research/trading' component = {Trading} exact />
+          <Route path = '/gtfintech/research/creditrisk' component = {CreditRisk} exact />
+          <Route path = '/gtfintech/research/MLandFinance' component = {MLandFinance} exact />
+          <Route path = '/gtfintech/research/NLPandFinance' component = {NLPandFinance} exact />
+          <Route path = '/gtfintech/research/fixedincome' component = {FixedIncome} exact />
+          <Route path = '/gtfintech/research/banking' component = {Banking} exact />
           <Route path = '/gtfintech/corporateaffiliates' component = {CorporateAffiliates} exact />
           <Route path = '/gtfintech/qcf' component = {QCF} exact />
           <Route path = '/gtfintech/news' component = {News} exact />

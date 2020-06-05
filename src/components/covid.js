@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import {Card, Container,Navbar,NavLink,Nav,Row,Col,Carousel} from 'react-bootstrap';
-import logo from '../images/GT_White.png';
+import {Card, Container,Row,Col,Carousel} from 'react-bootstrap';
 import { animateScroll as scroll} from 'react-scroll'
 import Nikhil_1 from '../images/Nikhil_1.png';
 import Nikhil_2 from '../images/Nikhil_2.png';
@@ -15,19 +14,19 @@ import Nikhil_10 from '../images/Nikhil_10.png';
 import Nikhil_11 from '../images/Nikhil_11.jpg';
 import Nikhil_12 from '../images/Nikhil_12.jpg';
 import Nikhil_13 from '../images/Nikhil_13.jpg';
+import coronavirus from '../images/coronavirus.jpg';
 import ResearchNavbar from './researchnavbar';
 
-class Banking extends Component{
+class COVID extends Component{
     scrollToTop() {
         scroll.scrollToTop();
       }
     render(){
         return(
             <div className = "research">
-                <ResearchNavbar/>
-
+                <ResearchNavbar />
                 <div >
-                    <img height = "500px" src="https://www.tradefinanceglobal.com/wp-content/uploads/2020/04/coronavirus-trade-finance.jpg" alt="" style={{width:'100%'}}/>
+                    <img height = "500px" src={coronavirus} alt="" style={{width:'100%'}}/>
                     <div class="text-block-research">
                         <br/> 
                         <br/> 	
@@ -322,4 +321,4 @@ class Banking extends Component{
   }
 }
 
-export default Banking;
+export default COVID;

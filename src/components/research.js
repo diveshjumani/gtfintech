@@ -116,12 +116,12 @@ function Research() {
                             <p> 
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.       
                             </p>
-                              <Link1 to='/gtfintech/research/covid'>
-                            <Button className = "btnr" variant="warning" size="lg">
-                                <div style = {{color:'white'}}>
-                                View Research
-                                </div>
-                            </Button>{' '}
+                            <Link1 to='/gtfintech/research/covid'>
+                                <Button className = "btnr" variant="warning" size="lg">
+                                    <div style = {{color:'white'}}>
+                                    View Research
+                                    </div>
+                                </Button>{' '}
                             </Link1>
                         </div>
                     </div>
@@ -139,11 +139,13 @@ function Research() {
                             <p> 
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.       
                             </p>
-                            <Button className = "btnr" target="_blank" href="#" variant="warning" size="lg">
+                            <Link1 to='/gtfintech/research/householdfinance'>
+                            <Button className = "btnr" variant="warning" size="lg">
                                 <div style = {{color:'white'}}>
                                 View Research
                                 </div>
                             </Button>{' '}
+                            </Link1>
                         </div>
                     </div>
                     </Col> 
@@ -174,11 +176,13 @@ function Research() {
                             <p> 
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.       
                             </p>
-                            <Button className = "btnr" target="_blank" href="#" variant="warning" size="lg">
+                            <Link1 to='/gtfintech/research/fintech'>
+                            <Button className = "btnr" variant="warning" size="lg">
                                 <div style = {{color:'white'}}>
                                 View Research
                                 </div>
                             </Button>{' '}
+                            </Link1>
                         </div>
                     </div>
                     </Col> 
@@ -195,11 +199,13 @@ function Research() {
                             <p> 
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.       
                             </p>
-                            <Button className = "btnr" target="_blank" href="#" variant="warning" size="lg">
+                            <Link1 to='/gtfintech/research/responsiblefinance'>
+                            <Button className = "btnr" variant="warning" size="lg">
                                 <div style = {{color:'white'}}>
                                 View Research
                                 </div>
                             </Button>{' '}
+                            </Link1>
                         </div>
                     </div>
                     </Col> 
@@ -230,11 +236,13 @@ function Research() {
                             <p> 
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.       
                             </p>
-                            <Button className = "btnr" target="_blank" href="#" variant="warning" size="lg">
+                            <Link1 to='/gtfintech/research/trading'>
+                            <Button className = "btnr" variant="warning" size="lg">
                                 <div style = {{color:'white'}}>
                                 View Research
                                 </div>
                             </Button>{' '}
+                            </Link1>
                         </div>
                     </div>
                     </Col> 
@@ -251,11 +259,13 @@ function Research() {
                             <p> 
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.       
                             </p>
-                            <Button className = "btnr" target="_blank" href="#" variant="warning" size="lg">
+                            <Link1 to='/gtfintech/research/creditrisk'>
+                            <Button className = "btnr" variant="warning" size="lg">
                                 <div style = {{color:'white'}}>
                                 View Research
                                 </div>
                             </Button>{' '}
+                            </Link1>
                         </div>
                     </div>
                     </Col> 
@@ -286,11 +296,13 @@ function Research() {
                             <p> 
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.       
                             </p>
-                            <Button className = "btnr" target="_blank" href="#" variant="warning" size="lg">
+                            <Link1 to='/gtfintech/research/MLandFinance'>
+                            <Button className = "btnr" variant="warning" size="lg">
                                 <div style = {{color:'white'}}>
                                 View Research
                                 </div>
                             </Button>{' '}
+                            </Link1>
                         </div>
                     </div>
                     </Col> 
@@ -307,11 +319,13 @@ function Research() {
                             <p> 
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.       
                             </p>
-                            <Button className = "btnr" target="_blank" href="#" variant="warning" size="lg">
+                            <Link1 to='/gtfintech/research/NLPandFinance'>
+                            <Button className = "btnr" variant="warning" size="lg">
                                 <div style = {{color:'white'}}>
                                 View Research
                                 </div>
                             </Button>{' '}
+                            </Link1>
                         </div>
                     </div>
                     </Col> 
@@ -342,11 +356,13 @@ function Research() {
                             <p> 
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.       
                             </p>
-                            <Button className = "btnr" target="_blank" href="#" variant="warning" size="lg">
+                            <Link1 to='/gtfintech/research/fixedincome'>
+                            <Button className = "btnr" variant="warning" size="lg">
                                 <div style = {{color:'white'}}>
                                 View Research
                                 </div>
                             </Button>{' '}
+                            </Link1>
                         </div>
                     </div>
                     </Col> 
@@ -363,11 +379,13 @@ function Research() {
                             <p> 
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.       
                             </p>
-                            <Button className = "btnr" target="_blank" href="#" variant="warning" size="lg">
+                            <Link1 to='/gtfintech/research/banking'>
+                            <Button className = "btnr" variant="warning" size="lg">
                                 <div style = {{color:'white'}}>
                                 View Research
                                 </div>
                             </Button>{' '}
+                            </Link1>
                         </div>
                     </div>
                     </Col> 
