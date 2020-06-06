@@ -313,7 +313,198 @@ class CreditRisk extends Component{
                         </Card.Body>
                     </Card>
                     
+
+
+
+
+
                     <br/>
+
+
+
+                    <Card>
+                        <Card.Header> 
+                            <a href = "https://drive.google.com/file/d/1L-MUljdxlI7CQGZHP0Hy4VCurNJKFsTn/view">
+                            <h3> Do Credit Default Swaps Mitigate the Impact of Credit Rating Downgrades? </h3>
+                            </a>
+                            <h4> 
+                                - <a target="_blank" href = "https://www.scheller.gatech.edu/directory/faculty/chava/index.html">Sudheer Chava</a>
+                                , Rohan Ganduri
+                                , Chayawat Ornthanalai 
+                            </h4>
+                        </Card.Header>
+                        <Card.Body>
+                            <Row>
+                                <Col>
+                                    <Carousel>
+                                        <Carousel.Item>
+                                            <img
+                                            className="d-block w-100"
+                                            src={Nikhil_12}
+                                            alt=""
+                                            />
+                                        </Carousel.Item>
+                                        <Carousel.Item>
+                                            <img
+                                            className="d-block w-100"
+                                            src={Nikhil_13}
+                                            alt=""
+                                            />
+                                        </Carousel.Item>
+                                    </Carousel>
+                                </Col>
+
+                                <Col>
+                                    <p align = "justify">
+                                        <strong>Abstract: </strong>
+                                        We find that a firm’s stock price reaction to its credit rating downgrade announcement is muted
+                                         by 44–52% when credit default swaps (CDSs) trade on its debt. We explore the role of the CDS 
+                                         markets in providing information ex ante and relieving financing frictions ex post for downgraded
+                                          firms. We find that the impact of CDS trading is more pronounced for firms whose debt financing 
+                                          is more dependent on credit ratings (e.g., those rated around the speculative-grade boundary, 
+                                          those with a higher number of rating-based covenants). Reductions in debt and investment, and 
+                                          the increase in financing costs are less severe for CDS firms than non-CDS firms following an 
+                                          identical credit rating downgrade. Our results suggest that CDSs mute the stock market reaction
+                                           to a credit rating downgrade by alleviating the financing frictions faced by downgraded firms.
+                                        <br/>
+                                        <br/>
+                                        <strong>Key Takeaway: </strong>
+                                        Reductions in debt and investment, and 
+                                          the increase in financing costs are less severe for CDS firms than non-CDS firms following an 
+                                          identical credit rating downgrade. Our results suggest that CDSs mute the stock market reaction
+                                           to a credit rating downgrade by alleviating the financing frictions faced by downgraded firms.
+                                    </p>
+                                </Col>
+                            </Row>
+                        </Card.Body>
+                    </Card>
+
+
+                    <br/>
+
+
+
+                    <Card>
+                        <Card.Header> 
+                            <a href = "https://drive.google.com/file/d/1L-MUljdxlI7CQGZHP0Hy4VCurNJKFsTn/view">
+                            <h3> Covenants, Creditors’ Simultaneous Equity Holdings, and Firm Investment Policies </h3>
+                            </a>
+                            <h4> 
+                                - <a target="_blank" href = "https://www.scheller.gatech.edu/directory/faculty/chava/index.html">Sudheer Chava</a>
+                                , <a target="_blank" href = "https://www.cambridge.org/core/search?filters%5BauthorTerms%5D=Hong%20Zou&eventCode=SE-AU">Hong Zou</a>
+                            
+                            </h4>
+                        </Card.Header>
+                        <Card.Body>
+                            <Row>
+                                <Col>
+                                    <Carousel>
+                                        <Carousel.Item>
+                                            <img
+                                            className="d-block w-100"
+                                            src={Nikhil_12}
+                                            alt=""
+                                            />
+                                        </Carousel.Item>
+                                        <Carousel.Item>
+                                            <img
+                                            className="d-block w-100"
+                                            src={Nikhil_13}
+                                            alt=""
+                                            />
+                                        </Carousel.Item>
+                                    </Carousel>
+                                </Col>
+
+                                <Col>
+                                    <p align = "justify">
+                                        <strong>Abstract: </strong>
+                                        This article analyzes how creditors’ simultaneous debt and equity holdings affect firm
+                                         investment policies. We find that firms with dual ownership are less likely to have capital
+                                          expenditure restrictions in loan contracts, and the relation varies in predicted ways with
+                                           the monitoring needs of borrowers and the monitoring capacity of dual owners. A less frequent
+                                            use of capital expenditure restrictions, however, does not result in borrowers’ risk-shifting.
+                                             Dual ownership firms are also more likely to be granted an unconditional waiver and do not
+                                              significantly reduce debt issuance or investment expenditures after a financial covenant
+                                               violation. Our results highlight how dual ownership can help mitigate shareholder–creditor
+                                                conflicts.
+                                        <br/>
+                                        <br/>
+                                        <strong>Key Takeaway: </strong>
+                                        Our results highlight how dual ownership can help mitigate shareholder–creditor
+                                                conflicts.
+                                    </p>
+                                </Col>
+                            </Row>
+                        </Card.Body>
+                    </Card>
+
+
+                    <br/>
+
+                    <Card>
+                        <Card.Header> 
+                            <a href = "https://academic.oup.com/rcfs/article/6/2/234/3867024">
+                            <h3> Lending to Innovative Firms  </h3>
+                            </a>
+                            <h4> 
+                                - <a target="_blank" href = "https://www.scheller.gatech.edu/directory/faculty/chava/index.html">Sudheer Chava</a>
+                                , Vikram Nanda
+                                , Steven Chong Xiao
+                            
+                            </h4>
+                        </Card.Header>
+                        <Card.Body>
+                            <Row>
+                                <Col>
+                                    <Carousel>
+                                        <Carousel.Item>
+                                            <img
+                                            className="d-block w-100"
+                                            src={Nikhil_12}
+                                            alt=""
+                                            />
+                                        </Carousel.Item>
+                                        <Carousel.Item>
+                                            <img
+                                            className="d-block w-100"
+                                            src={Nikhil_13}
+                                            alt=""
+                                            />
+                                        </Carousel.Item>
+                                    </Carousel>
+                                </Col>
+
+                                <Col>
+                                    <p align = "justify">
+                                        <strong>Abstract: </strong>
+                                        Is bank financing compatible with innovation? We show that an exogenous enhancement in the value of borrowers patents, 
+                                        either through greater patent protection or creditor rights over collateral, results in cheaper loans. Using regression
+                                        discontinuity design, we show that although R&D investment sharply drops following a financial covenant violation, the
+                                         reduction is concentrated in firms with less productive R&D. Consequently, R&D reduction does not impair innovative
+                                          output. Our results suggest that the property rights that patents confer to intellectual property and to lenders
+                                          judicious exercise of control rights allow bank loans to be a viable means of financing for innovative firms.
+
+                                        Received January 9, 2017; editorial decision May 27, 2017 by Editor Paolo Fulghieri.
+                                        <br/>
+                                        <br/>
+                                        <strong>Key Takeaway: </strong>
+                                        We show that an exogenous enhancement in the value of borrowers patents, 
+                                        either through greater patent protection or creditor rights over collateral, results in cheaper loans.
+                                    </p>
+                                </Col>
+                            </Row>
+                        </Card.Body>
+                    </Card>
+
+
+                    <br/>
+
+
+
+
+
+
                 </Container>
 
 
