@@ -104,10 +104,10 @@ function People() {
                     <br/>
 
                     <div class="row">
-                        <div class="col-3">
+                        <div className="CL_Chava" class="col-sm-3">
                             <Card>
                                 <a target="_blank" href = "https://www.scheller.gatech.edu/directory/faculty/chava/index.html">
-                                <Card.Img style = {{height:'21vw'}} variant="top" src={Sudheer_Chava}></Card.Img>
+                                <Card.Img style = {{ width: '18vw', height: '18vw'}} variant="top" src={Sudheer_Chava}></Card.Img>
                                 </a>
                                 <Card.Body>
                                     <Card.Title><strong>Sudheer Chava</strong></Card.Title>
@@ -123,7 +123,7 @@ function People() {
                             </Card>
                         </div>
 
-                        <div class="col-9">
+                        <div class="col-sm-9">
                             <row>
                                 <p align = "justify"> 
                                 
@@ -170,7 +170,7 @@ function People() {
                     <CardDeck>
                         <Card  className = 'card-img-faculty'>
                             <a target="_blank" href = "https://sites.google.com/site/alexchiahsu/home">
-                                <Card.Img style = {{height:'20vw'}} variant="top" src={Alex_Hsu}></Card.Img>
+                                <Card.Img style = {{ width: '18vw', height: '18vw'}} variant="top" src={Alex_Hsu}></Card.Img>
                             </a>
                             <Card.Body>
                                 <Card.Title>Alex Hsu</Card.Title>
@@ -180,7 +180,7 @@ function People() {
 
                         <Card  className = 'card-img-faculty'>
                             <a target="_blank" href ="https://www.scheller.gatech.edu/directory/faculty/kim.s/index.html">
-                                <Card.Img style = {{height:'20vw'}} variant="top" src={Soohun_Kim}></Card.Img>
+                                <Card.Img style = {{ width: '18vw', height: '18vw'}} variant="top" src={Soohun_Kim}></Card.Img>
                             </a>
                             <Card.Body>
                                 <Card.Title>Soohun Kim</Card.Title>
@@ -190,7 +190,7 @@ function People() {
 
                         <Card  className = 'card-img-faculty'>
                             <a target="_blank" href = "https://www.danielweagley.com/">
-                                <Card.Img style = {{height:'20vw'}} variant="top" src={Daniel_Weagley}></Card.Img>
+                                <Card.Img style = {{ width: '18vw', height: '18vw'}} variant="top" src={Daniel_Weagley}></Card.Img>
                             </a>
                             <Card.Body>
                                 <Card.Title>Daniel Weagley</Card.Title>
@@ -200,7 +200,7 @@ function People() {
 
                         <Card  className = 'card-img-faculty'>
                             <a target="_blank" href = "https://www2.isye.gatech.edu/people/faculty/Shijie_Deng/">
-                                <Card.Img style = {{height:'20vw'}} variant="top" src={Shijie_Deng}></Card.Img>
+                                <Card.Img style = {{ width: '18vw', height: '18vw'}} variant="top" src={Shijie_Deng}></Card.Img>
                             </a>
                             <Card.Body>
                                 <Card.Title>Shijie Deng</Card.Title>
@@ -208,9 +208,9 @@ function People() {
                             </Card.Body>
                         </Card>  
 
-                        <Card>
+                        <Card className = 'card-img-faculty'>
                             <a target="_blank" href = "https://www2.isye.gatech.edu/people/faculty/David_Goldsman/">
-                                <Card.Img style={{height:'20vw'}} variant="top" src={David_Goldsman}></Card.Img>
+                                <Card.Img style={{ width: '18vw', height: '18vw'}} variant="top" src={David_Goldsman}></Card.Img>
                             </a>
                             <Card.Body>
                                 <Card.Title>David Goldsman</Card.Title>
@@ -236,7 +236,9 @@ function People() {
 
                     <CardDeck>
                         <Card>
-                            <Card.Img style={{height:'15vw'}} variant="top" src={Wendi_Du}></Card.Img>
+                            <a target="_blank">
+                                <Card.Img style={{ width: '15vw', height: '15vw', class: 'center'}} variant="top" src={Wendi_Du}></Card.Img>
+                            </a>
                             <Card.Body>
                                 <Card.Title>Wendi Du</Card.Title>
                                 <Card.Text>Finance</Card.Text>
@@ -244,7 +246,9 @@ function People() {
                         </Card>
 
                         <Card>
-                            <Card.Img style={{height:'15vw'}} variant="top" src={Ernest_Jang}></Card.Img>
+                            <a target="_blank">
+                                <Card.Img style={{ width: '15vw', height: '15vw'}} variant="top" src={Ernest_Jang}></Card.Img>
+                            </a>
                             <Card.Body>
                                 <Card.Title>Ernest Jang</Card.Title>
                                 <Card.Text>Finance</Card.Text>
@@ -252,7 +256,9 @@ function People() {
                         </Card>
 
                         <Card>
-                            <Card.Img style={{height:'15vw'}} variant="top" src={Baridhi_Malakar}></Card.Img>
+                            <a target="_blank">
+                                <Card.Img style={{width: '15vw', height: '15vw'}} variant="top" src={Baridhi_Malakar}></Card.Img>
+                            </a>
                             <Card.Body>
                                 <Card.Title>Baridhi Malakar</Card.Title>
                                 <Card.Text>Finance</Card.Text>
@@ -261,7 +267,7 @@ function People() {
 
                         <Card>
                             <a target="_blank" href= "https://www.nikhil-paradkar.com/home">
-                            <Card.Img style={{height:'15vw'}} variant="top" src={Nikhil_Paradkar}></Card.Img>
+                                <Card.Img style={{width: '15vw', height: '15vw'}} variant="top" src={Nikhil_Paradkar}></Card.Img>
                             </a>
                             <Card.Body>
                                 <Card.Title>Nikhil Paradkar</Card.Title>
@@ -270,7 +276,9 @@ function People() {
                         </Card>
 
                         <Card>
-                            <Card.Img style={{height:'15vw'}} variant="top" src={Peter_Simasek}></Card.Img>
+                            <a target="_blank">
+                                <Card.Img style={{width: '15vw', height: '15vw'}} variant="top" src={Peter_Simasek}></Card.Img>
+                            </a>
                             <Card.Body>
                                 <Card.Title>Peter Simasek</Card.Title>
                                 <Card.Text>Finance</Card.Text>
@@ -278,7 +286,9 @@ function People() {
                         </Card>
 
                         <Card>
-                            <Card.Img style={{height:'15vw'}} variant="top" src={Mingxun_Wang}></Card.Img>
+                            <a target="_blank">
+                                <Card.Img style={{width: '15vw', height: '15vw'}} variant="top" src={Mingxun_Wang}></Card.Img>
+                            </a>
                             <Card.Body>
                                 <Card.Title>Mingxun Wang</Card.Title>
                                 <Card.Text>Finance</Card.Text>
