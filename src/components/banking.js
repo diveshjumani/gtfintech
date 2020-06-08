@@ -24,8 +24,6 @@ class Banking extends Component{
     render(){
         return(
             <div className = "research">
-                <ResearchNavbar/>
-
                 <div >
                     <img height = "500px" src="https://cdn.i-scmp.com/sites/default/files/d8/images/methode/2020/01/14/90c5e516-368b-11ea-9933-e21be988cd59_image_hires_185803.jpg" alt="" style={{width:'100%'}}/>
                     <div class="text-block-research">

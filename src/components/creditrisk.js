@@ -24,8 +24,6 @@ class CreditRisk extends Component{
     render(){
         return(
             <div className = "research">
-                <ResearchNavbar />
-
                 <div >
                     <img height = "500px" src="https://www.marketing91.com/wp-content/uploads/2019/02/Credit-Risk-4.jpg" alt="" style={{width:'100%'}}/>
                     <div class="text-block-research">

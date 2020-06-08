@@ -24,8 +24,6 @@ class MLandFinance extends Component{
     render(){
         return(
             <div className = "research">
-                <ResearchNavbar/>
-
                 <div >
                     <img height = "500px" src="https://www.techslang.com/wp-content/uploads/2019/06/artificial-intelligence-in-finance111-e1570189091293.jpg" alt="" style={{width:'100%'}}/>
                     <div class="text-block-research">

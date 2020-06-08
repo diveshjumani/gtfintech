@@ -23,8 +23,6 @@ class ResponsibleFinance extends Component{
     render(){
         return(
             <div className = "research">
-                <ResearchNavbar/>
-
                 <div >
                     <img height = "500px" src="https://www.scotcash.net/media/66661/money-2724241_1920.jpg" alt="" style={{width:'100%'}}/>
                     <div class="text-block-research">

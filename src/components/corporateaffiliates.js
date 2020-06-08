@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Card, Container, CardGroup} from 'react-bootstrap';
+import {Card, Container, CardGroup,Col} from 'react-bootstrap';
 import {animateScroll as scroll} from 'react-scroll';
 import '../App.css';
 import Amazon from '../images/amazon_logo.jpg';
@@ -25,33 +25,41 @@ class CorporateAffiliates extends Component{
                 <div >
                     <img height = "400px" src={Sponsors} alt="" style={{width:'100%'}}/>
                     <div class="text-block-ca">
-                        <br/> <br/> 	
-                        <h1 style = {{fontSize: '600%'}} ><strong>Corporate Affiliates </strong></h1>
+                        <h1 style = {{fontSize: '500%'}} ><strong>Corporate Affiliates </strong></h1>
                     </div>
                 </div>
 
                 <br/>
                 
                 <Container fluid className = "noHover">
-                    <CardGroup> 
+                    <div className = 'row'>  
+                            <Col>
                             <Card border="light">
                                 <Card.Img style = {{height: '30vh'}} variant="top" src={Amazon}></Card.Img> 
                             </Card>
-
+                            
+                            </Col>
+                            <Col>
                             <Card border="light">  
                                 <Card.Img style = {{height: '30vh'}} variant="top" src={Bloomberg}></Card.Img>  
                             </Card>
-                            
+                            </Col>
+                            <Col>
                             <Card border="light">
                                 <Card.Img style = {{height: '30vh'}} variant="top" src={BOA}></Card.Img>
                             </Card>
-                            <Card border="light"> 
+                            </Col>
+                            <Col>
+                            <Card  border="light"> 
                                 <Card.Img style = {{height: '30vh'}} variant="top" src={CapitalOne}></Card.Img>
                             </Card> 
+                            </Col>
+                            <Col>
                             <Card border="light">  
                                 <Card.Img style = {{height: '30vh'}} variant="top" src={IBM}></Card.Img>
-                            </Card>         
-                    </CardGroup>
+                            </Card> 
+                            </Col>        
+                    </div>
                     <CardGroup>
                             <Card border="light">   
                                 <Card.Img style = {{height: '30vh'}} variant="top" src={JPM}></Card.Img>    

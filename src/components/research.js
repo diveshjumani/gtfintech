@@ -32,74 +32,11 @@ function Research() {
     };
         return(
             <div className = "research">
-                <Navbar className ="second-navbar fixed-top" collapseOnSelect variant="dark" bg ="warning" expand = "lg"> 
-                 <Navbar.Brand className = "d-inline p-0 text-white" to ="/gtfintech/research"><img alt = "" src={logo} width="0" height="35"></img><strong>Research</strong></Navbar.Brand>
-                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-                    <Navbar.Collapse id="responsive-navbar-nav">
-                        <Nav className="mr-auto">
-                            <NavLink className = "d-inline p-2 text-white">
-                                <Link activeClass="active" className="covid" to="covid" offset ={-102} spy={true} smooth={true} duration={500} >
-                                    <strong>COVID-19</strong>
-                                </Link>
-                            </NavLink>
-                            <NavLink className = "d-inline p-2 text-white">
-                                <Link activeClass="active" className="hfin" to="hfin" offset ={-102} spy={true} smooth={true} duration={500} >
-                                    <strong>Household Finance</strong>
-                                </Link>
-                            </NavLink>
-                            <NavLink className = "d-inline p-2 text-white">
-                                <Link activeClass="active" className="fintech" to="fintech" offset ={-102} spy={true} smooth={true} duration={500} >
-                                    <strong>FinTech and Innovation</strong>
-                                </Link>
-                            </NavLink>
-                            <NavLink className = "d-inline p-2 text-white">
-                                <Link activeClass="active" className="rfin" to="rfin" offset ={-102} spy={true} smooth={true} duration={500} >
-                                    <strong>Responsible Finance</strong>
-                                </Link>
-                                </NavLink>
-                            <NavLink className = "d-inline p-2 text-white">
-                                <Link activeClass="active" className="trading" to="trading" offset ={-102} spy={true} smooth={true} duration={500} >
-                                    <strong>Trading Strategies</strong>
-                                </Link>
-                            </NavLink>
-                            <NavLink className = "d-inline p-2 text-white">
-                                <Link activeClass="active" className="creditrisk" to="creditrisk" offset ={-102} spy={true} smooth={true} duration={500} >
-                                    <strong>Credit Risk</strong>
-                                </Link>
-                            </NavLink>
-                            <NavLink className = "d-inline p-2 text-white">
-                                <Link activeClass="active" className="MLfin" to="MLfin" offset ={-102} spy={true} smooth={true} duration={500} >
-                                    <strong>ML and Finance</strong>
-                                </Link>
-                            </NavLink>
-                            <NavLink className = "d-inline p-2 text-white">
-                                <Link activeClass="active" className="NLPFin" to="NLPFin" offset ={-102} spy={true} smooth={true} duration={500} >
-                                   <strong> NLP and Finance</strong>
-                                </Link>
-                            </NavLink>
-                            <NavLink className = "d-inline p-2 text-white">
-                                <Link activeClass="active" className="FI" to="FI" offset ={-102} spy={true} smooth={true} duration={500} >
-                                    <strong>Fixed Income</strong>
-                                </Link>
-                                </NavLink>
-                            <NavLink className = "d-inline p-2 text-white">
-                                <Link activeClass="active" className="banking" to="banking" offset ={-102} spy={true} smooth={true} duration={500} >
-                                    <strong>Banking</strong>
-                                </Link>
-                            </NavLink>
-                        </Nav>
-                    </Navbar.Collapse>
-                 </Navbar>
-
-                
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-
                 <Element name="covid" className="covid" >
                 </Element>
-
+                <br/>
+                <br/>
+                <br/>
                 <Container fluid>
                 <Row>
                     <Col>
@@ -113,7 +50,7 @@ function Research() {
                     <div class="wrapper">
                         <div class="centerthis">
                             <h2><strong>COVID-19</strong></h2>
-                            <p> 
+                            <p align = "justify"> 
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.       
                             </p>
                             <Link1 to='/gtfintech/research/covid'>
@@ -136,7 +73,7 @@ function Research() {
                 <div class="wrapper">
                         <div class="centerthis">
                             <h2><strong>Household Finance</strong></h2>
-                            <p> 
+                            <p align = "justify"> 
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.       
                             </p>
                             <Link1 to='/gtfintech/research/householdfinance'>
@@ -173,7 +110,7 @@ function Research() {
                     <div class="wrapper">
                         <div class="centerthis">
                             <h2><strong>FinTech and Innovation</strong></h2>
-                            <p> 
+                            <p align = "justify"> 
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.       
                             </p>
                             <Link1 to='/gtfintech/research/fintech'>
@@ -196,7 +133,7 @@ function Research() {
                 <div class="wrapper">
                         <div class="centerthis">
                             <h2><strong>Responsible Finance</strong></h2>
-                            <p> 
+                            <p align = "justify"> 
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.       
                             </p>
                             <Link1 to='/gtfintech/research/responsiblefinance'>
@@ -233,7 +170,7 @@ function Research() {
                     <div class="wrapper">
                         <div class="centerthis">
                             <h2><strong>Trading Strategies</strong></h2>
-                            <p> 
+                            <p align = "justify"> 
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.       
                             </p>
                             <Link1 to='/gtfintech/research/trading'>
@@ -256,7 +193,7 @@ function Research() {
                 <div class="wrapper">
                         <div class="centerthis">
                             <h2><strong>Credit Risk</strong></h2>
-                            <p> 
+                            <p align = "justify"> 
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.       
                             </p>
                             <Link1 to='/gtfintech/research/creditrisk'>
@@ -292,8 +229,8 @@ function Research() {
                     <Col>
                     <div class="wrapper">
                         <div class="centerthis">
-                            <h2><strong>Machine Learning and Finance</strong></h2>
-                            <p> 
+                            <h2><strong>Machine Learning</strong></h2>
+                            <p align = "justify"> 
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.       
                             </p>
                             <Link1 to='/gtfintech/research/MLandFinance'>
@@ -315,8 +252,8 @@ function Research() {
                 <Col>
                 <div class="wrapper">
                         <div class="centerthis">
-                            <h2><strong>Natural Language Processing and Finance</strong></h2>
-                            <p> 
+                            <h2><strong>Natural Language Processing</strong></h2>
+                            <p align = "justify"> 
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.       
                             </p>
                             <Link1 to='/gtfintech/research/NLPandFinance'>
@@ -353,7 +290,7 @@ function Research() {
                     <div class="wrapper">
                         <div class="centerthis">
                             <h2><strong>Fixed Income</strong></h2>
-                            <p> 
+                            <p align = "justify"> 
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.       
                             </p>
                             <Link1 to='/gtfintech/research/fixedincome'>
@@ -376,7 +313,7 @@ function Research() {
                 <div class="wrapper">
                         <div class="centerthis">
                             <h2><strong>Banking</strong></h2>
-                            <p> 
+                            <p align = "justify"> 
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.       
                             </p>
                             <Link1 to='/gtfintech/research/banking'>

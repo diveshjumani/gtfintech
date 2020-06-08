@@ -24,8 +24,6 @@ class HouseholdFinance extends Component{
     render(){
         return(
             <div className = "research">
-                <ResearchNavbar/>
-
                 <div >
                     <img height = "500px" src={household_finance} alt="" style={{width:'100%'}}/>
                     <div class="text-block-research">

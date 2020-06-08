@@ -23,8 +23,6 @@ class FixedIncome extends Component{
     render(){
         return(
             <div className = "research">
-                <ResearchNavbar/>
-
                 <div >
                     <img height = "500px" src="https://www.upal.com/wp-content/uploads/2018/12/fixedincome.jpg" alt="" style={{width:'100%'}}/>
                     <div class="text-block-research">

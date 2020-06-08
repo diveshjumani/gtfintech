@@ -24,7 +24,6 @@ class COVID extends Component{
     render(){
         return(
             <div className = "research">
-                <ResearchNavbar />
                 <div >
                     <img height = "500px" src={coronavirus} alt="" style={{width:'100%'}}/>
                     <div class="text-block-research">

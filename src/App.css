@@ -49,7 +49,8 @@ body {
   width: 100%;
   height: 65px;
   padding:0;
-  bottom:0px;
+  bottom:0;
+  padding: 0;
   margin-bottom: 0px;
 }
 
@@ -305,6 +306,7 @@ body {
     grid-template-rows: 40vh;
     background-size: cover;
   }
+
 }
 
 .NavAnimation-enter {
@@ -372,28 +374,22 @@ body {
 }
 
 .text-block-about {
-  height: 350px;
-  width: 850px;
+  height: 300px;
+  width: 500px;
   background: rgb(0, 0, 0); /* Fallback color */
   background: rgba(0, 0, 0, 0.85); /* Black background with 0.5 opacity */
   color: white;
   position: absolute;
   left: 50%;
-  bottom: 50%;
+  bottom: 150%;
   transform: translate(-50%, -50%);
+  display: inline-block;
 }
 
 .CL_text_about{
-  width: 800px;
-  height: 300px;
-  position: absolute;
+  position: relative;
   font-family: Arial, Helvetica, sans-serif;
-	top:0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-  	
-	margin: auto;
+	margin: 20px;
 }
 
 .text-block-btn {
@@ -442,8 +438,8 @@ body {
   color: white;
   position: absolute;
   top: 25%;
-  width:1000px;
-  left: 40%;
+  width:auto;
+  left: 41%;
   transform: translate(-50%, -50%);
   text-align: left;
 }
@@ -483,4 +479,3 @@ li {
    position: absolute;
    bottom: 0;
 }
-

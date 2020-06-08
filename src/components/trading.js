@@ -23,8 +23,6 @@ class Trading extends Component{
     render(){
         return(
             <div className = "research">
-                <ResearchNavbar/>
-
                 <div >
                     <img height = "500px" src="https://news.tradimo.com/wp-content/uploads/2019/04/Swing-Trading-Indicators.png" alt="" style={{width:'100%'}}/>
                     <div class="text-block-research">
