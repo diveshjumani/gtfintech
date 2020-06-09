@@ -309,6 +309,179 @@ class FixedIncome extends Component{
                             </Row>
                         </Card.Body>
                     </Card>
+
+
+
+                    <Card>
+                        <Card.Header> 
+                            <a href = "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2568121">
+                            <h3> Financial Constraints, Monetary Policy Shocks, and the Cross-Section of Equity Returns </h3>
+                            </a>
+                            <h4> 
+                                - <a target="_blank" href = "https://www.scheller.gatech.edu/directory/faculty/chava/index.html">Sudheer Chava</a>
+                                , <a target="_blank" href = "https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=2099625">Alex Hsu</a> 
+                            </h4>
+                        </Card.Header>
+                        <Card.Body>
+                            <Row>
+                                <Col>
+                                    <Carousel>
+                                        <Carousel.Item>
+                                            <img
+                                            className="d-block w-100"
+                                            src={Nikhil_12}
+                                            alt=""
+                                            />
+                                        </Carousel.Item>
+                                        <Carousel.Item>
+                                            <img
+                                            className="d-block w-100"
+                                            src={Nikhil_13}
+                                            alt=""
+                                            />
+                                        </Carousel.Item>
+                                    </Carousel>
+                                </Col>
+
+                                <Col>
+                                    <p align = "justify">
+                                        <strong>Abstract: </strong>
+                                        We analyze the impact of unanticipated monetary policy changes on 
+                                        equity returns and document that financially constrained firms earn a significantly 
+                                        lower return following rate increases as compared to unconstrained firms. Trading volume 
+                                        is significantly lower for constrained firms on FOMC announcement days but the differential 
+                                        return response manifests with a delay. Further, unanticipated increases in Federal funds rate
+                                         are associated with a larger decrease in expected cash flow news, but not of discount rate news
+                                         , for constrained firms relative to unconstrained firms. Our results highlight how monetary policy shocks have a disproportionate real impact on financially constrained firms.
+                                        <br/>
+                                        <br/>
+                                        <strong>Key Takeaway: </strong>
+                                        The trading volume is significantly lower for constrained firms on FOMC announcement days but the differential 
+                                        return response manifests with a delay
+                                    </p>
+                                </Col>
+                            </Row>
+                        </Card.Body>
+                    </Card>
+
+
+
+                    <Card>
+                        <Card.Header> 
+                            <a href = "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2803585">
+                            <h3> Does History Repeat Itself? Business Cycle and Industry Returns </h3>
+                            </a>
+                            <h4> 
+                                - <a target="_blank" href = "https://www.scheller.gatech.edu/directory/faculty/chava/index.html">Sudheer Chava</a>
+                                , <a target="_blank" href = "https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=2099625">Alex Hsu</a> 
+                                , <a target="_blank" href = "https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=2421581">Linghang Zeng</a> 
+                            </h4>
+                        </Card.Header>
+                        <Card.Body>
+                            <Row>
+                                <Col>
+                                    <Carousel>
+                                        <Carousel.Item>
+                                            <img
+                                            className="d-block w-100"
+                                            src={Nikhil_12}
+                                            alt=""
+                                            />
+                                        </Carousel.Item>
+                                        <Carousel.Item>
+                                            <img
+                                            className="d-block w-100"
+                                            src={Nikhil_13}
+                                            alt=""
+                                            />
+                                        </Carousel.Item>
+                                    </Carousel>
+                                </Col>
+
+                                <Col>
+                                    <p align = "justify">
+                                        <strong>Abstract: </strong>
+                                        Industries with higher historical business cycle regime Sharpe ratios (RSR) have higher regime-dependent
+                                         expected returns. Conditional on whether output gap is positive or negative, an out-of-sample long-high-RSR
+                                          and short-low-RSR sector rotation strategy generates 14.02% annualized alpha in Fama-French five-factor model
+                                           during 1985-2014. Industry momentum and related anomalies are unlikely to be the source of alpha. Firms in long 
+                                           portfolios have stronger fundamentals, more upward analyst forecast revisions, and more positive forecast errors. 
+                                           Our results suggest that investors don't fully incorporate business cycle variation in cash flow growth and highlight
+                                            the importance of business cycle on the cross-section of industry returns.
+                                        <br/>
+                                        <br/>
+                                        <strong>Key Takeaway: </strong>
+                                        Industries with higher historical business cycle regime Sharpe ratios (RSR) have higher regime-dependent
+                                         expected returns.
+                                    </p>
+                                </Col>
+                            </Row>
+                        </Card.Body>
+                    </Card>
+
+
+
+
+
+                    <Card>
+                        <Card.Header> 
+                            <a href = "https://www.sciencedirect.com/science/article/abs/pii/S0304393215000653?via%3Dihub">
+                            <h3> Credit conditions and stock return predictability </h3>
+                            </a>
+                            <h4> 
+                                - <a target="_blank" href = "https://www.scheller.gatech.edu/directory/faculty/chava/index.html">Sudheer Chava</a>
+                                , <a target="_blank" href = "https://www.sciencedirect.com/science/article/abs/pii/S0304393215000653?via%3Dihub#!">Michale Gallmeyer</a> 
+                                , and <a target="_blank" href = "https://www.sciencedirect.com/science/article/abs/pii/S0304393215000653?via%3Dihub#!">Heungju Park</a> 
+                            </h4>
+                        </Card.Header>
+                        <Card.Body>
+                            <Row>
+                                <Col>
+                                    <Carousel>
+                                        <Carousel.Item>
+                                            <img
+                                            className="d-block w-100"
+                                            src={Nikhil_12}
+                                            alt=""
+                                            />
+                                        </Carousel.Item>
+                                        <Carousel.Item>
+                                            <img
+                                            className="d-block w-100"
+                                            src={Nikhil_13}
+                                            alt=""
+                                            />
+                                        </Carousel.Item>
+                                    </Carousel>
+                                </Col>
+
+                                <Col>
+                                    <p align = "justify">
+                                        <strong>Abstract: </strong>
+                                        U.S. stock return predictability is analyzed using a measure of credit standards
+                                         (Standards) derived from the Federal Reserve Board׳s Senior Loan Officer Opinion Survey on Bank Lending 
+                                         Practices. Standards is a strong predictor of stock returns at a business cycle frequency, especially in the
+                                          post-1990 data period. Empirically, a tightening of Standards predicts lower future stock returns. Standards 
+                                          erforms well both in-sample and out-of-sample and is robust to a host of consistency checks. Standards captures
+                                           stock return predictability at a business cycle frequency and is driven primarily by the ability of Standards 
+                                           to predict cash flow news.
+                                        <br/>
+                                        <br/>
+                                        <strong>Key Takeaway: </strong>
+                                        • U.S. stock return predictability is studied using credit standards (Standards).
+                                        •Standards is a strong predictor of stock returns at a business cycle frequency.
+                                        •A tightening of Standards predicts lower future stock returns.
+                                        •The predictability of Standards is driven by the ability to predict cash flow news.
+                                        •The predictability of Standards is robust to a host of consistency checks.
+                                    </p>
+                                </Col>
+                            </Row>
+                        </Card.Body>
+                    </Card>
+
+
+
+
                     
                     <br/>
                 </Container>
