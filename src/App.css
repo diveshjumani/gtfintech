@@ -536,3 +536,7 @@ li {
   font-size: 85%;
   font-weight: normal;
 }
+
+.navbar .dropdown-menu {
+  background-color:#080808;
+}
