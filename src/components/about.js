@@ -4,13 +4,11 @@ import { MDBCarousel, MDBCarouselCaption, MDBCarouselInner, MDBCarouselItem, MDB
 class About extends Component {
     render(){
         return (
-            <div className = "about"> 
-              
+            <div className = "about">  
                 <MDBCarousel activeItem={1} length={3} showControls={true} showIndicators={true} className="z-depth-1">
                   <MDBCarouselInner>
                     <MDBCarouselItem itemId="1">
                       <MDBView>
-                        
                         <img
                           className="d-block w-100" height = "768px"
                           src = "https://3k7by215ywuf340yi3alsfso-wpengine.netdna-ssl.com/wp-content/uploads/sites/5/2015/11/Scheller_TechSquare_Hero_02_tech-square-activity-1.jpg"

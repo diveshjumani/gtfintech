@@ -42,23 +42,6 @@ body {
   }
 }
 
-#footer {
-  background-color: #050505;
-  display: block;
-  position: relative;
-  width: 100%;
-  height: 65px;
-  padding:0;
-  bottom:0;
-  padding: 0;
-  margin-bottom: 0px;
-}
-
-#footer-links {
-  float: right;
-  position: relative;
-}
-
 #inst {
   color: gray;
   font-size: 75%;
@@ -68,11 +51,6 @@ body {
   color: #b3b3b3;
   font-size: 85%;
   font-weight: normal;
-}
-
-#footer-logo {
-  float: left;
-  text-align: center;
 }
 
 .CL_height_navbar{
@@ -86,10 +64,6 @@ body {
 
 .navbar-nav .Navlink{
   color: yellow;
-}
-
-.card:hover{
-  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
 .people{
@@ -337,7 +311,7 @@ body {
   background: rgba(0, 0, 0, 0.85); /* Black background with 0.5 opacity */
   color: white;
   position: absolute;
-  top: 70%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   align-items: center;
@@ -451,21 +425,14 @@ li {
 
 .CL_img-container {
   overflow: hidden;
- height: 1020px;
+  height: 100vw;
   max-height: 1020px;
   position: relative;
 }
 
-.CL_img {
- display: block;
-   width: 100%;
-   height: auto;
-   position: absolute;
-   bottom: 0;
-}
-
-.CL_People_photo{
-  
+.card-img{
+  width: '30vw';
+  height: '30vw';
 }
 
 
@@ -502,4 +469,65 @@ li {
     grid-template-rows: 45vh;
     background-size: cover;
   }
+
+  .text-block {
+    height: 150px;
+    width: 350px;
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.85); /* Black background with 0.5 opacity */
+    color: white;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    align-items: center;
+    justify-items: center;
+    font-size: 0;
+  }
+
+  .CL_img-container {
+    overflow: hidden;
+    height: 100vw;
+    min-height: 690px;
+    position: relative;
+  }
+
+  .text-block-card {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100px;
+    width: 200px;
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.85); /* Black background with 0.5 opacity */
+    color: white;
+    position: absolute;
+    bottom: -15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .text-block-big-card{
+    bottom: -7%;
+  }
+}
+
+#footer {
+  background-color: #050505;
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 65px;
+  padding:0;
+  bottom:0;
+  padding: 0;
+  margin-bottom: 0px;
+}
+
+#footer-links {
+  float: right;
+  position: relative;
+}
+
+#footer-logo {
+  float: left;
+  text-align: center;
 }
