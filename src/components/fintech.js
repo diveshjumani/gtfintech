@@ -24,6 +24,8 @@ class FinTech extends Component{
     render(){
         return(
             <div className = "research">
+                <ResearchNavbar/>
+
                 <div >
                     <img height = "500px" src="https://www.thepositiveeconomist.com/wp-content/uploads/2017/07/Fintech-Susan-Hayes-Culleton-CFA.jpg" alt="" style={{width:'100%'}}/>
                     <div class="text-block-research">

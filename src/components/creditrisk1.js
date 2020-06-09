@@ -17,17 +17,17 @@ import Nikhil_12 from '../images/Nikhil_12.jpg';
 import Nikhil_13 from '../images/Nikhil_13.jpg';
 import ResearchNavbar from './researchnavbar';
 
-class Banking extends Component{
+class CreditRisk extends Component{
     scrollToTop() {
         scroll.scrollToTop();
       }
     render(){
         return(
             <div className = "research">
-                <ResearchNavbar/>
+                <ResearchNavbar />
 
                 <div >
-                    <img height = "500px" src="https://cdn.i-scmp.com/sites/default/files/d8/images/methode/2020/01/14/90c5e516-368b-11ea-9933-e21be988cd59_image_hires_185803.jpg" alt="" style={{width:'100%'}}/>
+                    <img height = "500px" src="https://www.marketing91.com/wp-content/uploads/2019/02/Credit-Risk-4.jpg" alt="" style={{width:'100%'}}/>
                     <div class="text-block-research">
                         <br/> 
                         <br/> 	
@@ -38,7 +38,7 @@ class Banking extends Component{
                 <br/>
 
                 <Container fluid>
-                    {/* <Card className = "researchcard">
+                    <Card className = "researchcard">
                         <Card.Header> 
                             <h3> Reducing Risk or Reaching for Yield? Impact of Stress Tests on Credit Card Lending (Job Market Paper) </h3>
                             <h4> - <a target="_blank" href= "https://www.nikhil-paradkar.com/home">Nikhil Paradkar</a></h4>
@@ -122,7 +122,7 @@ class Banking extends Component{
                             <h4>
                                 - <a target="_blank" href = "https://www.scheller.gatech.edu/directory/faculty/chava/index.html">Sudheer Chava</a>
                                 , <a target="_blank" href= "https://www.nikhil-paradkar.com/home">Nikhil Paradkar</a>
-                                and 
+                                , and 
                                 Yafei Zhang 
                             </h4>
                         </Card.Header>
@@ -313,19 +313,24 @@ class Banking extends Component{
                         </Card.Body>
                     </Card>
                     
-                    <br/> */}
+
+
+
+
+
+                    <br/>
+
 
 
                     <Card>
                         <Card.Header> 
-                            <a href = "https://academic.oup.com/rcfs/article-abstract/7/2/276/5056934">
-                            <h3> Shareholder Bargaining Power, Debt Overhang, and Investment  </h3>
+                            <a href = "https://drive.google.com/file/d/1L-MUljdxlI7CQGZHP0Hy4VCurNJKFsTn/view">
+                            <h3> Do Credit Default Swaps Mitigate the Impact of Credit Rating Downgrades? </h3>
                             </a>
                             <h4> 
                                 - <a target="_blank" href = "https://www.scheller.gatech.edu/directory/faculty/chava/index.html">Sudheer Chava</a>
-                                , Emmanuel Alanis
-                                , and Praveen Kumar
-                               
+                                , Rohan Ganduri
+                                , Chayawat Ornthanalai 
                             </h4>
                         </Card.Header>
                         <Card.Body>
@@ -352,23 +357,22 @@ class Banking extends Component{
                                 <Col>
                                     <p align = "justify">
                                         <strong>Abstract: </strong>
-                                        Using a dynamic model of strategic bargaining between equity and debt holders following default, 
-                                        we analyze the impact of shareholder bargaining power and debt overhang on optimal investment 
-                                        and strategic default. Our empirical tests utilize a new measure of the debt overhang wedge based 
-                                        on default probabilities generated from a hazard model for bankruptcy. Consistent with the theoretical
-                                         predictions, bondholder (shareholder) ownership concentration ceteris paribus enhances (weakens) the
-                                          overhang wedge and dampens (increases) capital investment. We identify novel ownership-structure-related
-                                           factors in firm-level capital investment and document how post-default shareholder bargaining power
-                                            alleviates the underinvestment problem caused by debt overhang.
-                                            Received March 26, 2018; editorial decision June 20, 2018 by Editor: 
-                                            Paolo Fulghieri. Authors have furnished an Internet Appendix, which is
-                                             available on the Oxford University Press Web site next to the link to the final published paper online.
+                                        We find that a firm’s stock price reaction to its credit rating downgrade announcement is muted
+                                         by 44–52% when credit default swaps (CDSs) trade on its debt. We explore the role of the CDS 
+                                         markets in providing information ex ante and relieving financing frictions ex post for downgraded
+                                          firms. We find that the impact of CDS trading is more pronounced for firms whose debt financing 
+                                          is more dependent on credit ratings (e.g., those rated around the speculative-grade boundary, 
+                                          those with a higher number of rating-based covenants). Reductions in debt and investment, and 
+                                          the increase in financing costs are less severe for CDS firms than non-CDS firms following an 
+                                          identical credit rating downgrade. Our results suggest that CDSs mute the stock market reaction
+                                           to a credit rating downgrade by alleviating the financing frictions faced by downgraded firms.
                                         <br/>
                                         <br/>
                                         <strong>Key Takeaway: </strong>
-                                        We identify novel ownership-structure-related
-                                           factors in firm-level capital investment and document how post-default shareholder bargaining power
-                                            alleviates the underinvestment problem caused by debt overhang.
+                                        Reductions in debt and investment, and 
+                                          the increase in financing costs are less severe for CDS firms than non-CDS firms following an 
+                                          identical credit rating downgrade. Our results suggest that CDSs mute the stock market reaction
+                                           to a credit rating downgrade by alleviating the financing frictions faced by downgraded firms.
                                     </p>
                                 </Col>
                             </Row>
@@ -380,17 +384,15 @@ class Banking extends Component{
 
 
 
-
                     <Card>
                         <Card.Header> 
-                            <a href = "https://pubsonline.informs.org/doi/10.1287/mnsc.2017.2739">
-                            <h3> The Dynamics of Borrower Reputation Following Financial Misreporting  </h3>
+                            <a href = "https://drive.google.com/file/d/1L-MUljdxlI7CQGZHP0Hy4VCurNJKFsTn/view">
+                            <h3> Covenants, Creditors’ Simultaneous Equity Holdings, and Firm Investment Policies </h3>
                             </a>
                             <h4> 
                                 - <a target="_blank" href = "https://www.scheller.gatech.edu/directory/faculty/chava/index.html">Sudheer Chava</a>
-                                , <a target="_blank" href = "https://pubsonline.informs.org/action/doSearch?text1=Huang%2C+Kershen&field1=Contrib">Kershen Huang</a>
-                                , <a target="_blank" href = "https://pubsonline.informs.org/action/doSearch?text1=Johnson%2C+Shane+A&field1=Contrib">Shane A. Johnson</a>
-                               
+                                , <a target="_blank" href = "https://www.cambridge.org/core/search?filters%5BauthorTerms%5D=Hong%20Zou&eventCode=SE-AU">Hong Zou</a>
+                            
                             </h4>
                         </Card.Header>
                         <Card.Body>
@@ -417,20 +419,20 @@ class Banking extends Component{
                                 <Col>
                                     <p align = "justify">
                                         <strong>Abstract: </strong>
-                                        We study the dynamics of borrower reputation in bank loan markets following revelations of 
-                                        financial misreporting by the borrower. Misreporting firms pay greater loan spreads than matched
-                                         firms for at least six years following revelation of the misreporting, and there is no evidence
-                                          of a downward trend in the misreporting premium. Following revelation, misreporting firms are
-                                           more likely to engage in various actions to potentially rebuild their reputations, but even
-                                            firms that engage in multiple actions continue to pay greater loan spreads for at least six
-                                             years. Our results suggest that misreporting causes long-lasting and costly reputation losses
-                                              that firms find very difficult or prohibitively costly to restore.
-                                              This paper was accepted by Wei Jiang, finance.
+                                        This article analyzes how creditors’ simultaneous debt and equity holdings affect firm
+                                         investment policies. We find that firms with dual ownership are less likely to have capital
+                                          expenditure restrictions in loan contracts, and the relation varies in predicted ways with
+                                           the monitoring needs of borrowers and the monitoring capacity of dual owners. A less frequent
+                                            use of capital expenditure restrictions, however, does not result in borrowers’ risk-shifting.
+                                             Dual ownership firms are also more likely to be granted an unconditional waiver and do not
+                                              significantly reduce debt issuance or investment expenditures after a financial covenant
+                                               violation. Our results highlight how dual ownership can help mitigate shareholder–creditor
+                                                conflicts.
                                         <br/>
                                         <br/>
                                         <strong>Key Takeaway: </strong>
-                                        Our results suggest that misreporting causes long-lasting and costly reputation losses
-                                         that firms find very difficult or prohibitively costly to restore.
+                                        Our results highlight how dual ownership can help mitigate shareholder–creditor
+                                                conflicts.
                                     </p>
                                 </Col>
                             </Row>
@@ -440,17 +442,16 @@ class Banking extends Component{
 
                     <br/>
 
-
-
                     <Card>
                         <Card.Header> 
-                            <a href = "https://pubsonline.informs.org/doi/10.1287/mnsc.2017.2739">
-                            <h3> The Effect of Banking Crisis on Bank-Fependent Borrowers  </h3>
+                            <a href = "https://academic.oup.com/rcfs/article/6/2/234/3867024">
+                            <h3> Lending to Innovative Firms  </h3>
                             </a>
                             <h4> 
                                 - <a target="_blank" href = "https://www.scheller.gatech.edu/directory/faculty/chava/index.html">Sudheer Chava</a>
-                                , <a target="_blank" href = "https://www.sciencedirect.com/science/article/abs/pii/S0304405X10001820?via%3Dihub#!">Amiyatosh Purnanandamb</a>
-                               
+                                , Vikram Nanda
+                                , Steven Chong Xiao
+                            
                             </h4>
                         </Card.Header>
                         <Card.Body>
@@ -477,155 +478,85 @@ class Banking extends Component{
                                 <Col>
                                     <p align = "justify">
                                         <strong>Abstract: </strong>
-                                        We provide causal evidence that adverse capital shocks to banks affect their borrowers’ 
-                                        performance negatively. We use an exogenous shock to the U.S. banking system during the
-                                         Russian crisis of Fall 1998 to separate the effect of borrowers’ demand of credit from
-                                          the supply of credit by the banks. Firms that primarily relied on banks for capital
-                                           suffered larger valuation losses during this period and subsequently experienced a
-                                            higher decline in their capital expenditure and profitability as compared to firms
-                                             that had access to the public-debt market. Consistent with an adverse shock to the supply
-                                              of credit, crisis-affected banks decreased the quantity of their lending and increased loan
-                                               interest rates in the post-crisis period significantly more than the unaffected banks. 
-                                               Our results suggest that the global integration of the financial sector can contribute to 
-                                               the propagation of financial shocks from one economy to another through the banking channel.
+                                        Is bank financing compatible with innovation? We show that an exogenous enhancement in the value of borrowers patents, 
+                                        either through greater patent protection or creditor rights over collateral, results in cheaper loans. Using regression
+                                        discontinuity design, we show that although R&D investment sharply drops following a financial covenant violation, the
+                                         reduction is concentrated in firms with less productive R&D. Consequently, R&D reduction does not impair innovative
+                                          output. Our results suggest that the property rights that patents confer to intellectual property and to lenders
+                                          judicious exercise of control rights allow bank loans to be a viable means of financing for innovative firms.
+
+                                        Received January 9, 2017; editorial decision May 27, 2017 by Editor Paolo Fulghieri.
                                         <br/>
                                         <br/>
                                         <strong>Key Takeaway: </strong>
-                                        Our results suggest that the global integration of the financial sector can contribute to 
-                                               the propagation of financial shocks from one economy to another through the banking channel
+                                        We show that an exogenous enhancement in the value of borrowers patents, 
+                                        either through greater patent protection or creditor rights over collateral, results in cheaper loans.
                                     </p>
                                 </Col>
                             </Row>
                         </Card.Body>
                     </Card>
 
-                    <br/>
-
-                    <Card>
-                        <Card.Header> 
-                            <a href = "https://pubsonline.informs.org/doi/10.1287/mnsc.2017.2739">
-                            <h3> Banking Deregulation and Innovation  </h3>
-                            </a>
-                            <h4> 
-                                - <a target="_blank" href = "https://www.scheller.gatech.edu/directory/faculty/chava/index.html">Sudheer Chava</a>
-                                , <a target="_blank" href = "https://www.sciencedirect.com/science/article/abs/pii/S0304405X13000950?via%3Dihub#!">Alexander Oettl</a>
-                                , <a target="_blank" href = "https://www.sciencedirect.com/science/article/abs/pii/S0304405X13000950?via%3Dihub#!">Ajay Subramanian</a>
-                                , <a target="_blank" href = "https://www.sciencedirect.com/science/article/abs/pii/S0304405X13000950?via%3Dihub#!">Krishnamurthy V.Subramanian</a>
-
-                            </h4>
-                        </Card.Header>
-                        <Card.Body>
-                            <Row>
-                                <Col>
-                                    <Carousel>
-                                        <Carousel.Item>
-                                            <img
-                                            className="d-block w-100"
-                                            src={Nikhil_12}
-                                            alt=""
-                                            />
-                                        </Carousel.Item>
-                                        <Carousel.Item>
-                                            <img
-                                            className="d-block w-100"
-                                            src={Nikhil_13}
-                                            alt=""
-                                            />
-                                        </Carousel.Item>
-                                    </Carousel>
-                                </Col>
-
-                                <Col>
-                                    <p align = "justify">
-                                        <strong>Abstract: </strong>
-                                        We document empirical support for a key micro-level channel—innovation by young, 
-                                        private firms—through which financial sector deregulation affects economic growth. 
-                                        We find that intrastate banking deregulation, which increased the local market power of banks, 
-                                        decreased the level and risk of innovation by young, private firms. In contrast, interstate banking
-                                         deregulation, which decreased the local market power of banks, increased the level and risk of innovation
-                                          by young, private firms. These contrasting effects on innovation also translated into contrasting effects
-                                           on economic growth. Our study suggests that the nature of financial sector deregulation crucially affects
-                                            its potential benefits to the real economy.
-                                        <br/>
-                                        <br/>
-                                        <strong>Key Takeaway: </strong>
-                                        Our study suggests that the nature of financial sector deregulation crucially affects
-                                            its potential benefits to the real economy.
-                                    </p>
-                                </Col>
-                            </Row>
-                        </Card.Body>
-                    </Card>
 
                     <br/>
-
-
+                    
                     <Card>
                         <Card.Header> 
-                            <a href = "https://www.cambridge.org/core/journals/journal-of-financial-and-quantitative-analysis/article/related-securities-and-equity-market-quality-the-case-of-cds/08DE66A250F9950FA486AE818D5E0341">
-                            <h3> Related Securities and Equity Market Quality: The Case of CDS  </h3>
-                            </a>
-                            <h4> 
-                                - <a target="_blank" href = "https://www.scheller.gatech.edu/directory/faculty/chava/index.html">Sudheer Chava</a>
-                                , <a target="_blank" href = "https://www.cambridge.org/core/search?filters%5BauthorTerms%5D=Ekkehart%20Boehmer&eventCode=SE-AU">Ekkehart Boehmer</a>
-                                , <a target="_blank" href = "https://www.cambridge.org/core/search?filters%5BauthorTerms%5D=Heather%20E.%20Tookes&eventCode=SE-AU">Heather E. Tookes</a>
-
-                            </h4>
-                        </Card.Header>
-                        <Card.Body>
-                            <Row>
-                                <Col>
-                                    <Carousel>
-                                        <Carousel.Item>
-                                            <img
-                                            className="d-block w-100"
-                                            src={Nikhil_12}
-                                            alt=""
-                                            />
-                                        </Carousel.Item>
-                                        <Carousel.Item>
-                                            <img
-                                            className="d-block w-100"
-                                            src={Nikhil_13}
-                                            alt=""
-                                            />
-                                        </Carousel.Item>
-                                    </Carousel>
-                                </Col>
-
-                                <Col>
-                                    <p align = "justify">
-                                        <strong>Abstract: </strong>
-                                        We document that equity markets become less liquid and equity prices become less efficient
-                                         when markets for single-name credit default swap (CDS) contracts emerge. This finding is
-                                          robust across a variety of market quality measures. We analyze the potential mechanisms driving
-                                           this result and find evidence consistent with negative trader-driven information spillovers that
-                                            result from the introduction of CDS. These spillovers greatly outweigh the potentially positive effects
-                                             associated with completing markets (e.g., CDS markets increase hedging opportunities) when firms and
-                                              their equity markets are in “bad” states. In “good” states, we find some evidence that CDS markets
-                                               can be beneficial.
-                                        <br/>
-                                        <br/>
-                                        <strong>Key Takeaway: </strong>
-                                        We analyze the potential mechanisms driving
-                                           this result and find evidence consistent with negative trader-driven information spillovers that
-                                            result from the introduction of CDS.
-                                    </p>
-                                </Col>
-                            </Row>
-                        </Card.Body>
-                    </Card>
-
-                    <br/>
-
-                    <Card>
-                        <Card.Header> 
-                            <a href = "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3197326">
-                            <h3> Impact of E-Commerce on Employees at Brick-and-Mortar Retailers </h3>
+                            <a href = "https://academic.oup.com/rfs/article-abstract/23/6/2523/1565368?redirectedFrom=fulltext">
+                            <h3> Is Default Risk Negatively Related to Stock Returns? </h3>
                             </a>
                             <h4> 
                                 - <a target="_blank" href = "https://www.scheller.gatech.edu/directory/faculty/chava/index.html">Sudheer Chava </a>
-                                , Alexander Oettl, Manpreet Singh, and Linghang Zeng
+                                and 
+                                Amiyatosh Purnanandam   
+                            </h4>
+                        </Card.Header>
+                        <Card.Body>
+                            <Row>
+                                <Col>
+                                    <Carousel>
+                                        <Carousel.Item>
+                                            <img
+                                            className="d-block w-100"
+                                            src={Nikhil_11}
+                                            alt=""
+                                            />
+                                        </Carousel.Item>
+                                        
+                                    </Carousel>
+                                </Col>
+
+                                <Col>
+                                    <p align = "justify">
+                                        <strong>Abstract: </strong>
+                                        We find a positive cross-sectional relationship between expected stock returns and default risk, 
+                                        contrary to the negative relationship estimated by prior studies. Whereas prior studies use noisy 
+                                        ex post realized returns to estimate expected returns, we use ex ante estimates based on the 
+                                        implied cost of capital. The results suggest that investors expected higher returns for bearing 
+                                        default risk, but they were negatively surprised by lower-than-expected returns on high default 
+                                        risk stocks in the 1980s. We also extend the sample compared with prior studies and find that 
+                                        the evidence based on realized returns is considerably weaker in the 1952–1980 period.
+                                        <br/>
+                                        <br/>
+                                        <strong>Key Takeaway: </strong>
+                                        Investors expected higher returns for bearing default risk, but they were negatively 
+                                        surprised by lower-than-expected returns on high default risk stocks in the 1980s.
+                                    </p>
+                                </Col>
+                            </Row>
+                        </Card.Body>
+                    </Card>
+                    
+                    <br/>
+                                            
+                    <Card>
+                        <Card.Header> 
+                            <a href = "https://academic.oup.com/rfs/article-abstract/23/3/1120/1595337?redirectedFrom=fulltext">
+                            <h3> Managerial Agency and Bond Covenants </h3>
+                            </a>
+                            <h4> 
+                                - <a target="_blank" href = "https://www.scheller.gatech.edu/directory/faculty/chava/index.html">Sudheer Chava </a>
+                                , Praveen Kumar, and Arthur Warga
                                    
                             </h4>
                         </Card.Header>
@@ -647,28 +578,131 @@ class Banking extends Component{
                                 <Col>
                                     <p align = "justify">
                                         <strong>Abstract: </strong>
-                                        Using an employer-employee payroll dataset for approximately 2.6 million retail workers, 
-                                        we analyze the impact of the staggered rollout of a major e-commerce retailer's fulfillment 
-                                        centers on the income and employment of workers at geographically proximate brick-and-mortar 
-                                        retail stores. We find that the establishment of an e-commerce fulfillment center in a county 
-                                        has a negative effect on the income of retail workers in that county and in neighboring counties 
-                                        within 100 miles. Wages of hourly workers, especially part-time hourly workers, decrease significantly. 
-                                        This decrease is driven by a drop in the number of hours worked. We observe a U-shaped pattern 
-                                        in which both young and old workers experience a sharper decrease in wage income. Consequently, 
-                                        in these counties, there is a decrease in credit scores and an increase in delinquency for retail 
-                                        workers that have higher prior credit utilization. Using sales and employment data for 3.2 million 
-                                        stores, we find that retail stores in counties around fulfillment centers experience a reduction in 
-                                        sales and in their number of employees. Further, there is a decrease in entry and an increase in 
-                                        exits for stores in the retail sector, with small and young retail stores exiting at a higher rate. 
-                                        Our robustness tests show that our results are unlikely to be driven by prevailing local economic 
-                                        conditions. Overall, our results highlight the extent to which a dramatic increase in e-commerce 
-                                        retail sales can have some adverse consequences for workers at traditional brick-and-mortar stores.
+                                        Based on an analysis of the agency risk for bondholders from managerial entrenchment and fraud, 
+                                        we derive and test refutable hypotheses about the influence of managerial agency risk on bond 
+                                        covenants, using a comprehensive database of corporate bonds from the 1993–2007 period. 
+                                        Managerial entrenchment and the risk of managerial fraud significantly influence the use 
+                                        of covenants, in the direction predicted by the agency-theoretic framework. Our analysis 
+                                        highlights the varied effects of entrenchment on different types of agency risks faced by 
+                                        bondholders: Entrenched managers aggravate investment risk, but ameliorate risk from 
+                                        shareholder opportunism. Covenant use also responds efficiently to the quality of information 
+                                        available regarding the risk of managerial fraud.
                                         <br/>
                                         <br/>
                                         <strong>Key Takeaway: </strong>
-                                        Our results can only show that the growth of e-commerce has some adverse consequences for some 
-                                        traditional brick-and-mortar retail workers, and they can provide one piece of evidence to help fully 
-                                        quantify the impact of e-commerce.
+                                        Managerial entrenchment and the risk of managerial fraud significantly influence the use 
+                                        of covenants, in the direction predicted by the agency-theoretic framework.
+                                    </p>
+                                </Col>
+                            </Row>
+                        </Card.Body>
+                    </Card>
+                    
+                    <br/>
+
+                                            
+                                            <Card>
+                        <Card.Header> 
+                            <a href = "https://www.nowpublishers.com/article/Details/CFR-0060">
+                            <h3> Shareholder Rights Do Affect the Cost of Bank Loan </h3>
+                            </a>
+                            <h4> 
+                                - <a target="_blank" href = "https://www.scheller.gatech.edu/directory/faculty/chava/index.html">Sudheer Chava </a>
+                                , Dmitry Livdan and Amiyatosh Purnanandam
+                                   
+                            </h4>
+                        </Card.Header>
+                        <Card.Body>
+                            <Row>
+                                <Col>
+                                    <Carousel>
+                                        <Carousel.Item>
+                                            <img
+                                            className="d-block w-100"
+                                            src={Nikhil_11}
+                                            alt=""
+                                            />
+                                        </Carousel.Item>
+                                        
+                                    </Carousel>
+                                </Col>
+
+                                <Col>
+                                    <p align = "justify">
+                                        <strong>Abstract: </strong>
+                                        Gaul et al. (2018) (GJU) argue that our finding in Chava et al. (2008) (CLP)—that firms with lower 
+                                        takeover defenses pay significantly higher spread on their bank loans—is driven by an omitted variable, 
+                                        namely the unobserved asset volatility of the firm. We argue against GJU’s conclusions based on their 
+                                        own findings, conceptual flaws in their underlying economic arguments, serious limitations of their 
+                                        empirical work, and the findings of other published papers in the literature. GJU’s results show 
+                                        that our findings are robust both when they replicate our main results and also when they include 
+                                        equity volatility as an additional control variable in lieu of unobserved asset volatility. The 
+                                        only specification where GJU question our main findings is when they model equity volatility as a 
+                                        mis-measured value of unobserved asset volatility and use an instrumental variable regression model 
+                                        with the volatility of firm’s accounting earnings as an instrument. We disagree with the underlying 
+                                        economic logic behind this approach: equity volatility is a meaningful economic transformation of 
+                                        asset volatility, not its mis-measured value. Further, we find it implausible that their accounting 
+                                        earnings based instrument satisfies the exclusion restriction because a firm’s accounting earnings itself 
+                                        depends on its governance, managerial incentives, and a host of other factors. Despite these limitations, 
+                                        even for this specification GJU’s results show that CLP’s main claim remains strong for firms in extreme 
+                                        portfolios of takeover defense. Finally, other papers in the literature, including at least one published
+                                         paper that explicitly controls for a measure of accounting volatility, reaches the same conclusion as CLP. 
+                                         Overall, we show that GJU’s paper is based on flawed economic and econometric arguments. Our critique also 
+                                         applies to the earlier work of Gaul and Uysal (2013, Review of Financial Studies) on which GJU base their critique.
+                                        <br/>
+                                        <br/>
+                                        <strong>Key Takeaway: </strong>
+                                        GJU’s paper is based on flawed economic and econometric arguments.
+                                    </p>
+                                </Col>
+                            </Row>
+                        </Card.Body>
+                    </Card>
+                    
+                    <br/>
+                    
+                    <Card>
+                        <Card.Header> 
+                            <a href = "https://onlinelibrary.wiley.com/doi/full/10.1111/j.1540-6261.2008.01391.x">
+                            <h3> How Does Financing Impact Investment? The Role of Debt Covenants </h3>
+                            </a>
+                            <h4> 
+                                - <a target="_blank" href = "https://www.scheller.gatech.edu/directory/faculty/chava/index.html">Sudheer Chava </a>
+                                , and Michael R. Roberts
+                                   
+                            </h4>
+                        </Card.Header>
+                        <Card.Body>
+                            <Row>
+                                <Col>
+                                    <Carousel>
+                                        <Carousel.Item>
+                                            <img
+                                            className="d-block w-100"
+                                            src={Nikhil_11}
+                                            alt=""
+                                            />
+                                        </Carousel.Item>
+                                        
+                                    </Carousel>
+                                </Col>
+
+                                <Col>
+                                    <p align = "justify">
+                                        <strong>Abstract: </strong>
+                                        We identify a specific channel (debt covenants) and the corresponding mechanism 
+                                        (transfer of control rights) through which financing frictions impact corporate 
+                                        investment. Using a regression discontinuity design, we show that capital investment 
+                                        declines sharply following a financial covenant violation, when creditors use the 
+                                        threat of accelerating the loan to intervene in management. Further, the reduction 
+                                        in investment is concentrated in situations in which agency and information problems 
+                                        are relatively more severe, highlighting how the state‐contingent allocation of control 
+                                        rights can help mitigate investment distortions arising from financing frictions.
+                                        <br/>
+                                        <br/>
+                                        <strong>Key Takeaway: </strong>
+                                        We show that capital investment declines sharply following a financial covenant violation, when 
+                                        creditors use the threat of accelerating the loan to intervene in management.
                                     </p>
                                 </Col>
                             </Row>
@@ -679,12 +713,218 @@ class Banking extends Component{
 
                     <Card>
                         <Card.Header> 
-                            <a href = "https://www.sciencedirect.com/science/article/abs/pii/S0304405X10000772?via%3Dihub">
-                            <h3> CEOs versus CFOs: Incentives and corporate policies </h3>
+                            <a href = "https://academic.oup.com/rof/article-abstract/8/4/537/1582202?redirectedFrom=fulltext">
+                            <h3> Bankruptcy Prediction with Industry Effects </h3>
                             </a>
                             <h4> 
                                 - <a target="_blank" href = "https://www.scheller.gatech.edu/directory/faculty/chava/index.html">Sudheer Chava </a>
-                                , and Amiyatosh Purnanandam
+                                 and Robert A. Jarrow
+                                   
+                            </h4>
+                        </Card.Header>
+                        <Card.Body>
+                            <Row>
+                                <Col>
+                                    <Carousel>
+                                        <Carousel.Item>
+                                            <img
+                                            className="d-block w-100"
+                                            src={Nikhil_11}
+                                            alt=""
+                                            />
+                                        </Carousel.Item>
+                                        
+                                    </Carousel>
+                                </Col>
+
+                                <Col>
+                                    <p align = "justify">
+                                        <strong>Abstract: </strong>
+                                        This paper investigates the forecasting accuracy of bankruptcy hazard rate models for U.S. 
+                                        companies over the time period 1962–1999 using both yearly and monthly observation intervals. 
+                                        The contribution of this paper is multiple-fold. One, using an expanded bankruptcy database 
+                                        we validate the superior forecasting performance of Shumway's (2001) model as opposed to 
+                                        Altman (1968) and Zmijewski (1984). Two, we demonstrate the importance of including industry 
+                                        effects in hazard rate estimation. Industry groupings are shown to significantly affect both 
+                                        the intercept and slope coefficients in the forecasting equations. Three, we extend the hazard 
+                                        rate model to apply to financial firms and monthly observation intervals. Due to data limitations, 
+                                        most of the existing literature employs only yearly observations. We show that bankruptcy 
+                                        prediction is markedly improved using monthly observation intervals. Fourth, consistent with the 
+                                        notion of market efficiency with respect to publicly available information, we demonstrate that 
+                                        accounting variables add little predictive power when market variables are already included in 
+                                        the bankruptcy model.
+                                        <br/>
+                                        <br/>
+                                        <strong>Key Takeaway: </strong>
+                                        Accounting variables add little predictive power when market variables are already included in 
+                                        the bankruptcy model.
+                                    </p>
+                                </Col>
+                            </Row>
+                        </Card.Body>
+                    </Card>
+                    
+                    <br/>
+
+                    <Card>
+                        <Card.Header> 
+                            <a href = "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2541102">
+                            <h3> Credit Default Swaps and Lender Incentives in Renegotiations of Bank Debt </h3>
+                            </a>
+                            <h4> 
+                                - <a target="_blank" href = "https://www.scheller.gatech.edu/directory/faculty/chava/index.html">Sudheer Chava </a>
+                                , Indraneel Chakraborty, and Rohan Ganduri
+                                   
+                            </h4>
+                        </Card.Header>
+                        <Card.Body>
+                            <Row>
+                                <Col>
+                                    <Carousel>
+                                        <Carousel.Item>
+                                            <img
+                                            className="d-block w-100"
+                                            src={Nikhil_11}
+                                            alt=""
+                                            />
+                                        </Carousel.Item>
+                                        
+                                    </Carousel>
+                                </Col>
+
+                                <Col>
+                                    <p align = "justify">
+                                        <strong>Abstract: </strong>
+                                        We analyze how Credit Default Swaps (CDS) affect bank incentives and borrower outcomes in 
+                                        renegotiations after covenant violations. Using a regression-discontinuity design and within 
+                                        lender-borrower variation, we find that CDS firms maintain investment after control rights 
+                                        shift to the creditor, whereas non-CDS firms experience a significant decline. Moreover, 
+                                        CDS firms are less likely to experience distressed exits or rating downgrades in the two 
+                                        years after these technical defaults. Our results suggest that in the private debt markets, 
+                                        CDS discipline borrowers, while the empty creditor problem due to CDS is mitigated because 
+                                        of lenders' reputation concerns and lower coordination frictions.
+                                        <br/>
+                                        <br/>
+                                        <strong>Key Takeaway: </strong>
+                                        Our results suggest that CDS can be beneficial in the bank lending market. 
+                                        Con- sequently, we contribute to the policy debate on the regulation of CDS and other 
+                                        similar financial derivatives by documenting a beneficial role of CDS.
+                                    </p>
+                                </Col>
+                            </Row>
+                        </Card.Body>
+                    </Card>
+                    
+                    <br/>
+
+                    <Card>
+                        <Card.Header> 
+                            <a href = "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1983456">
+                            <h3> Signaling through Dynamic Thresholds in Financial Covenants </h3>
+                            </a>
+                            <h4> 
+                                - <a target="_blank" href = "https://www.scheller.gatech.edu/directory/faculty/chava/index.html">Sudheer Chava </a>
+                                , Shunlan Fang, and Saumya Prabhat
+                                   
+                            </h4>
+                        </Card.Header>
+                        <Card.Body>
+                            <Row>
+                                <Col>
+                                    <Carousel>
+                                        <Carousel.Item>
+                                            <img
+                                            className="d-block w-100"
+                                            src={Nikhil_11}
+                                            alt=""
+                                            />
+                                        </Carousel.Item>
+                                        
+                                    </Carousel>
+                                </Col>
+
+                                <Col>
+                                    <p align = "justify">
+                                        <strong>Abstract: </strong>
+                                        Among loan contracts with covenants originated during 1996-2012, 35% have financial covenant 
+                                        thresholds that automatically tighten following a predetermined schedule. Firms accepting 
+                                        dynamic covenant thresholds improve creditworthiness but are more likely to violate covenants 
+                                        relative to matched control firms. In the event of a covenant violation, these firms are less 
+                                        likely to receive a waiver, more likely to pay higher waiver fees, experience greater investment 
+                                        cuts, and are more likely to switch lead lenders. Overall, our findings suggest that signaling 
+                                        through dynamic thresholds in covenants on average is credible but costly to borrowers if they 
+                                        fail to deliver the performance as signaled.
+                                        <br/>
+                                        <br/>
+                                        <strong>Key Takeaway: </strong>
+                                        Our study extends prior studies on creditor control by examining the credibility of information 
+                                        implied by covenant thresholds and the interactions between creditors and borrowers if borrowers 
+                                        fail to improve creditworthiness as initially agreed. 
+                                    </p>
+                                </Col>
+                            </Row>
+                        </Card.Body>
+                    </Card>
+                    
+                    <br/>
+
+                    <Card>
+                        <Card.Header> 
+                            <a href = "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2417499">
+                            <h3> Do Bond Investors Price Tail Risk Exposures of Financial Institutions?</h3>
+                            </a>
+                            <h4> 
+                                - <a target="_blank" href = "https://www.scheller.gatech.edu/directory/faculty/chava/index.html">Sudheer Chava </a>
+                                , Rohan Ganduri, and Vijay Yerramilli
+                                   
+                            </h4>
+                        </Card.Header>
+                        <Card.Body>
+                            <Row>
+                                <Col>
+                                    <Carousel>
+                                        <Carousel.Item>
+                                            <img
+                                            className="d-block w-100"
+                                            src={Nikhil_11}
+                                            alt=""
+                                            />
+                                        </Carousel.Item>
+                                        
+                                    </Carousel>
+                                </Col>
+
+                                <Col>
+                                    <p align = "justify">
+                                        <strong>Abstract: </strong>
+                                        We analyze whether bond investors price tail risk exposures of financial institutions using a 
+                                        comprehensive sample of bond issuances by U.S. financial institutions. Although primary bond yield 
+                                        spreads increase with an institutions' own tail risk (expected shortfall), systematic tail risk 
+                                        (marginal expected shortfall) of the institution doesn't affect its yields. The relationship between 
+                                        yield spreads and tail risk is significantly weaker for depository institutions, large institutions, 
+                                        government-sponsored entities, politically-connected institutions, and in periods following 
+                                        large-scale bailouts of financial institutions. Overall, our results suggest that implicit bailout 
+                                        guarantees of financial institutions can exacerbate moral hazard in bond markets and weaken market discipline.
+                                        <br/>
+                                        <br/>
+                                        <strong>Key Takeaway: </strong>
+                                        Our results point to moral hazard in the primary bond markets due to implicit bailout guarantees and cast 
+                                        doubt on the idea that market discipline can be sufficient in controlling the tail risk exposures of 
+                                        depository institutions.
+                                    </p>
+                                </Col>
+                            </Row>
+                        </Card.Body>
+                    </Card>
+
+                    <Card>
+                        <Card.Header> 
+                            <a href = "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2962476">
+                            <h3> December Doldrums, Investor Distraction, and Stock Market Reaction to Unscheduled News Events </h3>
+                            </a>
+                            <h4> 
+                                - <a target="_blank" href = "https://www.scheller.gatech.edu/directory/faculty/chava/index.html">Sudheer Chava </a>
+                                , <a target="_blank" href= "https://www.nikhil-paradkar.com/home">Nikhil Paradkar</a>
                                 
                                    
                             </h4>
@@ -707,20 +947,18 @@ class Banking extends Component{
                                 <Col>
                                     <p align = "justify">
                                         <strong>Abstract: </strong>
-                                        We undertake a broad-based study of the effect of managerial risk-taking incentives on corporate 
-                                        financial policies and show that the risk-taking incentives of chief executive officers (CEOs) and 
-                                        chief financial officers (CFOs) significantly influence their firms’ financial policies. 
-                                        In particular, we find that CEOs’ risk-decreasing (-increasing) incentives are associated with 
-                                        lower (higher) leverage and higher (lower) cash balances. CFOs’ risk-decreasing (-increasing) 
-                                        incentives are associated with safer (riskier) debt-maturity choices and higher (lower) 
-                                        earnings-smoothing through accounting accruals. We exploit the stock option expensing regulation of 
-                                        2004 to establish a causal link between managerial incentives and corporate policies. Our findings 
-                                        have important implications for optimal corporate compensation design.
+                                        We document that the stock market's reaction to unscheduled firm-specific news such as credit 
+                                        rating downgrades and 8-K filings is significantly weaker during December as compared to other months. 
+                                        In contrast, the market's reaction to scheduled earnings announcements is not significantly different 
+                                        in December. We find a similar pattern for trading volume. However, this December distraction does not
+                                        affect firms with greater visibility, such as larger firms, firms with higher analyst following, or higher 
+                                        institutional ownership. Our results highlight how investor distraction during the December holiday 
+                                        season can lead to a muted market reaction to unscheduled, but salient, firm-specific news.
                                         <br/>
                                         <br/>
                                         <strong>Key Takeaway: </strong>
-                                        We find that CEOs’ risk-decreasing (-increasing) incentives are associated with lower (higher) leverage and higher 
-                                        (lower) cash balances.
+                                        Our results highlight how investor distraction during the December holiday season can lead to a muted 
+                                        market reaction to unscheduled, but salient, firm-specific news.
                                     </p>
                                 </Col>
                             </Row>
@@ -728,10 +966,8 @@ class Banking extends Component{
                     </Card>
                     
                     <br/>
-
-
-
-
+                    
+                    <br/>
                 </Container>
 
 
@@ -740,4 +976,4 @@ class Banking extends Component{
   }
 }
 
-export default Banking;
+export default CreditRisk;

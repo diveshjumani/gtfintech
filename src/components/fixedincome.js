@@ -23,6 +23,8 @@ class FixedIncome extends Component{
     render(){
         return(
             <div className = "research">
+                <ResearchNavbar/>
+
                 <div >
                     <img height = "500px" src="https://www.upal.com/wp-content/uploads/2018/12/fixedincome.jpg" alt="" style={{width:'100%'}}/>
                     <div class="text-block-research">
@@ -479,8 +481,156 @@ class FixedIncome extends Component{
                         </Card.Body>
                     </Card>
 
+<Card>
+                        <Card.Header> 
+                            <a href = "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2417499">
+                            <h3> Do Bond Investors Price Tail Risk Exposures of Financial Institutions?</h3>
+                            </a>
+                            <h4> 
+                                - <a target="_blank" href = "https://www.scheller.gatech.edu/directory/faculty/chava/index.html">Sudheer Chava </a>
+                                , Rohan Ganduri, and Vijay Yerramilli
+                                   
+                            </h4>
+                        </Card.Header>
+                        <Card.Body>
+                            <Row>
+                                <Col>
+                                    <Carousel>
+                                        <Carousel.Item>
+                                            <img
+                                            className="d-block w-100"
+                                            src={Nikhil_11}
+                                            alt=""
+                                            />
+                                        </Carousel.Item>
+                                        
+                                    </Carousel>
+                                </Col>
 
+                                <Col>
+                                    <p align = "justify">
+                                        <strong>Abstract: </strong>
+                                        We analyze whether bond investors price tail risk exposures of financial institutions using a 
+                                        comprehensive sample of bond issuances by U.S. financial institutions. Although primary bond yield 
+                                        spreads increase with an institutions' own tail risk (expected shortfall), systematic tail risk 
+                                        (marginal expected shortfall) of the institution doesn't affect its yields. The relationship between 
+                                        yield spreads and tail risk is significantly weaker for depository institutions, large institutions, 
+                                        government-sponsored entities, politically-connected institutions, and in periods following 
+                                        large-scale bailouts of financial institutions. Overall, our results suggest that implicit bailout 
+                                        guarantees of financial institutions can exacerbate moral hazard in bond markets and weaken market discipline.
+                                        <br/>
+                                        <br/>
+                                        <strong>Key Takeaway: </strong>
+                                        our results point to moral hazard in the primary bond markets due to implicit bailout guarantees and cast 
+                                        doubt on the idea that market discipline can be sufficient in controlling the tail risk exposures of 
+                                        depository institutions.
+                                    </p>
+                                </Col>
+                            </Row>
+                        </Card.Body>
+                    </Card>
+                    
+                    <br/>
+                    
+                    <Card>
+                        <Card.Header> 
+                            <a href = "https://www.sciencedirect.com/science/article/abs/pii/S0304405X07000505?via%3Dihub">
+                            <h3> Determinants of the floating-to-fixed rate debt structure of firms</h3>
+                            </a>
+                            <h4> 
+                                - <a target="_blank" href = "https://www.scheller.gatech.edu/directory/faculty/chava/index.html">Sudheer Chava </a>
+                                 and Amiyatosh Purnanandam
+                                   
+                            </h4>
+                        </Card.Header>
+                        <Card.Body>
+                            <Row>
+                                <Col>
+                                    <Carousel>
+                                        <Carousel.Item>
+                                            <img
+                                            className="d-block w-100"
+                                            src={Nikhil_11}
+                                            alt=""
+                                            />
+                                        </Carousel.Item>
+                                        
+                                    </Carousel>
+                                </Col>
 
+                                <Col>
+                                    <p align = "justify">
+                                        <strong>Abstract: </strong>
+                                        We analyze the effects of managerial incentive, firm characteristics and market timing on 
+                                        floating-to-fixed rate debt structure of firms. We find that chief financial officer's (CFO's), 
+                                        not chief executive officer's (CEO's), incentive has a strong influence on firm's debt structure. 
+                                        When CFOs have incentives to increase (decrease) firm risk, firms obtain volatility-increasing 
+                                        (-decreasing) debt structure. These effects are present only for CFOs who are not subject to high 
+                                        monitoring by board members, CEOs, or corporate control market. Our findings suggest that agency 
+                                        problems at the level of non-CEO executives could be an important driver of various corporate decisions.
+                                        <br/>
+                                        <br/>
+                                        <strong>Key Takeaway: </strong>
+                                        Agency problems at the level of non-CEO executives could be an important driver of various corporate decisions.
+                                    </p>
+                                </Col>
+                            </Row>
+                        </Card.Body>
+                    </Card>
+                    
+                    <br/>
+                    <Card>
+                        <Card.Header> 
+                            <a href = "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3277424##">
+                            <h3> Revealed Heuristics: Evidence from Investment Consultants’ Search Behavior </h3>
+                            </a>
+                            <h4> 
+                                - <a target="_blank" href = "https://www.scheller.gatech.edu/directory/faculty/chava/index.html">Sudheer Chava </a>
+                                , Soohun Kim, and Daniel Weagley
+                                   
+                            </h4>
+                        </Card.Header>
+                        <Card.Body>
+                            <Row>
+                                <Col>
+                                    <Carousel>
+                                        <Carousel.Item>
+                                            <img
+                                            className="d-block w-100"
+                                            src={Nikhil_11}
+                                            alt=""
+                                            />
+                                        </Carousel.Item>
+                                        
+                                    </Carousel>
+                                </Col>
+
+                                <Col>
+                                    <p align = "justify">
+                                        <strong>Abstract: </strong>
+                                        Using proprietary data from a major fund data provider, we analyze the screening activity of 
+                                        investment consultants (ICs) who advise institutional investors with trillions of dollars in assets. 
+                                        We find that ICs frequently shortlist funds using threshold screens clustered at round, base 5 or 
+                                        base 10 numbers: $500MM for AUM, 0% for the return net of a benchmark, and quartiles for return 
+                                        percentile rank screens. A fund’s probability of being eliminated by a screen is significantly 
+                                        negatively related to its future fund attention and flows, with funds just above the $500MM AUM 
+                                        threshold getting 14 to 18% more page views and 5 to 9 pps greater flows over the next year 
+                                        compared to similar funds just below the threshold. Our results are consistent with ICs using 
+                                        a two-stage, consider-then-choose decision making process, and cognitive reference numbers in 
+                                        selecting screening thresholds.
+                                        <br/>
+                                        <br/>
+                                        <strong>Key Takeaway: </strong>
+                                        We find that ICs frequently shortlist funds using threshold screens clustered at round, 
+                                        base 5 or base 10 numbers: $500MM for AUM, 0% for the return net of a benchmark, and
+                                         quartiles for return percentile rank screens.
+                                    </p>
+                                </Col>
+                            </Row>
+                        </Card.Body>
+                    </Card>
+                    
+                    <br/>
 
                     
                     <br/>
