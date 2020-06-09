@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/gtfintech/static/css/main.88e87deb.chunk.css",
-    "main.js": "/gtfintech/static/js/main.8ed7d364.chunk.js",
-    "main.js.map": "/gtfintech/static/js/main.8ed7d364.chunk.js.map",
+    "main.css": "/gtfintech/static/css/main.bb769dbe.chunk.css",
+    "main.js": "/gtfintech/static/js/main.6c63a3fa.chunk.js",
+    "main.js.map": "/gtfintech/static/js/main.6c63a3fa.chunk.js.map",
     "runtime-main.js": "/gtfintech/static/js/runtime-main.acddfa5a.js",
     "runtime-main.js.map": "/gtfintech/static/js/runtime-main.acddfa5a.js.map",
     "static/css/2.d805e148.chunk.css": "/gtfintech/static/css/2.d805e148.chunk.css",
-    "static/js/2.5847dd5a.chunk.js": "/gtfintech/static/js/2.5847dd5a.chunk.js",
-    "static/js/2.5847dd5a.chunk.js.map": "/gtfintech/static/js/2.5847dd5a.chunk.js.map",
+    "static/js/2.3f0b64e0.chunk.js": "/gtfintech/static/js/2.3f0b64e0.chunk.js",
+    "static/js/2.3f0b64e0.chunk.js.map": "/gtfintech/static/js/2.3f0b64e0.chunk.js.map",
     "index.html": "/gtfintech/index.html",
-    "precache-manifest.2be876197cbad7aef09e1e069dae3e04.js": "/gtfintech/precache-manifest.2be876197cbad7aef09e1e069dae3e04.js",
+    "precache-manifest.5d98273f1c6568adbf4abad30ae01963.js": "/gtfintech/precache-manifest.5d98273f1c6568adbf4abad30ae01963.js",
     "service-worker.js": "/gtfintech/service-worker.js",
     "static/css/2.d805e148.chunk.css.map": "/gtfintech/static/css/2.d805e148.chunk.css.map",
-    "static/css/main.88e87deb.chunk.css.map": "/gtfintech/static/css/main.88e87deb.chunk.css.map",
-    "static/js/2.5847dd5a.chunk.js.LICENSE.txt": "/gtfintech/static/js/2.5847dd5a.chunk.js.LICENSE.txt",
+    "static/css/main.bb769dbe.chunk.css.map": "/gtfintech/static/css/main.bb769dbe.chunk.css.map",
+    "static/js/2.3f0b64e0.chunk.js.LICENSE.txt": "/gtfintech/static/js/2.3f0b64e0.chunk.js.LICENSE.txt",
     "static/media/Alex_Hsu.jpg": "/gtfintech/static/media/Alex_Hsu.681adeb6.jpg",
     "static/media/BOA_logo.png": "/gtfintech/static/media/BOA_logo.80f1d0f3.png",
     "static/media/Bloomberg_logo.jpg": "/gtfintech/static/media/Bloomberg_logo.7b61d83c.jpg",
@@ -56,8 +56,8 @@
   "entrypoints": [
     "static/js/runtime-main.acddfa5a.js",
     "static/css/2.d805e148.chunk.css",
-    "static/js/2.5847dd5a.chunk.js",
-    "static/css/main.88e87deb.chunk.css",
-    "static/js/main.8ed7d364.chunk.js"
+    "static/js/2.3f0b64e0.chunk.js",
+    "static/css/main.bb769dbe.chunk.css",
+    "static/js/main.6c63a3fa.chunk.js"
   ]
 }
