@@ -1,20 +1,8 @@
 import React, { Component } from 'react';
 import {Card, Container,Row,Col,Carousel} from 'react-bootstrap';
 import { animateScroll as scroll} from 'react-scroll'
-import Nikhil_1 from '../images/Nikhil_1.png';
-import Nikhil_2 from '../images/Nikhil_2.png';
-import Nikhil_3 from '../images/Nikhil_3.png';
-import Nikhil_4 from '../images/Nikhil_4.png';
-import Nikhil_5 from '../images/Nikhil_5.png';
-import Nikhil_6 from '../images/Nikhil_6.png';
-import Nikhil_7 from '../images/Nikhil_7.png';
-import Nikhil_8 from '../images/Nikhil_8.png';
-import Nikhil_9 from '../images/Nikhil_9.png';
-import Nikhil_10 from '../images/Nikhil_10.png';
-import Nikhil_11 from '../images/Nikhil_11.jpg';
 import Nikhil_12 from '../images/Nikhil_12.jpg';
 import Nikhil_13 from '../images/Nikhil_13.jpg';
-import ResearchNavbar from './researchnavbar';
 
 class ResponsibleFinance extends Component{
     scrollToTop() {
@@ -46,12 +34,12 @@ class ResponsibleFinance extends Component{
                         </Card.Header>
                         <Card.Body>
                             <Row>
-                                <Col>
+                                <Col xs={12} md = {12} lg = {6}>
                                     <Carousel>
                                     </Carousel>
                                 </Col>
 
-                                <Col>
+                                <Col xs={12} md = {12} lg = {6}>
                                     <p align = "justify">
                                         <strong>Abstract: </strong>
                                         We analyze the economic and financial impact of right-to-work (RTW) laws in the US. Using data from collective bargaining agreements, we show that there is a decrease in wages for unionized workers after RTW laws. Firms increase investment and employment but reduce financial leverage. Labor-intensive firms experience higher profits and labor-to-asset ratios. Dividends and executive compensation also increase post-RTW. Our results are consistent with a canonical theory of the firm augmented with an exogenous bargaining power of labor and suggest that RTW laws impact corporate policies by decreasing that bargaining power.
@@ -81,10 +69,11 @@ class ResponsibleFinance extends Component{
                         </Card.Header>
                         <Card.Body>
                             <Row>
-                                <Col>
+                                <Col xs={12} md = {12} lg = {6}>
                                     <Carousel>
                                         <Carousel.Item>
                                             <img
+                                            height = "450px"
                                             className="d-block w-100"
                                             src={Nikhil_6}
                                             alt=""
@@ -92,6 +81,7 @@ class ResponsibleFinance extends Component{
                                         </Carousel.Item>
                                         <Carousel.Item>
                                             <img
+                                            height = "450px"
                                             className="d-block w-100"
                                             src={Nikhil_7}
                                             alt=""
@@ -99,6 +89,7 @@ class ResponsibleFinance extends Component{
                                         </Carousel.Item>
                                         <Carousel.Item>
                                             <img
+                                            height = "450px"
                                             className="d-block w-100"
                                             src={Nikhil_8}
                                             alt=""
@@ -106,6 +97,7 @@ class ResponsibleFinance extends Component{
                                         </Carousel.Item>
                                         <Carousel.Item>
                                             <img
+                                            height = "450px"
                                             className="d-block w-100"
                                             src={Nikhil_9}
                                             alt=""
@@ -113,6 +105,7 @@ class ResponsibleFinance extends Component{
                                         </Carousel.Item>
                                         <Carousel.Item>
                                             <img
+                                            height = "450px"
                                             className="d-block w-100"
                                             src={Nikhil_10}
                                             alt=""
@@ -121,7 +114,7 @@ class ResponsibleFinance extends Component{
                                     </Carousel>
                                 </Col>
 
-                                <Col>
+                                <Col xs={12} md = {12} lg = {6}>
                                     <p align = "justify">
                                         <strong>Abstract: </strong>
                                         Does credit from marketplace lending platforms (MPLs) benefit borrowers? Using comprehensive credit bureau data, 
@@ -165,7 +158,7 @@ class ResponsibleFinance extends Component{
                         </Card.Header>
                         <Card.Body>
                             <Row>
-                                <Col>
+                                <Col xs={12} md = {12} lg = {6}>
                                     <img
                                     className="d-block w-100"
                                     src={Nikhil_11}
@@ -173,7 +166,7 @@ class ResponsibleFinance extends Component{
                                     />
                                 </Col>
 
-                                <Col>
+                                <Col xs={12} md = {12} lg = {6}>
                                 <p align = "justify">
                                     <strong>Abstract: </strong>
                                     We document that the stock market's reaction to unscheduled firm-specific news such as credit rating downgrades
@@ -219,10 +212,11 @@ class ResponsibleFinance extends Component{
                         </Card.Header>
                         <Card.Body>
                             <Row>
-                                <Col>
+                                <Col xs={12} md = {12} lg = {6}>
                                     <Carousel>
                                         <Carousel.Item>
                                             <img
+                                            height = "450px"
                                             className="d-block w-100"
                                             src={Nikhil_12}
                                             alt=""
@@ -230,6 +224,7 @@ class ResponsibleFinance extends Component{
                                         </Carousel.Item>
                                         <Carousel.Item>
                                             <img
+                                            height = "450px"
                                             className="d-block w-100"
                                             src={Nikhil_13}
                                             alt=""
@@ -238,7 +233,7 @@ class ResponsibleFinance extends Component{
                                     </Carousel>
                                 </Col>
 
-                                <Col>
+                                <Col xs={12} md = {12} lg = {6}>
                                     <p align = "justify">
                                         <strong>Abstract: </strong>
                                         Using comprehensive credit card--borrower--bank matched data of approximately 500 million credit cards in the U.S., 
@@ -283,10 +278,11 @@ class ResponsibleFinance extends Component{
                         </Card.Header>
                         <Card.Body>
                             <Row>
-                                <Col>
+                                <Col xs={12} md = {12} lg = {6}>
                                     <Carousel>
                                         <Carousel.Item>
                                             <img
+                                            height = "450px"
                                             className="d-block w-100"
                                             src={Nikhil_12}
                                             alt=""
@@ -294,6 +290,7 @@ class ResponsibleFinance extends Component{
                                         </Carousel.Item>
                                         <Carousel.Item>
                                             <img
+                                            height = "450px"
                                             className="d-block w-100"
                                             src={Nikhil_13}
                                             alt=""
@@ -302,7 +299,7 @@ class ResponsibleFinance extends Component{
                                     </Carousel>
                                 </Col>
 
-                                <Col>
+                                <Col xs={12} md = {12} lg = {6}>
                                     <p align = "justify">
                                         <strong>Abstract: </strong>
                                         We analyze the economic and financial impact of right-to-work (RTW) laws in the US. Using data from collective bargaining agreements, 
@@ -338,10 +335,11 @@ class ResponsibleFinance extends Component{
                         </Card.Header>
                         <Card.Body>
                             <Row>
-                                <Col>
+                                <Col xs={12} md = {12} lg = {6}>
                                     <Carousel>
                                         <Carousel.Item>
                                             <img
+                                            height = "450px"
                                             className="d-block w-100"
                                             src={Nikhil_12}
                                             alt=""
@@ -349,6 +347,7 @@ class ResponsibleFinance extends Component{
                                         </Carousel.Item>
                                         <Carousel.Item>
                                             <img
+                                            height = "450px"
                                             className="d-block w-100"
                                             src={Nikhil_13}
                                             alt=""
@@ -357,7 +356,7 @@ class ResponsibleFinance extends Component{
                                     </Carousel>
                                 </Col>
 
-                                <Col>
+                                <Col xs={12} md = {12} lg = {6}>
                                     <p align = "justify">
                                         <strong>Abstract: </strong>
                                         I analyze the impact of a firm's environmental profile on its cost of 

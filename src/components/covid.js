@@ -7,7 +7,6 @@ import Nikhil_3 from '../images/Nikhil_3.png';
 import Nikhil_4 from '../images/Nikhil_4.png';
 import Nikhil_5 from '../images/Nikhil_5.png';
 import coronavirus from '../images/coronavirus.jpg';
-import ResearchNavbar from './researchnavbar';
 import {loremIpsum} from 'react-lorem-ipsum';
 
 class COVID extends Component{
@@ -37,10 +36,11 @@ class COVID extends Component{
                         </Card.Header>
                         <Card.Body>
                             <Row>
-                                <Col>
+                                <Col xs={12} md = {12} lg = {6}>
                                     <Carousel>
                                         <Carousel.Item>
                                             <img
+                                            height = "450px"
                                             className="d-block w-100"
                                             src={Nikhil_1}
                                             alt=""
@@ -48,6 +48,7 @@ class COVID extends Component{
                                         </Carousel.Item>
                                         <Carousel.Item>
                                             <img
+                                            height = "450px"
                                             className="d-block w-100"
                                             src={Nikhil_2}
                                             alt=""
@@ -55,6 +56,7 @@ class COVID extends Component{
                                         </Carousel.Item>
                                         <Carousel.Item>
                                             <img
+                                            height = "450px"
                                             className="d-block w-100"
                                             src={Nikhil_3}
                                             alt=""
@@ -62,6 +64,7 @@ class COVID extends Component{
                                         </Carousel.Item>
                                         <Carousel.Item>
                                             <img
+                                            height = "450px"
                                             className="d-block w-100"
                                             src={Nikhil_4}
                                             alt=""
@@ -69,6 +72,7 @@ class COVID extends Component{
                                         </Carousel.Item>
                                         <Carousel.Item>
                                             <img
+                                            height = "450px"
                                             className="d-block w-100"
                                             src={Nikhil_5}
                                             alt=""
@@ -77,7 +81,7 @@ class COVID extends Component{
                                     </Carousel>
                                 </Col>
 
-                                <Col>
+                                <Col xs={12} md = {12} lg = {6}>
                                     <p align = "justify">
                                         <strong>Abstract: </strong>
                                         {loremIpsum()}

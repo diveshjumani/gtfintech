@@ -538,5 +538,17 @@ li {
 }
 
 .navbar .dropdown-menu {
-  background-color:#080808;
+  background-color:#333333;
 }
+
+.dropdown-menu a{
+  color: #FFFFFF !important;
+}
+
+.dropdown-menu a:hover{
+  background-color: #333333 !important;
+}
+
+
+
+
