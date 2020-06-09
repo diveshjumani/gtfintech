@@ -154,7 +154,7 @@ class News extends Component{
                 <Card.Body>
                   <Row>
                     <Col xs={12} md = {12} lg = {6}>
-                      <Image style={{width: '400px', height: '30vh'}} src="https://www.scheller.gatech.edu/news-events/latest-news/2020/green_chris_profile.jpg" alt="" />          
+                      <Image style={{width: '100%', height: '30vh'}} src="https://www.scheller.gatech.edu/news-events/latest-news/2020/green_chris_profile.jpg" alt="" />          
                     </Col>
                     <Col xs={12} md = {12} lg = {6}>
                       <p align = "justify">

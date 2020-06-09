@@ -6,7 +6,6 @@ class Footer extends Component{
         return (
             <div id="footer">
                 <div id="footer-logo">
-                
                     <a href="http://www.gatech.edu/">
                         <img alt="Georgia Tech" width="130" height="40" src={logo} />
                     </a>

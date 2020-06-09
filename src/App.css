@@ -47,12 +47,6 @@ body {
   font-size: 75%;
 }
 
-#links {
-  color: #b3b3b3;
-  font-size: 85%;
-  font-weight: normal;
-}
-
 .CL_height_navbar{
   height: 50px;
 }
@@ -508,6 +502,11 @@ li {
   .text-block-big-card{
     bottom: -7%;
   }
+
+  #footer-logo {
+  float: left;
+  text-align: center;
+}
 }
 
 #footer {
@@ -530,4 +529,10 @@ li {
 #footer-logo {
   float: left;
   text-align: center;
+}
+
+#links {
+  color: #b3b3b3;
+  font-size: 85%;
+  font-weight: normal;
 }
