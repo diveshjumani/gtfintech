@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6a855bd527f693091318624c0b1fb5a7",
+    "revision": "c33233045ab06114eaa33a601f115119",
     "url": "/gtfintech/index.html"
   },
   {
-    "revision": "525f9066ebbcb113a6e5",
+    "revision": "3c3f2748bb820bd57cb9",
     "url": "/gtfintech/static/css/2.d805e148.chunk.css"
   },
   {
-    "revision": "5261d6c21c35eacc2bf7",
-    "url": "/gtfintech/static/css/main.3d4cc3b1.chunk.css"
+    "revision": "99ee4a3c05ee5509d067",
+    "url": "/gtfintech/static/css/main.0d10cfd8.chunk.css"
   },
   {
-    "revision": "525f9066ebbcb113a6e5",
-    "url": "/gtfintech/static/js/2.ef165e1b.chunk.js"
+    "revision": "3c3f2748bb820bd57cb9",
+    "url": "/gtfintech/static/js/2.247f1ad3.chunk.js"
   },
   {
     "revision": "d2966845b94a3318bf32eecc7af8015d",
-    "url": "/gtfintech/static/js/2.ef165e1b.chunk.js.LICENSE.txt"
+    "url": "/gtfintech/static/js/2.247f1ad3.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5261d6c21c35eacc2bf7",
-    "url": "/gtfintech/static/js/main.955f858a.chunk.js"
+    "revision": "99ee4a3c05ee5509d067",
+    "url": "/gtfintech/static/js/main.52b8147d.chunk.js"
   },
   {
     "revision": "97a79a0606e5611a86f3",
@@ -182,6 +182,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "8faa90f1c0db4a5a23faf69460e1b597",
     "url": "/gtfintech/static/media/coronavirus.8faa90f1.jpg"
+  },
+  {
+    "revision": "ccb7373a7ffbe9da64d5378d3497f439",
+    "url": "/gtfintech/static/media/creating-the-next-wordmark-stacked-blk.ccb7373a.png"
   },
   {
     "revision": "931c2b66ed6bf95b0addb3f38618e99c",
