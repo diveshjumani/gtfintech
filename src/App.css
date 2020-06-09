@@ -329,14 +329,14 @@ body {
 }
 
 .text-block-about {
-  height: 270px;
-  width: 450px;
+  height: 220px;
+  width: 700px;
   background: rgb(0, 0, 0); /* Fallback color */
   background: rgba(0, 0, 0, 0.85); /* Black background with 0.5 opacity */
   color: white;
   position: absolute;
   left: 50%;
-  bottom: 150%;
+  bottom: 300%;
   transform: translate(-50%, -50%);
   display: inline-block;
 }
@@ -529,6 +529,19 @@ li {
   .Chava{
     height:348px;
     width:348px;
+  }
+
+  .text-block-about {
+    height: 350px;
+    width: 350px;
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.85); /* Black background with 0.5 opacity */
+    color: white;
+    position: absolute;
+    left: 50%;
+    bottom: 50%;
+    transform: translate(-50%, -50%);
+    display: inline-block;
   }
   
 }
