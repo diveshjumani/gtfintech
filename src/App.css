@@ -151,6 +151,7 @@ body {
 .qcf{
   overflow-x: hidden;
   overflow-y: hidden;
+  position: relative;
 }
 
 .Header {
@@ -174,6 +175,7 @@ body {
 .CL_header_texts {
   font-size: 20px;
   margin-left: 20px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .CL_people_header_texts {
@@ -310,6 +312,7 @@ body {
   transform: translate(-50%, -50%);
   align-items: center;
   justify-items: center;
+  padding: 10px;
 }
 
 .text-block-card {
@@ -326,8 +329,8 @@ body {
 }
 
 .text-block-about {
-  height: 300px;
-  width: 500px;
+  height: 270px;
+  width: 450px;
   background: rgb(0, 0, 0); /* Fallback color */
   background: rgba(0, 0, 0, 0.85); /* Black background with 0.5 opacity */
   color: white;
@@ -341,7 +344,7 @@ body {
 .CL_text_about{
   position: relative;
   font-family: Arial, Helvetica, sans-serif;
-	margin: 20px;
+	margin: 10px;
 }
 
 .text-block-btn {
@@ -357,12 +360,13 @@ body {
   background:  rgba(255, 255, 255, 0.75 ); /* Black background with 0.5 opacity */
   color: white;
   position: absolute;
-  top: 10%;
+  top: 35px;
   width:100%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: left;
   border-color: black;
+  margin-top: 40px;
 }
 
 .a{
@@ -427,6 +431,15 @@ li {
 .card-img{
   width: '30vw';
   height: '30vw';
+}
+
+.CL_QCF_text{
+  margin: 20px;
+}
+
+.CL_qcf_logo{
+  width: auto;
+  margin-top: 40px;
 }
 
 
@@ -506,7 +519,18 @@ li {
   #footer-logo {
   float: left;
   text-align: center;
-}
+  }
+
+  .CL_qcf_logo{
+    width: 100%;
+    margin-top: 0px;
+  }
+
+  .Chava{
+    height:348px;
+    width:348px;
+  }
+  
 }
 
 #footer {
@@ -514,11 +538,12 @@ li {
   display: block;
   position: relative;
   width: 100%;
-  height: 65px;
   padding:0;
   bottom:0;
   padding: 0;
   margin-bottom: 0px;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 #footer-links {
@@ -535,6 +560,7 @@ li {
   color: #b3b3b3;
   font-size: 85%;
   font-weight: normal;
+  text-align: center;
 }
 
 .navbar .dropdown-menu {
@@ -548,7 +574,4 @@ li {
 .dropdown-menu a:hover{
   background-color: #333333 !important;
 }
-
-
-
 

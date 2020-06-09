@@ -72,10 +72,10 @@ function People() {
                     <br/>
 
                     <div class="row">
-                        <div class="col-sm-3">
+                        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-3">
                             <Card border='light'>
                                 <a target="_blank" href = "https://www.scheller.gatech.edu/directory/faculty/chava/index.html">
-                                <Card.Img style ={{height:'348px',width:'348px'}} variant="top" src={Sudheer_Chava}></Card.Img>
+                                <Card.Img className= 'Chava' style ={{height:'34p8x'}} variant="top" src={Sudheer_Chava}></Card.Img>
                                 </a>
                                 <Card.Body>
                                     <Card.Title><b>Sudheer Chava</b></Card.Title>
@@ -91,7 +91,7 @@ function People() {
                             </Card>
                         </div>
 
-                        <div class="col-sm-9">
+                        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-9">
                             <row>
                                 <p align = "justify"> 
                                 
