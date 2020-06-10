@@ -577,7 +577,7 @@ li {
 }
 
 .navbar .dropdown-menu {
-  background-color:#333333;
+  background-color: #343a40;
 }
 
 .dropdown-menu a{
@@ -585,6 +585,6 @@ li {
 }
 
 .dropdown-menu a:hover{
-  background-color: #333333 !important;
+  background-color: #343a40 !important;
 }
 

@@ -51,7 +51,7 @@ class Footer extends Component{
                             </Row>
                             
                             <Row>   
-                                <a target = "_blank" href=""><b>Human Trafficking</b></a>
+                                <a target = "_blank" href=""><b>Human Trafficking Note</b></a>
                             </Row>
                            
                     </Col>
