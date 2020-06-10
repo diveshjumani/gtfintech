@@ -20,26 +20,7 @@ class Footer extends Component{
                     <Col lg = {1}>
                     </Col>
                    
-                    <Col xs={5} lg={2}  id="links" style = {{margin:'20px'}}> 
-                            <Row>   
-                                <a target = "_blank" href="https://directory.gatech.edu/"><b>Directory</b></a>
-                            </Row>
-                            <Row>
-                                <a target = "_blank" href="https://www.gatech.edu/emergency/"><b>Emergency Information</b></a>
-                            </Row>
-                        
-                            <Row>
-                                <a target = "_blank" href="https://www.gatech.edu/privacy"><b>Privacy & Legal Notice</b></a>
-                            </Row>
-                            
-                            <Row>   
-                                <a target = "_blank" href=""><b>Human Trafficking Notice</b></a>
-                            </Row>
-                           
-                    </Col>
-                 
-                    
-                    <Col lg={2} xs={5} id="links" style = {{margin:'20px'}}> 
+                    <Col lg={2} xs={4} id="links" style = {{margin:'20px'}}> 
                             <Row>   
                                 <a target = "_blank" href="https://www.gatech.edu/accessibility"><b>Accessibility</b></a>
                             </Row>
@@ -55,6 +36,24 @@ class Footer extends Component{
                             <Row>  
                                 <a target = "_blank" href="https://www.scheller.gatech.edu/contact-us.html"><b>Contact Us</b></a>
                             </Row>
+                    </Col>
+
+                    <Col xs={4} lg={2}  id="links" style = {{margin:'20px'}}> 
+                            <Row>   
+                                <a target = "_blank" href="https://directory.gatech.edu/"><b>Directory</b></a>
+                            </Row>
+                            <Row>
+                                <a target = "_blank" href="https://www.gatech.edu/emergency/"><b>Emergency Information</b></a>
+                            </Row>
+                        
+                            <Row>
+                                <a target = "_blank" href="https://www.gatech.edu/privacy"><b>Privacy & Legal Notice</b></a>
+                            </Row>
+                            
+                            <Row>   
+                                <a target = "_blank" href=""><b>Human Trafficking Notice</b></a>
+                            </Row>
+                           
                     </Col>
                    
                     <Col classname = 'address' lg= {2} xs={12} id="links" style = {{margin:'20px'}}>
