@@ -118,7 +118,6 @@ function People() {
                                 <Button target="_blank" href = "https://scholar.google.com/citations?user=AXYf-i8AAAAJ" variant="warning">Google Scholar</Button>{' '}
                                 <Button target="_blank" href = "https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=292365" variant="warning">SSRN</Button>{' '}
                                 <Button target="_blank" href = "https://www.linkedin.com/in/sudheer-chava-b5883021/" variant="warning">LinkedIn</Button>{' '}
-                                <Button target="_blank" href = "http://www.prism.gatech.edu/~schava6/Chava_CV_Web.pdf"  variant="warning">CV</Button>{' '}
                             </row>
                         </div>
                     </div>

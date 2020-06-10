@@ -30,7 +30,7 @@ class COVID extends Component{
                 <Container fluid>
                     <Card className = "researchcard">
                         <Card.Header> 
-                            <h3> COVID-19 Research </h3>
+                            <h3> Lorem ipsum odor amet, consectetuer adipiscing elit. Fames mollis dictum convallis nisl iaculis dapibus. </h3>
                             <h4> - <a target="_blank" href= "https://www.nikhil-paradkar.com/home">Lorem Ipsum</a></h4>
                             
                         </Card.Header>
