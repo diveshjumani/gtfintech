@@ -543,7 +543,10 @@ li {
     transform: translate(-50%, -50%);
     display: inline-block;
   }
-
+  .CL_header_texts{
+    margin-top: -7px;
+    margin-bottom: -7px;
+  }
 }
 
 #footer {
