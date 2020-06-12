@@ -8,7 +8,6 @@ import Alex_Hsu from '../images/Alex_Hsu.jpg';
 import Daniel_Weagley from '../images/Daniel_Weagley.jpg';
 import Shijie_Deng from '../images/Shijie_Deng.jpg';
 import Soohun_Kim from '../images/Soohun_Kim.jpg';
-import David_Goldsman from '../images/David_Goldsman.jpg';
 import Baridhi_Malakar from '../images/Baridhi_Malakar.jpg';
 import Wendi_Du from '../images/Wendi_Du.jpg';
 import Ernest_Jang from '../images/Ernest_Jang.jpg';

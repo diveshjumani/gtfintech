@@ -36,17 +36,20 @@ class CreditRisk extends Component{
                 <Container fluid>
                     <Card className = "researchcard">
                         <Card.Header> 
-                            <h3> Reducing Risk or Reaching for Yield? Impact of Stress Tests on Credit Card Lending (Job Market Paper) </h3>
-                            <h4> - <a target="_blank" href= "https://www.nikhil-paradkar.com/home">Nikhil Paradkar</a></h4>
-                            
+                            <h5>
+                                <b>Reducing Risk or Reaching for Yield? Impact of Stress Tests on Credit Card Lending (Job Market Paper) </b>
+                            </h5>
+                            <h5>
+                                - <a target="_blank" href= "https://www.nikhil-paradkar.com/home">Nikhil Paradkar</a>
+                            </h5>
                         </Card.Header>
                         <Card.Body>
                             <Row>
-                                <Col xs={12} md = {12} lg = {6}>
+                                <Col xs={12} md = {12} lg = {4}>
                                     <Carousel>
                                         <Carousel.Item>
                                             <img
-                                            height = "450px"
+                                            height = "300px"
                                             className="d-block w-100"
                                             src={Nikhil_1}
                                             alt=""
@@ -54,7 +57,7 @@ class CreditRisk extends Component{
                                         </Carousel.Item>
                                         <Carousel.Item>
                                             <img
-                                            height = "450px"
+                                            height = "300px"
                                             className="d-block w-100"
                                             src={Nikhil_2}
                                             alt=""
@@ -62,7 +65,7 @@ class CreditRisk extends Component{
                                         </Carousel.Item>
                                         <Carousel.Item>
                                             <img
-                                            height = "450px"
+                                            height = "300px"
                                             className="d-block w-100"
                                             src={Nikhil_3}
                                             alt=""
@@ -70,7 +73,7 @@ class CreditRisk extends Component{
                                         </Carousel.Item>
                                         <Carousel.Item>
                                             <img
-                                            height = "450px"
+                                            height = "300px"
                                             className="d-block w-100"
                                             src={Nikhil_4}
                                             alt=""
@@ -78,7 +81,7 @@ class CreditRisk extends Component{
                                         </Carousel.Item>
                                         <Carousel.Item>
                                             <img
-                                            height = "450px"
+                                            height = "300px"
                                             className="d-block w-100"
                                             src={Nikhil_5}
                                             alt=""
@@ -87,7 +90,8 @@ class CreditRisk extends Component{
                                     </Carousel>
                                 </Col>
 
-                                <Col xs={12} md = {12} lg = {6}>
+                                <Col xs={12} md = {12} lg = {8}>
+                                    <Container>
                                     <p align = "justify">
                                         <strong>Abstract: </strong>
                                         Using proprietary account-level data from a major credit bureau, I examine the impact of stress tests 
@@ -100,14 +104,10 @@ class CreditRisk extends Component{
                                         Consistent with higher bank risk-taking in later rounds, cards issued by highly-exposed banks have a higher 
                                         ex-post likelihood of default. Additionally, I document that more affected non-prime borrowers are more 
                                         likely to default subsequently, and that this effect is markedly pronounced for the low-income and 
-                                        less-educated consumer segments. My findings suggest that stress-test induced increases in capital requirements
+                                        less-educated consumer segments. My findings suggest that stress-test induced increases in capital requirements 
                                         can encourage higher bank risk-taking, with distributional consequences for consumer creditworthiness.
-                                        <br/>
-                                        <br/>
-                                        <strong>Key Takeaway: </strong>
-                                        Higher capital requirements can induce higher bank risk-taking, with significant distributional impact on 
-                                        consumer creditworthiness.
                                     </p>
+                                    </Container>
                                 </Col>
                             </Row>
                         </Card.Body>
@@ -118,22 +118,22 @@ class CreditRisk extends Component{
                     <Card>
                         <Card.Header> 
                             <a href = "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3178322">
-                            <h3> Winners and Losers of Marketplace Lending: Evidence from Borrower Credit Dynamics </h3>
+                            <h5><b> Winners and Losers of Marketplace Lending: Evidence from Borrower Credit Dynamics </b></h5>
                             </a>
-                            <h4>
+                            <h5>
                                 - <a target="_blank" href = "https://www.scheller.gatech.edu/directory/faculty/chava/index.html">Sudheer Chava</a>
                                 , <a target="_blank" href= "https://www.nikhil-paradkar.com/home">Nikhil Paradkar</a>
                                 and 
                                 Yafei Zhang 
-                            </h4>
+                            </h5>
                         </Card.Header>
                         <Card.Body>
                             <Row>
-                                <Col xs={12} md = {12} lg = {6}>
+                                <Col xs={12} md = {12} lg = {4}>
                                     <Carousel>
                                         <Carousel.Item>
                                             <img
-                                            height = "450px"
+                                            height = "300px"
                                             className="d-block w-100"
                                             src={Nikhil_6}
                                             alt=""
@@ -141,7 +141,7 @@ class CreditRisk extends Component{
                                         </Carousel.Item>
                                         <Carousel.Item>
                                             <img
-                                            height = "450px"
+                                            height = "300px"
                                             className="d-block w-100"
                                             src={Nikhil_7}
                                             alt=""
@@ -149,7 +149,7 @@ class CreditRisk extends Component{
                                         </Carousel.Item>
                                         <Carousel.Item>
                                             <img
-                                            height = "450px"
+                                            height = "300px"
                                             className="d-block w-100"
                                             src={Nikhil_8}
                                             alt=""
@@ -157,7 +157,7 @@ class CreditRisk extends Component{
                                         </Carousel.Item>
                                         <Carousel.Item>
                                             <img
-                                            height = "450px"
+                                            height = "300px"
                                             className="d-block w-100"
                                             src={Nikhil_9}
                                             alt=""
@@ -165,7 +165,7 @@ class CreditRisk extends Component{
                                         </Carousel.Item>
                                         <Carousel.Item>
                                             <img
-                                            height = "450px"
+                                            height = "300px"
                                             className="d-block w-100"
                                             src={Nikhil_10}
                                             alt=""
@@ -174,7 +174,8 @@ class CreditRisk extends Component{
                                     </Carousel>
                                 </Col>
 
-                                <Col xs={12} md = {12} lg = {6}>
+                                <Col xs={12} md = {12} lg = {8}>
+                                    <Container>
                                     <p align = "justify">
                                         <strong>Abstract: </strong>
                                         Does credit from marketplace lending platforms (MPLs) benefit borrowers? Using comprehensive credit bureau data, 
@@ -191,14 +192,9 @@ class CreditRisk extends Component{
                                         scores, thus increasing credit supply from existing bank lenders, which, in turn, encourages higher total 
                                         indebtedness and results in higher default propensities ex post.
                                         <br/>
-                                        <br/>
-                                        <strong>Award/Grant: </strong>
-                                        2017 Think Forward Initiate (TFI) Research Challenge
-                                        <br/>
-                                        <br/>
-                                        <strong>Media: </strong>
-                                        American Banker (December 2018), CrowdFund Insider (July 2018)
+                                        <br/>   
                                     </p>
+                                    </Container>
                                 </Col>
                             </Row>
                         </Card.Body>
@@ -209,16 +205,16 @@ class CreditRisk extends Component{
                     <Card>
                         <Card.Header> 
                             <a href = "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2962476">
-                            <h3> December Doldrums, Investor Distraction, and Stock Market Reaction to Unscheduled News Events </h3>
+                            <h5><b> December Doldrums, Investor Distraction, and Stock Market Reaction to Unscheduled News Events </b></h5>
                             </a>
-                            <h4> 
+                            <h5> 
                                 - <a target="_blank" href = "https://www.scheller.gatech.edu/directory/faculty/chava/index.html">Sudheer Chava</a>
                                 , <a target="_blank" href= "https://www.nikhil-paradkar.com/home">Nikhil Paradkar</a> 
-                            </h4>
+                            </h5>
                         </Card.Header>
                         <Card.Body>
                             <Row>
-                                <Col xs={12} md = {12} lg = {6}>
+                                <Col xs={12} md = {12} lg = {4}>
                                     <img
                                     className="d-block w-100"
                                     src={Nikhil_11}
@@ -226,7 +222,8 @@ class CreditRisk extends Component{
                                     />
                                 </Col>
 
-                                <Col xs={12} md = {12} lg = {6}>
+                                <Col xs={12} md = {12} lg = {8}>
+                                <Container>
                                 <p align = "justify">
                                     <strong>Abstract: </strong>
                                     We document that the stock market's reaction to unscheduled firm-specific news such as credit rating downgrades
@@ -241,14 +238,9 @@ class CreditRisk extends Component{
                                     <strong>Key Takeaway: </strong>
                                     High investor inattention in December, possibly due to holiday season travel, affects the stock market reaction
                                     towards unscheduled firm news, such as credit rating downgrades and 8-K filings, released in December.
-                                    <br/>
-                                    <br/>
-                                    <strong>Award/Grant: </strong>
-                                    BlackRock Prize for Best Paper on Capital Markets/Funds Management/Mutual Funds (2017 Australasian Finance and Banking 
-                                    Conference)
-                                    <br/>
-                                    <br/>
+                                    
                                     </p>
+                                    </Container>
                                 </Col>
                             </Row>
                         </Card.Body>
@@ -259,24 +251,24 @@ class CreditRisk extends Component{
                     <Card>
                         <Card.Header> 
                             <a href = "https://drive.google.com/file/d/1L-MUljdxlI7CQGZHP0Hy4VCurNJKFsTn/view">
-                            <h3> Shocked by Bank Funding Shocks: Evidence from 500 Million Consumer Credit Cards </h3>
+                            <h5><b> Shocked by Bank Funding Shocks: Evidence from 500 Million Consumer Credit Cards </b></h5>
                             </a>
-                            <h4> 
+                            <h5>
                                 - <a target="_blank" href = "https://www.scheller.gatech.edu/directory/faculty/chava/index.html">Sudheer Chava</a>
                                 , <a target="_blank" href= "https://www.nikhil-paradkar.com/home">Nikhil Paradkar</a>
                                 , 
                                 Rohan Ganduri 
                                 and 
                                 Linghang Zeng  
-                            </h4>
+                            </h5>
                         </Card.Header>
                         <Card.Body>
                             <Row>
-                                <Col xs={12} md = {12} lg = {6}>
+                                <Col xs={12} md = {12} lg = {4}>
                                     <Carousel>
                                         <Carousel.Item>
                                             <img
-                                            height = "450px"
+                                            height = "300px"
                                             className="d-block w-100"
                                             src={Nikhil_12}
                                             alt=""
@@ -284,7 +276,7 @@ class CreditRisk extends Component{
                                         </Carousel.Item>
                                         <Carousel.Item>
                                             <img
-                                            height = "450px"
+                                            height = "300px"
                                             className="d-block w-100"
                                             src={Nikhil_13}
                                             alt=""
@@ -293,7 +285,8 @@ class CreditRisk extends Component{
                                     </Carousel>
                                 </Col>
 
-                                <Col xs={12} md = {12} lg = {6}>
+                                <Col xs={12} md = {12} lg = {8}>
+                                    <Container>
                                     <p align = "justify">
                                         <strong>Abstract: </strong>
                                         Using comprehensive credit card--borrower--bank matched data of approximately 500 million credit cards in the U.S., 
@@ -306,16 +299,9 @@ class CreditRisk extends Component{
                                         their consumption as they are less able to borrow from alternate sources. Moreover, this consumption decline is
                                         long-lasting for these credit-constrained consumers. Our results highlight that when banks face liquidity 
                                         shocks, they are more likely to pass on these shocks to consumers who are least able to hedge against them. 
-                                        Consequently, our results show who bears the real costs of fragile bank funding structures. Our results also 
-                                        contribute to the debate on post-crisis regulatory reform on banks' funding structures that are dependent on 
-                                        wholesale funding by providing consumer-level elasticities of credit limits and balances to bank wholesale 
-                                        funding across different consumer groups.
-                                        <br/>
-                                        <br/>
-                                        <strong>Key Takeaway: </strong>
-                                        The funding structure of banks has implications for aggregate consumption, with significant long-term 
-                                        distributional consequences.
+                                        Consequently, our results show who bears the real costs of fragile bank funding structures. 
                                     </p>
+                                    </Container>
                                 </Col>
                             </Row>
                         </Card.Body>
@@ -333,21 +319,21 @@ class CreditRisk extends Component{
                     <Card>
                         <Card.Header> 
                             <a href = "https://drive.google.com/file/d/1L-MUljdxlI7CQGZHP0Hy4VCurNJKFsTn/view">
-                            <h3> Do Credit Default Swaps Mitigate the Impact of Credit Rating Downgrades? </h3>
+                            <h5><b> Do Credit Default Swaps Mitigate the Impact of Credit Rating Downgrades? </b></h5>
                             </a>
-                            <h4> 
+                            <h5> 
                                 - <a target="_blank" href = "https://www.scheller.gatech.edu/directory/faculty/chava/index.html">Sudheer Chava</a>
                                 , Rohan Ganduri
                                 , Chayawat Ornthanalai 
-                            </h4>
+                            </h5>
                         </Card.Header>
                         <Card.Body>
                             <Row>
-                                <Col xs={12} md = {12} lg = {6}>
+                                <Col xs={12} md = {12} lg = {4}>
                                     <Carousel>
                                         <Carousel.Item>
                                             <img
-                                            height = "450px"
+                                            height = "300px"
                                             className="d-block w-100"
                                             src={Nikhil_12}
                                             alt=""
@@ -355,7 +341,7 @@ class CreditRisk extends Component{
                                         </Carousel.Item>
                                         <Carousel.Item>
                                             <img
-                                            height = "450px"
+                                            height = "300px"
                                             className="d-block w-100"
                                             src={Nikhil_13}
                                             alt=""
@@ -364,7 +350,8 @@ class CreditRisk extends Component{
                                     </Carousel>
                                 </Col>
 
-                                <Col xs={12} md = {12} lg = {6}>
+                                <Col xs={12} md = {12} lg = {8}>
+                                    <Container>
                                     <p align = "justify">
                                         <strong>Abstract: </strong>
                                         We find that a firm’s stock price reaction to its credit rating downgrade announcement is muted
@@ -384,6 +371,7 @@ class CreditRisk extends Component{
                                           identical credit rating downgrade. Our results suggest that CDSs mute the stock market reaction
                                            to a credit rating downgrade by alleviating the financing frictions faced by downgraded firms.
                                     </p>
+                                    </Container>
                                 </Col>
                             </Row>
                         </Card.Body>
@@ -397,21 +385,21 @@ class CreditRisk extends Component{
                     <Card>
                         <Card.Header> 
                             <a href = "https://drive.google.com/file/d/1L-MUljdxlI7CQGZHP0Hy4VCurNJKFsTn/view">
-                            <h3> Covenants, Creditors’ Simultaneous Equity Holdings, and Firm Investment Policies </h3>
+                            <h5><b> Covenants, Creditors’ Simultaneous Equity Holdings, and Firm Investment Policies </b></h5>
                             </a>
-                            <h4> 
+                            <h5>
                                 - <a target="_blank" href = "https://www.scheller.gatech.edu/directory/faculty/chava/index.html">Sudheer Chava</a>
                                 , <a target="_blank" href = "https://www.cambridge.org/core/search?filters%5BauthorTerms%5D=Hong%20Zou&eventCode=SE-AU">Hong Zou</a>
                             
-                            </h4>
+                            </h5>
                         </Card.Header>
                         <Card.Body>
                             <Row>
-                                <Col xs={12} md = {12} lg = {6}>
+                                <Col xs={12} md = {12} lg = {4}>
                                     <Carousel>
                                         <Carousel.Item>
                                             <img
-                                            height = "450px"
+                                            height = "300px"
                                             className="d-block w-100"
                                             src={Nikhil_12}
                                             alt=""
@@ -419,7 +407,7 @@ class CreditRisk extends Component{
                                         </Carousel.Item>
                                         <Carousel.Item>
                                             <img
-                                            height = "450px"
+                                            height = "300px"
                                             className="d-block w-100"
                                             src={Nikhil_13}
                                             alt=""
@@ -428,7 +416,8 @@ class CreditRisk extends Component{
                                     </Carousel>
                                 </Col>
 
-                                <Col xs={12} md = {12} lg = {6}>
+                                <Col xs={12} md = {12} lg = {8}>
+                                    <Container>
                                     <p align = "justify">
                                         <strong>Abstract: </strong>
                                         This article analyzes how creditors’ simultaneous debt and equity holdings affect firm
@@ -446,6 +435,7 @@ class CreditRisk extends Component{
                                         Our results highlight how dual ownership can help mitigate shareholder–creditor
                                                 conflicts.
                                     </p>
+                                    </Container>
                                 </Col>
                             </Row>
                         </Card.Body>
@@ -457,22 +447,22 @@ class CreditRisk extends Component{
                     <Card>
                         <Card.Header> 
                             <a href = "https://academic.oup.com/rcfs/article/6/2/234/3867024">
-                            <h3> Lending to Innovative Firms  </h3>
+                            <h5><b> Lending to Innovative Firms  </b></h5>
                             </a>
-                            <h4> 
+                            <h5>
                                 - <a target="_blank" href = "https://www.scheller.gatech.edu/directory/faculty/chava/index.html">Sudheer Chava</a>
                                 , Vikram Nanda
                                 , Steven Chong Xiao
                             
-                            </h4>
+                            </h5>
                         </Card.Header>
                         <Card.Body>
                             <Row>
-                                <Col xs={12} md = {12} lg = {6}>
+                                <Col xs={12} md = {12} lg = {4}>
                                     <Carousel>
                                         <Carousel.Item>
                                             <img
-                                            height = "450px"
+                                            height = "300px"
                                             className="d-block w-100"
                                             src={Nikhil_12}
                                             alt=""
@@ -480,7 +470,7 @@ class CreditRisk extends Component{
                                         </Carousel.Item>
                                         <Carousel.Item>
                                             <img
-                                            height = "450px"
+                                            height = "300px"
                                             className="d-block w-100"
                                             src={Nikhil_13}
                                             alt=""
@@ -489,7 +479,8 @@ class CreditRisk extends Component{
                                     </Carousel>
                                 </Col>
 
-                                <Col xs={12} md = {12} lg = {6}>
+                                <Col xs={12} md = {12} lg = {8}>
+                                    <Container>
                                     <p align = "justify">
                                         <strong>Abstract: </strong>
                                         Is bank financing compatible with innovation? We show that an exogenous enhancement in the value of borrowers patents, 
@@ -506,6 +497,7 @@ class CreditRisk extends Component{
                                         We show that an exogenous enhancement in the value of borrowers patents, 
                                         either through greater patent protection or creditor rights over collateral, results in cheaper loans.
                                     </p>
+                                    </Container>
                                 </Col>
                             </Row>
                         </Card.Body>
@@ -517,21 +509,21 @@ class CreditRisk extends Component{
                     <Card>
                         <Card.Header> 
                             <a href = "https://academic.oup.com/rfs/article-abstract/23/6/2523/1565368?redirectedFrom=fulltext">
-                            <h3> Is Default Risk Negatively Related to Stock Returns? </h3>
+                            <h5><b> Is Default Risk Negatively Related to Stock Returns? </b></h5>
                             </a>
-                            <h4> 
+                            <h5>
                                 - <a target="_blank" href = "https://www.scheller.gatech.edu/directory/faculty/chava/index.html">Sudheer Chava </a>
                                 and 
                                 Amiyatosh Purnanandam   
-                            </h4>
+                            </h5>
                         </Card.Header>
                         <Card.Body>
                             <Row>
-                                <Col xs={12} md = {12} lg = {6}>
+                                <Col xs={12} md = {12} lg = {4}>
                                     <Carousel>
                                         <Carousel.Item>
                                             <img
-                                            height = "450px"
+                                            height = "300px"
                                             className="d-block w-100"
                                             src={Nikhil_11}
                                             alt=""
@@ -541,7 +533,8 @@ class CreditRisk extends Component{
                                     </Carousel>
                                 </Col>
 
-                                <Col xs={12} md = {12} lg = {6}>
+                                <Col xs={12} md = {12} lg = {8}>
+                                    <Container>
                                     <p align = "justify">
                                         <strong>Abstract: </strong>
                                         We find a positive cross-sectional relationship between expected stock returns and default risk, 
@@ -557,6 +550,7 @@ class CreditRisk extends Component{
                                         Investors expected higher returns for bearing default risk, but they were negatively 
                                         surprised by lower-than-expected returns on high default risk stocks in the 1980s.
                                     </p>
+                                    </Container>
                                 </Col>
                             </Row>
                         </Card.Body>
@@ -567,21 +561,21 @@ class CreditRisk extends Component{
                     <Card>
                         <Card.Header> 
                             <a href = "https://academic.oup.com/rfs/article-abstract/23/3/1120/1595337?redirectedFrom=fulltext">
-                            <h3> Managerial Agency and Bond Covenants </h3>
+                            <h5><b> Managerial Agency and Bond Covenants </b></h5>
                             </a>
-                            <h4> 
+                            <h5> 
                                 - <a target="_blank" href = "https://www.scheller.gatech.edu/directory/faculty/chava/index.html">Sudheer Chava </a>
                                 , Praveen Kumar, and Arthur Warga
                                    
-                            </h4>
+                            </h5>
                         </Card.Header>
                         <Card.Body>
                             <Row>
-                                <Col xs={12} md = {12} lg = {6}>
+                                <Col xs={12} md = {12} lg = {4}>
                                     <Carousel>
                                         <Carousel.Item>
                                             <img
-                                            height = "450px"
+                                            height = "300px"
                                             className="d-block w-100"
                                             src={Nikhil_11}
                                             alt=""
@@ -591,7 +585,8 @@ class CreditRisk extends Component{
                                     </Carousel>
                                 </Col>
 
-                                <Col xs={12} md = {12} lg = {6}>
+                                <Col xs={12} md = {12} lg = {8}>
+                                    <Container>
                                     <p align = "justify">
                                         <strong>Abstract: </strong>
                                         Based on an analysis of the agency risk for bondholders from managerial entrenchment and fraud, 
@@ -609,6 +604,7 @@ class CreditRisk extends Component{
                                         Managerial entrenchment and the risk of managerial fraud significantly influence the use 
                                         of covenants, in the direction predicted by the agency-theoretic framework.
                                     </p>
+                                    </Container>
                                 </Col>
                             </Row>
                         </Card.Body>
@@ -620,21 +616,21 @@ class CreditRisk extends Component{
                                             <Card>
                         <Card.Header> 
                             <a href = "https://www.nowpublishers.com/article/Details/CFR-0060">
-                            <h3> Shareholder Rights Do Affect the Cost of Bank Loan </h3>
+                            <h5><b> Shareholder Rights Do Affect the Cost of Bank Loan </b></h5>
                             </a>
-                            <h4> 
+                            <h5> 
                                 - <a target="_blank" href = "https://www.scheller.gatech.edu/directory/faculty/chava/index.html">Sudheer Chava </a>
                                 , Dmitry Livdan and Amiyatosh Purnanandam
                                    
-                            </h4>
+                            </h5>
                         </Card.Header>
                         <Card.Body>
                             <Row>
-                                <Col xs={12} md = {12} lg = {6}>
+                                <Col xs={12} md = {12} lg = {4}>
                                     <Carousel>
                                         <Carousel.Item>
                                             <img
-                                            height = "450px"
+                                            height = "300px"
                                             className="d-block w-100"
                                             src={Nikhil_11}
                                             alt=""
@@ -644,7 +640,8 @@ class CreditRisk extends Component{
                                     </Carousel>
                                 </Col>
 
-                                <Col xs={12} md = {12} lg = {6}>
+                                <Col xs={12} md = {12} lg = {8}>
+                                    <Container>
                                     <p align = "justify">
                                         <strong>Abstract: </strong>
                                         Gaul et al. (2018) (GJU) argue that our finding in Chava et al. (2008) (CLP)—that firms with lower 
@@ -660,17 +657,9 @@ class CreditRisk extends Component{
                                         economic logic behind this approach: equity volatility is a meaningful economic transformation of 
                                         asset volatility, not its mis-measured value. Further, we find it implausible that their accounting 
                                         earnings based instrument satisfies the exclusion restriction because a firm’s accounting earnings itself 
-                                        depends on its governance, managerial incentives, and a host of other factors. Despite these limitations, 
-                                        even for this specification GJU’s results show that CLP’s main claim remains strong for firms in extreme 
-                                        portfolios of takeover defense. Finally, other papers in the literature, including at least one published
-                                         paper that explicitly controls for a measure of accounting volatility, reaches the same conclusion as CLP. 
-                                         Overall, we show that GJU’s paper is based on flawed economic and econometric arguments. Our critique also 
-                                         applies to the earlier work of Gaul and Uysal (2013, Review of Financial Studies) on which GJU base their critique.
-                                        <br/>
-                                        <br/>
-                                        <strong>Key Takeaway: </strong>
-                                        GJU’s paper is based on flawed economic and econometric arguments.
+                                        depends on its governance, managerial incentives, and a host of other factors. 
                                     </p>
+                                    </Container>
                                 </Col>
                             </Row>
                         </Card.Body>
@@ -681,21 +670,21 @@ class CreditRisk extends Component{
                     <Card>
                         <Card.Header> 
                             <a href = "https://onlinelibrary.wiley.com/doi/full/10.1111/j.1540-6261.2008.01391.x">
-                            <h3> How Does Financing Impact Investment? The Role of Debt Covenants </h3>
+                            <h5><b> How Does Financing Impact Investment? The Role of Debt Covenants </b></h5>
                             </a>
-                            <h4> 
+                            <h5> 
                                 - <a target="_blank" href = "https://www.scheller.gatech.edu/directory/faculty/chava/index.html">Sudheer Chava </a>
                                 , and Michael R. Roberts
                                    
-                            </h4>
+                            </h5>
                         </Card.Header>
                         <Card.Body>
                             <Row>
-                                <Col xs={12} md = {12} lg = {6}>
+                                <Col xs={12} md = {12} lg = {4}>
                                     <Carousel>
                                         <Carousel.Item>
                                             <img
-                                            height = "450px"
+                                            height = "300px"
                                             className="d-block w-100"
                                             src={Nikhil_11}
                                             alt=""
@@ -705,7 +694,8 @@ class CreditRisk extends Component{
                                     </Carousel>
                                 </Col>
 
-                                <Col xs={12} md = {12} lg = {6}>
+                                <Col xs={12} md = {12} lg = {8}>
+                                    <Container>
                                     <p align = "justify">
                                         <strong>Abstract: </strong>
                                         We identify a specific channel (debt covenants) and the corresponding mechanism 
@@ -722,6 +712,7 @@ class CreditRisk extends Component{
                                         We show that capital investment declines sharply following a financial covenant violation, when 
                                         creditors use the threat of accelerating the loan to intervene in management.
                                     </p>
+                                    </Container>
                                 </Col>
                             </Row>
                         </Card.Body>
@@ -732,21 +723,21 @@ class CreditRisk extends Component{
                     <Card>
                         <Card.Header> 
                             <a href = "https://academic.oup.com/rof/article-abstract/8/4/537/1582202?redirectedFrom=fulltext">
-                            <h3> Bankruptcy Prediction with Industry Effects </h3>
+                            <h5><b> Bankruptcy Prediction with Industry Effects </b></h5>
                             </a>
-                            <h4> 
+                            <h5> 
                                 - <a target="_blank" href = "https://www.scheller.gatech.edu/directory/faculty/chava/index.html">Sudheer Chava </a>
                                  and Robert A. Jarrow
                                    
-                            </h4>
+                            </h5>
                         </Card.Header>
                         <Card.Body>
                             <Row>
-                                <Col xs={12} md = {12} lg = {6}>
+                                <Col xs={12} md = {12} lg = {4}>
                                     <Carousel>
                                         <Carousel.Item>
                                             <img
-                                            height = "450px"
+                                            height = "300px"
                                             className="d-block w-100"
                                             src={Nikhil_11}
                                             alt=""
@@ -756,7 +747,8 @@ class CreditRisk extends Component{
                                     </Carousel>
                                 </Col>
 
-                                <Col xs={12} md = {12} lg = {6}>
+                                <Col xs={12} md = {12} lg = {8}>
+                                    <Container>
                                     <p align = "justify">
                                         <strong>Abstract: </strong>
                                         This paper investigates the forecasting accuracy of bankruptcy hazard rate models for U.S. 
@@ -772,12 +764,9 @@ class CreditRisk extends Component{
                                         notion of market efficiency with respect to publicly available information, we demonstrate that 
                                         accounting variables add little predictive power when market variables are already included in 
                                         the bankruptcy model.
-                                        <br/>
-                                        <br/>
-                                        <strong>Key Takeaway: </strong>
-                                        Accounting variables add little predictive power when market variables are already included in 
-                                        the bankruptcy model.
+                                       
                                     </p>
+                                    </Container>
                                 </Col>
                             </Row>
                         </Card.Body>
@@ -788,21 +777,21 @@ class CreditRisk extends Component{
                     <Card>
                         <Card.Header> 
                             <a href = "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2541102">
-                            <h3> Credit Default Swaps and Lender Incentives in Renegotiations of Bank Debt </h3>
+                            <h5><b> Credit Default Swaps and Lender Incentives in Renegotiations of Bank Debt </b></h5>
                             </a>
-                            <h4> 
+                            <h5> 
                                 - <a target="_blank" href = "https://www.scheller.gatech.edu/directory/faculty/chava/index.html">Sudheer Chava </a>
                                 , Indraneel Chakraborty, and Rohan Ganduri
                                    
-                            </h4>
+                            </h5>
                         </Card.Header>
                         <Card.Body>
                             <Row>
-                                <Col xs={12} md = {12} lg = {6}>
+                                <Col xs={12} md = {12} lg = {4}>
                                     <Carousel>
                                         <Carousel.Item>
                                             <img
-                                            height = "450px"
+                                            height = "300px"
                                             className="d-block w-100"
                                             src={Nikhil_11}
                                             alt=""
@@ -812,7 +801,8 @@ class CreditRisk extends Component{
                                     </Carousel>
                                 </Col>
 
-                                <Col xs={12} md = {12} lg = {6}>
+                                <Col xs={12} md = {12} lg = {8}>
+                                    <Container>
                                     <p align = "justify">
                                         <strong>Abstract: </strong>
                                         We analyze how Credit Default Swaps (CDS) affect bank incentives and borrower outcomes in 
@@ -830,6 +820,7 @@ class CreditRisk extends Component{
                                         Con- sequently, we contribute to the policy debate on the regulation of CDS and other 
                                         similar financial derivatives by documenting a beneficial role of CDS.
                                     </p>
+                                    </Container>
                                 </Col>
                             </Row>
                         </Card.Body>
@@ -840,21 +831,21 @@ class CreditRisk extends Component{
                     <Card>
                         <Card.Header> 
                             <a href = "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1983456">
-                            <h3> Signaling through Dynamic Thresholds in Financial Covenants </h3>
+                            <h5><b> Signaling through Dynamic Thresholds in Financial Covenants </b></h5>
                             </a>
-                            <h4> 
+                            <h5>
                                 - <a target="_blank" href = "https://www.scheller.gatech.edu/directory/faculty/chava/index.html">Sudheer Chava </a>
                                 , Shunlan Fang, and Saumya Prabhat
                                    
-                            </h4>
+                            </h5>
                         </Card.Header>
                         <Card.Body>
                             <Row>
-                                <Col xs={12} md = {12} lg = {6}>
+                                <Col xs={12} md = {12} lg = {4}>
                                     <Carousel>
                                         <Carousel.Item>
                                             <img
-                                            height = "450px"
+                                            height = "300px"
                                             className="d-block w-100"
                                             src={Nikhil_11}
                                             alt=""
@@ -864,7 +855,8 @@ class CreditRisk extends Component{
                                     </Carousel>
                                 </Col>
 
-                                <Col xs={12} md = {12} lg = {6}>
+                                <Col xs={12} md = {12} lg = {8}>
+                                    <Container>
                                     <p align = "justify">
                                         <strong>Abstract: </strong>
                                         Among loan contracts with covenants originated during 1996-2012, 35% have financial covenant 
@@ -882,6 +874,7 @@ class CreditRisk extends Component{
                                         implied by covenant thresholds and the interactions between creditors and borrowers if borrowers 
                                         fail to improve creditworthiness as initially agreed. 
                                     </p>
+                                    </Container>
                                 </Col>
                             </Row>
                         </Card.Body>
@@ -892,21 +885,21 @@ class CreditRisk extends Component{
                     <Card>
                         <Card.Header> 
                             <a href = "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2417499">
-                            <h3> Do Bond Investors Price Tail Risk Exposures of Financial Institutions?</h3>
+                            <h5><b> Do Bond Investors Price Tail Risk Exposures of Financial Institutions?</b></h5>
                             </a>
-                            <h4> 
+                            <h5> 
                                 - <a target="_blank" href = "https://www.scheller.gatech.edu/directory/faculty/chava/index.html">Sudheer Chava </a>
                                 , Rohan Ganduri, and Vijay Yerramilli
                                    
-                            </h4>
+                            </h5>
                         </Card.Header>
                         <Card.Body>
                             <Row>
-                                <Col xs={12} md = {12} lg = {6}>
+                                <Col xs={12} md = {12} lg = {4}>
                                     <Carousel>
                                         <Carousel.Item>
                                             <img
-                                            height = "450px"
+                                            height = "300px"
                                             className="d-block w-100"
                                             src={Nikhil_11}
                                             alt=""
@@ -916,7 +909,8 @@ class CreditRisk extends Component{
                                     </Carousel>
                                 </Col>
 
-                                <Col xs={12} md = {12} lg = {6}>
+                                <Col xs={12} md = {12} lg = {8}>
+                                        <Container>
                                     <p align = "justify">
                                         <strong>Abstract: </strong>
                                         We analyze whether bond investors price tail risk exposures of financial institutions using a 
@@ -934,6 +928,7 @@ class CreditRisk extends Component{
                                         doubt on the idea that market discipline can be sufficient in controlling the tail risk exposures of 
                                         depository institutions.
                                     </p>
+                                    </Container>
                                 </Col>
                             </Row>
                         </Card.Body>

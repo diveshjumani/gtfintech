@@ -40,7 +40,7 @@ class COVID extends Component{
                                     <Carousel>
                                         <Carousel.Item>
                                             <img
-                                            height = "450px"
+                                            height = "400px"
                                             className="d-block w-100"
                                             src={Nikhil_1}
                                             alt=""
@@ -48,7 +48,7 @@ class COVID extends Component{
                                         </Carousel.Item>
                                         <Carousel.Item>
                                             <img
-                                            height = "450px"
+                                            height = "400px"
                                             className="d-block w-100"
                                             src={Nikhil_2}
                                             alt=""
@@ -56,7 +56,7 @@ class COVID extends Component{
                                         </Carousel.Item>
                                         <Carousel.Item>
                                             <img
-                                            height = "450px"
+                                            height = "400px"
                                             className="d-block w-100"
                                             src={Nikhil_3}
                                             alt=""
@@ -64,7 +64,7 @@ class COVID extends Component{
                                         </Carousel.Item>
                                         <Carousel.Item>
                                             <img
-                                            height = "450px"
+                                            height = "400px"
                                             className="d-block w-100"
                                             src={Nikhil_4}
                                             alt=""
@@ -72,7 +72,7 @@ class COVID extends Component{
                                         </Carousel.Item>
                                         <Carousel.Item>
                                             <img
-                                            height = "450px"
+                                            height = "400px"
                                             className="d-block w-100"
                                             src={Nikhil_5}
                                             alt=""

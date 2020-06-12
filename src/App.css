@@ -303,7 +303,7 @@ body {
   height: 250px;
   width: 500px;
   background: rgb(0, 0, 0); /* Fallback color */
-  background: rgba(0, 0, 0, 0.85); /* Black background with 0.5 opacity */
+  background: rgba(0, 0, 0, 0.6); /* Black background with 0.5 opacity */
   color: white;
   position: absolute;
   top: 50%;
@@ -331,7 +331,7 @@ body {
   height: 220px;
   width: 700px;
   background: rgb(0, 0, 0); /* Fallback color */
-  background: rgba(0, 0, 0, 0.85); /* Black background with 0.5 opacity */
+  background: rgba(0, 0, 0, 0.6); /* Black background with 0.5 opacity */
   color: white;
   position: absolute;
   left: 50%;
@@ -480,8 +480,6 @@ li {
   .text-block {
     height: 150px;
     width: 350px;
-    background: rgb(0, 0, 0); /* Fallback color */
-    background: rgba(0, 0, 0, 0.85); /* Black background with 0.5 opacity */
     color: white;
     position: absolute;
     top: 60%;
@@ -495,7 +493,13 @@ li {
   .CL_img-container {
     overflow: hidden;
     height: 100vw;
-    min-height: 690px;
+    min-height:90vh;
+    position: relative;
+  }
+
+  .CL_img {
+    overflow: hidden;
+    height: 100%;
     position: relative;
   }
 
@@ -534,8 +538,6 @@ li {
   .text-block-about {
     height: 350px;
     width: 350px;
-    background: rgb(0, 0, 0); /* Fallback color */
-    background: rgba(0, 0, 0, 0.85); /* Black background with 0.5 opacity */
     color: white;
     position: absolute;
     left: 50%;
@@ -586,5 +588,10 @@ li {
 
 .dropdown-menu a:hover{
   background-color: #343a40 !important;
+}
+
+.card .card-header{
+  padding-top: 0;
+  padding-bottom: 0;
 }
 

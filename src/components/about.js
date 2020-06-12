@@ -10,7 +10,7 @@ class About extends Component {
                     <MDBCarouselItem itemId="1">
                       <MDBView>
                         <img
-                          className="d-block w-100" height = "768px"
+                          className="d-block w-100" height = "800px"
                           src = "https://3k7by215ywuf340yi3alsfso-wpengine.netdna-ssl.com/wp-content/uploads/sites/5/2015/11/Scheller_TechSquare_Hero_02_tech-square-activity-1.jpg"
                           alt=""
                         />
@@ -32,7 +32,7 @@ class About extends Component {
                     <MDBCarouselItem itemId="2">
                       <MDBView>
                         <img
-                          className="d-block w-100" height = "768px"
+                          className="d-block w-100" height = "800px"
                           src="https://www.scheller.gatech.edu/pix/hdr-tech-square.jpg.pagespeed.ce.5vofNEnHkj.jpg"
                           alt=""
                         />
@@ -54,7 +54,7 @@ class About extends Component {
                     <MDBCarouselItem itemId="3">
                       <MDBView>
                         <img
-                          className="d-block w-100" height = "768px"
+                          className="d-block w-100" height = "800px"
                           src= 'https://helpingstories.gatech.edu/sites/default/files/2020-04/workingg.jpg'
                           alt=""
                         />
