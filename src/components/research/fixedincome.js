@@ -1,19 +1,11 @@
 import React, { Component } from 'react';
 import {Card, Container,Row,Col,Carousel} from 'react-bootstrap';
 import { animateScroll as scroll} from 'react-scroll'
-import Nikhil_1 from '../images/Nikhil_1.png';
-import Nikhil_2 from '../images/Nikhil_2.png';
-import Nikhil_3 from '../images/Nikhil_3.png';
-import Nikhil_4 from '../images/Nikhil_4.png';
-import Nikhil_5 from '../images/Nikhil_5.png';
-import Nikhil_6 from '../images/Nikhil_6.png';
-import Nikhil_7 from '../images/Nikhil_7.png';
-import Nikhil_8 from '../images/Nikhil_8.png';
-import Nikhil_9 from '../images/Nikhil_9.png';
-import Nikhil_10 from '../images/Nikhil_10.png';
-import Nikhil_11 from '../images/Nikhil_11.jpg';
-import Nikhil_12 from '../images/Nikhil_12.jpg';
-import Nikhil_13 from '../images/Nikhil_13.jpg';
+import Nikhil_11 from '../../images/Nikhil_11.jpg';
+import Nikhil_12 from '../../images/Nikhil_12.jpg';
+import Nikhil_13 from '../../images/Nikhil_13.jpg';
+import './research.css';
+
 class FixedIncome extends Component{
     scrollToTop() {
         scroll.scrollToTop();
@@ -22,11 +14,10 @@ class FixedIncome extends Component{
         return(
             <div className = "research">
                 <div >
-                    <img height = "500px" src="https://www.upal.com/wp-content/uploads/2018/12/fixedincome.jpg" alt="" style={{width:'100%'}}/>
+                    <img className = 'blur' height='350px' src="https://www.upal.com/wp-content/uploads/2018/12/fixedincome.jpg" alt="" style={{width:'100%'}}/>
                     <div class="text-block-research">
-                        <br/> 
-                        <br/> 	
-                        <h1 style = {{fontSize: '500%'}} ><strong></strong></h1>
+                        <h1>Fixed Income</h1>
+                        <p> Lorem ipsum odor amet, consectetuer adipiscing elit. Fames mollis dictum convallis nisl iaculis dapibus. </p>
                     </div>
                 </div>
 
@@ -36,21 +27,21 @@ class FixedIncome extends Component{
                     
                     <Card>
                         <Card.Header> 
-                            <a href = "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2568121">
-                            <h3> Financial Constraints, Monetary Policy Shocks, and the Cross-Section of Equity Returns </h3>
+                            <a style = {{textDecoration: 'none', color:'#000000'}} target="_blank" rel="noopener noreferrer" href = "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2568121">
+                            <h4><b> Financial Constraints, Monetary Policy Shocks, and the Cross-Section of Equity Returns </b></h4>
                             </a>
-                            <h4> 
-                                - <a target="_blank" href = "https://www.scheller.gatech.edu/directory/faculty/chava/index.html">Sudheer Chava</a>
-                                , <a target="_blank" href = "https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=2099625">Alex Hsu</a> 
-                            </h4>
+                            <h5> 
+                                - <a style = {{textDecoration: 'none', color:'#000000'}} target="_blank" rel="noopener noreferrer" href = "https://www.scheller.gatech.edu/directory/faculty/chava/index.html">Sudheer Chava</a>
+                                , <a style = {{textDecoration: 'none', color:'#000000'}} target="_blank" rel="noopener noreferrer" href = "https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=2099625">Alex Hsu</a> 
+                            </h5>
                         </Card.Header>
                         <Card.Body>
                             <Row>
-                                <Col xs={12} md = {12} lg = {6}>
+                                <Col xs={12} md = {12} lg = {4}>
                                     <Carousel>
                                         <Carousel.Item>
                                             <img
-                                            height = "450px"
+                                            height = "300px"
                                             className="d-block w-100"
                                             src={Nikhil_12}
                                             alt=""
@@ -58,7 +49,7 @@ class FixedIncome extends Component{
                                         </Carousel.Item>
                                         <Carousel.Item>
                                             <img
-                                            height = "450px"
+                                            height = "300px"
                                             className="d-block w-100"
                                             src={Nikhil_13}
                                             alt=""
@@ -67,7 +58,8 @@ class FixedIncome extends Component{
                                     </Carousel>
                                 </Col>
 
-                                <Col xs={12} md = {12} lg = {6}>
+                                <Col xs={12} md = {12} lg = {8}>
+                                    <Container>
                                     <p align = "justify">
                                         <strong>Abstract: </strong>
                                         We analyze the impact of unanticipated monetary policy changes on 
@@ -83,31 +75,32 @@ class FixedIncome extends Component{
                                         The trading volume is significantly lower for constrained firms on FOMC announcement days but the differential 
                                         return response manifests with a delay
                                     </p>
+                                    </Container>
                                 </Col>
                             </Row>
                         </Card.Body>
                     </Card>
 
-
+                    <br/>
 
                     <Card>
                         <Card.Header> 
-                            <a href = "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2803585">
-                            <h3> Does History Repeat Itself? Business Cycle and Industry Returns </h3>
+                            <a style = {{textDecoration: 'none', color:'#000000'}} target="_blank" rel="noopener noreferrer" href = "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2803585">
+                            <h4><b> Does History Repeat Itself? Business Cycle and Industry Returns </b></h4>
                             </a>
-                            <h4> 
-                                - <a target="_blank" href = "https://www.scheller.gatech.edu/directory/faculty/chava/index.html">Sudheer Chava</a>
-                                , <a target="_blank" href = "https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=2099625">Alex Hsu</a> 
-                                , <a target="_blank" href = "https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=2421581">Linghang Zeng</a> 
-                            </h4>
+                            <h5> 
+                                - <a style = {{textDecoration: 'none', color:'#000000'}} target="_blank" rel="noopener noreferrer" href = "https://www.scheller.gatech.edu/directory/faculty/chava/index.html">Sudheer Chava</a>
+                                , <a style = {{textDecoration: 'none', color:'#000000'}} target="_blank" rel="noopener noreferrer" href = "https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=2099625">Alex Hsu</a> 
+                                , <a style = {{textDecoration: 'none', color:'#000000'}} target="_blank" rel="noopener noreferrer" href = "https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=2421581">Linghang Zeng</a> 
+                            </h5>
                         </Card.Header>
                         <Card.Body>
                             <Row>
-                                <Col xs={12} md = {12} lg = {6}>
+                                <Col xs={12} md = {12} lg = {4}>
                                     <Carousel>
                                         <Carousel.Item>
                                             <img
-                                            height = "450px"
+                                            height = "300px"
                                             className="d-block w-100"
                                             src={Nikhil_12}
                                             alt=""
@@ -115,7 +108,7 @@ class FixedIncome extends Component{
                                         </Carousel.Item>
                                         <Carousel.Item>
                                             <img
-                                            height = "450px"
+                                            height = "300px"
                                             className="d-block w-100"
                                             src={Nikhil_13}
                                             alt=""
@@ -124,7 +117,8 @@ class FixedIncome extends Component{
                                     </Carousel>
                                 </Col>
 
-                                <Col xs={12} md = {12} lg = {6}>
+                                <Col xs={12} md = {12} lg = {8}>
+                                    <Container>
                                     <p align = "justify">
                                         <strong>Abstract: </strong>
                                         Industries with higher historical business cycle regime Sharpe ratios (RSR) have higher regime-dependent
@@ -140,33 +134,32 @@ class FixedIncome extends Component{
                                         Industries with higher historical business cycle regime Sharpe ratios (RSR) have higher regime-dependent
                                          expected returns.
                                     </p>
+                                    </Container>
                                 </Col>
                             </Row>
                         </Card.Body>
                     </Card>
 
-
-
-
+                    <br/>
 
                     <Card>
                         <Card.Header> 
-                            <a href = "https://www.sciencedirect.com/science/article/abs/pii/S0304393215000653?via%3Dihub">
-                            <h3> Credit conditions and stock return predictability </h3>
+                            <a style = {{textDecoration: 'none', color:'#000000'}} target="_blank" rel="noopener noreferrer" href = "https://www.sciencedirect.com/science/article/abs/pii/S0304393215000653?via%3Dihub">
+                            <h4><b> Credit conditions and stock return predictability </b></h4>
                             </a>
-                            <h4> 
-                                - <a target="_blank" href = "https://www.scheller.gatech.edu/directory/faculty/chava/index.html">Sudheer Chava</a>
-                                , <a target="_blank" href = "https://www.sciencedirect.com/science/article/abs/pii/S0304393215000653?via%3Dihub#!">Michale Gallmeyer</a> 
-                                , and <a target="_blank" href = "https://www.sciencedirect.com/science/article/abs/pii/S0304393215000653?via%3Dihub#!">Heungju Park</a> 
-                            </h4>
+                            <h5> 
+                                - <a style = {{textDecoration: 'none', color:'#000000'}} target="_blank" rel="noopener noreferrer" href = "https://www.scheller.gatech.edu/directory/faculty/chava/index.html">Sudheer Chava</a>
+                                , <a style = {{textDecoration: 'none', color:'#000000'}} target="_blank" rel="noopener noreferrer" href = "https://www.sciencedirect.com/science/article/abs/pii/S0304393215000653?via%3Dihub#!">Michale Gallmeyer</a> 
+                                , and <a style = {{textDecoration: 'none', color:'#000000'}} target="_blank" rel="noopener noreferrer" href = "https://www.sciencedirect.com/science/article/abs/pii/S0304393215000653?via%3Dihub#!">Heungju Park</a> 
+                            </h5>
                         </Card.Header>
                         <Card.Body>
                             <Row>
-                                <Col xs={12} md = {12} lg = {6}>
+                                <Col xs={12} md = {12} lg = {4}>
                                     <Carousel>
                                         <Carousel.Item>
                                             <img
-                                            height = "450px"
+                                            height = "300px"
                                             className="d-block w-100"
                                             src={Nikhil_12}
                                             alt=""
@@ -174,7 +167,7 @@ class FixedIncome extends Component{
                                         </Carousel.Item>
                                         <Carousel.Item>
                                             <img
-                                            height = "450px"
+                                            height = "300px"
                                             className="d-block w-100"
                                             src={Nikhil_13}
                                             alt=""
@@ -183,7 +176,8 @@ class FixedIncome extends Component{
                                     </Carousel>
                                 </Col>
 
-                                <Col xs={12} md = {12} lg = {6}>
+                                <Col xs={12} md = {12} lg = {8}>
+                                    <Container>
                                     <p align = "justify">
                                         <strong>Abstract: </strong>
                                         U.S. stock return predictability is analyzed using a measure of credit standards
@@ -202,29 +196,32 @@ class FixedIncome extends Component{
                                         •The predictability of Standards is driven by the ability to predict cash flow news.
                                         •The predictability of Standards is robust to a host of consistency checks.
                                     </p>
+                                    </Container>
                                 </Col>
                             </Row>
                         </Card.Body>
                     </Card>
 
-<Card>
+                    <br/>
+
+                    <Card>
                         <Card.Header> 
-                            <a href = "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2417499">
-                            <h3> Do Bond Investors Price Tail Risk Exposures of Financial Institutions?</h3>
+                            <a style = {{textDecoration: 'none', color:'#000000'}} target="_blank" rel="noopener noreferrer" href = "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2417499">
+                            <h4><b> Do Bond Investors Price Tail Risk Exposures of Financial Institutions?</b></h4>
                             </a>
-                            <h4> 
-                                - <a target="_blank" href = "https://www.scheller.gatech.edu/directory/faculty/chava/index.html">Sudheer Chava </a>
+                            <h5> 
+                                - <a style = {{textDecoration: 'none', color:'#000000'}} target="_blank" rel="noopener noreferrer" href = "https://www.scheller.gatech.edu/directory/faculty/chava/index.html">Sudheer Chava </a>
                                 , Rohan Ganduri, and Vijay Yerramilli
                                    
-                            </h4>
+                            </h5>
                         </Card.Header>
                         <Card.Body>
                             <Row>
-                                <Col xs={12} md = {12} lg = {6}>
+                                <Col xs={12} md = {12} lg = {4}>
                                     <Carousel>
                                         <Carousel.Item>
                                             <img
-                                            height = "450px"
+                                            height = "300px"
                                             className="d-block w-100"
                                             src={Nikhil_11}
                                             alt=""
@@ -234,7 +231,8 @@ class FixedIncome extends Component{
                                     </Carousel>
                                 </Col>
 
-                                <Col xs={12} md = {12} lg = {6}>
+                                <Col xs={12} md = {12} lg = {8}>
+                                    <Container>
                                     <p align = "justify">
                                         <strong>Abstract: </strong>
                                         We analyze whether bond investors price tail risk exposures of financial institutions using a 
@@ -252,6 +250,7 @@ class FixedIncome extends Component{
                                         doubt on the idea that market discipline can be sufficient in controlling the tail risk exposures of 
                                         depository institutions.
                                     </p>
+                                    </Container>
                                 </Col>
                             </Row>
                         </Card.Body>
@@ -261,22 +260,22 @@ class FixedIncome extends Component{
                     
                     <Card>
                         <Card.Header> 
-                            <a href = "https://www.sciencedirect.com/science/article/abs/pii/S0304405X07000505?via%3Dihub">
-                            <h3> Determinants of the floating-to-fixed rate debt structure of firms</h3>
+                            <a style = {{textDecoration: 'none', color:'#000000'}} target="_blank" rel="noopener noreferrer" href = "https://www.sciencedirect.com/science/article/abs/pii/S0304405X07000505?via%3Dihub">
+                            <h4><b> Determinants of the floating-to-fixed rate debt structure of firms</b></h4>
                             </a>
-                            <h4> 
-                                - <a target="_blank" href = "https://www.scheller.gatech.edu/directory/faculty/chava/index.html">Sudheer Chava </a>
+                            <h5> 
+                                - <a style = {{textDecoration: 'none', color:'#000000'}} target="_blank" rel="noopener noreferrer" href = "https://www.scheller.gatech.edu/directory/faculty/chava/index.html">Sudheer Chava </a>
                                  and Amiyatosh Purnanandam
                                    
-                            </h4>
+                            </h5>
                         </Card.Header>
                         <Card.Body>
                             <Row>
-                                <Col xs={12} md = {12} lg = {6}>
+                                <Col xs={12} md = {12} lg = {4}>
                                     <Carousel>
                                         <Carousel.Item>
                                             <img
-                                            height = "450px"
+                                            height = "300px"
                                             className="d-block w-100"
                                             src={Nikhil_11}
                                             alt=""
@@ -286,7 +285,8 @@ class FixedIncome extends Component{
                                     </Carousel>
                                 </Col>
 
-                                <Col xs={12} md = {12} lg = {6}>
+                                <Col xs={12} md = {12} lg = {8}>
+                                    <Container>
                                     <p align = "justify">
                                         <strong>Abstract: </strong>
                                         We analyze the effects of managerial incentive, firm characteristics and market timing on 
@@ -301,30 +301,32 @@ class FixedIncome extends Component{
                                         <strong>Key Takeaway: </strong>
                                         Agency problems at the level of non-CEO executives could be an important driver of various corporate decisions.
                                     </p>
+                                    </Container>
                                 </Col>
                             </Row>
                         </Card.Body>
                     </Card>
                     
                     <br/>
+
                     <Card>
                         <Card.Header> 
-                            <a href = "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3277424##">
-                            <h3> Revealed Heuristics: Evidence from Investment Consultants’ Search Behavior </h3>
+                            <a style = {{textDecoration: 'none', color:'#000000'}} target="_blank" rel="noopener noreferrer" href = "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3277424##">
+                            <h4><b> Revealed Heuristics: Evidence from Investment Consultants’ Search Behavior </b></h4>
                             </a>
-                            <h4> 
-                                - <a target="_blank" href = "https://www.scheller.gatech.edu/directory/faculty/chava/index.html">Sudheer Chava </a>
+                            <h5> 
+                                - <a style = {{textDecoration: 'none', color:'#000000'}} target="_blank" rel="noopener noreferrer" href = "https://www.scheller.gatech.edu/directory/faculty/chava/index.html">Sudheer Chava </a>
                                 , Soohun Kim, and Daniel Weagley
                                    
-                            </h4>
+                            </h5>
                         </Card.Header>
                         <Card.Body>
                             <Row>
-                                <Col xs={12} md = {12} lg = {6}>
+                                <Col xs={12} md = {12} lg = {4}>
                                     <Carousel>
                                         <Carousel.Item>
                                             <img
-                                            height = "450px"
+                                            height = "300px"
                                             className="d-block w-100"
                                             src={Nikhil_11}
                                             alt=""
@@ -334,7 +336,8 @@ class FixedIncome extends Component{
                                     </Carousel>
                                 </Col>
 
-                                <Col xs={12} md = {12} lg = {6}>
+                                <Col xs={12} md = {12} lg = {8}>
+                                    <Container>
                                     <p align = "justify">
                                         <strong>Abstract: </strong>
                                         Using proprietary data from a major fund data provider, we analyze the screening activity of 
@@ -354,17 +357,13 @@ class FixedIncome extends Component{
                                         base 5 or base 10 numbers: $500MM for AUM, 0% for the return net of a benchmark, and
                                          quartiles for return percentile rank screens.
                                     </p>
+                                    </Container>
                                 </Col>
                             </Row>
                         </Card.Body>
                     </Card>
-                    
-                    <br/>
-
-                    
                     <br/>
                 </Container>
-
 
             </div>
             );

@@ -1,8 +1,7 @@
 import React, {useState, useEffect } from 'react';
-import {Card, Button, Container,Navbar,NavLink,Nav,Row,Col} from 'react-bootstrap';
-import { Link, Element, animateScroll as scroll} from 'react-scroll'
-import logo from '../images/GT_White.png';
-import '../App.css';
+import {Card, Button, Container,Row,Col} from 'react-bootstrap';
+import {Element, animateScroll as scroll} from 'react-scroll'
+import '../../App.css';
 import {Link as Link1} from 'react-router-dom';
 
 function Research() {

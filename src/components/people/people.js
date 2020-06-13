@@ -1,19 +1,18 @@
 import React, {useState, useEffect } from 'react';
-import {Container,Card,CardDeck} from 'react-bootstrap';
-import {Navbar, Nav, NavLink, Button,Image,Grid,Row,Col} from 'react-bootstrap';
-import { Link, Element, animateScroll as scroll} from 'react-scroll'
-import logo from '../images/GT_White.png';
-import Sudheer_Chava from '../images/Sudheer_Chava.jpg';
-import Alex_Hsu from '../images/Alex_Hsu.jpg';
-import Daniel_Weagley from '../images/Daniel_Weagley.jpg';
-import Shijie_Deng from '../images/Shijie_Deng.jpg';
-import Soohun_Kim from '../images/Soohun_Kim.jpg';
-import Baridhi_Malakar from '../images/Baridhi_Malakar.jpg';
-import Wendi_Du from '../images/Wendi_Du.jpg';
-import Ernest_Jang from '../images/Ernest_Jang.jpg';
-import Nikhil_Paradkar from '../images/Nikhil_Paradkar.jpg';
-import Peter_Simasek from '../images/Peter_Simasek.jpg';
-import Mingxun_Wang from '../images/Mingxun_Wang.jpg';
+import {Container,Card} from 'react-bootstrap';
+import  {Button,Image,Row,Col} from 'react-bootstrap';
+import {Element, animateScroll as scroll} from 'react-scroll'
+import Sudheer_Chava from '../../images/Sudheer_Chava.jpg';
+import Alex_Hsu from '../../images/Alex_Hsu.jpg';
+import Daniel_Weagley from '../../images/Daniel_Weagley.jpg';
+import Shijie_Deng from '../../images/Shijie_Deng.jpg';
+import Soohun_Kim from '../../images/Soohun_Kim.jpg';
+import Baridhi_Malakar from '../../images/Baridhi_Malakar.jpg';
+import Wendi_Du from '../../images/Wendi_Du.jpg';
+import Ernest_Jang from '../../images/Ernest_Jang.jpg';
+import Nikhil_Paradkar from '../../images/Nikhil_Paradkar.jpg';
+import Peter_Simasek from '../../images/Peter_Simasek.jpg';
+import Mingxun_Wang from '../../images/Mingxun_Wang.jpg';
 
 function People() {
     const [isNavVisible, setNavVisibility] = useState(false);
@@ -73,7 +72,7 @@ function People() {
                     <div class="row">
                         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-3">
                             <Card border='light'>
-                                <a target="_blank" href = "https://www.scheller.gatech.edu/directory/faculty/chava/index.html">
+                                <a target="_blank" rel="noopener noreferrer" href = "https://www.scheller.gatech.edu/directory/faculty/chava/index.html">
                                 <Card.Img className= 'Chava' style ={{height:'34p8x'}} variant="top" src={Sudheer_Chava}></Card.Img>
                                 </a>
                                 <Card.Body>
@@ -114,9 +113,9 @@ function People() {
                             <br/>
 
                             <row>
-                                <Button target="_blank" href = "https://scholar.google.com/citations?user=AXYf-i8AAAAJ" variant="warning">Google Scholar</Button>{' '}
-                                <Button target="_blank" href = "https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=292365" variant="warning">SSRN</Button>{' '}
-                                <Button target="_blank" href = "https://www.linkedin.com/in/sudheer-chava-b5883021/" variant="warning">LinkedIn</Button>{' '}
+                                <Button target="_blank" rel="noopener noreferrer" href = "https://scholar.google.com/citations?user=AXYf-i8AAAAJ" variant="warning">Google Scholar</Button>{' '}
+                                <Button target="_blank" rel="noopener noreferrer" href = "https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=292365" variant="warning">SSRN</Button>{' '}
+                                <Button target="_blank" rel="noopener noreferrer" href = "https://www.linkedin.com/in/sudheer-chava-b5883021/" variant="warning">LinkedIn</Button>{' '}
                             </row>
                         </div>
                     </div>
@@ -137,7 +136,7 @@ function People() {
                         <Row>
                             <Col xs={6} md = {4} lg = {2}>
                                 <Card  className = 'card-img-faculty'>
-                                    <a target="_blank" href = "https://sites.google.com/site/alexchiahsu/home">
+                                    <a target="_blank" rel="noopener noreferrer" href = "https://sites.google.com/site/alexchiahsu/home">
                                         <Card.Img style={{ width: '100%', height: '30vh'}} variant="top" src={Alex_Hsu}></Card.Img>
                                     </a>
                                     <Card.Body>
@@ -148,7 +147,7 @@ function People() {
                             </Col>
                             <Col xs={6} md = {4} lg = {2}>
                                 <Card>
-                                    <a target="_blank" href ="https://www.scheller.gatech.edu/directory/faculty/kim.s/index.html">
+                                    <a target="_blank" rel="noopener noreferrer" href ="https://www.scheller.gatech.edu/directory/faculty/kim.s/index.html">
                                         <Card.Img style={{ width: '100%', height: '30vh'}} variant="top" src={Soohun_Kim}></Card.Img>
                                     </a>
                                     <Card.Body>
@@ -159,7 +158,7 @@ function People() {
                             </Col>
                             <Col xs={6} md = {4} lg = {2}> 
                                 <Card  >
-                                    <a target="_blank" href = "https://www.danielweagley.com/">
+                                    <a target="_blank" rel="noopener noreferrer" href = "https://www.danielweagley.com/">
                                         <Card.Img style={{ width: '100%', height: '30vh'}} variant="top" src={Daniel_Weagley}></Card.Img>
                                     </a>
                                     <Card.Body>
@@ -170,7 +169,7 @@ function People() {
                             </Col>
                             <Col xs={6} md = {4} lg = {2}>
                                 <Card >
-                                    <a target="_blank" href = "https://www2.isye.gatech.edu/people/faculty/Shijie_Deng/">
+                                    <a target="_blank" rel="noopener noreferrer" href = "https://www2.isye.gatech.edu/people/faculty/Shijie_Deng/">
                                         <Card.Img style={{ width: '100%', height: '30vh'}} variant="top" src={Shijie_Deng}></Card.Img>
                                     </a>
                                     <Card.Body>
@@ -218,9 +217,9 @@ function People() {
                     <Row>
                         <Col xs={6} md = {4} lg = {2}>
                         <Card>
-                            <a target="_blank">
+                            
                                 <Card.Img style={{ width: '100%', height: '30vh'}} variant="top" src={Wendi_Du}></Card.Img>
-                            </a>
+                            
                             <Card.Body>
                                 <Card.Title>Wendi Du</Card.Title>
                                 <Card.Text>Finance</Card.Text>
@@ -230,9 +229,9 @@ function People() {
 
                         <Col xs={6} md = {4} lg = {2}>
                         <Card>
-                            <a target="_blank">
+                            
                                 <Card.Img style={{ width: '100%', height: '30vh'}} variant="top" src={Ernest_Jang}></Card.Img>
-                            </a>
+                            
                             <Card.Body>
                                 <Card.Title>Ernest Jang</Card.Title>
                                 <Card.Text>Finance</Card.Text>
@@ -242,9 +241,9 @@ function People() {
 
                         <Col xs={6} md = {4} lg = {2}>
                         <Card>
-                            <a target="_blank">
+                            
                                 <Card.Img style={{width: '100%', height: '30vh'}} variant="top" src={Baridhi_Malakar}></Card.Img>
-                            </a>
+                           
                             <Card.Body>
                                 <Card.Title>Baridhi Malakar</Card.Title>
                                 <Card.Text>Finance</Card.Text>
@@ -254,7 +253,7 @@ function People() {
 
                         <Col xs={6} md = {4} lg = {2}>
                         <Card>
-                            <a target="_blank" href= "https://www.nikhil-paradkar.com/home">
+                            <a target="_blank" rel="noopener noreferrer" href= "https://www.nikhil-paradkar.com/home">
                                 <Card.Img style={{width: '100%', height: '30vh'}} variant="top" src={Nikhil_Paradkar}></Card.Img>
                             </a>
                             <Card.Body>
@@ -266,9 +265,9 @@ function People() {
 
                         <Col xs={6} md = {4} lg = {2}>
                         <Card>
-                            <a target="_blank">
+                            
                                 <Card.Img style={{width: '100%', height: '30vh'}} variant="top" src={Peter_Simasek}></Card.Img>
-                            </a>
+                           
                             <Card.Body>
                                 <Card.Title>Peter Simasek</Card.Title>
                                 <Card.Text>Finance</Card.Text>
@@ -278,9 +277,9 @@ function People() {
 
                         <Col xs={6} md = {4} lg = {2}>
                         <Card>
-                            <a target="_blank">
+                          
                                 <Card.Img style={{width: '100%', height: '30vh'}} variant="top" src={Mingxun_Wang}></Card.Img>
-                            </a>
+                            
                             <Card.Body>
                                 <Card.Title>Mingxun Wang</Card.Title>
                                 <Card.Text>Finance</Card.Text>

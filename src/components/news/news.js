@@ -10,9 +10,9 @@ class News extends Component{
           <br/>
           <div className="row no-gutters">
             <Col xs={12} md = {12} lg = {6} xl = {6}>
-              <a target="_blank" href="https://www.scheller.gatech.edu/news-events/latest-news/2020/do-the-right-thing-clorox-vp-and-scheller-alum-rick-mcdonald-on-the-fight-against-covid-19.html">
+              <a style = {{textDecoration: 'none', color:'#000000'}} target="_blank" rel="noopener noreferrer" href="https://www.scheller.gatech.edu/news-events/latest-news/2020/do-the-right-thing-clorox-vp-and-scheller-alum-rick-mcdonald-on-the-fight-against-covid-19.html">
                 <Card  className="bg-dark text-white noHover" >
-                  <Image style = {{width: '100%', height: '70.3vh'}} class="card-img-top" fluid src="https://www.scheller.gatech.edu/news-events/latest-news/2020/clorox.jpg" alt="Card image" />
+                  <Image style = {{width: '100%', height: '70.3vh'}} className="card-img-top" fluid src="https://www.scheller.gatech.edu/news-events/latest-news/2020/clorox.jpg" alt="Card image" />
                   <div class="text-block-card text-block-big-card">
                     <h6 align = "justify">‘Do the Right Thing’: Clorox VP and Scheller Alum Rick McDonald on the Fight Against COVID-19</h6><br/>
                   </div>
@@ -23,7 +23,7 @@ class News extends Component{
             <Col xs={12} md = {12} lg = {6}>
               <Row className="no-gutters">
                 <Col xs={6} md = {6} lg = {6} xl = {6}>
-                  <a target="_blank" href="https://www.scheller.gatech.edu/news-events/latest-news/2020/the-role-of-an-emba-during-a-merger-career-shift-and-covid-19-perspectives-from-alum-jon-michael-thomas.html">
+                  <a style = {{textDecoration: 'none', color:'#000000'}} target="_blank" rel="noopener noreferrer" href="https://www.scheller.gatech.edu/news-events/latest-news/2020/the-role-of-an-emba-during-a-merger-career-shift-and-covid-19-perspectives-from-alum-jon-michael-thomas.html">
                     <Card className="bg-dark text-white noHover">
                       <Image style = {{width: '100%', height: '35vh'}} class="card-img-top" fluid src="https://www.scheller.gatech.edu/news-events/latest-news/2020/emba-jon-michael-thomas-2.jpg" alt="Card image" />
                       <div class="text-block-card">
@@ -33,7 +33,7 @@ class News extends Component{
                   </a>
                 </Col>
                 <Col xs={6} md = {6} lg = {6} xl = {6}>
-                  <a target="_blank" href="https://www.scheller.gatech.edu/news-events/latest-news/2020/how-are-equity-valuations-affected-by-the-covid-19-crisis.html">
+                  <a style = {{textDecoration: 'none', color:'#000000'}} target="_blank" rel="noopener noreferrer" href="https://www.scheller.gatech.edu/news-events/latest-news/2020/how-are-equity-valuations-affected-by-the-covid-19-crisis.html">
                     <Card className="bg-dark text-white noHover">
                       <Image style = {{width: '100%', height: '35vh'}} class="card-img-top" fluid src="https://www.scheller.gatech.edu/news-events/latest-news/2020/alex-hsu-faculty.JPG" alt="Card image" />
                       <div class="text-block-card">
@@ -44,7 +44,7 @@ class News extends Component{
                 </Col>
 
                 <Col xs={6} md = {6} lg = {6} xl = {6}>
-                  <a target="_blank" href="https://www.scheller.gatech.edu/news-events/latest-news/2020/four-scheller-college-of-business-faculty-receive-award-for-excellence-in-teaching.html">
+                  <a style = {{textDecoration: 'none', color:'#000000'}} target="_blank" rel="noopener noreferrer" href="https://www.scheller.gatech.edu/news-events/latest-news/2020/four-scheller-college-of-business-faculty-receive-award-for-excellence-in-teaching.html">
                     <Card className="bg-dark text-white noHover">
                       <Image style = {{width: '100%', height: '35vh'}} class="card-img-top" fluid src="https://www.scheller.gatech.edu/news-events/latest-news/2020/scheller-building-front-facing-v2.jpg" alt="Card image" />
                       <div class="text-block-card">
@@ -54,7 +54,7 @@ class News extends Component{
                   </a>
                 </Col>
                 <Col xs={6} md = {6} lg = {6} xl = {6}>
-                  <a target="_blank" href="https://www.scheller.gatech.edu/news-events/latest-news/2020/passion-drive-and-a-commitment-to-diversity-and-inclusion-meet-nona-black-poets-and-quants-2020-mba-to-watch.html">
+                  <a style = {{textDecoration: 'none', color:'#000000'}} target="_blank" rel="noopener noreferrer" href="https://www.scheller.gatech.edu/news-events/latest-news/2020/passion-drive-and-a-commitment-to-diversity-and-inclusion-meet-nona-black-poets-and-quants-2020-mba-to-watch.html">
                     <Card className="bg-dark text-white noHover">
                       <Image style = {{width: '100%', height: '35vh'}} class="card-img-top" fluid src="https://www.scheller.gatech.edu/news-events/latest-news/2020/Nona-Black-768x480.jpeg" alt="Card image" />
                       <div class="text-block-card">
@@ -114,7 +114,7 @@ class News extends Component{
                         conceived, designed, built and launched in eight weeks to accelerate the world's recovery from
                         COVID-19 through information based solutions.
                       </p>
-                      <Button className = "btnr" variant="outline-warning" size="sm" target="_blank" href="https://www.scheller.gatech.edu/news-events/latest-news/2020/creative-destruction-lab-kicks-off-global-program-to-address-global-crisis.html">
+                      <Button className = "btnr" variant="outline-warning" size="sm" target="_blank" rel="noopener noreferrer" href="https://www.scheller.gatech.edu/news-events/latest-news/2020/creative-destruction-lab-kicks-off-global-program-to-address-global-crisis.html">
                         Read more
                       </Button>{' '}
                     </Col>
@@ -137,7 +137,7 @@ class News extends Component{
                       <p align = "justify">
                       Nona Black (MBA 2020), a design-minded innovator whose dream is to spoil all the dogs in the world, worked right down the street from the Scheller College of Business for a year and a half before applying to the Full-time MBA program.
                       </p>
-                      <Button className = "btnr" variant="outline-warning" size="sm" target="_blank" href="https://www.scheller.gatech.edu/news-events/latest-news/2020/passion-drive-and-a-commitment-to-diversity-and-inclusion-meet-nona-black-poets-and-quants-2020-mba-to-watch.html">
+                      <Button className = "btnr" variant="outline-warning" size="sm" target="_blank" rel="noopener noreferrer" href="https://www.scheller.gatech.edu/news-events/latest-news/2020/passion-drive-and-a-commitment-to-diversity-and-inclusion-meet-nona-black-poets-and-quants-2020-mba-to-watch.html">
                         Read more
                       </Button>{' '}
                     </Col>
@@ -160,7 +160,7 @@ class News extends Component{
                       <p align = "justify">
                       Scheller College of Business doctoral student Chris Green recently received a promotion from Major to Lieutenant Colonel in the United States Army. The ceremony took place at Scheller College in front of faculty, staff, students and family members - a first for the College. 
                       </p>
-                      <Button className = "btnr" variant="outline-warning" size="sm" target="_blank" href="https://www.scheller.gatech.edu/news-events/latest-news/2020/scheller-doctoral-student-chris-green-promoted-to-lieutenant-colonel.html">
+                      <Button className = "btnr" variant="outline-warning" size="sm" target="_blank" rel="noopener noreferrer" href="https://www.scheller.gatech.edu/news-events/latest-news/2020/scheller-doctoral-student-chris-green-promoted-to-lieutenant-colonel.html">
                         Read more
                       </Button>{' '}
                     </Col>
@@ -183,7 +183,7 @@ class News extends Component{
                       <p align = "justify">
                       Who exactly is an Executive MBA? Meet four of the Georgia Tech Executive MBA (EMBA) program’s incoming students, whose expertise spans the globe in a vast variety of industries and backgrounds. These four students will be starting their transformational 17-month EMBA experience at the Scheller College of Business this August.  
                       </p>
-                      <Button className = "btnr" variant="outline-warning" size="sm" target="_blank" href="https://www.scheller.gatech.edu/news-events/latest-news/2020/international-travelers-tech-gamechangers-and-a-yellow-jackets-quarterback-meet-the-scheller-executive-mba-class-of-2021.html">
+                      <Button className = "btnr" variant="outline-warning" size="sm" target="_blank" rel="noopener noreferrer" href="https://www.scheller.gatech.edu/news-events/latest-news/2020/international-travelers-tech-gamechangers-and-a-yellow-jackets-quarterback-meet-the-scheller-executive-mba-class-of-2021.html">
                         Read more
                       </Button>{' '}
                     </Col>
@@ -195,7 +195,7 @@ class News extends Component{
 
           <Col xs={12} md = {6} lg = {3}>
             <Card text = "black">
-            <Card.Link target="_blank" href="https://www.scheller.gatech.edu/news-events/events/event.html?event_id=a0b1K00000iihzjQAA">
+            <Card.Link target="_blank" rel="noopener noreferrer" href="https://www.scheller.gatech.edu/news-events/events/event.html?event_id=a0b1K00000iihzjQAA">
               <Card.Body align = "left">
                 <Card.Title>03 June</Card.Title>
                 <Card.Subtitle className="mb-2 text-muted">12:00 pm - 1:00 pm </Card.Subtitle>
@@ -214,7 +214,7 @@ class News extends Component{
             <br/>
 
             <Card text = "black">
-            <Card.Link target="_blank" href="https://www.scheller.gatech.edu/news-events/events/event.html?event_id=a0b1K00000iihzjQAA">
+            <Card.Link target="_blank" rel="noopener noreferrer" href="https://www.scheller.gatech.edu/news-events/events/event.html?event_id=a0b1K00000iihzjQAA">
               <Card.Body align = "left">
                 <Card.Title>03 June</Card.Title>
                 <Card.Subtitle className="mb-2 text-muted">12:00 pm - 1:00 pm </Card.Subtitle>
@@ -233,7 +233,7 @@ class News extends Component{
             <br/>
 
             <Card text = "black">
-            <Card.Link target="_blank" href="https://www.scheller.gatech.edu/news-events/events/event.html?event_id=a0b1K00000iihzjQAA">
+            <Card.Link target="_blank" rel="noopener noreferrer" href="https://www.scheller.gatech.edu/news-events/events/event.html?event_id=a0b1K00000iihzjQAA">
               <Card.Body align = "left">
                 <Card.Title>03 June</Card.Title>
                 <Card.Subtitle className="mb-2 text-muted">12:00 pm - 1:00 pm </Card.Subtitle>
@@ -252,7 +252,7 @@ class News extends Component{
             <br/>
 
             <Card text = "black">
-            <Card.Link target="_blank" href="https://www.scheller.gatech.edu/news-events/events/event.html?event_id=a0b1K00000iihzjQAA">
+            <Card.Link target="_blank" rel="noopener noreferrer" href="https://www.scheller.gatech.edu/news-events/events/event.html?event_id=a0b1K00000iihzjQAA">
               <Card.Body align = "left">
                 <Card.Title>03 June</Card.Title>
                 <Card.Subtitle className="mb-2 text-muted">12:00 pm - 1:00 pm </Card.Subtitle>
@@ -271,7 +271,7 @@ class News extends Component{
             <br/>
 
             <Card text = "black">
-            <Card.Link target="_blank" href="https://www.scheller.gatech.edu/news-events/events/event.html?event_id=a0b1K00000iihzjQAA">
+            <Card.Link target="_blank" rel="noopener noreferrer" href="https://www.scheller.gatech.edu/news-events/events/event.html?event_id=a0b1K00000iihzjQAA">
               <Card.Body align = "left">
                 <Card.Title>03 June</Card.Title>
                 <Card.Subtitle className="mb-2 text-muted">12:00 pm - 1:00 pm </Card.Subtitle>
@@ -290,7 +290,7 @@ class News extends Component{
             <br/>
 
             <Card text = "black">
-            <Card.Link target="_blank" href="https://www.scheller.gatech.edu/news-events/events/event.html?event_id=a0b1K00000iihzjQAA">
+            <Card.Link target="_blank" rel="noopener noreferrer" href="https://www.scheller.gatech.edu/news-events/events/event.html?event_id=a0b1K00000iihzjQAA">
               <Card.Body align = "left">
                 <Card.Title>03 June</Card.Title>
                 <Card.Subtitle className="mb-2 text-muted">12:00 pm - 1:00 pm </Card.Subtitle>

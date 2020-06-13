@@ -1,18 +1,18 @@
 import React, {Component} from 'react';
-import {Card, Container, CardGroup,Col,Row} from 'react-bootstrap';
+import {Card, Container, Col,Row} from 'react-bootstrap';
 import {animateScroll as scroll} from 'react-scroll';
-import '../App.css';
-import Amazon from '../images/amazon_logo.jpg';
-import Bloomberg from '../images/Bloomberg_logo.jpg';
-import BOA from '../images/BOA_logo.png';
-import CapitalOne from '../images/CapitalOne_logo.png';
-import IBM from '../images/IBM_logo.jpg';
-import JPM from '../images/JPM_logo.jpg';
-import Microsoft from '../images/Microsoft_logo.png';
-import Truist from '../images/Truist_logo.jpg';
-import Walmart from '../images/Walmart_logo.jpg';
-import Workday from '../images/Workday_Logo.png';
-import Sponsors from '../images/Sponsors.jpg';
+import '../../App.css';
+import Amazon from '../../images/amazon_logo.jpg';
+import Bloomberg from '../../images/Bloomberg_logo.jpg';
+import BOA from '../../images/BOA_logo.png';
+import CapitalOne from '../../images/CapitalOne_logo.png';
+import IBM from '../../images/IBM_logo.jpg';
+import JPM from '../../images/JPM_logo.jpg';
+import Microsoft from '../../images/Microsoft_logo.png';
+import Truist from '../../images/Truist_logo.jpg';
+import Walmart from '../../images/Walmart_logo.jpg';
+import Workday from '../../images/Workday_Logo.png';
+import Sponsors from '../../images/Sponsors.jpg';
 
 
 class CorporateAffiliates extends Component{

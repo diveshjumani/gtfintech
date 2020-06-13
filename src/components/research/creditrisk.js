@@ -1,19 +1,20 @@
 import React, { Component } from 'react';
 import {Card, Container,Row,Col,Carousel} from 'react-bootstrap';
 import { animateScroll as scroll} from 'react-scroll'
-import Nikhil_1 from '../images/Nikhil_1.png';
-import Nikhil_2 from '../images/Nikhil_2.png';
-import Nikhil_3 from '../images/Nikhil_3.png';
-import Nikhil_4 from '../images/Nikhil_4.png';
-import Nikhil_5 from '../images/Nikhil_5.png';
-import Nikhil_6 from '../images/Nikhil_6.png';
-import Nikhil_7 from '../images/Nikhil_7.png';
-import Nikhil_8 from '../images/Nikhil_8.png';
-import Nikhil_9 from '../images/Nikhil_9.png';
-import Nikhil_10 from '../images/Nikhil_10.png';
-import Nikhil_11 from '../images/Nikhil_11.jpg';
-import Nikhil_12 from '../images/Nikhil_12.jpg';
-import Nikhil_13 from '../images/Nikhil_13.jpg';
+import Nikhil_1 from '../../images/Nikhil_1.png';
+import Nikhil_2 from '../../images/Nikhil_2.png';
+import Nikhil_3 from '../../images/Nikhil_3.png';
+import Nikhil_4 from '../../images/Nikhil_4.png';
+import Nikhil_5 from '../../images/Nikhil_5.png';
+import Nikhil_6 from '../../images/Nikhil_6.png';
+import Nikhil_7 from '../../images/Nikhil_7.png';
+import Nikhil_8 from '../../images/Nikhil_8.png';
+import Nikhil_9 from '../../images/Nikhil_9.png';
+import Nikhil_10 from '../../images/Nikhil_10.png';
+import Nikhil_11 from '../../images/Nikhil_11.jpg';
+import Nikhil_12 from '../../images/Nikhil_12.jpg';
+import Nikhil_13 from '../../images/Nikhil_13.jpg';
+import './research.css';
 
 class CreditRisk extends Component{
     scrollToTop() {
@@ -23,11 +24,10 @@ class CreditRisk extends Component{
         return(
             <div className = "research">
                 <div >
-                    <img height = "500px" src="https://www.marketing91.com/wp-content/uploads/2019/02/Credit-Risk-4.jpg" alt="" style={{width:'100%'}}/>
-                    <div class="text-block-research">
-                        <br/> 
-                        <br/> 	
-                        <h1 style = {{fontSize: '600%'}} ><strong></strong></h1>
+                    <img className = 'blur' height='350px' src="https://www.marketing91.com/wp-content/uploads/2019/02/Credit-Risk-4.jpg" alt="" style={{width:'100%'}}/>
+                    <div class="text-block-research"> 	
+                        <h1>Credit Risk</h1>
+                        <p> Lorem ipsum odor amet, consectetuer adipiscing elit. Fames mollis dictum convallis nisl iaculis dapibus. </p>
                     </div>
                 </div>
 
@@ -36,11 +36,11 @@ class CreditRisk extends Component{
                 <Container fluid>
                     <Card className = "researchcard">
                         <Card.Header> 
-                            <h5>
+                            <h4>
                                 <b>Reducing Risk or Reaching for Yield? Impact of Stress Tests on Credit Card Lending (Job Market Paper) </b>
-                            </h5>
+                            </h4>
                             <h5>
-                                - <a target="_blank" href= "https://www.nikhil-paradkar.com/home">Nikhil Paradkar</a>
+                                - <a style = {{textDecoration: 'none', color:'#000000'}} target="_blank" rel="noopener noreferrer" href= "https://www.nikhil-paradkar.com/home">Nikhil Paradkar</a>
                             </h5>
                         </Card.Header>
                         <Card.Body>
@@ -117,12 +117,12 @@ class CreditRisk extends Component{
                 
                     <Card>
                         <Card.Header> 
-                            <a href = "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3178322">
-                            <h5><b> Winners and Losers of Marketplace Lending: Evidence from Borrower Credit Dynamics </b></h5>
+                            <a style = {{textDecoration: 'none', color:'#000000'}} target="_blank" rel="noopener noreferrer" href = "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3178322">
+                            <h4><b> Winners and Losers of Marketplace Lending: Evidence from Borrower Credit Dynamics </b></h4>
                             </a>
                             <h5>
-                                - <a target="_blank" href = "https://www.scheller.gatech.edu/directory/faculty/chava/index.html">Sudheer Chava</a>
-                                , <a target="_blank" href= "https://www.nikhil-paradkar.com/home">Nikhil Paradkar</a>
+                                - <a style = {{textDecoration: 'none', color:'#000000'}} target="_blank" rel="noopener noreferrer" href = "https://www.scheller.gatech.edu/directory/faculty/chava/index.html">Sudheer Chava</a>
+                                , <a style = {{textDecoration: 'none', color:'#000000'}} target="_blank" rel="noopener noreferrer" href= "https://www.nikhil-paradkar.com/home">Nikhil Paradkar</a>
                                 and 
                                 Yafei Zhang 
                             </h5>
@@ -204,12 +204,12 @@ class CreditRisk extends Component{
 
                     <Card>
                         <Card.Header> 
-                            <a href = "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2962476">
-                            <h5><b> December Doldrums, Investor Distraction, and Stock Market Reaction to Unscheduled News Events </b></h5>
+                            <a style = {{textDecoration: 'none', color:'#000000'}} target="_blank" rel="noopener noreferrer" href = "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2962476">
+                            <h4><b> December Doldrums, Investor Distraction, and Stock Market Reaction to Unscheduled News Events </b></h4>
                             </a>
                             <h5> 
-                                - <a target="_blank" href = "https://www.scheller.gatech.edu/directory/faculty/chava/index.html">Sudheer Chava</a>
-                                , <a target="_blank" href= "https://www.nikhil-paradkar.com/home">Nikhil Paradkar</a> 
+                                - <a style = {{textDecoration: 'none', color:'#000000'}} target="_blank" rel="noopener noreferrer" href = "https://www.scheller.gatech.edu/directory/faculty/chava/index.html">Sudheer Chava</a>
+                                , <a style = {{textDecoration: 'none', color:'#000000'}} target="_blank" rel="noopener noreferrer" href= "https://www.nikhil-paradkar.com/home">Nikhil Paradkar</a> 
                             </h5>
                         </Card.Header>
                         <Card.Body>
@@ -250,12 +250,12 @@ class CreditRisk extends Component{
 
                     <Card>
                         <Card.Header> 
-                            <a href = "https://drive.google.com/file/d/1L-MUljdxlI7CQGZHP0Hy4VCurNJKFsTn/view">
-                            <h5><b> Shocked by Bank Funding Shocks: Evidence from 500 Million Consumer Credit Cards </b></h5>
+                            <a style = {{textDecoration: 'none', color:'#000000'}} target="_blank" rel="noopener noreferrer" href = "https://drive.google.com/file/d/1L-MUljdxlI7CQGZHP0Hy4VCurNJKFsTn/view">
+                            <h4><b> Shocked by Bank Funding Shocks: Evidence from 500 Million Consumer Credit Cards </b></h4>
                             </a>
                             <h5>
-                                - <a target="_blank" href = "https://www.scheller.gatech.edu/directory/faculty/chava/index.html">Sudheer Chava</a>
-                                , <a target="_blank" href= "https://www.nikhil-paradkar.com/home">Nikhil Paradkar</a>
+                                - <a style = {{textDecoration: 'none', color:'#000000'}} target="_blank" rel="noopener noreferrer" href = "https://www.scheller.gatech.edu/directory/faculty/chava/index.html">Sudheer Chava</a>
+                                , <a style = {{textDecoration: 'none', color:'#000000'}} target="_blank" rel="noopener noreferrer" href= "https://www.nikhil-paradkar.com/home">Nikhil Paradkar</a>
                                 , 
                                 Rohan Ganduri 
                                 and 
@@ -307,22 +307,15 @@ class CreditRisk extends Component{
                         </Card.Body>
                     </Card>
                     
-
-
-
-
-
                     <br/>
-
-
 
                     <Card>
                         <Card.Header> 
-                            <a href = "https://drive.google.com/file/d/1L-MUljdxlI7CQGZHP0Hy4VCurNJKFsTn/view">
-                            <h5><b> Do Credit Default Swaps Mitigate the Impact of Credit Rating Downgrades? </b></h5>
+                            <a style = {{textDecoration: 'none', color:'#000000'}} target="_blank" rel="noopener noreferrer" href = "https://drive.google.com/file/d/1L-MUljdxlI7CQGZHP0Hy4VCurNJKFsTn/view">
+                            <h4><b> Do Credit Default Swaps Mitigate the Impact of Credit Rating Downgrades? </b></h4>
                             </a>
                             <h5> 
-                                - <a target="_blank" href = "https://www.scheller.gatech.edu/directory/faculty/chava/index.html">Sudheer Chava</a>
+                                - <a style = {{textDecoration: 'none', color:'#000000'}} target="_blank" rel="noopener noreferrer" href = "https://www.scheller.gatech.edu/directory/faculty/chava/index.html">Sudheer Chava</a>
                                 , Rohan Ganduri
                                 , Chayawat Ornthanalai 
                             </h5>
@@ -377,19 +370,16 @@ class CreditRisk extends Component{
                         </Card.Body>
                     </Card>
 
-
                     <br/>
-
-
 
                     <Card>
                         <Card.Header> 
-                            <a href = "https://drive.google.com/file/d/1L-MUljdxlI7CQGZHP0Hy4VCurNJKFsTn/view">
-                            <h5><b> Covenants, Creditors’ Simultaneous Equity Holdings, and Firm Investment Policies </b></h5>
+                            <a style = {{textDecoration: 'none', color:'#000000'}} target="_blank" rel="noopener noreferrer" href = "https://drive.google.com/file/d/1L-MUljdxlI7CQGZHP0Hy4VCurNJKFsTn/view">
+                            <h4><b> Covenants, Creditors’ Simultaneous Equity Holdings, and Firm Investment Policies </b></h4>
                             </a>
                             <h5>
-                                - <a target="_blank" href = "https://www.scheller.gatech.edu/directory/faculty/chava/index.html">Sudheer Chava</a>
-                                , <a target="_blank" href = "https://www.cambridge.org/core/search?filters%5BauthorTerms%5D=Hong%20Zou&eventCode=SE-AU">Hong Zou</a>
+                                - <a style = {{textDecoration: 'none', color:'#000000'}} target="_blank" rel="noopener noreferrer" href = "https://www.scheller.gatech.edu/directory/faculty/chava/index.html">Sudheer Chava</a>
+                                , <a style = {{textDecoration: 'none', color:'#000000'}} target="_blank" rel="noopener noreferrer" href = "https://www.cambridge.org/core/search?filters%5BauthorTerms%5D=Hong%20Zou&eventCode=SE-AU">Hong Zou</a>
                             
                             </h5>
                         </Card.Header>
@@ -441,16 +431,15 @@ class CreditRisk extends Component{
                         </Card.Body>
                     </Card>
 
-
                     <br/>
 
                     <Card>
                         <Card.Header> 
-                            <a href = "https://academic.oup.com/rcfs/article/6/2/234/3867024">
-                            <h5><b> Lending to Innovative Firms  </b></h5>
+                            <a style = {{textDecoration: 'none', color:'#000000'}} target="_blank" rel="noopener noreferrer" href = "https://academic.oup.com/rcfs/article/6/2/234/3867024">
+                            <h4><b> Lending to Innovative Firms  </b></h4>
                             </a>
                             <h5>
-                                - <a target="_blank" href = "https://www.scheller.gatech.edu/directory/faculty/chava/index.html">Sudheer Chava</a>
+                                - <a style = {{textDecoration: 'none', color:'#000000'}} target="_blank" rel="noopener noreferrer" href = "https://www.scheller.gatech.edu/directory/faculty/chava/index.html">Sudheer Chava</a>
                                 , Vikram Nanda
                                 , Steven Chong Xiao
                             
@@ -503,16 +492,15 @@ class CreditRisk extends Component{
                         </Card.Body>
                     </Card>
 
-
                     <br/>
                     
                     <Card>
                         <Card.Header> 
-                            <a href = "https://academic.oup.com/rfs/article-abstract/23/6/2523/1565368?redirectedFrom=fulltext">
-                            <h5><b> Is Default Risk Negatively Related to Stock Returns? </b></h5>
+                            <a style = {{textDecoration: 'none', color:'#000000'}} target="_blank" rel="noopener noreferrer" href = "https://academic.oup.com/rfs/article-abstract/23/6/2523/1565368?redirectedFrom=fulltext">
+                            <h4><b> Is Default Risk Negatively Related to Stock Returns? </b></h4>
                             </a>
                             <h5>
-                                - <a target="_blank" href = "https://www.scheller.gatech.edu/directory/faculty/chava/index.html">Sudheer Chava </a>
+                                - <a style = {{textDecoration: 'none', color:'#000000'}} target="_blank" rel="noopener noreferrer" href = "https://www.scheller.gatech.edu/directory/faculty/chava/index.html">Sudheer Chava </a>
                                 and 
                                 Amiyatosh Purnanandam   
                             </h5>
@@ -560,11 +548,11 @@ class CreditRisk extends Component{
                                             
                     <Card>
                         <Card.Header> 
-                            <a href = "https://academic.oup.com/rfs/article-abstract/23/3/1120/1595337?redirectedFrom=fulltext">
-                            <h5><b> Managerial Agency and Bond Covenants </b></h5>
+                            <a style = {{textDecoration: 'none', color:'#000000'}} target="_blank" rel="noopener noreferrer" href = "https://academic.oup.com/rfs/article-abstract/23/3/1120/1595337?redirectedFrom=fulltext">
+                            <h4><b> Managerial Agency and Bond Covenants </b></h4>
                             </a>
                             <h5> 
-                                - <a target="_blank" href = "https://www.scheller.gatech.edu/directory/faculty/chava/index.html">Sudheer Chava </a>
+                                - <a style = {{textDecoration: 'none', color:'#000000'}} target="_blank" rel="noopener noreferrer" href = "https://www.scheller.gatech.edu/directory/faculty/chava/index.html">Sudheer Chava </a>
                                 , Praveen Kumar, and Arthur Warga
                                    
                             </h5>
@@ -611,15 +599,14 @@ class CreditRisk extends Component{
                     </Card>
                     
                     <br/>
-
-                                            
-                                            <Card>
+                     
+                    <Card>
                         <Card.Header> 
-                            <a href = "https://www.nowpublishers.com/article/Details/CFR-0060">
-                            <h5><b> Shareholder Rights Do Affect the Cost of Bank Loan </b></h5>
+                            <a style = {{textDecoration: 'none', color:'#000000'}} target="_blank" rel="noopener noreferrer" href = "https://www.nowpublishers.com/article/Details/CFR-0060">
+                            <h4><b> Shareholder Rights Do Affect the Cost of Bank Loan </b></h4>
                             </a>
                             <h5> 
-                                - <a target="_blank" href = "https://www.scheller.gatech.edu/directory/faculty/chava/index.html">Sudheer Chava </a>
+                                - <a style = {{textDecoration: 'none', color:'#000000'}} target="_blank" rel="noopener noreferrer" href = "https://www.scheller.gatech.edu/directory/faculty/chava/index.html">Sudheer Chava </a>
                                 , Dmitry Livdan and Amiyatosh Purnanandam
                                    
                             </h5>
@@ -669,11 +656,11 @@ class CreditRisk extends Component{
                     
                     <Card>
                         <Card.Header> 
-                            <a href = "https://onlinelibrary.wiley.com/doi/full/10.1111/j.1540-6261.2008.01391.x">
-                            <h5><b> How Does Financing Impact Investment? The Role of Debt Covenants </b></h5>
+                            <a style = {{textDecoration: 'none', color:'#000000'}} target="_blank" rel="noopener noreferrer" href = "https://onlinelibrary.wiley.com/doi/full/10.1111/j.1540-6261.2008.01391.x">
+                            <h4><b> How Does Financing Impact Investment? The Role of Debt Covenants </b></h4>
                             </a>
                             <h5> 
-                                - <a target="_blank" href = "https://www.scheller.gatech.edu/directory/faculty/chava/index.html">Sudheer Chava </a>
+                                - <a style = {{textDecoration: 'none', color:'#000000'}} target="_blank" rel="noopener noreferrer" href = "https://www.scheller.gatech.edu/directory/faculty/chava/index.html">Sudheer Chava </a>
                                 , and Michael R. Roberts
                                    
                             </h5>
@@ -722,11 +709,11 @@ class CreditRisk extends Component{
 
                     <Card>
                         <Card.Header> 
-                            <a href = "https://academic.oup.com/rof/article-abstract/8/4/537/1582202?redirectedFrom=fulltext">
-                            <h5><b> Bankruptcy Prediction with Industry Effects </b></h5>
+                            <a style = {{textDecoration: 'none', color:'#000000'}} target="_blank" rel="noopener noreferrer" href = "https://academic.oup.com/rof/article-abstract/8/4/537/1582202?redirectedFrom=fulltext">
+                            <h4><b> Bankruptcy Prediction with Industry Effects </b></h4>
                             </a>
                             <h5> 
-                                - <a target="_blank" href = "https://www.scheller.gatech.edu/directory/faculty/chava/index.html">Sudheer Chava </a>
+                                - <a style = {{textDecoration: 'none', color:'#000000'}} target="_blank" rel="noopener noreferrer" href = "https://www.scheller.gatech.edu/directory/faculty/chava/index.html">Sudheer Chava </a>
                                  and Robert A. Jarrow
                                    
                             </h5>
@@ -776,11 +763,11 @@ class CreditRisk extends Component{
 
                     <Card>
                         <Card.Header> 
-                            <a href = "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2541102">
-                            <h5><b> Credit Default Swaps and Lender Incentives in Renegotiations of Bank Debt </b></h5>
+                            <a style = {{textDecoration: 'none', color:'#000000'}} target="_blank" rel="noopener noreferrer" href = "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2541102">
+                            <h4><b> Credit Default Swaps and Lender Incentives in Renegotiations of Bank Debt </b></h4>
                             </a>
                             <h5> 
-                                - <a target="_blank" href = "https://www.scheller.gatech.edu/directory/faculty/chava/index.html">Sudheer Chava </a>
+                                - <a style = {{textDecoration: 'none', color:'#000000'}} target="_blank" rel="noopener noreferrer" href = "https://www.scheller.gatech.edu/directory/faculty/chava/index.html">Sudheer Chava </a>
                                 , Indraneel Chakraborty, and Rohan Ganduri
                                    
                             </h5>
@@ -830,11 +817,11 @@ class CreditRisk extends Component{
 
                     <Card>
                         <Card.Header> 
-                            <a href = "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1983456">
-                            <h5><b> Signaling through Dynamic Thresholds in Financial Covenants </b></h5>
+                            <a style = {{textDecoration: 'none', color:'#000000'}} target="_blank" rel="noopener noreferrer" href = "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1983456">
+                            <h4><b> Signaling through Dynamic Thresholds in Financial Covenants </b></h4>
                             </a>
                             <h5>
-                                - <a target="_blank" href = "https://www.scheller.gatech.edu/directory/faculty/chava/index.html">Sudheer Chava </a>
+                                - <a style = {{textDecoration: 'none', color:'#000000'}} target="_blank" rel="noopener noreferrer" href = "https://www.scheller.gatech.edu/directory/faculty/chava/index.html">Sudheer Chava </a>
                                 , Shunlan Fang, and Saumya Prabhat
                                    
                             </h5>
@@ -884,11 +871,11 @@ class CreditRisk extends Component{
 
                     <Card>
                         <Card.Header> 
-                            <a href = "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2417499">
-                            <h5><b> Do Bond Investors Price Tail Risk Exposures of Financial Institutions?</b></h5>
+                            <a style = {{textDecoration: 'none', color:'#000000'}} target="_blank" rel="noopener noreferrer" href = "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2417499">
+                            <h4><b> Do Bond Investors Price Tail Risk Exposures of Financial Institutions?</b></h4>
                             </a>
                             <h5> 
-                                - <a target="_blank" href = "https://www.scheller.gatech.edu/directory/faculty/chava/index.html">Sudheer Chava </a>
+                                - <a style = {{textDecoration: 'none', color:'#000000'}} target="_blank" rel="noopener noreferrer" href = "https://www.scheller.gatech.edu/directory/faculty/chava/index.html">Sudheer Chava </a>
                                 , Rohan Ganduri, and Vijay Yerramilli
                                    
                             </h5>
@@ -935,7 +922,6 @@ class CreditRisk extends Component{
                     </Card>
                     
                     <br/>
-                 
 
                 </Container>
 

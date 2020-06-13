@@ -1,8 +1,6 @@
 import React, {Component} from 'react';
-import { MDBCol, MDBContainer, MDBRow, MDBFooter } from "mdbreact";
-import {Card, Container,Row,Col,Carousel} from 'react-bootstrap';
-import logo from '../images/GeorgiaTechLogo-RGB-Gray.png';
-import logo2 from '../images/creating-the-next-wordmark-stacked-blk.png';
+import {Row,Col} from 'react-bootstrap';
+import logo from '../../images/GeorgiaTechLogo-RGB-Gray.png';
 
 class Footer extends Component{
     render(){
@@ -22,36 +20,35 @@ class Footer extends Component{
                    
                     <Col lg={2} xs={4} id="links" style = {{margin:'20px'}}> 
                             <Row>   
-                                <a target = "_blank" href="https://www.gatech.edu/accessibility"><b>Accessibility</b></a>
+                                <a target="_blank" rel="noopener noreferrer" href="https://www.gatech.edu/accessibility"><b>Accessibility</b></a>
                             </Row>
                             <Row>   
-                                <a target = "_blank" href="https://www.gatech.edu/accountability"><b>Accountability</b></a>
+                                <a target="_blank" rel="noopener noreferrer" href="https://www.gatech.edu/accountability"><b>Accountability</b></a>
                             </Row>
                             <Row >
-                                <a target = "_blank" href="https://www.gatech.edu/accreditation/"><b>Accreditation</b></a>
+                                <a target="_blank" rel="noopener noreferrer" href="https://www.gatech.edu/accreditation/"><b>Accreditation</b></a>
                             </Row>
                             <Row>
-                                <a target = "_blank" href="https://hr.gatech.edu/employment/careers"><b>Employment</b></a>
+                                <a target="_blank" rel="noopener noreferrer" href="https://hr.gatech.edu/employment/careers"><b>Employment</b></a>
                             </Row>
                             <Row>  
-                                <a target = "_blank" href="https://www.scheller.gatech.edu/contact-us.html"><b>Contact Us</b></a>
+                                <a target="_blank" rel="noopener noreferrer" href="https://www.scheller.gatech.edu/contact-us.html"><b>Contact Us</b></a>
                             </Row>
                     </Col>
 
                     <Col xs={4} lg={2}  id="links" style = {{margin:'20px'}}> 
                             <Row>   
-                                <a target = "_blank" href="https://directory.gatech.edu/"><b>Directory</b></a>
+                                <a target="_blank" rel="noopener noreferrer" href="https://directory.gatech.edu/"><b>Directory</b></a>
                             </Row>
                             <Row>
-                                <a target = "_blank" href="https://www.gatech.edu/emergency/"><b>Emergency Information</b></a>
+                                <a target="_blank" rel="noopener noreferrer" href="https://www.gatech.edu/emergency/"><b>Emergency Information</b></a>
                             </Row>
                         
                             <Row>
-                                <a target = "_blank" href="https://www.gatech.edu/privacy"><b>Privacy & Legal Notice</b></a>
+                                <a target="_blank" rel="noopener noreferrer" href="https://www.gatech.edu/privacy"><b>Privacy & Legal Notice</b></a>
                             </Row>
-                            
-                            <Row>   
-                                <a target = "_blank" href=""><b>Human Trafficking Note</b></a>
+                            <Row>  
+                                <a target="_blank" rel="noopener noreferrer" href="https://www.scheller.gatech.edu/contact-us.html"><b>Contact Us</b></a>
                             </Row>
                            
                     </Col>
