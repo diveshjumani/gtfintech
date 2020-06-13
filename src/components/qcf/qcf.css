@@ -1,0 +1,39 @@
+.qcf{
+    overflow-x: hidden;
+    overflow-y: hidden;
+    position: relative;
+}
+
+.text-block-qcf {
+    background:  rgb(0, 0, 0); /* Fallback color */
+    background:  rgba(255, 255, 255, 0.75 ); /* Black background with 0.5 opacity */
+    color: white;
+    position: absolute;
+    top: 35px;
+    width:100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    border-color: black;
+    margin-top: 40px;
+}
+
+.CL_QCF_text{
+    margin: 20px;
+  }
+  
+.CL_qcf_logo{
+    width: auto;
+    margin-top: 40px;
+}
+
+@media (max-width: 768px) {
+    .CL_qcf_logo{
+        width: 100%;
+        margin-top: 0px;
+    }
+    .text-block-qcf {
+        top: 20px;
+    }
+    
+}

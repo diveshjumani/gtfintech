@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {Card, Image, Button, Container,Nav,Row,Col} from 'react-bootstrap';
-
+import './news.css'
 
 class News extends Component{
     render(){

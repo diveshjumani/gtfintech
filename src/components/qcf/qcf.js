@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import qcf_logo from '../../images/GT_QCF_Logo.png';
 import { Container } from 'react-bootstrap';
+import './qcf.css'
 
 class QCF extends Component{
     render(){
@@ -10,18 +11,18 @@ class QCF extends Component{
 					<a target="_blank"  rel="noopener noreferrer" href = "https://www.scheller.gatech.edu/degree-programs/interdisciplinary-ms/quantitative-and-computational-finance/index.html">
 						<img height = '422px' src="https://www.imperial.ac.uk/ImageCropToolT4/imageTool/uploaded-images/spread--tojpeg_1466430752374_x1.jpg" alt="Nature" style={{width:'100%'}} />
 						<div class="text-block-qcf">
-							<img className="CL_qcf_logo" src = {qcf_logo}></img>	
+							<img className="CL_qcf_logo" src = {qcf_logo} alt="404"></img>	
 						</div>
 					</a>
                 </div>
 
 				<Container fluid>
-   				<div class="row text-center">
-      				<div class="col-xs-6 col-sm-12">
+				<div class="row justify-content-center">
+      				<div class="col-sm-6 align-self-center">
        				 	<div class="row">
            				 		<div class="single-post-content-wrapper p-3">
               							<h3><a target="_blank" rel="noopener noreferrer" href = "https://www.scheller.gatech.edu/degree-programs/interdisciplinary-ms/quantitative-and-computational-finance/index.html" 
-              							target = "_blank">MASTER OF SCIENCE IN QUANTITATIVE AND COMPUTATIONAL FINANCE</a></h3>
+              							>MASTER OF SCIENCE IN QUANTITATIVE AND COMPUTATIONAL FINANCE</a></h3>
                							<p className="CL_QCF_text" align = "justify">
 											The Master of Science degree program in Quantitative and Computational Finance (QCF) is 
 											interdisciplinary between three of Georgia Tech's most prestigious units:   

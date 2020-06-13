@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import { MDBCarousel, MDBCarouselCaption, MDBCarouselInner, MDBCarouselItem, MDBView, MDBMask} from "mdbreact";
+import './about.css'
 
 class About extends Component {
     render(){

@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import {Row,Col} from 'react-bootstrap';
 import logo from '../../images/GeorgiaTechLogo-RGB-Gray.png';
+import './footer.css'
 
 class Footer extends Component{
     render(){

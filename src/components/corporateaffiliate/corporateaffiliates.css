@@ -1,0 +1,16 @@
+.text-block-ca {
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0); /* Black background with 0.5 opacity */
+    color: white;
+    position: absolute;
+    top: 25%;
+    width:auto;
+    left: 41%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    margin:20px;
+  }
+
+@media (max-width: 768px) {
+    
+}

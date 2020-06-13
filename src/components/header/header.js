@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import {Navbar, NavLink, Nav, NavDropdown} from 'react-bootstrap';
 import {Link} from 'react-router-dom';
 import logo from '../../images/GT_White.png';
+import './header.css'
 
 function Header () {
     const [isNavVisible, setNavVisibility] = useState(false);

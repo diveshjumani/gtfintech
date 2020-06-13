@@ -1,7 +1,9 @@
 import React, {useState, useEffect } from 'react';
 import {Container,Card} from 'react-bootstrap';
 import  {Button,Image,Row,Col} from 'react-bootstrap';
-import {Element, animateScroll as scroll} from 'react-scroll'
+//import {Element, animateScroll as scroll} from 'react-scroll'
+import {Element} from 'react-scroll'
+import './people.css'
 import Sudheer_Chava from '../../images/Sudheer_Chava.jpg';
 import Alex_Hsu from '../../images/Alex_Hsu.jpg';
 import Daniel_Weagley from '../../images/Daniel_Weagley.jpg';
@@ -27,10 +29,10 @@ function People() {
         mediaQuery.removeListener(handleMediaQueryChange);
       };
     }, []);
-
+/*
     var Scroll = require('react-scroll');
     var scroll = Scroll.animateScroll;
-  
+*/
     const handleMediaQueryChange = mediaQuery => {
       if (mediaQuery.matches) {
         setIsSmallScreen(true);
@@ -38,10 +40,11 @@ function People() {
         setIsSmallScreen(false);
       }
     };
-  
+    /*
     const toggleNav = () => {
       setNavVisibility(!isNavVisible);
     };
+    */
         return (
             <div className="people">
                 <br/>

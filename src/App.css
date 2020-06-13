@@ -10,11 +10,11 @@
 
 body {
   font-family: "Roboto", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-    font-weight: 300;
-    color: #262626;
-    margin-bottom: 0px;
-     margin:0;
-    padding:0;
+  font-weight: 300;
+  color: #262626;
+  margin-bottom: 0px;
+  margin:0;
+  padding:0;
 }
 
 
@@ -28,7 +28,8 @@ body {
   font-size: calc(10px + 2vmin);
   color: white;
 }
-/*#282c34*/
+
+/*May be this is causing blue color header text on deployed website*/
 .App-link {
   color: #61dafb;
 }
@@ -42,26 +43,12 @@ body {
   }
 }
 
-#inst {
-  color: gray;
-  font-size: 75%;
+a, u {
+  text-decoration: none !important;
 }
 
-.CL_height_navbar{
-  height: 50px;
-}
-
-.navbar {
-  font-size: .88em;
-  display: flex;
-}
-
-.navbar-nav .Navlink{
-  color: yellow;
-}
-
-.people{
-  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+a:hover{
+  transform: scale(1.03);
 }
 
 .research{
@@ -88,9 +75,7 @@ body {
   margin-left: 0px;
 }
 
-.about{
-  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-}
+
 
 .btn {
   @include heading-font;
@@ -148,104 +133,9 @@ body {
   overflow-x: hidden;
 }
 
-.qcf{
-  overflow-x: hidden;
-  overflow-y: hidden;
-  position: relative;
-}
-
-.Header {
-  position: fixed;
-  top: 0; /* Stick it to the top */
-  max-height: 70px;
-  width: 100vw;
-
-  display: grid;
-  grid-template-areas: "logo nav";
-
-  /* Cosmetics */
-  background-color: #282c34;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-}
-
 .Logo {
   grid-area: logo;
   height: 70px;
-}
-.CL_header_texts {
-  font-size: 20px;
-  margin-left: 20px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.CL_people_header_texts {
-  font-size: 15px;
-  margin-left: 30px;
-}
-
-.CL_people_header_people{
-  font-size: 20px;
-  margin-left: 50px;
-}
-
-.CL_Nav {
-  display: grid;
-  grid-area: nav;
-  grid-template-columns: repeat(7, auto);
-  align-items: center;
-  justify-items: center;
-
-}
-.CL_Nav a {
-  color: #fff;
-  font-size: 20px;
-  font-weight: 500;
-  transition: 0.5s;
-  text-decoration: none;
-  height: 40px;
-}
-.CL_Nav a:hover {
-  transform: scale(1.1);
-}
-.CL_Nav button {
-  padding: 10px;
-  outline: none;
-  border: none;
-  font-size: 20px;
-  color: #fff;
-  font-weight: 600;
-  background-color: rgba(255, 0, 0, 0.5);
-  box-shadow: 0px 5px 0px 0px rgba(255, 0, 0, 0.25);
-  border-radius: 10px;
-  cursor: pointer;
-  transition: 70ms;
-}
-
-.CL_Nav button:active {
-  transform: translateY(3px);
-  box-shadow: 0px 2px 0px 0px rgba(255, 0, 0, 0.25);
-}
-
-.Burger {
-  display: none;
-  grid-area: burger;
-  margin: 0 20px 0 0;
-  padding: 0;
-  justify-self: end;
-  font-size: 20px;
-  color: #fff;
-  border: none;
-  background: none;
-  outline: none;
-  transition: 0.1s;
-}
-.Burger:active {
-  transform: scale(1.2);
-}
-
-
-.Burger {
-  display: inline;
 }
 
 .wrapper {
@@ -263,28 +153,7 @@ body {
   background-size: cover;
 }
 
-.NavAnimation-enter {
-  opacity: 0;
-  transform: scale(0.5);
-}
-.NavAnimation-enter-active {
-  opacity: 1;
-  transform: translateX(0);
-  transition: opacity 350ms, transform 350ms;
-}
-.NavAnimation-exit {
-  opacity: 1;
-}
-.NavAnimation-exit-active {
-  opacity: 0;
-  transform: scale(0.5);
-  transition: opacity 350ms, transform 350ms;
-}
 
-.navbar.second-navbar {
-  margin-top: 50px;
-  transition: all .5s ease-in-out;
-}
 
 .researchcard{
   display: flex;
@@ -327,24 +196,7 @@ body {
   transform: translate(-50%, -50%);
 }
 
-.text-block-about {
-  height: 220px;
-  width: 700px;
-  background: rgb(0, 0, 0); /* Fallback color */
-  background: rgba(0, 0, 0, 0.6); /* Black background with 0.5 opacity */
-  color: white;
-  position: absolute;
-  left: 50%;
-  bottom: 300%;
-  transform: translate(-50%, -50%);
-  display: inline-block;
-}
 
-.CL_text_about{
-  position: relative;
-  font-family: Arial, Helvetica, sans-serif;
-	margin: 10px;
-}
 
 .text-block-btn {
   color: white;
@@ -354,19 +206,7 @@ body {
   transform: translate(-50%, -50%);
 }
 
-.text-block-qcf {
-  background:  rgb(0, 0, 0); /* Fallback color */
-  background:  rgba(255, 255, 255, 0.75 ); /* Black background with 0.5 opacity */
-  color: white;
-  position: absolute;
-  top: 35px;
-  width:100%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: left;
-  border-color: black;
-  margin-top: 40px;
-}
+
 
 .a{
   text-decoration:none
@@ -393,18 +233,7 @@ body {
   text-align: center;
 }
 
-.text-block-ca {
-  background: rgb(0, 0, 0); /* Fallback color */
-  background: rgba(0, 0, 0, 0); /* Black background with 0.5 opacity */
-  color: white;
-  position: absolute;
-  top: 25%;
-  width:auto;
-  left: 41%;
-  transform: translate(-50%, -50%);
-  text-align: left;
-  margin:20px;
-}
+
 
 .padding-0{
     padding-right:0;
@@ -427,47 +256,18 @@ li {
 }
 
 
-.CL_img-container {
-  overflow: hidden;
-  height: 100vw;
-  max-height: 1020px;
-  position: relative;
-}
-
 .card-img{
   width: '30vw';
   height: '30vw';
 }
 
-.CL_QCF_text{
-  margin: 20px;
-}
 
-.CL_qcf_logo{
-  width: auto;
-  margin-top: 40px;
-}
 
 
 @media (max-width: 768px) {
-  .Header {
-    grid-template-areas: "logo burger" "nav nav";
+  html {
+    font-size: 66.6%;
   }
-  .CL_Nav {
-    grid-template-rows: repeat(7, auto);
-    grid-template-columns: none;
-    grid-row-gap: 20px;
-
-    padding: 30px 0 30px;
-    background: rgba(40, 44, 47, 0.95);
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-  }
-  .Burger {
-    display: inline;
-  }
-
   .wrapper {
     display: grid;
     grid-template-columns: 1fr;
@@ -496,19 +296,6 @@ li {
     font-size: 0;
   }
 
-  .CL_img-container {
-    overflow: hidden;
-    height: 100vw;
-    min-height:90vh;
-    position: relative;
-  }
-
-  .CL_img {
-    overflow: hidden;
-    height: 100%;
-    position: relative;
-  }
-
   .text-block-card {
     font-family: Arial, Helvetica, sans-serif;
     height: 100px;
@@ -526,39 +313,9 @@ li {
     bottom: -7%;
   }
 
-  #footer-logo {
-  float: left;
-  text-align: center;
-  }
-
-  .CL_qcf_logo{
-    width: 100%;
-    margin-top: 0px;
-  }
-
   .Chava{
     height:348px;
     width:348px;
-  }
-
-  .text-block-about {
-    height: 350px;
-    width: 350px;
-    color: white;
-    position: absolute;
-    left: 50%;
-    bottom: 50%;
-    transform: translate(-50%, -50%);
-    display: inline-block;
-  }
-  .CL_header_texts{
-    margin-top: -5px;
-    margin-bottom: -5px;
-  }
-
-  .CL_dropdown_texts{
-    margin-top: -5px;
-    margin-bottom: -5px;
   }
 
   .text-block-research {
@@ -566,30 +323,10 @@ li {
     width: 80%;
     height: 30%;
   }
+
 }
 
-#footer {
-  background-color: #050505;
-  display: block;
-  position: relative;
-  width: 100%;
-  padding:0;
-  bottom:0;
-  padding: 0;
-  margin-bottom: 0px;
-  overflow-x: hidden;
-  overflow-y: hidden;
-}
 
-#footer-links {
-  float: right;
-  position: relative;
-}
-
-#footer-logo {
-  float: left;
-  text-align: center;
-}
 
 #links {
   color: #b3b3b3;
@@ -598,9 +335,6 @@ li {
   text-align: center;
 }
 
-.navbar .dropdown-menu {
-  background-color: #343a40;
-}
 
 .dropdown-menu a{
   color: #FFFFFF !important;

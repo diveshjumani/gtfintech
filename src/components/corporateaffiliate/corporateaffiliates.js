@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import {Card, Container, Col,Row} from 'react-bootstrap';
 import {animateScroll as scroll} from 'react-scroll';
+import './corporateaffiliates.css'
 import '../../App.css';
 import Amazon from '../../images/amazon_logo.jpg';
 import Bloomberg from '../../images/Bloomberg_logo.jpg';
