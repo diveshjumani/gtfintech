@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8f1d95af427282c0a22660bee71cfa87",
+    "revision": "33b5a4ce185c4c84623cfcea02abe45e",
     "url": "/gtfintech/index.html"
   },
   {
-    "revision": "3c3f2748bb820bd57cb9",
+    "revision": "6109bcad6201c11fc21c",
     "url": "/gtfintech/static/css/2.d805e148.chunk.css"
   },
   {
-    "revision": "1309b770be60b281a684",
-    "url": "/gtfintech/static/css/main.e7d02dc3.chunk.css"
+    "revision": "21c67c734dc578fa35c4",
+    "url": "/gtfintech/static/css/main.84b1f108.chunk.css"
   },
   {
-    "revision": "3c3f2748bb820bd57cb9",
-    "url": "/gtfintech/static/js/2.247f1ad3.chunk.js"
+    "revision": "6109bcad6201c11fc21c",
+    "url": "/gtfintech/static/js/2.5f3f28ff.chunk.js"
   },
   {
     "revision": "d2966845b94a3318bf32eecc7af8015d",
-    "url": "/gtfintech/static/js/2.247f1ad3.chunk.js.LICENSE.txt"
+    "url": "/gtfintech/static/js/2.5f3f28ff.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1309b770be60b281a684",
-    "url": "/gtfintech/static/js/main.5363ed89.chunk.js"
+    "revision": "21c67c734dc578fa35c4",
+    "url": "/gtfintech/static/js/main.8264412d.chunk.js"
   },
   {
     "revision": "97a79a0606e5611a86f3",
@@ -62,10 +62,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "adaa11de1a4f85d31e7b872bc99d6996",
     "url": "/gtfintech/static/media/Daniel_Weagley.adaa11de.jpg"
-  },
-  {
-    "revision": "fad3501a4ad1e35e8a055cad4c024080",
-    "url": "/gtfintech/static/media/David_Goldsman.fad3501a.jpg"
   },
   {
     "revision": "dfc5832ee31778c2a90a65573c222223",
@@ -184,19 +180,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/gtfintech/static/media/coronavirus.8faa90f1.jpg"
   },
   {
-    "revision": "ccb7373a7ffbe9da64d5378d3497f439",
-    "url": "/gtfintech/static/media/creating-the-next-wordmark-stacked-blk.ccb7373a.png"
-  },
-  {
     "revision": "931c2b66ed6bf95b0addb3f38618e99c",
     "url": "/gtfintech/static/media/household_finance.931c2b66.jpg"
-  },
-  {
-    "revision": "a3faee4ea6b83549b8092c6c619a182a",
-    "url": "/gtfintech/static/media/q.a3faee4e.png"
-  },
-  {
-    "revision": "c22884436e1328b179441aef20e4b112",
-    "url": "/gtfintech/static/media/qcf.c2288443.png"
   }
 ]);
