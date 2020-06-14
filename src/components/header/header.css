@@ -143,9 +143,11 @@
     .CL_header_texts{
         margin-top: -5px;
         margin-bottom: -5px;
+        font-size: 250%;
     }
     .CL_dropdown_texts{
         margin-top: -5px;
         margin-bottom: -5px;
+        font-size: 150%;
     }
 }
