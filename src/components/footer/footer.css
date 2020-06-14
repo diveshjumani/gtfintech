@@ -26,9 +26,19 @@
     overflow-y: hidden;
   }
 
+.footerimg{
+    width:200px;
+    height:60px;
+}
+
 @media (max-width: 768px) {
     #footer-logo {
         float: left;
         text-align: center;
+    }
+
+    .footerimg{
+        width:150px;
+        height:40px;
     }
 }

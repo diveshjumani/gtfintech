@@ -11,7 +11,7 @@ class Footer extends Component{
                 <Row>
                     <Col xs ={12} lg = {3} >
                     <a href="http://www.gatech.edu/">
-                        <img alt="Georgia Tech" width="200" height="60" src={logo} />
+                        <img alt="Georgia Tech" className="footerimg" src={logo} />
                     </a>
                     <h6 id="inst">&copy; Georgia Institute of Technology</h6>
                     </Col>
@@ -67,44 +67,3 @@ class Footer extends Component{
 
 export default Footer;  
 
-// const Footer = () => {
-//     return (
-//       <MDBFooter color="blue" className="font-small pt-4 mt-4">
-//         <MDBContainer fluid className="text-center text-md-left">
-//           <MDBRow>
-//             <MDBCol md="6">
-//               <h5 className="title">Footer Content</h5>
-//               <p>
-//                 Here you can use rows and columns here to organize your footer
-//                 content.
-//               </p>
-//             </MDBCol>
-//             <MDBCol md="6">
-//               <h5 className="title">Links</h5>
-//               <ul>
-//                 <li className="list-unstyled">
-//                   <a href="#!">Link 1</a>
-//                 </li>
-//                 <li className="list-unstyled">
-//                   <a href="#!">Link 2</a>
-//                 </li>
-//                 <li className="list-unstyled">
-//                   <a href="#!">Link 3</a>
-//                 </li>
-//                 <li className="list-unstyled">
-//                   <a href="#!">Link 4</a>
-//                 </li>
-//               </ul>
-//             </MDBCol>
-//           </MDBRow>
-//         </MDBContainer>
-//         <div className="footer-copyright text-center py-3">
-//           <MDBContainer fluid>
-//             &copy; {new Date().getFullYear()} Copyright: <a href="https://www.mdbootstrap.com"> MDBootstrap.com </a>
-//           </MDBContainer>
-//         </div>
-//       </MDBFooter>
-//     );
-//   }
-  
-//   export default Footer;

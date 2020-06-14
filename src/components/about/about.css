@@ -20,15 +20,23 @@
     margin: 10px;
 }
 
+.aboutimg{
+    height:800px;
+}
+
 @media (max-width: 768px) {
 .text-block-about {
-    height: 200px;
+    height: 170px;
     width: 350px;
     color: white;
     position: absolute;
     left: 50%;
-    bottom: 700%;
+    bottom: 250%;
     transform: translate(-50%, -50%);
     display: inline-block;
   }
+
+  .aboutimg{
+    height:650px;
+    }
 }
