@@ -141,13 +141,14 @@
 
 @media (max-width: 768px) {
     .CL_header_texts{
-        margin-top: -5px;
-        margin-bottom: -5px;
+        margin-top: -3px;
+        margin-bottom: -3px;
         font-size: 200%;
+        text-align: left;
     }
     .CL_dropdown_texts{
-        margin-top: -5px;
-        margin-bottom: -5px;
+        margin-top: -4px;
+        margin-bottom: -4px;
         font-size: 120%;
     }
 }

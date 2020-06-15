@@ -18,7 +18,7 @@ class QCF extends Component{
 
 				<Container fluid>
 				<div class="row justify-content-center">
-      				<div class="col-sm-6 align-self-center">
+      				<div class="align-self-center">
        				 	<div class="row">
            				 		<div class="single-post-content-wrapper p-3">
               							<h3><a target="_blank" rel="noopener noreferrer" href = "https://www.scheller.gatech.edu/degree-programs/interdisciplinary-ms/quantitative-and-computational-finance/index.html" 
