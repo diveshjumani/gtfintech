@@ -55,8 +55,7 @@ function People() {
                         <div class="text-block">
                             <br/> <br/> 
                             <h4><b>People</b></h4>
-                            <p align ="justify">The Georgia Tech Financial Services Innovation Lab consists of the Director (Dr. Sudheer Chava), Faculty as well as 
-                                students from undergraduate, Masters and PhD </p>
+                <p align ="justify"> The Financial Services Innovation Lab at Georgia Tech is led by Dr. Sudheer Chava. The lab brings together many other faculty, undergraduate, Masters and PhD students from various colleges across Georgia Tech that are interested in the Financial Services and FinTech industry.  </p>
                         </div>
                     
                 </div>
@@ -66,7 +65,7 @@ function People() {
                 <Container fluid>
                     <Element name="director" className="element" >
                         <Card border="light" className = "noHover">
-                            <Card.Header as="h3"><b>Director</b></Card.Header>
+                <Card.Header as="h3"><b>Dr. Sudheer Chava</b></Card.Header>
                         </Card>
                     </Element>
 
@@ -81,9 +80,10 @@ function People() {
                                 <Card.Body>
                                     <Card.Title><b>Sudheer Chava</b></Card.Title>
                                     <Card.Text align = "left">
-                                    <p>Alton M. Costley Chair and Professor of Finance 
+                                    <p>Alton M. Costley Chair
+                                    <br/>Professor of Finance 
                                     <br/>Area Coordinator, Finance
-                                    <br/>Director, Quantitative and Computational Finance (QCF) Program
+                                    <br/>Director, Quantitative and Computational Finance (MS-QCF)
                                     <br/>Director, Financial Services Innovation Lab
                                     <br/>Associate Director, Risk Management, Institute for Information Security and Privacy (IISP)
                                     </p>
@@ -96,14 +96,11 @@ function People() {
                             <row>
                                 <p align = "justify"> 
                                 
-                                Sudheer Chava is Alton M. Costley Chair and Professor of Finance at Scheller College of Business at Georgia Tech.
-                                He has received his Ph.D. from Cornell University in 2003. Prior to that he has an MBA degree from Indian Institute of Management – Bangalore 
-                                and worked as a fixed income analyst at a leading investment bank in India. 
-                                He has held academic positions at University of Houston and Texas A&M University before joining Georgia Tech in 2010.<br/><br/>
-                                Dr. Chava has taught a variety of courses at the undergraduate and master’s level including FinTech Ventures, Derivatives, Risk Analytics, Valuation, Cases in Financial Crisis, 
-                                Management of Financial Institutions, and Credit Risk Analysis. He has also taught both theoretical and empirical finance courses at the doctoral level. <br/><br/>
-                                Dr. Chava’s research interests are in Credit Risk, Banking, FinTech, Empirical Asset Pricing and Corporate Finance. He has published extensively in the top journals in 
-                                Finance including Journal of Finance, Journal of Financial Economics, Review of Financial Studies, Management Science, Review of Finance, Journal of Monetary Economics and 
+                Sudheer Chava is Alton M. Costley Chair and Professor of Finance at Scheller College of Business at Georgia Tech. He has received his Ph.D. from Cornell University in 2003. Prior to that he has an MBA degree from Indian Institute of Management – Bangalore and worked as a fixed income analyst at a leading investment bank in India. He joined Georgia Tech in 2010. <br/> <br/>
+                
+                Dr. Chava has taught a variety of courses at the undergraduate and master’s level including FinTech Ventures, Derivatives, Risk Analytics, Valuation, Cases in Financial Crisis, Management of Financial Institutions, and Credit Risk Analysis. He has also taught both theoretical and empirical finance courses at the doctoral level. <br/><br/>
+                Dr. Chava’s research interests are in Credit Risk, Banking, FinTech, Empirical Asset Pricing and Corporate Finance. He has published extensively in the top journals in
+                Finance including Journal of Finance, Journal of Financial Economics, Review of Financial Studies, Management Science, Review of Finance, Journal of Monetary Economics and
                                 Journal of Financial and Quantitative Analysis. His research has won a Ross award for the best paper published in Finance Research Letters in 2008, was a finalist for Brattle 
                                 Prize for the best paper published in Journal of Finance in 2008 and was nominated for the Goldman Sachs award for the best paper for published in Review of Finance during 2004. 
                                 Dr. Chava is the recipient of multiple external research grants such as FDIC-CFR Fellowship, Morgan Stanley Research grant, Financial Service Exchange Research grant, Q group 
@@ -129,7 +126,7 @@ function People() {
                 <Container fluid>
                     <Element name="faculty" className="element" >
                          <Card border="light" className = "noHover">
-                            <Card.Header as="h3"><b>Faculty</b></Card.Header>
+                            <Card.Header as="h3"><b>Affiliated Faculty</b></Card.Header>
                         </Card>
                     </Element>
 
@@ -230,18 +227,7 @@ function People() {
                         </Card>
                         </Col>
 
-                        <Col xs={6} md = {4} lg = {2}>
-                        <Card>
-                            
-                                <Card.Img style={{ width: '100%', height: '30vh'}} variant="top" src={Ernest_Jang}></Card.Img>
-                            
-                            <Card.Body>
-                                <Card.Title>Ernest Jang</Card.Title>
-                                <Card.Text>Finance</Card.Text>
-                            </Card.Body>
-                        </Card>
-                        </Col>
-
+                        
                         <Col xs={6} md = {4} lg = {2}>
                         <Card>
                             
@@ -359,7 +345,148 @@ function People() {
 
                 <br/>
 
+                <Container fluid>
+                    <Element name="formerphd" className="element" >
+                         <Card border="light" className = "noHover">
+                            <Card.Header as="h3"><b>Alumni</b></Card.Header>
+                        </Card>
+                    </Element>
 
+                    <br/>
+
+                    <Row>
+                        <Col xs={6} md = {4} lg = {2}>
+                        <Card>
+                            
+                                <Card.Img style={{ width: '100%', height: '30vh'}} variant="top" src={Wendi_Du}></Card.Img>
+                            
+                            <Card.Body>
+                                <Card.Title>Wendi Du</Card.Title>
+                                <Card.Text>Finance</Card.Text>
+                            </Card.Body>
+                        </Card>
+                        </Col>
+
+                        
+                        <Col xs={6} md = {4} lg = {2}>
+                        <Card>
+                            
+                                <Card.Img style={{width: '100%', height: '30vh'}} variant="top" src={Baridhi_Malakar}></Card.Img>
+                           
+                            <Card.Body>
+                                <Card.Title>Baridhi Malakar</Card.Title>
+                                <Card.Text>Finance</Card.Text>
+                            </Card.Body>
+                        </Card>
+                        </Col>
+
+                        <Col xs={6} md = {4} lg = {2}>
+                        <Card>
+                            <a target="_blank" rel="noopener noreferrer" href= "https://www.nikhil-paradkar.com/home">
+                                <Card.Img style={{width: '100%', height: '30vh'}} variant="top" src={Nikhil_Paradkar}></Card.Img>
+                            </a>
+                            <Card.Body>
+                                <Card.Title>Nikhil Paradkar</Card.Title>
+                                <Card.Text>Finance</Card.Text>
+                            </Card.Body>
+                        </Card>
+                        </Col>
+
+                        <Col xs={6} md = {4} lg = {2}>
+                        <Card>
+                            
+                                <Card.Img style={{width: '100%', height: '30vh'}} variant="top" src={Peter_Simasek}></Card.Img>
+                           
+                            <Card.Body>
+                                <Card.Title>Peter Simasek</Card.Title>
+                                <Card.Text>Finance</Card.Text>
+                            </Card.Body>
+                        </Card>
+                        </Col>
+
+                        <Col xs={6} md = {4} lg = {2}>
+                        <Card>
+                          
+                                <Card.Img style={{width: '100%', height: '30vh'}} variant="top" src={Mingxun_Wang}></Card.Img>
+                            
+                            <Card.Body>
+                                <Card.Title>Mingxun Wang</Card.Title>
+                                <Card.Text>Finance</Card.Text>
+                            </Card.Body>
+                        </Card>
+                        </Col>
+                    </Row>
+
+                    <br/>
+
+                    <Row>
+                            <Col xs={6} md = {4} lg = {2}>
+                                <Card>
+                                    <Card.Img style={{ width: '100%', height: '30vh'}} variant="top" src="https://career.gatech.edu/sites/default/files/uploads/images/superblock_images/career_buzz_logo.png"></Card.Img>
+                                    <Card.Body>
+                                        <Card.Title>Faculty Name</Card.Title>
+                                        <Card.Text>Specialisation</Card.Text>
+                                    </Card.Body>
+                                </Card>
+                            </Col>
+
+                            <Col xs={6} md = {4} lg = {2}>
+                                <Card>
+                                    <Card.Img style={{ width: '100%', height: '30vh'}} variant="top" src="https://career.gatech.edu/sites/default/files/uploads/images/superblock_images/career_buzz_logo.png"></Card.Img>
+                                    <Card.Body>
+                                        <Card.Title>Faculty Name</Card.Title>
+                                        <Card.Text>Specialisation</Card.Text>
+                                    </Card.Body>
+                                </Card>
+                            </Col>
+
+                            <Col xs={6} md = {4} lg = {2}>
+                                <Card>
+                                    <Card.Img style={{ width: '100%', height: '30vh'}} variant="top" src="https://career.gatech.edu/sites/default/files/uploads/images/superblock_images/career_buzz_logo.png"></Card.Img>
+                                    <Card.Body>
+                                        <Card.Title>Faculty Name</Card.Title>
+                                        <Card.Text>Specialisation</Card.Text>
+                                    </Card.Body>
+                                </Card>
+                            </Col>
+
+                            <Col xs={6} md = {4} lg = {2}>
+                                <Card>
+                                    <Card.Img style={{ width: '100%', height: '30vh'}} variant="top" src="https://career.gatech.edu/sites/default/files/uploads/images/superblock_images/career_buzz_logo.png"></Card.Img>
+                                    <Card.Body>
+                                        <Card.Title>Faculty Name</Card.Title>
+                                        <Card.Text>Specialisation</Card.Text>
+                                    </Card.Body>
+                                </Card>
+                            </Col>
+
+                            <Col xs={6} md = {4} lg = {2}>
+                                <Card>
+                                    <Card.Img style={{ width: '100%', height: '30vh'}} variant="top" src="https://career.gatech.edu/sites/default/files/uploads/images/superblock_images/career_buzz_logo.png"></Card.Img>
+                                    <Card.Body>
+                                        <Card.Title>Faculty Name</Card.Title>
+                                        <Card.Text>Specialisation</Card.Text>
+                                    </Card.Body>
+                                </Card>
+                            </Col>
+
+                            <Col xs={6} md = {4} lg = {2}>
+                                <Card>
+                                    <Card.Img style={{ width: '100%', height: '30vh'}} variant="top" src="https://career.gatech.edu/sites/default/files/uploads/images/superblock_images/career_buzz_logo.png"></Card.Img>
+                                    <Card.Body>
+                                        <Card.Title>Faculty Name</Card.Title>
+                                        <Card.Text>Specialisation</Card.Text>
+                                    </Card.Body>
+                                </Card>
+                            </Col>
+                    </Row>
+                    
+                </Container>
+
+                <br/>
+
+                
+                
                 <Container fluid>
                     <Element name="ms" className="element" >
                          <Card border="light" className = "noHover">

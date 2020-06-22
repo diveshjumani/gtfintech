@@ -22,9 +22,7 @@ class About extends Component {
                           <div className="CL_text_about">
                             
                             <h3 className="h3-responsive"><b>About Us</b></h3>
-                            <p align = "justify">Georgia Tech’s Financial Services Innovation Lab (fintech.gatech.edu) is located at Scheller College of Business in the heart of the Technology Square Innovation ecosystem. 
-                                        The Lab’s vision is to become a hub for finance education, research and industry in the Southeast. 
-                                        The lab acts as a platform to connect and bring together faculty and students across Georgia Tech with the financial services industry and FinTech entrepreneurs.  
+                            <p align = "justify">Georgia Tech’s Financial Services Innovation Lab (fintech.gatech.edu) is located at Scheller College of Business in the heart of the Technology Square Innovation ecosystem. The Lab’s vision is to become a hub for finance education, research and industry in the Southeast. The lab acts as a platform to connect and bring together faculty and students across Georgia Tech with the financial services industry and FinTech entrepreneurs.  
                                         </p>
                           </div>
                         </div>
@@ -44,9 +42,7 @@ class About extends Component {
                         <div className="CL_text_about">
                           
                         <h3 className="h3-responsive"><b>About Our Programs</b></h3>
-                        <p align = "justify"> Georgia Tech’s Financial Services Innovation Lab (fintech.gatech.edu) is located at Scheller College of Business in the heart of the Technology Square Innovation ecosystem. 
-                                    The Lab’s vision is to become a hub for finance education, research and industry in the Southeast. 
-                                    The lab acts as a platform to connect and bring together faculty and students across Georgia Tech with the financial services industry and FinTech entrepreneurs. 
+                        <p align = "justify"> Georgia Tech’s Financial Services Innovation Lab (fintech.gatech.edu) is located at Scheller College of Business in the heart of the Technology Square Innovation ecosystem. The Lab’s vision is to become a hub for finance education, research and industry in the Southeast. The lab acts as a platform to connect and bring together faculty and students across Georgia Tech with the financial services industry and FinTech entrepreneurs.
                         </p>
                         </div>
                         </div>
@@ -66,9 +62,7 @@ class About extends Component {
                         <div className="CL_text_about">
                           
                         <h3 className="h3-responsive"><b>About Our Research</b></h3>
-                        <p align = "justify">Georgia Tech’s Financial Services Innovation Lab (fintech.gatech.edu) is located at Scheller College of Business in the heart of the Technology Square Innovation ecosystem. 
-                                    The Lab’s vision is to become a hub for finance education, research and industry in the Southeast. 
-                                    The lab acts as a platform to connect and bring together faculty and students across Georgia Tech with the financial services industry and FinTech entrepreneurs. 
+                        <p align = "justify">Georgia Tech’s Financial Services Innovation Lab (fintech.gatech.edu) is located at Scheller College of Business in the heart of the Technology Square Innovation ecosystem. The Lab’s vision is to become a hub for finance education, research and industry in the Southeast. The lab acts as a platform to connect and bring together faculty and students across Georgia Tech with the financial services industry and FinTech entrepreneurs.
                         </p>
                         </div>
                         </div>
