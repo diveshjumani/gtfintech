@@ -197,7 +197,7 @@ class News extends Component{
             <Card text = "black">
             <Card.Link target="_blank" rel="noopener noreferrer" href="https://www.scheller.gatech.edu/news-events/events/event.html?event_id=a0b1K00000iihzjQAA">
               <Card.Body align = "left">
-                <Card.Title>03 June</Card.Title>
+                <h2>03 June</h2>
                 <Card.Subtitle className="mb-2 text-muted">12:00 pm - 1:00 pm </Card.Subtitle>
                 <Card.Text as="h5">
                   <strong>
@@ -216,7 +216,7 @@ class News extends Component{
             <Card text = "black">
             <Card.Link target="_blank" rel="noopener noreferrer" href="https://www.scheller.gatech.edu/news-events/events/event.html?event_id=a0b1K00000iihzjQAA">
               <Card.Body align = "left">
-                <Card.Title>03 June</Card.Title>
+              <h2>03 June</h2>
                 <Card.Subtitle className="mb-2 text-muted">12:00 pm - 1:00 pm </Card.Subtitle>
                 <Card.Text as="h5">
                   <strong>
@@ -235,7 +235,7 @@ class News extends Component{
             <Card text = "black">
             <Card.Link target="_blank" rel="noopener noreferrer" href="https://www.scheller.gatech.edu/news-events/events/event.html?event_id=a0b1K00000iihzjQAA">
               <Card.Body align = "left">
-                <Card.Title>03 June</Card.Title>
+              <h2>03 June</h2>
                 <Card.Subtitle className="mb-2 text-muted">12:00 pm - 1:00 pm </Card.Subtitle>
                 <Card.Text as="h5">
                   <strong>
@@ -254,7 +254,7 @@ class News extends Component{
             <Card text = "black">
             <Card.Link target="_blank" rel="noopener noreferrer" href="https://www.scheller.gatech.edu/news-events/events/event.html?event_id=a0b1K00000iihzjQAA">
               <Card.Body align = "left">
-                <Card.Title>03 June</Card.Title>
+              <h2>03 June</h2>
                 <Card.Subtitle className="mb-2 text-muted">12:00 pm - 1:00 pm </Card.Subtitle>
                 <Card.Text as="h5">
                   <strong>
@@ -273,7 +273,7 @@ class News extends Component{
             <Card text = "black">
             <Card.Link target="_blank" rel="noopener noreferrer" href="https://www.scheller.gatech.edu/news-events/events/event.html?event_id=a0b1K00000iihzjQAA">
               <Card.Body align = "left">
-                <Card.Title>03 June</Card.Title>
+              <h2>03 June</h2>
                 <Card.Subtitle className="mb-2 text-muted">12:00 pm - 1:00 pm </Card.Subtitle>
                 <Card.Text as="h5">
                   <strong>
@@ -292,7 +292,7 @@ class News extends Component{
             <Card text = "black">
             <Card.Link target="_blank" rel="noopener noreferrer" href="https://www.scheller.gatech.edu/news-events/events/event.html?event_id=a0b1K00000iihzjQAA">
               <Card.Body align = "left">
-                <Card.Title>03 June</Card.Title>
+                <h2>03 June</h2>
                 <Card.Subtitle className="mb-2 text-muted">12:00 pm - 1:00 pm </Card.Subtitle>
                 <Card.Text as="h5">
                   <strong>

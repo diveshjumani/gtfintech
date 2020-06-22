@@ -9,4 +9,4 @@ const Creditriskresearchcardlist = () => {
     )
 }
 
-export default creditriskresearchcardlist;
+export default Creditriskresearchcardlist;

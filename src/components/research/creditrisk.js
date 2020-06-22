@@ -14,7 +14,7 @@ import Nikhil_10 from '../../images/Nikhil_10.png';
 import Nikhil_11 from '../../images/Nikhil_11.jpg';
 import Nikhil_12 from '../../images/Nikhil_12.jpg';
 import Nikhil_13 from '../../images/Nikhil_13.jpg';
-import Creditriskresearchcardlist from './bankingresearchcardlist';
+import Creditriskresearchcardlist from './creditriskresearchcardlist';
 import './research.css';
 
 class CreditRisk extends Component{

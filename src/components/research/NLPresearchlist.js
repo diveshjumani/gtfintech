@@ -21,6 +21,10 @@ const NLPresearchlist = ({ResearchArray})  => {
                             author2website = {ResearchArray[i].author2website}
                             author3 = {ResearchArray[i].author3}
                             author3website = {ResearchArray[i].author3website}
+                            author4 = {ResearchArray[i].author4}
+                            author4website = {ResearchArray[i].author4website}
+                            author5 = {ResearchArray[i].author5}
+                            author5website = {ResearchArray[i].author5website}
                             image1 = {ResearchArray[i].image1}
                             image2 = {ResearchArray[i].image2}
                             image3 = {ResearchArray[i].image3}

@@ -9,7 +9,7 @@ class QCF extends Component{
     	<div className = "qcf">	
 				<div >
 					<a target="_blank"  rel="noopener noreferrer" href = "https://www.scheller.gatech.edu/degree-programs/interdisciplinary-ms/quantitative-and-computational-finance/index.html">
-						<img height = '422px' src="https://www.imperial.ac.uk/ImageCropToolT4/imageTool/uploaded-images/spread--tojpeg_1466430752374_x1.jpg" alt="Nature" style={{width:'100%'}} />
+						<img height = '425px' src="https://www.imperial.ac.uk/ImageCropToolT4/imageTool/uploaded-images/spread--tojpeg_1466430752374_x1.jpg" alt="Nature" style={{width:'100%'}} />
 						<div class="text-block-qcf">
 							<img className="CL_qcf_logo" src = {qcf_logo} alt="404"></img>	
 						</div>
@@ -33,6 +33,7 @@ class QCF extends Component{
 											understanding they need to be leaders in the formulation, implementation and evaluation of the models 
 											used by the financial sector to structure transactions, manage risk and construct investment strategies.
               							</p>
+										
            						</div>
          				</div> 
       				</div>

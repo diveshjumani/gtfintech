@@ -32,9 +32,6 @@ class Footer extends Component{
                             <Row>
                                 <a target="_blank" rel="noopener noreferrer" href="https://hr.gatech.edu/employment/careers"><b>Employment</b></a>
                             </Row>
-                            <Row>  
-                                <a target="_blank" rel="noopener noreferrer" href="https://www.scheller.gatech.edu/contact-us.html"><b>Contact Us</b></a>
-                            </Row>
                     </Col>
 
                     <Col xs={4} lg={2}  id="links" style = {{margin:'20px'}}> 
