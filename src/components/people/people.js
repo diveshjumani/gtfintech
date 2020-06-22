@@ -46,8 +46,7 @@ function People() {
                         <div class="text-block">
                             <br/> <br/> 
                             <h4><b>People</b></h4>
-                            <p align ="justify">The Georgia Tech Financial Services Innovation Lab consists of the Director (Dr. Sudheer Chava), Faculty as well as 
-                                students from undergraduate, Masters and PhD </p>
+                <p align ="justify"> The Financial Services Innovation Lab at Georgia Tech is led by Dr. Sudheer Chava. The lab brings together many other faculty, undergraduate, Masters and PhD students from various colleges across Georgia Tech that are interested in the Financial Services and FinTech industry.  </p>
                         </div>
                     
                 </div>
@@ -57,7 +56,7 @@ function People() {
                 <Container fluid>
                     <Element name="director" className="element" >
                         <Card border="light" className = "noHover">
-                            <Card.Header as="h3"><b>Director</b></Card.Header>
+                <Card.Header as="h3"><b>Dr. Sudheer Chava</b></Card.Header>
                         </Card>
                     </Element>
 
@@ -68,26 +67,28 @@ function People() {
                                 <a target="_blank" rel="noopener noreferrer" href = "https://www.scheller.gatech.edu/directory/faculty/chava/index.html">
                                     <img className= 'Chava' style ={{height:'34p8x'}} variant="top" src={Sudheer_Chava} />
                                 </a>
+                                <div>
                                     <h4>Sudheer Chava</h4>
-                                    <p align = "left">Alton M. Costley Chair and Professor of Finance 
-                                        <br/>Area Coordinator, Finance
-                                        <br/>Director, Quantitative and Computational Finance (QCF) Program
-                                        <br/>Director, Financial Services Innovation Lab
-                                        <br/>Associate Director, Risk Management, Institute for Information Security and Privacy (IISP)
+                                    <p align = "left">
+                                        Alton M. Costley Chair
+                                    <br/>Professor of Finance 
+                                    <br/>Area Coordinator, Finance
+                                    <br/>Director, Quantitative and Computational Finance (MS-QCF)
+                                    <br/>Director, Financial Services Innovation Lab
+                                    <br/>Associate Director, Risk Management, Institute for Information Security and Privacy (IISP)
                                     </p>
+                                </div>
                         </div>
 
                         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-9">
                             <row>
-                                <p align = "justify">  
-                                Sudheer Chava is Alton M. Costley Chair and Professor of Finance at Scheller College of Business at Georgia Tech.
-                                He has received his Ph.D. from Cornell University in 2003. Prior to that he has an MBA degree from Indian Institute of Management – Bangalore 
-                                and worked as a fixed income analyst at a leading investment bank in India. 
-                                He has held academic positions at University of Houston and Texas A&M University before joining Georgia Tech in 2010.<br/><br/>
-                                Dr. Chava has taught a variety of courses at the undergraduate and master’s level including FinTech Ventures, Derivatives, Risk Analytics, Valuation, Cases in Financial Crisis, 
-                                Management of Financial Institutions, and Credit Risk Analysis. He has also taught both theoretical and empirical finance courses at the doctoral level. <br/><br/>
-                                Dr. Chava’s research interests are in Credit Risk, Banking, FinTech, Empirical Asset Pricing and Corporate Finance. He has published extensively in the top journals in 
-                                Finance including Journal of Finance, Journal of Financial Economics, Review of Financial Studies, Management Science, Review of Finance, Journal of Monetary Economics and 
+                                <p align = "justify"> 
+                                
+                                Sudheer Chava is Alton M. Costley Chair and Professor of Finance at Scheller College of Business at Georgia Tech. He has received his Ph.D. from Cornell University in 2003. Prior to that he has an MBA degree from Indian Institute of Management – Bangalore and worked as a fixed income analyst at a leading investment bank in India. He joined Georgia Tech in 2010. <br/> <br/>
+                                
+                                Dr. Chava has taught a variety of courses at the undergraduate and master’s level including FinTech Ventures, Derivatives, Risk Analytics, Valuation, Cases in Financial Crisis, Management of Financial Institutions, and Credit Risk Analysis. He has also taught both theoretical and empirical finance courses at the doctoral level. <br/><br/>
+                                Dr. Chava’s research interests are in Credit Risk, Banking, FinTech, Empirical Asset Pricing and Corporate Finance. He has published extensively in the top journals in
+                                Finance including Journal of Finance, Journal of Financial Economics, Review of Financial Studies, Management Science, Review of Finance, Journal of Monetary Economics and
                                 Journal of Financial and Quantitative Analysis. His research has won a Ross award for the best paper published in Finance Research Letters in 2008, was a finalist for Brattle 
                                 Prize for the best paper published in Journal of Finance in 2008 and was nominated for the Goldman Sachs award for the best paper for published in Review of Finance during 2004. 
                                 Dr. Chava is the recipient of multiple external research grants such as FDIC-CFR Fellowship, Morgan Stanley Research grant, Financial Service Exchange Research grant, Q group 

@@ -21,7 +21,7 @@ class COVID extends Component{
                     <img className = 'blur' height='350px' src={coronavirus} alt="" style={{width:'100%'}}/>
                     <div class="text-block-research">
                         <h1>COVID-19</h1>
-                        <p> Lorem ipsum odor amet, consectetuer adipiscing elit. Fames mollis dictum convallis nisl iaculis dapibus. </p>
+               <p> The COVID-19 pandemic and subsequent economic shutdown  have wreaked havoc on global economies. A group of Georgia Tech students and faculty assisted by the Financial Services Innovation Lab at Georgia Tech and sponsored by the Speedwell Foundation, have created a <a href="https://gacovid19.org/">web site</a> to document the far-ranging effects of the virus on the health and well being of the statewide economy and its residents.  </p>
                     </div>
                 </div>
 
@@ -30,7 +30,7 @@ class COVID extends Component{
                 <Container fluid>
                     <Card className = "researchcard">
                         <Card.Header> 
-                            <h4><b> Lorem ipsum odor amet, consectetuer adipiscing elit. Fames mollis dictum convallis nisl iaculis dapibus. </b></h4>
+                            <h4><b> COVID-19 </b></h4>
                             <h5> - <a style = {{textDecoration: 'none', color:'#000000'}} target="_blank" rel="noopener noreferrer" href= "https://www.nikhil-paradkar.com/home">Lorem Ipsum</a></h5>
                         </Card.Header>
                         <Card.Body>

@@ -7,7 +7,7 @@ const Researchlist = ({ResearchArray})  => {
         <Container fluid>
             {
                 ResearchArray.map((user,i) => {
-                    if (ResearchArray[i].research === 'banking')     
+                    if (ResearchArray[i].research === 'Credit Risk')
                     return (
                         <div>
                             <Researchcard
