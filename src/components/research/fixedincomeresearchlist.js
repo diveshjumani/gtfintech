@@ -2,12 +2,12 @@ import React from 'react';
 import Researchcard from './researchcard';
 import {Container} from 'react-bootstrap';
 
-const Researchlist = ({ResearchArray})  => { 
+const Fixedincomeresearchlist = ({ResearchArray})  => { 
     return(
         <Container fluid>
             {
                 ResearchArray.map((user,i) => {
-                    if (ResearchArray[i].research === 'banking')     
+                    if (ResearchArray[i].research === 'Fixed Income')     
                     return (
                         <div>
                             <Researchcard
@@ -36,4 +36,4 @@ const Researchlist = ({ResearchArray})  => {
     );
 }
 
-export default Researchlist;
+export default Fixedincomeresearchlist;

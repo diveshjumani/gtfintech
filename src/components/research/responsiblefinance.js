@@ -3,6 +3,7 @@ import {Card, Container,Row,Col,Carousel} from 'react-bootstrap';
 import { animateScroll as scroll} from 'react-scroll'
 import Nikhil_12 from '../../images/Nikhil_12.jpg';
 import Nikhil_13 from '../../images/Nikhil_13.jpg';
+import ResponsibleFinanceresearchcardlist from './responsiblefinanceresearchcardlist';
 import './research.css';
 
 class ResponsibleFinance extends Component{
@@ -21,6 +22,8 @@ class ResponsibleFinance extends Component{
                 </div>
 
                 <br/>
+
+                <ResponsibleFinanceresearchcardlist />
 
                 <Container fluid>
                     <Card>

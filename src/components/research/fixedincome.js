@@ -4,6 +4,7 @@ import { animateScroll as scroll} from 'react-scroll'
 import Nikhil_11 from '../../images/Nikhil_11.jpg';
 import Nikhil_12 from '../../images/Nikhil_12.jpg';
 import Nikhil_13 from '../../images/Nikhil_13.jpg';
+import Fixedincomeresearchcardlist from './bankingresearchcardlist';
 import './research.css';
 
 class FixedIncome extends Component{
@@ -22,6 +23,8 @@ class FixedIncome extends Component{
                 </div>
 
                 <br/>
+
+                <Fixedincomeresearchcardlist />
 
                 <Container fluid>
                     

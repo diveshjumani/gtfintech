@@ -7,6 +7,7 @@ import Nikhil_3 from '../../images/Nikhil_3.png';
 import Nikhil_4 from '../../images/Nikhil_4.png';
 import Nikhil_5 from '../../images/Nikhil_5.png';
 import {loremIpsum} from 'react-lorem-ipsum';
+import Fintechresearchcardlist from './fintechresearchcardlist';
 import './research.css';
 
 class FinTech extends Component{
@@ -25,6 +26,8 @@ class FinTech extends Component{
                 </div>
 
                 <br/>
+
+                <Fintechresearchcardlist />
 
                 <Container fluid>
                     <Card className = "researchcard">

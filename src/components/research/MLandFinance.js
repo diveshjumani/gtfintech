@@ -3,6 +3,7 @@ import {Card, Container,Row,Col,Carousel} from 'react-bootstrap';
 import { animateScroll as scroll} from 'react-scroll'
 import Nikhil_12 from '../../images/Nikhil_12.jpg';
 import Nikhil_13 from '../../images/Nikhil_13.jpg';
+import MLresearchcardlist from './MLresearchcardlist';
 import './research.css';
 
 class MLandFinance extends Component{
@@ -21,6 +22,8 @@ class MLandFinance extends Component{
                 </div>
 
                 <br/>
+
+                <MLresearchcardlist />
 
                 <Container fluid>
                     <Card>

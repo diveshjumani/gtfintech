@@ -1,7 +1,7 @@
 export const allresearch = [
     {
         id: 1,
-        research:'banking',
+        research:'Banking',
         researchname: 'Shareholder Bargaining Power, Debt Overhang, and Investment',
         researchwebsite: 'https://academic.oup.com/rcfs/article-abstract/7/2/276/5056934',
         author1: 'Sudheer Chava',
@@ -18,7 +18,7 @@ export const allresearch = [
     },
     {
         id: 2,
-        research:'banking',
+        research:'Banking',
         researchname: 'The Dynamics of Borrower Reputation Following Financial Misreporting',
         researchwebsite: 'https://pubsonline.informs.org/doi/10.1287/mnsc.2017.2739',
         author1: 'Sudheer Chava',

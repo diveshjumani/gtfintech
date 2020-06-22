@@ -6,6 +6,7 @@ import Cog2 from '../../images/Cog2.png';
 import Cog3 from '../../images/Cog3.png';
 import Cog4 from '../../images/Cog4.png';
 import household_finance from '../../images/household_finance.jpg';
+import Householdfinanceresearchcardlist from './householdfinanceresearchcardlist';
 import './research.css';
 
 class HouseholdFinance extends Component{
@@ -24,6 +25,8 @@ class HouseholdFinance extends Component{
                 </div>
 
                 <br/>
+
+                <Householdfinanceresearchcardlist />
 
                 <Container fluid>
                     <Card>

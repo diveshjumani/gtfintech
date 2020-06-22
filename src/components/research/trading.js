@@ -7,6 +7,7 @@ import Nikhil_3 from '../../images/Nikhil_3.png';
 import Nikhil_4 from '../../images/Nikhil_4.png';
 import Nikhil_5 from '../../images/Nikhil_5.png';
 import {loremIpsum} from 'react-lorem-ipsum';
+import Tradingresearchcardlist from './tradingresearchcardlist';
 import './research.css';
 
 class Trading extends Component{
@@ -27,6 +28,9 @@ class Trading extends Component{
                 <br/>
 
                 <Container fluid>
+
+                    <Tradingresearchcardlist />
+
                     <Card className = "researchcard">
                         <Card.Header> 
                             <h4><b> Lorem ipsum odor amet, consectetuer adipiscing elit. Fames mollis dictum convallis nisl iaculis dapibus. </b></h4>

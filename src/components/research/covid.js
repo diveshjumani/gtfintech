@@ -8,6 +8,7 @@ import Nikhil_4 from '../../images/Nikhil_4.png';
 import Nikhil_5 from '../../images/Nikhil_5.png';
 import coronavirus from '../../images/coronavirus.jpg';
 import {loremIpsum} from 'react-lorem-ipsum';
+import COVIDresearchcardlist from './covidresearchcardlist';
 import './research.css';
 
 class COVID extends Component{
@@ -21,11 +22,13 @@ class COVID extends Component{
                     <img className = 'blur' height='350px' src={coronavirus} alt="" style={{width:'100%'}}/>
                     <div class="text-block-research">
                         <h1>COVID-19</h1>
-               <p> The COVID-19 pandemic and subsequent economic shutdown  have wreaked havoc on global economies. A group of Georgia Tech students and faculty assisted by the Financial Services Innovation Lab at Georgia Tech and sponsored by the Speedwell Foundation, have created a <a href="https://gacovid19.org/">web site</a> to document the far-ranging effects of the virus on the health and well being of the statewide economy and its residents.  </p>
+               <p align = "justify"> The COVID-19 pandemic and subsequent economic shutdown  have wreaked havoc on global economies. A group of Georgia Tech students and faculty assisted by the Financial Services Innovation Lab at Georgia Tech and sponsored by the Speedwell Foundation, have created a <a href="https://gacovid19.org/">web site</a> to document the far-ranging effects of the virus on the health and well being of the statewide economy and its residents.  </p>
                     </div>
                 </div>
 
                 <br/>
+
+                <COVIDresearchcardlist />
 
                 <Container fluid>
                     <Card className = "researchcard">
