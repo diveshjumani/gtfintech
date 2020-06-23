@@ -164,21 +164,6 @@ a:hover{
   grid-template-rows: 100vh;
 }
 
-.text-block {
-  height: 250px;
-  width: 500px;
-  background: rgb(0, 0, 0); /* Fallback color */
-  background: rgba(0, 0, 0, 0.6); /* Black background with 0.5 opacity */
-  color: white;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  align-items: center;
-  justify-items: center;
-  padding: 10px;
-}
-
 .text-block-card {
   font-family: Arial, Helvetica, sans-serif;
   height: 60px;
@@ -208,22 +193,7 @@ a:hover{
   pointer-events: none;
 }
 
-.text-block-research {
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
-  color: white;
-  font-weight: bold;
-  border: 3px solid #f1f1f1;
-  position: absolute;
-  top: 25%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 2;
-  width: 60%;
-  height: 25%;
-  padding: 5px;
-  text-align: center;
-}
+
 
 .padding-0{
     padding-right:0;
@@ -313,8 +283,6 @@ li {
   }
 
 }
-
-
 
 #links {
   color: #b3b3b3;
