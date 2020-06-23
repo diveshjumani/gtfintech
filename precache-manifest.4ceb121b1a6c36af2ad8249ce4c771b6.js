@@ -1,35 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1181b5568feadfd56bcd60f3fdfbb0e6",
+    "revision": "7030edbc53b9b35077caddb79c9fc4cd",
     "url": "/gtfintech/index.html"
   },
   {
-    "revision": "6109bcad6201c11fc21c",
-    "url": "/gtfintech/static/css/2.d805e148.chunk.css"
+    "revision": "732b01d3227286947d53",
+    "url": "/gtfintech/static/css/2.7e2e2a84.chunk.css"
   },
   {
-    "revision": "40ed3bf16d52192482bf",
-    "url": "/gtfintech/static/css/main.4ac44e5b.chunk.css"
+    "revision": "72eca02243bdd5de4666",
+    "url": "/gtfintech/static/css/main.c8a313d9.chunk.css"
   },
   {
-    "revision": "6109bcad6201c11fc21c",
-    "url": "/gtfintech/static/js/2.5f3f28ff.chunk.js"
+    "revision": "732b01d3227286947d53",
+    "url": "/gtfintech/static/js/2.7ee77319.chunk.js"
   },
   {
     "revision": "d2966845b94a3318bf32eecc7af8015d",
-    "url": "/gtfintech/static/js/2.5f3f28ff.chunk.js.LICENSE.txt"
+    "url": "/gtfintech/static/js/2.7ee77319.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "40ed3bf16d52192482bf",
-    "url": "/gtfintech/static/js/main.8264412d.chunk.js"
+    "revision": "72eca02243bdd5de4666",
+    "url": "/gtfintech/static/js/main.c952916d.chunk.js"
   },
   {
-    "revision": "97a79a0606e5611a86f3",
-    "url": "/gtfintech/static/js/runtime-main.acddfa5a.js"
-  },
-  {
-    "revision": "681adeb69a3a6869d3106479cde98cd8",
-    "url": "/gtfintech/static/media/Alex_Hsu.681adeb6.jpg"
+    "revision": "29f33da0060014b46be1",
+    "url": "/gtfintech/static/js/runtime-main.a741bf64.js"
   },
   {
     "revision": "80f1d0f383dac7d6c676edcc3971b212",
@@ -58,10 +54,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "fb468e7571a0d4ed217ad6f02a923af5",
     "url": "/gtfintech/static/media/Cog4.fb468e75.png"
-  },
-  {
-    "revision": "adaa11de1a4f85d31e7b872bc99d6996",
-    "url": "/gtfintech/static/media/Daniel_Weagley.adaa11de.jpg"
   },
   {
     "revision": "dfc5832ee31778c2a90a65573c222223",
@@ -140,18 +132,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/gtfintech/static/media/Nikhil_9.3344c0f9.png"
   },
   {
-    "revision": "182b7fcf49e45a0daef56c54227a7c98",
-    "url": "/gtfintech/static/media/Nikhil_Paradkar.182b7fcf.jpg"
-  },
-  {
-    "revision": "13f4765f088c65c93690348b032733b2",
-    "url": "/gtfintech/static/media/Shijie_Deng.13f4765f.jpg"
-  },
-  {
-    "revision": "31b7c93e440aa7d826c95bdad1dbc539",
-    "url": "/gtfintech/static/media/Soohun_Kim.31b7c93e.jpg"
-  },
-  {
     "revision": "c93fc58f8d41028880e3d11edad1e37f",
     "url": "/gtfintech/static/media/Sponsors.c93fc58f.jpg"
   },
@@ -178,6 +158,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "8faa90f1c0db4a5a23faf69460e1b597",
     "url": "/gtfintech/static/media/coronavirus.8faa90f1.jpg"
+  },
+  {
+    "revision": "8b8e0ea1556ff5032d48187a65c4b425",
+    "url": "/gtfintech/static/media/data_page_img.8b8e0ea1.jpg"
   },
   {
     "revision": "931c2b66ed6bf95b0addb3f38618e99c",
