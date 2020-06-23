@@ -51,6 +51,7 @@ function Header () {
                       </NavDropdown>
                       <NavLink eventKey="3" className="CL_header_texts"><Link to='/gtfintech/corporateaffiliates'><strong>Corporate Affiliates </strong></Link></NavLink>
                       <NavLink eventKey="4" className="CL_header_texts"><Link to='/gtfintech/qcf'><strong>QCF</strong></Link></NavLink>
+                      <NavLink eventKey="17" className="CL_header_texts"><Link to='/gtfintech/data'><strong>Data</strong></Link></NavLink>
                       <NavLink eventKey="5" className="CL_header_texts"><Link to='/gtfintech/news'><strong>News & Events</strong></Link></NavLink>
                 </Nav>
               </Navbar.Collapse>

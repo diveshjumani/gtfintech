@@ -1,0 +1,28 @@
+.text-block-ca {
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0); /* Black background with 0.5 opacity */
+    color: white;
+    position: absolute;
+    top: 15%;
+    width:auto;
+    left: 41%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    margin:20px;
+  }
+
+.CL_data_outer{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.CL_data_card_title{
+    height: 2rem;
+}
+
+@media (max-width: 768px) {
+    .CL_data_card_title{
+        height: 3rem;
+    }   
+}

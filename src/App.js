@@ -16,6 +16,7 @@ import NLPandFinance from './components/research/NLPandFinance';
 import FixedIncome from './components/research/fixedincome';
 import Banking from './components/research/banking';
 import QCF from './components/qcf/qcf';
+import data from './components/data/data';
 import CorporateAffiliates from './components/corporateaffiliate/corporateaffiliates';
 import News from './components/news/news';
 import People from './components/people/people';
@@ -43,6 +44,7 @@ class App extends Component {
           <Route path = '/gtfintech/research/banking' component = {Banking} exact />
           <Route path = '/gtfintech/corporateaffiliates' component = {CorporateAffiliates} exact />
           <Route path = '/gtfintech/qcf' component = {QCF} exact />
+          <Route path = '/gtfintech/data' component = {data} exact />
           <Route path = '/gtfintech/news' component = {News} exact />
         </Switch>
         <Footer />
