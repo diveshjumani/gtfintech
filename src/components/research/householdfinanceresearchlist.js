@@ -28,8 +28,10 @@ const Householdfinanceresearchlist = ({ResearchArray})  => {
                             image1 = {ResearchArray[i].image1}
                             image2 = {ResearchArray[i].image2}
                             image3 = {ResearchArray[i].image3}
+                            image4 = {ResearchArray[i].image4}
+                            image5 = {ResearchArray[i].image5}
                             abstract = {ResearchArray[i].abstract}
-                            keytakeaway = {ResearchArray[i].keytakeaway}  
+                            keytakeaway = {ResearchArray[i].keytakeaway} 
                             />
                             <br/>
                         </div>

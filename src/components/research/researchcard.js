@@ -2,7 +2,7 @@ import React from 'react';
 import {Card, Container,Row,Col,Carousel} from 'react-bootstrap';
 import 'tachyons';
 
-const researchcard = ({researchname, researchwebsite, author1, author1website, author2, author2website,author3,author3website,author4,author4website,author5,author5website,image1,image2,image3,abstract,keytakeaway}) => {
+const researchcard = ({researchname, researchwebsite, author1, author1website, author2, author2website,author3,author3website,author4,author4website,author5,author5website,image1,image2,image3,image4,image5,abstract,keytakeaway}) => {
     return(
         <div> 
             <Card>
@@ -43,6 +43,22 @@ const researchcard = ({researchname, researchwebsite, author1, author1website, a
                                     height = "300px"
                                     className="d-block w-100"
                                     src={process.env.PUBLIC_URL + image3}
+                                    alt=""
+                                    />
+                                </Carousel.Item>
+                                <Carousel.Item>
+                                    <img
+                                    height = "300px"
+                                    className="d-block w-100"
+                                    src={process.env.PUBLIC_URL + image4}
+                                    alt=""
+                                    />
+                                </Carousel.Item>
+                                <Carousel.Item>
+                                    <img
+                                    height = "300px"
+                                    className="d-block w-100"
+                                    src={process.env.PUBLIC_URL + image5}
                                     alt=""
                                     />
                                 </Carousel.Item>
