@@ -31,7 +31,7 @@ function Header () {
     };
         return(
           <Navbar collapseOnSelect={true} className ="fixed-top" variant="dark" bg ="dark" expand = "lg"> 
-                 <Navbar.Brand className = "d-inline p-0 text-white" href ="/gtfintech"><img alt = "" src={logo} width="200" height="35" /></Navbar.Brand>
+                 <Navbar.Brand className = "d-inline p-0 text-white" href ="/gtfintech"><img alt = "" src={logo} width="250" height="45" /></Navbar.Brand>
               <Navbar.Toggle aria-controls="responsive-navbar-nav" />
               <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="mr-auto">

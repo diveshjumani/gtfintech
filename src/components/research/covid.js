@@ -6,7 +6,8 @@ import Nikhil_2 from '../../images/Nikhil_2.png';
 import Nikhil_3 from '../../images/Nikhil_3.png';
 import Nikhil_4 from '../../images/Nikhil_4.png';
 import Nikhil_5 from '../../images/Nikhil_5.png';
-import coronavirus from '../../images/coronavirus.jpg';
+import coronavirus from '../../images/corona-5174671_1920.jpg';
+import about_3 from '../../images/about_3.jpg';
 import {loremIpsum} from 'react-lorem-ipsum';
 import COVIDresearchcardlist from './covidresearchcardlist';
 import './research.css';
@@ -18,8 +19,10 @@ class COVID extends Component{
     render(){
         return(
             <div className = "research">
+                <br/>
+                <br/>
                 <div >
-                    <img className = 'blur' height='350px' src={coronavirus} alt="" style={{width:'100%'}}/>
+                    <img  class = "image-research" src={about_3} alt="" style={{width:'100%'}}/>
                     <div class="text-block-research">
                         <h1>COVID-19</h1>
                <p align = "justify"> The COVID-19 pandemic and subsequent economic shutdown  have wreaked havoc on global economies. A group of Georgia Tech students and faculty assisted by the Financial Services Innovation Lab at Georgia Tech and sponsored by the Speedwell Foundation, have created a <a href="https://gacovid19.org/">web site</a> to document the far-ranging effects of the virus on the health and well being of the statewide economy and its residents.  </p>

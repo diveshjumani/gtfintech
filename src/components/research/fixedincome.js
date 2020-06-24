@@ -5,6 +5,7 @@ import Nikhil_11 from '../../images/Nikhil_11.jpg';
 import Nikhil_12 from '../../images/Nikhil_12.jpg';
 import Nikhil_13 from '../../images/Nikhil_13.jpg';
 import Fixedincomeresearchcardlist from './fixedincomeresearchcardlist';
+import fixedincome from '../../images/heap-of-united-states-dollar-bills-and-calculator-4386393.jpg';
 import './research.css';
 
 class FixedIncome extends Component{
@@ -14,8 +15,10 @@ class FixedIncome extends Component{
     render(){
         return(
             <div className = "research">
+                <br/>
+                <br/>
                 <div >
-                    <img className = 'blur' height='350px' src="https://www.upal.com/wp-content/uploads/2018/12/fixedincome.jpg" alt="" style={{width:'100%'}}/>
+                    <img class = "image-research" src={fixedincome} alt="" style={{width:'100%'}}/>
                     <div class="text-block-research">
                         <h1>Fixed Income</h1>
                         <p> Lorem ipsum odor amet, consectetuer adipiscing elit. Fames mollis dictum convallis nisl iaculis dapibus. </p>

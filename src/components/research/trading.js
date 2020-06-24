@@ -8,6 +8,7 @@ import Nikhil_4 from '../../images/Nikhil_4.png';
 import Nikhil_5 from '../../images/Nikhil_5.png';
 import {loremIpsum} from 'react-lorem-ipsum';
 import Tradingresearchcardlist from './tradingresearchcardlist';
+import trading from '../../images/black-blue-and-red-graph-illustration-186461.jpg';
 import './research.css';
 
 class Trading extends Component{
@@ -17,8 +18,10 @@ class Trading extends Component{
     render(){
         return(
             <div className = "research">
+                <br/>
+                <br/>
                 <div >
-                    <img className = 'blur' height='350px' src="https://news.tradimo.com/wp-content/uploads/2019/04/Swing-Trading-Indicators.png" alt="" style={{width:'100%'}}/>
+                    <img class = "image-research" src={trading} alt="" style={{width:'100%'}}/>
                     <div class="text-block-research">	
                         <h1>Trading Strategies</h1>
                         <p> Lorem ipsum odor amet, consectetuer adipiscing elit. Fames mollis dictum convallis nisl iaculis dapibus. </p>

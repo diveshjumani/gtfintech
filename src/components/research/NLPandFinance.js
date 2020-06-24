@@ -8,6 +8,7 @@ import Nikhil_4 from '../../images/Nikhil_4.png';
 import Nikhil_5 from '../../images/Nikhil_5.png';
 import {loremIpsum} from 'react-lorem-ipsum';
 import NLPresearchcardlist from './NLPresearchcardlist';
+import NLPimage from '../../images/finance-news-newspaper-stocks-102720.jpg';
 import './research.css';
 
 class NLPandFinance extends Component{
@@ -17,8 +18,10 @@ class NLPandFinance extends Component{
     render(){
         return(
             <div className = "research">
+                <br/>
+                <br/>
                 <div >
-                    <img className = 'blur' height='350px' src="https://www.sr-sv.com/wp-content/uploads/2019/06/NLP_0000.jpg" alt="" style={{width:'100%'}}/>
+                    <img class = "image-research" src={NLPimage} alt="" style={{width:'100%'}}/>
                     <div class="text-block-research">	
                         <h1>Natural Language Processing</h1>
                     </div>

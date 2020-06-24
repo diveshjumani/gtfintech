@@ -16,8 +16,11 @@ class HouseholdFinance extends Component{
     render(){
         return(
             <div className = "research">
+                <br/>
+                <br/>
+                
                 <div >
-                    <img className = 'blur' height='350px' src={household_finance} alt="" style={{width:'100%'}}/>
+                    <img class = "image-research" src={household_finance} alt="" style={{width:'100%'}}/>
                     <div class="text-block-research">
                         <h1>Household Finance</h1>
                         <p> Lorem ipsum odor amet, consectetuer adipiscing elit. Fames mollis dictum convallis nisl iaculis dapibus. </p>

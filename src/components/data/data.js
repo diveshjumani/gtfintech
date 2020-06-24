@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import { Container, Card, ListGroup } from 'react-bootstrap';
 import './data.css'
-import data_img from '../../images/data_page_img.jpg';
+import data_img from '../../images/banner-909710.jpg';
 
 class data extends Component{
     render(){

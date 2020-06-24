@@ -1,5 +1,8 @@
 import React, {Component} from 'react';
 import { MDBCarousel, MDBCarouselCaption, MDBCarouselInner, MDBCarouselItem, MDBView, MDBMask} from "mdbreact";
+import about_1 from '../../images/about_1.jpg';
+import about_2 from '../../images/about_2.jpg';
+import about_3 from '../../images/about_3.jpg';
 import './about.css'
 
 class About extends Component {
@@ -12,7 +15,7 @@ class About extends Component {
                       <MDBView>
                         <img
                           className="d-block w-100 aboutimg" 
-                          src = "https://3k7by215ywuf340yi3alsfso-wpengine.netdna-ssl.com/wp-content/uploads/sites/5/2015/11/Scheller_TechSquare_Hero_02_tech-square-activity-1.jpg"
+                          src = {about_1}
                           alt=""
                         />
                         <MDBMask overlay="black-light" />
@@ -32,7 +35,7 @@ class About extends Component {
                       <MDBView>
                         <img
                           className="d-block w-100 aboutimg"
-                          src="https://www.scheller.gatech.edu/pix/hdr-tech-square.jpg.pagespeed.ce.5vofNEnHkj.jpg"
+                          src={about_2}
                           alt=""
                         />
                         <MDBMask overlay="black-strong" />
@@ -52,7 +55,7 @@ class About extends Component {
                       <MDBView>
                         <img
                           className="d-block w-100 aboutimg" 
-                          src= 'https://helpingstories.gatech.edu/sites/default/files/2020-04/workingg.jpg'
+                          src= {about_3}
                           alt=""
                         />
                         <MDBMask overlay="black-slight" />

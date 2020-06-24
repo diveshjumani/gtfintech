@@ -6,6 +6,7 @@ import Nikhil_12 from '../../images/Nikhil_12.jpg';
 import Nikhil_13 from '../../images/Nikhil_13.jpg';
 import './research.css';
 import Bankingresearchcardlist from './bankingresearchcardlist';
+import bank from '../../images/safe-913452.jpg';
 
 class Banking extends Component{
     scrollToTop() {
@@ -15,7 +16,9 @@ class Banking extends Component{
         return(
             <div>
                 <div >
-                    <img className = 'blur' height='350px'  src="https://cdn.i-scmp.com/sites/default/files/d8/images/methode/2020/01/14/90c5e516-368b-11ea-9933-e21be988cd59_image_hires_185803.jpg" alt="" style={{width:'100%'}}/>
+                <br/>
+                <br/>
+                    <img class = "image-research"  src={bank} alt="" style={{width:'100%'}}/>
                     <div class="text-block-research">	
                     <h1>Banking</h1>
                     <p> Lorem ipsum odor amet, consectetuer adipiscing elit. Fames mollis dictum convallis nisl iaculis dapibus. </p>

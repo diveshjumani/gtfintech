@@ -15,6 +15,7 @@ import Nikhil_11 from '../../images/Nikhil_11.jpg';
 import Nikhil_12 from '../../images/Nikhil_12.jpg';
 import Nikhil_13 from '../../images/Nikhil_13.jpg';
 import Creditriskresearchcardlist from './creditriskresearchcardlist';
+import credit_risk from '../../images/dices-over-newspaper-2656028.jpg';
 import './research.css';
 
 class CreditRisk extends Component{
@@ -24,8 +25,10 @@ class CreditRisk extends Component{
     render(){
         return(
             <div className = "research">
+                <br/>
+                <br/>
                 <div >
-                    <img className = 'blur' height='350px' src="https://www.marketing91.com/wp-content/uploads/2019/02/Credit-Risk-4.jpg" alt="" style={{width:'100%'}}/>
+                    <img class = "image-research" src={credit_risk} alt="" style={{width:'100%'}}/>
                     <div class="text-block-research"> 	
                         <h1>Credit Risk</h1>
                         <p> Lorem ipsum odor amet, consectetuer adipiscing elit. Fames mollis dictum convallis nisl iaculis dapibus. </p>

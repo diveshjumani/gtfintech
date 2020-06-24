@@ -3,8 +3,8 @@ import {Container,Card} from 'react-bootstrap';
 import Peoplelist from './Peoplelist';
 import {Facultypeople} from './Facultypeople';
 import {PhDpeople} from './PhDpeople';
-import {MSpeople} from './MSpeople';
-import {UGpeople} from './UGpeople';
+import {Alumni} from './Alumni';
+import {MSUGpeople} from './MSUGpeople';
 
 
 const PeopleCardList = () => {
@@ -24,7 +24,7 @@ const PeopleCardList = () => {
 
             <Container fluid>
                 <Card border="light" className = "noHover">
-                    <Card.Header as="h3"><b>PhD Students</b></Card.Header>
+                    <Card.Header as="h3"><b>PhD</b></Card.Header>
                 </Card> 
             </Container>        
                         
@@ -36,25 +36,25 @@ const PeopleCardList = () => {
 
             <Container fluid>
                 <Card border="light" className = "noHover">
-                    <Card.Header as="h3"><b>MS Students</b></Card.Header>
+                    <Card.Header as="h3"><b>Alumni</b></Card.Header>
                 </Card>
             </Container> 
             
             <br/>
 
-            <Peoplelist PeopleArray = {MSpeople} />
+            <Peoplelist PeopleArray = {Alumni} />
 
             <br/>
 
             <Container fluid>
                 <Card border="light" className = "noHover">
-                    <Card.Header as="h3"><b>Undergrad Students</b></Card.Header>
+                    <Card.Header as="h3"><b>Masters/Undergrad Students</b></Card.Header>
                 </Card>
             </Container> 
             
             <br/>
 
-            <Peoplelist PeopleArray = {UGpeople} />
+            <Peoplelist PeopleArray = {MSUGpeople} />
 
         </div>
     )

@@ -193,8 +193,6 @@ a:hover{
   pointer-events: none;
 }
 
-
-
 .padding-0{
     padding-right:0;
     padding-left:0;
@@ -214,7 +212,6 @@ li {
   padding: 14px 16px;
   text-decoration: none;
 }
-
 
 .card-img{
   width: '30vw';
