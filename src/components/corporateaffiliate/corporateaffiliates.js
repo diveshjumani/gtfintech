@@ -13,7 +13,7 @@ import Microsoft from '../../images/Microsoft_logo.png';
 import Truist from '../../images/Truist_logo.jpg';
 import Walmart from '../../images/Walmart_logo.jpg';
 import Workday from '../../images/Workday_Logo.png';
-import Sponsors from '../../images/Sponsors.jpg';
+import Sponsors from '../../images/shaking-hands-5217122.jpg';
 
 
 class CorporateAffiliates extends Component{
@@ -23,8 +23,9 @@ class CorporateAffiliates extends Component{
     render(){
     	return(
             <div>
+                
                 <div >
-                    <img height = "400px" src={Sponsors} alt="" style={{width:'100%'}}/>
+                    <img height = "600px" src={Sponsors} alt="" style={{width:'100%'}}/>
                     <div class="text-block-ca">
                         <h1 style = {{fontSize: '500%'}} ><strong>Corporate Affiliates </strong></h1>
                     </div>

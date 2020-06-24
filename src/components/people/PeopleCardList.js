@@ -11,50 +11,28 @@ const PeopleCardList = () => {
     return(
         <div>
             <Container fluid>
-                <Card border="light" className = "noHover">
-                    <Card.Header as="h3"><b>Faculty</b></Card.Header>
-                </Card>
+                <h2><b> Faculty </b></h2>
             </Container>
                 
-            <br/>
-
             <Peoplelist PeopleArray = {Facultypeople} />
 
-            <br/>
-
             <Container fluid>
-                <Card border="light" className = "noHover">
-                    <Card.Header as="h3"><b>PhD</b></Card.Header>
-                </Card> 
-            </Container>        
-                        
-            <br/>
+                <h2><b> Doctoral Students </b></h2>
+            </Container>       
 
             <Peoplelist PeopleArray = {PhDpeople} />
 
-            <br/>
-
             <Container fluid>
-                <Card border="light" className = "noHover">
-                    <Card.Header as="h3"><b>Alumni</b></Card.Header>
-                </Card>
+                <h2><b> Masters/Undergrad Students </b></h2> 
             </Container> 
-            
-            <br/>
-
-            <Peoplelist PeopleArray = {Alumni} />
-
-            <br/>
-
-            <Container fluid>
-                <Card border="light" className = "noHover">
-                    <Card.Header as="h3"><b>Masters/Undergrad Students</b></Card.Header>
-                </Card>
-            </Container> 
-            
-            <br/>
 
             <Peoplelist PeopleArray = {MSUGpeople} />
+
+            <Container fluid>
+                <h2><b> Alumni </b></h2> 
+            </Container> 
+            
+            <Peoplelist PeopleArray = {Alumni} />
 
         </div>
     )

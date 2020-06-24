@@ -36,6 +36,7 @@ function People() {
       setNavVisibility(!isNavVisible);
     };
     */
+   
         return (
             <div className="people">
                 <br/>
@@ -54,11 +55,8 @@ function People() {
                 <br/> 
 
                 <Container fluid>
-                    <Element name="director" className="element" >
-                        <Card border="light" className = "noHover">
-                <Card.Header as="h3"><b>Dr. Sudheer Chava</b></Card.Header>
-                        </Card>
-                    </Element>
+                    
+                <h2><b> Dr. Sudheer Chava </b></h2>
 
                     <br/>
 
@@ -113,8 +111,6 @@ function People() {
 
                 <PeopleCardList />
 
-                <br/>
-                
             </div>
         );
     }

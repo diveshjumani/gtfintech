@@ -1,11 +1,11 @@
-.text-block-ca {
+.text-block-data {
     background: rgb(0, 0, 0); /* Fallback color */
     background: rgba(0, 0, 0, 0); /* Black background with 0.5 opacity */
     color: white;
     position: absolute;
-    top: 25%;
+    top: 30%;
     width:auto;
-    left: 50%;
+    left: 35%;
     transform: translate(-50%, -50%);
     text-align: center;
     margin:20px;

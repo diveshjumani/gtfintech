@@ -20,8 +20,8 @@
 }
 
 .text-block {
-    height: 250px;
-    width: 500px;
+    height: 220px;
+    width: 700px;
     background: rgb(0, 0, 0); /* Fallback color */
     background: rgba(0, 0, 0, 0.6); /* Black background with 0.5 opacity */
     color: white;
@@ -53,7 +53,7 @@
         width: 350px;
         color: white;
         position: absolute;
-        top: 60%;
+        top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
         align-items: center;

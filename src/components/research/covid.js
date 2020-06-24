@@ -6,7 +6,6 @@ import Nikhil_2 from '../../images/Nikhil_2.png';
 import Nikhil_3 from '../../images/Nikhil_3.png';
 import Nikhil_4 from '../../images/Nikhil_4.png';
 import Nikhil_5 from '../../images/Nikhil_5.png';
-import coronavirus from '../../images/corona-5174671_1920.jpg';
 import about_3 from '../../images/about_3.jpg';
 import {loremIpsum} from 'react-lorem-ipsum';
 import COVIDresearchcardlist from './covidresearchcardlist';
