@@ -9,7 +9,7 @@ const Peoplecard = ({website, imagef, name, role}) => {
                 </a>
                 
                 <div style={{ width: '194px'}}>
-                    <h4><b>{name}</b></h4>   
+                    <h5><b>{name}</b></h5>   
                     <h5>{role}</h5>
                 </div>     
         </div>

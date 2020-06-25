@@ -1,10 +1,10 @@
 export const Alumni = [
     {
         id: 1,
-        name: 'Student Name',
-        role: 'Specialisation',
+        name: 'Steven Chong Xiao',
+        role: 'Assistant Professor',
         website: '',
-        imagef: '/images/career_buzz_logo.png'
+        imagef: '/images/steven chong xiao profile photo.jpg'
     },
     {
         id: 2,
