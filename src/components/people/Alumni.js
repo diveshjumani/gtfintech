@@ -40,47 +40,5 @@ export const Alumni = [
         role: 'Specialisation',
         website: '',
         imagef: '/images/career_buzz_logo.png'
-    },
-    {
-        id: 7,
-        name: 'Student Name',
-        role: 'Specialisation',
-        website: '',
-        imagef: '/images/career_buzz_logo.png'
-    },
-    {
-        id: 8,
-        name: 'Student Name',
-        role: 'Specialisation',
-        website: '',
-        imagef: '/images/career_buzz_logo.png'
-    },
-    {
-        id: 9,
-        name: 'Student Name',
-        role: 'Specialisation',
-        website: '',
-        imagef: '/images/career_buzz_logo.png'
-    },
-    {
-        id: 10,
-        name: 'Student Name',
-        role: 'Specialisation',
-        website: '',
-        imagef: '/images/career_buzz_logo.png'
-    },
-    {
-        id: 11,
-        name: 'Student Name',
-        role: 'Specialisation',
-        website: '',
-        imagef: '/images/career_buzz_logo.png'
-    },
-    {
-        id: 12,
-        name: 'Student Name',
-        role: 'Specialisation',
-        website: '',
-        imagef: '/images/career_buzz_logo.png'
     }
 ]

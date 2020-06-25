@@ -8,7 +8,7 @@ const Peoplecard = ({website, imagef, name, role}) => {
                     <img style={{ width: '194px', height: '220px'}} alt="professor" src = {process.env.PUBLIC_URL + imagef} />
                 </a>
                 
-                <div>
+                <div style={{ width: '194px'}}>
                     <h4><b>{name}</b></h4>   
                     <h5>{role}</h5>
                 </div>     

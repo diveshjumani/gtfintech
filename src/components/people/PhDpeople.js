@@ -3,7 +3,7 @@ export const PhDpeople = [
         id: 1,
         name: 'Wendi Du',
         role: 'Finance',
-        website: '',
+        website: 'https://www.scheller.gatech.edu/directory/phd/du/index.html',
         imagef: '/images/Wendi_Du.jpg'
     },
     {
@@ -17,7 +17,7 @@ export const PhDpeople = [
         id: 3,
         name: 'Baridhi Malakar',
         role: 'Finance',
-        website: 'https://www.danielweagley.com/',
+        website: 'https://www.linkedin.com/in/baridhi/',
         imagef: '/images/Baridhi_Malakar.jpg'
     },
     {

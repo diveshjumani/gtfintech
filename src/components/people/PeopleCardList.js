@@ -4,7 +4,8 @@ import Peoplelist from './Peoplelist';
 import {Facultypeople} from './Facultypeople';
 import {PhDpeople} from './PhDpeople';
 import {Alumni} from './Alumni';
-import {MSUGpeople} from './MSUGpeople';
+import {UGpeople} from './UGpeople';
+import {MSpeople} from './MSpeople';
 
 
 const PeopleCardList = () => {
@@ -23,10 +24,16 @@ const PeopleCardList = () => {
             <Peoplelist PeopleArray = {PhDpeople} />
 
             <Container fluid>
-                <h2><b> Masters/Undergrad Students </b></h2> 
+                <h2><b> Masters Students </b></h2> 
             </Container> 
 
-            <Peoplelist PeopleArray = {MSUGpeople} />
+            <Peoplelist PeopleArray = {MSpeople} />
+
+            <Container fluid>
+                <h2><b> Undergrad Students </b></h2> 
+            </Container> 
+
+            <Peoplelist PeopleArray = {UGpeople} />
 
             <Container fluid>
                 <h2><b> Alumni </b></h2> 
