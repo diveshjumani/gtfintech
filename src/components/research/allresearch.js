@@ -14,10 +14,10 @@ export const allresearch = [
     author3website: '',
     author4website: '',
     author5website: '',
-    image1:'',
-    image2:'',
-    image3:'',
-    image4:'',
+    image1:'/images/Shareholder_Bargaining_1.PNG',
+    image2:'/images/Shareholder_Bargaining_1.PNG',
+    image3:'/images/Shareholder_Bargaining_1.PNG',
+    image4:'/images/Shareholder_Bargaining_1.PNG',
     abstract:"Using a dynamic model of strategic bargaining between equity and debt holders following default, we analyze the impact of shareholder bargaining power and debt overhang on optimal investment and strategic default. Our empirical tests utilize a new measure of the debt overhang wedge based on default probabilities generated from a hazard model for bankruptcy. Consistent with the theoretical predictions, bondholder (shareholder) ownership concentration ceteris paribus enhances (weakens) the overhang wedge and dampens (increases) capital investment. We identify novel ownership-structure-related factors in firm-level capital investment and document how post-default shareholder bargaining power alleviates the underinvestment problem caused by debt overhang.",
     keytakeaway:"We identify novel ownership-structure-related factors in firm-level capital investment and document how post-default shareholder bargaining power alleviates the underinvestment problem caused by debt overhang."
 },
@@ -36,10 +36,10 @@ export const allresearch = [
     author3website: 'https://pubsonline.informs.org/action/doSearch?text1=Johnson%2C+Shane+A&field1=Contrib',
     author4website: '',
     author5website: '',
-    image1:'',
-    image2:'',
-    image3:'',
-    image4:'',
+    image1:'/images/Dynamics_Borrower_1.PNG',
+    image2:'/images/Dynamics_Borrower_1.PNG',
+    image3:'/images/Dynamics_Borrower_1.PNG',
+    image4:'/images/Dynamics_Borrower_1.PNG',
     abstract:'We study the dynamics of borrower reputation in bank loan markets following revelations of financial misreporting by the borrower. Misreporting firms pay greater loan spreads than matched firms for at least six years following revelation of the misreporting, and there is no evidence of a downward trend in the misreporting premium. Following revelation, misreporting firms are more likely to engage in various actions to potentially rebuild their reputations, but even firms that engage in multiple actions continue to pay greater loan spreads for at least six years. Our results suggest that misreporting causes long-lasting and costly reputation losses that firms find very difficult or prohibitively costly to restore. This paper was accepted by Wei Jiang, finance.',
     keytakeaway:"Our results suggest that misreporting causes long-lasting and costly reputation losses that firms find very difficult or prohibitively costly to restore."
 },
@@ -207,10 +207,10 @@ export const allresearch = [
     author3website: '',
     author4website: '',
     author5website: '',
-    image1:'',
-    image2:'',
-    image3:'',
-    image4:'',
+    image1:'/images/Environmental_1.PNG',
+    image2:'/images/Environmental_1.PNG',
+    image3:'/images/Environmental_1.PNG',
+    image4:'/images/Environmental_1.PNG',
     abstract:"I analyze the impact of a firm's environmental profile on its cost of equity and debt capital. Using implied cost of capital derived from analysts'"
                                         +" earnings estimates, I find that investors demand significantly higher expected"
                                         +" returns on stocks excluded by environmental screens (such as hazardous chemical,"
@@ -336,10 +336,10 @@ export const allresearch = [
     author3website: '',
     author4website: '',
     author5website: '',
-    image1:'',
-    image2:'',
-    image3:'',
-    image4:'',
+    image1:'/images/Covenants_1.PNG',
+    image2:'/images/Covenants_1.PNG',
+    image3:'/images/Covenants_1.PNG',
+    image4:'/images/Covenants_1.PNG',
     abstract:" This article analyzes how creditors’ simultaneous debt and equity holdings affect firm"
                                          +    " investment policies. We find that firms with dual ownership are less likely to have capital"
                                           +    " expenditure restrictions in loan contracts, and the relation varies in predicted ways with"
@@ -397,10 +397,10 @@ export const allresearch = [
     author3website: '',
     author4website: '',
     author5website: '',
-    image1:'',
-    image2:'',
-    image3:'',
-    image4:'',
+    image1:'/images/Default_Risk_1.PNG',
+    image2:'/images/Default_Risk_1.PNG',
+    image3:'/images/Default_Risk_1.PNG',
+    image4:'/images/Default_Risk_1.PNG',
     abstract:' We find a positive cross-sectional relationship between expected stock returns and default risk,'
                                        +    " contrary to the negative relationship estimated by prior studies. Whereas prior studies use noisy"
                                        +    " ex post realized returns to estimate expected returns, we use ex ante estimates based on the"
@@ -427,10 +427,10 @@ export const allresearch = [
     author3website: '',
     author4website: '',
     author5website: '',
-    image1:'',
-    image2:'',
-    image3:'',
-    image4:'',
+    image1:'/images/Managerial_Agency_1.PNG',
+    image2:'/images/Managerial_Agency_1.PNG',
+    image3:'/images/Managerial_Agency_1.PNG',
+    image4:'/images/Managerial_Agency_1.PNG',
     abstract:' Based on an analysis of the agency risk for bondholders from managerial entrenchment and fraud,'
                                        +    " we derive and test refutable hypotheses about the influence of managerial agency risk on bond"
                                        +    " covenants, using a comprehensive database of corporate bonds from the 1993–2007 period."
@@ -459,10 +459,10 @@ export const allresearch = [
     author3website: '',
     author4website: '',
     author5website: '',
-    image1:'',
-    image2:'',
-    image3:'',
-    image4:'',
+    image1:'/images/Shareholder_Rights_1.PNG',
+    image2:'/images/Shareholder_Rights_1.PNG',
+    image3:'/images/Shareholder_Rights_1.PNG',
+    image4:'/images/Shareholder_Rights_1.PNG',
     abstract:' Gaul et al. (2018) (GJU) argue that our finding in Chava et al. (2008) (CLP)—that firms with lower'
                                        +    " takeover defenses pay significantly higher spread on their bank loans—is driven by an omitted variable,"
                                         +    " namely the unobserved asset volatility of the firm. We argue against GJU’s conclusions based on their"
@@ -495,10 +495,10 @@ export const allresearch = [
     author3website: '',
     author4website: '',
     author5website: '',
-    image1:'',
-    image2:'',
-    image3:'',
-    image4:'',
+    image1:'/images/Debt_Covenants_1.PNG',
+    image2:'/images/Debt_Covenants_2.PNG',
+    image3:'/images/Debt_Covenants_1.PNG',
+    image4:'/images/Debt_Covenants_2.PNG',
     abstract:' We identify a specific channel (debt covenants) and the corresponding mechanism'
                                         +    " (transfer of control rights) through which financing frictions impact corporate"
                                         +    " investment. Using a regression discontinuity design, we show that capital investment"
@@ -656,10 +656,10 @@ export const allresearch = [
     author3website: 'https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=255055',
     author4website: '',
     author5website: '',
-    image1:'',
-    image2:'',
-    image3:'',
-    image4:'',
+    image1:'/images/Hyperbole_3.PNG',
+    image2:'/images/Hyperbole_4.PNG',
+    image3:'/images/Hyperbole_1.jpg',
+    image4:'/images/Hyperbole_2.jpg',
     abstract:'We develop a dictionary of linguistic extremity in earnings conference calls,'
                                          +    " a setting where managers have considerable latitude in the language they use, to study"
                                          +    " the role of extreme language in corporate reporting. Controlling for tone (positive vs."
@@ -755,10 +755,10 @@ export const allresearch = [
     author3website: 'https://www.cambridge.org/core/search?filters%5BauthorTerms%5D=Heather%20E.%20Tookes&eventCode=SE-AU',
     author4website: '',
     author5website: '',
-    image1:'',
-    image2:'',
-    image3:'',
-    image4:'',
+    image1:'/images/Related_Securities_1.PNG',
+    image2:'/images/Related_Securities_1.PNG',
+    image3:'/images/Related_Securities_1.PNG',
+    image4:'/images/Related_Securities_1.PNG',
     abstract:' We document that equity markets become less liquid and equity prices become less efficient'
                                         +    " when markets for single-name credit default swap (CDS) contracts emerge. This finding is"
                                         +    " robust across a variety of market quality measures. We analyze the potential mechanisms driving"
