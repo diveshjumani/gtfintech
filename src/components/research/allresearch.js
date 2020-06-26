@@ -14,11 +14,10 @@ export const allresearch = [
     author3website: '',
     author4website: '',
     author5website: '',
-    image1:'/images/Nikhil_12.jpg',
-    image2:'/images/Nikhil_13.jpg',
-    image3:'/images/Nikhil_12.jpg',
-    image4:'/images/Nikhil_13.jpg',
-    image5:'/images/Nikhil_12.jpg',
+    image1:'',
+    image2:'',
+    image3:'',
+    image4:'',
     abstract:"Using a dynamic model of strategic bargaining between equity and debt holders following default, we analyze the impact of shareholder bargaining power and debt overhang on optimal investment and strategic default. Our empirical tests utilize a new measure of the debt overhang wedge based on default probabilities generated from a hazard model for bankruptcy. Consistent with the theoretical predictions, bondholder (shareholder) ownership concentration ceteris paribus enhances (weakens) the overhang wedge and dampens (increases) capital investment. We identify novel ownership-structure-related factors in firm-level capital investment and document how post-default shareholder bargaining power alleviates the underinvestment problem caused by debt overhang.",
     keytakeaway:"We identify novel ownership-structure-related factors in firm-level capital investment and document how post-default shareholder bargaining power alleviates the underinvestment problem caused by debt overhang."
 },
@@ -41,7 +40,6 @@ export const allresearch = [
     image2:'/images/Nikhil_13.jpg',
     image3:'/images/Nikhil_12.jpg',
     image4:'/images/Nikhil_13.jpg',
-    image5:'/images/Nikhil_12.jpg',
     abstract:'We study the dynamics of borrower reputation in bank loan markets following revelations of financial misreporting by the borrower. Misreporting firms pay greater loan spreads than matched firms for at least six years following revelation of the misreporting, and there is no evidence of a downward trend in the misreporting premium. Following revelation, misreporting firms are more likely to engage in various actions to potentially rebuild their reputations, but even firms that engage in multiple actions continue to pay greater loan spreads for at least six years. Our results suggest that misreporting causes long-lasting and costly reputation losses that firms find very difficult or prohibitively costly to restore. This paper was accepted by Wei Jiang, finance.',
     keytakeaway:"Our results suggest that misreporting causes long-lasting and costly reputation losses that firms find very difficult or prohibitively costly to restore."
 },
@@ -60,12 +58,10 @@ export const allresearch = [
     author3website: '',
     author4website: '',
     author5website: '',
-    image1:'/images/Nikhil_12.jpg',
-    image2:'/images/Nikhil_13.jpg',
-    image3:'/images/Nikhil_12.jpg',
-    image4:'/images/Nikhil_13.jpg',
-    image5:'/images/Nikhil_12.jpg',
-
+    image1:'/images/Nikhil_1.png',
+    image2:'/images/Nikhil_2.png',
+    image3:'/images/Nikhil_3.png',
+    image4:'/images/Nikhil_4.png',
     abstract: "Using proprietary account-level data from a major credit bureau, I examine the impact of stress tests on bank risk-taking in the U.S. consumer credit card market. I decompose credit supply and demand effects by exploiting credit card--level data on limits and balances matched to both consumers and banks. For the same consumer, I examine the lending response of banks experiencing higher stress-test induced capital requirements (i.e., high-exposure banks) relative to less-exposed banks. I find that the earlier rounds of stress tests induced high-exposure banks to sharply reduce credit limits, especially to ex-ante risky borrowers. In contrast, more exposed banks in later rounds have increased limits for risky consumers. Consistent with higher bank risk-taking in later rounds, cards issued by highly-exposed banks have a higher ex-post likelihood of default. Additionally, I document that more affected non-prime borrowers are more likely to default subsequently, and that this effect is markedly pronounced for the low-income and less-educated consumer segments. My findings suggest that stress-test induced increases in capital requirements can encourage higher bank risk-taking, with distributional consequences for consumer creditworthiness.",
     keytakeaway:'Higher capital requirements can induce higher bank risk-taking, with significant distributional impact on consumer creditworthiness.'
 },
@@ -79,19 +75,15 @@ export const allresearch = [
     author3: '',
     author4: '',
     author5: '',
-
     author1website: 'https://www.scheller.gatech.edu/directory/faculty/chava/index.html',
     author2website: 'https://www.nikhil-paradkar.com/home',
     author3website: '',
     author4website: '',
     author5website: '',
-
-    image1:'/images/Nikhil_12.jpg',
-    image2:'/images/Nikhil_13.jpg',
-    image3:'/images/Nikhil_12.jpg',
-    image4:'/images/Nikhil_13.jpg',
-    image5:'/images/Nikhil_12.jpg',
-
+    image1:'/images/Nikhil_11.jpg',
+    image2:'/images/Nikhil_11.jpg',
+    image3:'/images/Nikhil_11.jpg',
+    image4:'/images/Nikhil_11.jpg',
     abstract:'We document that the stock market\'s reaction to unscheduled firm-specific news such as credit rating downgrades'
                                 +    " and 8-K filings is significantly weaker during December as compared to other months. In contrast, the market's"
                                 +    " reaction to scheduled earnings announcements is not significantly different in December. We find a similar"
@@ -121,7 +113,6 @@ export const allresearch = [
     image2:'/images/Nikhil_13.jpg',
     image3:'/images/Nikhil_12.jpg',
     image4:'/images/Nikhil_13.jpg',
-    image5:'/images/Nikhil_12.jpg',
     abstract:' Using comprehensive credit card--borrower--bank matched data of approximately 500 million credit cards in the U.S.,'
                                     +    ' we analyze how a sharp unexpected decline in banks short-term wholesale funding in 2008 affected their consumers.'
                                     +    ' For the same consumer, credit card issuers experiencing a 10% greater decline in wholesale funding reduced credit'
@@ -155,11 +146,10 @@ export const allresearch = [
     author3website: '',
     author4website: '',
     author5website: '',
-    image1:'/images/Nikhil_12.jpg',
-    image2:'/images/Nikhil_13.jpg',
-    image3:'/images/Nikhil_12.jpg',
-    image4:'/images/Nikhil_13.jpg',
-    image5:'/images/Nikhil_12.jpg',
+    image1:'/images/Nikhil_6.png',
+    image2:'/images/Nikhil_7.png',
+    image3:'/images/Nikhil_8.png',
+    image4:'/images/Nikhil_9.png',
     abstract:'Does credit from marketplace lending platforms (MPLs) benefit borrowers? Using comprehensive credit bureau data,'
                                         +' we match one million borrowers to neighbors with identical ex-ante credit dynamics, but with unmet credit demand'
                                         +' (those originating unsecured installment loans) from banks. Comparatively, MPL borrowers revolving balances'
@@ -187,11 +177,10 @@ export const allresearch = [
     author3website: 'https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=209962',
     author4website: '',
     author5website: '',
-    image1:'/images/Nikhil_12.jpg',
-    image2:'/images/Nikhil_13.jpg',
-    image3:'/images/Nikhil_12.jpg',
-    image4:'/images/Nikhil_13.jpg',
-    image5:'/images/Nikhil_12.jpg',
+    image1:'/images/Economic_Impact_1.PNG',
+    image2:'/images/Economic_Impact_2.PNG',
+    image3:'/images/Economic_Impact_3.PNG',
+    image4:'/images/Economic_Impact_4.PNG',
     abstract:'We analyze the economic and financial impact of right-to-work (RTW) laws in the US. Using data from collective bargaining agreements,'
                                         +" we show that there is a decrease in wages for unionized workers after RTW laws."
                                         +" Firms increase investment and employment but reduce financial leverage."
@@ -218,11 +207,10 @@ export const allresearch = [
     author3website: '',
     author4website: '',
     author5website: '',
-    image1:'/images/Nikhil_12.jpg',
-    image2:'/images/Nikhil_13.jpg',
-    image3:'/images/Nikhil_12.jpg',
-    image4:'/images/Nikhil_13.jpg',
-    image5:'/images/Nikhil_12.jpg',
+    image1:'',
+    image2:'',
+    image3:'',
+    image4:'',
     abstract:"I analyze the impact of a firm's environmental profile on its cost of equity and debt capital. Using implied cost of capital derived from analysts'"
                                         +" earnings estimates, I find that investors demand significantly higher expected"
                                         +" returns on stocks excluded by environmental screens (such as hazardous chemical,"
@@ -253,11 +241,10 @@ export const allresearch = [
     author3website: '',
     author4website: '',
     author5website: '',
-    image1:'/images/Nikhil_12.jpg',
-    image2:'/images/Nikhil_13.jpg',
-    image3:'/images/Nikhil_12.jpg',
-    image4:'/images/Nikhil_13.jpg',
-    image5:'/images/Nikhil_12.jpg',
+    image1:'/images/Cog1.png',
+    image2:'/images/Cog2.png',
+    image3:'/images/Cog3.png',
+    image4:'/images/Cog4.png',
     abstract:'Using a quasi-experimental setting of two similar properties listed only $100 apart, but with a different left digit,'
                                        +    " we document that properties listed with smaller left digits are 3.8% more likely to sell, stay 5% fewer days on market,"
                                        +    " and sell for 0.1% more. Additionally, buyers of these homes are more likely to have a lower credit score, lower income,"
@@ -284,11 +271,10 @@ export const allresearch = [
     author3website: '',
     author4website: '',
     author5website: '',
-    image1:'/images/Nikhil_12.jpg',
-    image2:'/images/Nikhil_13.jpg',
-    image3:'/images/Nikhil_12.jpg',
-    image4:'/images/Nikhil_13.jpg',
-    image5:'/images/Nikhil_12.jpg',
+    image1:'/images/Heuristics_1.PNG',
+    image2:'/images/Heuristics_2.PNG',
+    image3:'/images/Heuristics_3.PNG',
+    image4:'/images/Heuristics_4.PNG',
     abstract:"Using proprietary data from a major fund data provider, we analyze the screening activity of investment consultants (ICs) who advise institutional investors with trillions of dollars in assets."
                                         +    " We find that ICs frequently shortlist funds using threshold screens clustered at round, base 5 or"
                                         +    " base 10 numbers: $500MM for AUM, 0% for the return net of a benchmark, and quartiles for return"
@@ -316,11 +302,10 @@ export const allresearch = [
     author3website: '',
     author4website: '',
     author5website: '',
-    image1:'/images/Nikhil_12.jpg',
-    image2:'/images/Nikhil_13.jpg',
-    image3:'/images/Nikhil_12.jpg',
-    image4:'/images/Nikhil_13.jpg',
-    image5:'/images/Nikhil_12.jpg',
+    image1:'/images/Credit_Rating_1.PNG',
+    image2:'/images/Credit_Rating_1.PNG',
+    image3:'/images/Credit_Rating_1.PNG',
+    image4:'/images/Credit_Rating_1.PNG',
     abstract:'We find that a firm’s stock price reaction to its credit rating downgrade announcement is muted'
                                          +    " by 44–52% when credit default swaps (CDSs) trade on its debt. We explore the role of the CDS"
                                          +    " markets in providing information ex ante and relieving financing frictions ex post for downgraded"
@@ -351,11 +336,10 @@ export const allresearch = [
     author3website: '',
     author4website: '',
     author5website: '',
-    image1:'/images/Nikhil_12.jpg',
-    image2:'/images/Nikhil_13.jpg',
-    image3:'/images/Nikhil_12.jpg',
-    image4:'/images/Nikhil_13.jpg',
-    image5:'/images/Nikhil_12.jpg',
+    image1:'',
+    image2:'',
+    image3:'',
+    image4:'',
     abstract:" This article analyzes how creditors’ simultaneous debt and equity holdings affect firm"
                                          +    " investment policies. We find that firms with dual ownership are less likely to have capital"
                                           +    " expenditure restrictions in loan contracts, and the relation varies in predicted ways with"
@@ -384,11 +368,10 @@ export const allresearch = [
     author3website: '',
     author4website: '',
     author5website: '',
-    image1:'/images/Nikhil_12.jpg',
-    image2:'/images/Nikhil_13.jpg',
-    image3:'/images/Nikhil_12.jpg',
-    image4:'/images/Nikhil_13.jpg',
-    image5:'/images/Nikhil_12.jpg',
+    image1:'/images/Lending_1.PNG',
+    image2:'/images/Lending_2.PNG',
+    image3:'/images/Lending_1.PNG',
+    image4:'/images/Lending_1.PNG',
     abstract:' Is bank financing compatible with innovation? We show that an exogenous enhancement in the value of borrowers patents,'
                                        +    " either through greater patent protection or creditor rights over collateral, results in cheaper loans. Using regression"
                                         +    " discontinuity design, we show that although R&D investment sharply drops following a financial covenant violation, the"
@@ -414,11 +397,10 @@ export const allresearch = [
     author3website: '',
     author4website: '',
     author5website: '',
-    image1:'/images/Nikhil_12.jpg',
-    image2:'/images/Nikhil_13.jpg',
-    image3:'/images/Nikhil_12.jpg',
-    image4:'/images/Nikhil_13.jpg',
-    image5:'/images/Nikhil_12.jpg',
+    image1:'',
+    image2:'',
+    image3:'',
+    image4:'',
     abstract:' We find a positive cross-sectional relationship between expected stock returns and default risk,'
                                        +    " contrary to the negative relationship estimated by prior studies. Whereas prior studies use noisy"
                                        +    " ex post realized returns to estimate expected returns, we use ex ante estimates based on the"
@@ -445,11 +427,10 @@ export const allresearch = [
     author3website: '',
     author4website: '',
     author5website: '',
-    image1:'/images/Nikhil_12.jpg',
-    image2:'/images/Nikhil_13.jpg',
-    image3:'/images/Nikhil_12.jpg',
-    image4:'/images/Nikhil_13.jpg',
-    image5:'/images/Nikhil_12.jpg',
+    image1:'',
+    image2:'',
+    image3:'',
+    image4:'',
     abstract:' Based on an analysis of the agency risk for bondholders from managerial entrenchment and fraud,'
                                        +    " we derive and test refutable hypotheses about the influence of managerial agency risk on bond"
                                        +    " covenants, using a comprehensive database of corporate bonds from the 1993–2007 period."
@@ -478,11 +459,10 @@ export const allresearch = [
     author3website: '',
     author4website: '',
     author5website: '',
-    image1:'/images/Nikhil_12.jpg',
-    image2:'/images/Nikhil_13.jpg',
-    image3:'/images/Nikhil_12.jpg',
-    image4:'/images/Nikhil_13.jpg',
-    image5:'/images/Nikhil_12.jpg',
+    image1:'',
+    image2:'',
+    image3:'',
+    image4:'',
     abstract:' Gaul et al. (2018) (GJU) argue that our finding in Chava et al. (2008) (CLP)—that firms with lower'
                                        +    " takeover defenses pay significantly higher spread on their bank loans—is driven by an omitted variable,"
                                         +    " namely the unobserved asset volatility of the firm. We argue against GJU’s conclusions based on their"
@@ -515,11 +495,10 @@ export const allresearch = [
     author3website: '',
     author4website: '',
     author5website: '',
-    image1:'/images/Nikhil_12.jpg',
-    image2:'/images/Nikhil_13.jpg',
-    image3:'/images/Nikhil_12.jpg',
-    image4:'/images/Nikhil_13.jpg',
-    image5:'/images/Nikhil_12.jpg',
+    image1:'',
+    image2:'',
+    image3:'',
+    image4:'',
     abstract:' We identify a specific channel (debt covenants) and the corresponding mechanism'
                                         +    " (transfer of control rights) through which financing frictions impact corporate"
                                         +    " investment. Using a regression discontinuity design, we show that capital investment"
@@ -547,11 +526,10 @@ export const allresearch = [
     author3website: '',
     author4website: '',
     author5website: '',
-    image1:'/images/Nikhil_12.jpg',
-    image2:'/images/Nikhil_13.jpg',
-    image3:'/images/Nikhil_12.jpg',
-    image4:'/images/Nikhil_13.jpg',
-    image5:'/images/Nikhil_12.jpg',
+    image1:'/images/Bankruptcy_1.PNG',
+    image2:'/images/Bankruptcy_2.PNG',
+    image3:'/images/Bankruptcy_1.PNG',
+    image4:'/images/Bankruptcy_2.PNG',
     abstract:'This paper investigates the forecasting accuracy of bankruptcy hazard rate models for U.S.'
                                         +    " companies over the time period 1962–1999 using both yearly and monthly observation intervals."
                                         +    " The contribution of this paper is multiple-fold. One, using an expanded bankruptcy database"
@@ -583,11 +561,10 @@ export const allresearch = [
     author3website: '',
     author4website: '',
     author5website: '',
-    image1:'/images/Nikhil_12.jpg',
-    image2:'/images/Nikhil_13.jpg',
-    image3:'/images/Nikhil_12.jpg',
-    image4:'/images/Nikhil_13.jpg',
-    image5:'/images/Nikhil_12.jpg',
+    image1:'/images/Credit_Default_1.PNG',
+    image2:'/images/Credit_Default_2.PNG',
+    image3:'/images/Credit_Default_3.PNG',
+    image4:'/images/Credit_Default_4.PNG',
     abstract:'We analyze how Credit Default Swaps (CDS) affect bank incentives and borrower outcomes in'
                                        +    " renegotiations after covenant violations. Using a regression-discontinuity design and within"
                                         +    " lender-borrower variation, we find that CDS firms maintain investment after control rights"
@@ -616,11 +593,10 @@ export const allresearch = [
     author3website: '',
     author4website: '',
     author5website: '',
-    image1:'/images/Nikhil_12.jpg',
-    image2:'/images/Nikhil_13.jpg',
-    image3:'/images/Nikhil_12.jpg',
-    image4:'/images/Nikhil_13.jpg',
-    image5:'/images/Nikhil_12.jpg',
+    image1:'/images/Bond_investors_1.PNG',
+    image2:'/images/Bond_investors_1.PNG',
+    image3:'/images/Bond_investors_1.PNG',
+    image4:'/images/Bond_investors_1.PNG',
     abstract:'We analyze whether bond investors price tail risk exposures of financial institutions using a'
                                         +    " comprehensive sample of bond issuances by U.S. financial institutions. Although primary bond yield"
                                         +    " spreads increase with an institutions' own tail risk (expected shortfall), systematic tail risk"
@@ -648,11 +624,10 @@ export const allresearch = [
     author3website: '',
     author4website: '',
     author5website: '',
-    image1:'/images/Nikhil_12.jpg',
-    image2:'/images/Nikhil_13.jpg',
-    image3:'/images/Nikhil_12.jpg',
-    image4:'/images/Nikhil_13.jpg',
-    image5:'/images/Nikhil_12.jpg',
+    image1:'/images/Financial_Covenants.PNG',
+    image2:'/images/Financial_Covenants.PNG',
+    image3:'/images/Financial_Covenants.PNG',
+    image4:'/images/Financial_Covenants.PNG',
     abstract:'Among loan contracts with covenants originated during 1996-2012, 35% have financial covenant'
                                         +    " thresholds that automatically tighten following a predetermined schedule. Firms accepting"
                                         +    " dynamic covenant thresholds improve creditworthiness but are more likely to violate covenants"
@@ -681,11 +656,10 @@ export const allresearch = [
     author3website: 'https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=255055',
     author4website: '',
     author5website: '',
-    image1:'/images/Nikhil_12.jpg',
-    image2:'/images/Nikhil_13.jpg',
-    image3:'/images/Nikhil_12.jpg',
-    image4:'/images/Nikhil_13.jpg',
-    image5:'/images/Nikhil_12.jpg',
+    image1:'',
+    image2:'',
+    image3:'',
+    image4:'',
     abstract:'We develop a dictionary of linguistic extremity in earnings conference calls,'
                                          +    " a setting where managers have considerable latitude in the language they use, to study"
                                          +    " the role of extreme language in corporate reporting. Controlling for tone (positive vs."
@@ -703,8 +677,8 @@ export const allresearch = [
 {
     id: 23,
     research:'Banking',
-    researchname: 'The Effect of Banking Crisis on Bank-Fependent Borrowers ',
-    researchwebsite: 'https://pubsonline.informs.org/doi/10.1287/mnsc.2017.2739',
+    researchname: 'The Effect of Banking Crisis on Bank-Dependent Borrowers ',
+    researchwebsite: 'https://www.sciencedirect.com/science/article/pii/S0304405X10001820?via%3Dihub',
     author1: 'Sudheer Chava',
     author2: 'Amiyatosh Purnanandamb',
     author3: '',
@@ -715,11 +689,10 @@ export const allresearch = [
     author3website: '',
     author4website: '',
     author5website: '',
-    image1:'/images/Nikhil_12.jpg',
-    image2:'/images/Nikhil_13.jpg',
-    image3:'/images/Nikhil_12.jpg',
-    image4:'/images/Nikhil_13.jpg',
-    image5:'/images/Nikhil_12.jpg',
+    image1:'/images/Banking_Crisis_1.PNG',
+    image2:'/images/Banking_Crisis_2.PNG',
+    image3:'/images/Banking_Crisis_3.PNG',
+    image4:'/images/Banking_Crisis_4.PNG',
     abstract:' We provide causal evidence that adverse capital shocks to banks affect their borrowers’'
                                        +    " performance negatively. We use an exogenous shock to the U.S. banking system during the"
                                        +    " Russian crisis of Fall 1998 to separate the effect of borrowers’ demand of credit from"
@@ -751,11 +724,10 @@ export const allresearch = [
     author3website: 'https://www.sciencedirect.com/science/article/abs/pii/S0304405X13000950?via%3Dihub#!',
     author4website: 'https://www.sciencedirect.com/science/article/abs/pii/S0304405X13000950?via%3Dihub#!',
     author5website: '',
-    image1:'/images/Nikhil_12.jpg',
-    image2:'/images/Nikhil_13.jpg',
-    image3:'/images/Nikhil_12.jpg',
-    image4:'/images/Nikhil_13.jpg',
-    image5:'/images/Nikhil_12.jpg',
+    image1:'/images/Banking_deregulation_1.PNG',
+    image2:'/images/Banking_deregulation_2.PNG',
+    image3:'/images/Banking_deregulation_1.PNG',
+    image4:'/images/Banking_deregulation_2.PNG',
     abstract:' We document empirical support for a key micro-level channel—innovation by young,'
                                        +    " private firms—through which financial sector deregulation affects economic growth."
                                         +    " We find that intrastate banking deregulation, which increased the local market power of banks,"
@@ -783,11 +755,10 @@ export const allresearch = [
     author3website: 'https://www.cambridge.org/core/search?filters%5BauthorTerms%5D=Heather%20E.%20Tookes&eventCode=SE-AU',
     author4website: '',
     author5website: '',
-    image1:'/images/Nikhil_12.jpg',
-    image2:'/images/Nikhil_13.jpg',
-    image3:'/images/Nikhil_12.jpg',
-    image4:'/images/Nikhil_13.jpg',
-    image5:'/images/Nikhil_12.jpg',
+    image1:'',
+    image2:'',
+    image3:'',
+    image4:'',
     abstract:' We document that equity markets become less liquid and equity prices become less efficient'
                                         +    " when markets for single-name credit default swap (CDS) contracts emerge. This finding is"
                                         +    " robust across a variety of market quality measures. We analyze the potential mechanisms driving"
@@ -816,11 +787,10 @@ export const allresearch = [
     author3website: '',
     author4website: '',
     author5website: '',
-    image1:'/images/Nikhil_12.jpg',
-    image2:'/images/Nikhil_13.jpg',
-    image3:'/images/Nikhil_12.jpg',
-    image4:'/images/Nikhil_13.jpg',
-    image5:'/images/Nikhil_12.jpg',
+    image1:'/images/Economic_Impact_1.PNG',
+    image2:'/images/Economic_Impact_2.PNG',
+    image3:'/images/Economic_Impact_3.PNG',
+    image4:'/images/Economic_Impact_4.PNG',
     abstract:'Using an employer-employee payroll dataset for approximately 2.6 million retail workers,'
                                         +    " we analyze the impact of the staggered rollout of a major e-commerce retailer's fulfillment"
                                         +    " centers on the income and employment of workers at geographically proximate brick-and-mortar"
@@ -854,11 +824,10 @@ export const allresearch = [
     author3website: '',
     author4website: '',
     author5website: '',
-    image1:'/images/Nikhil_12.jpg',
-    image2:'/images/Nikhil_13.jpg',
-    image3:'/images/Nikhil_12.jpg',
-    image4:'/images/Nikhil_13.jpg',
-    image5:'/images/Nikhil_12.jpg',
+    image1:'/images/CEO.PNG',
+    image2:'/images/CEO.PNG',
+    image3:'/images/CEO.PNG',
+    image4:'/images/CEO.PNG',
     abstract:'We undertake a broad-based study of the effect of managerial risk-taking incentives on corporate'
                                         +    " financial policies and show that the risk-taking incentives of chief executive officers (CEOs) and"
                                         +    " chief financial officers (CFOs) significantly influence their firms’ financial policies."
@@ -887,11 +856,10 @@ export const allresearch = [
     author3website: '',
     author4website: '',
     author5website: '',
-    image1:'/images/Nikhil_12.jpg',
-    image2:'/images/Nikhil_13.jpg',
-    image3:'/images/Nikhil_12.jpg',
-    image4:'/images/Nikhil_13.jpg',
-    image5:'/images/Nikhil_12.jpg',
+    image1:'/images/Financial_Constraints_1.PNG',
+    image2:'/images/Financial_Constraints_1.PNG',
+    image3:'/images/Financial_Constraints_1.PNG',
+    image4:'/images/Financial_Constraints_1.PNG',
     abstract:' We analyze the impact of unanticipated monetary policy changes on'
                                         +    " equity returns and document that financially constrained firms earn a significantly"
                                         +    " lower return following rate increases as compared to unconstrained firms. Trading volume"
@@ -918,11 +886,10 @@ export const allresearch = [
     author3website: 'https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=2421581',
     author4website: '',
     author5website: '',
-    image1:'/images/Nikhil_12.jpg',
-    image2:'/images/Nikhil_13.jpg',
-    image3:'/images/Nikhil_12.jpg',
-    image4:'/images/Nikhil_13.jpg',
-    image5:'/images/Nikhil_12.jpg',
+    image1:'/images/History_1.PNG',
+    image2:'/images/History_2.PNG',
+    image3:'/images/History_3.PNG',
+    image4:'/images/History_4.PNG',
     abstract:' Industries with higher historical business cycle regime Sharpe ratios (RSR) have higher regime-dependent'
                                         +    " expected returns. Conditional on whether output gap is positive or negative, an out-of-sample long-high-RSR"
                                         +    " and short-low-RSR sector rotation strategy generates 14.02% annualized alpha in Fama-French five-factor model"
@@ -949,11 +916,10 @@ export const allresearch = [
     author3website: 'https://www.sciencedirect.com/science/article/abs/pii/S0304393215000653?via%3Dihub#!',
     author4website: '',
     author5website: '',
-    image1:'/images/Nikhil_12.jpg',
-    image2:'/images/Nikhil_13.jpg',
-    image3:'/images/Nikhil_12.jpg',
-    image4:'/images/Nikhil_13.jpg',
-    image5:'/images/Nikhil_12.jpg',
+    image1:'/images/Credit_condition_1.jpg',
+    image2:'/images/Credit_condition_2.jpg',
+    image3:'/images/Credit_condition_1.jpg',
+    image4:'/images/Credit_condition_2.jpg',
     abstract:' U.S. stock return predictability is analyzed using a measure of credit standards'
                                         +    " (Standards) derived from the Federal Reserve Board׳s Senior Loan Officer Opinion Survey on Bank Lending"
                                         +    " Practices. Standards is a strong predictor of stock returns at a business cycle frequency, especially in the"
@@ -983,11 +949,10 @@ export const allresearch = [
     author3website: '',
     author4website: '',
     author5website: '',
-    image1:'/images/Nikhil_12.jpg',
-    image2:'/images/Nikhil_13.jpg',
-    image3:'/images/Nikhil_12.jpg',
-    image4:'/images/Nikhil_13.jpg',
-    image5:'/images/Nikhil_12.jpg',
+    image1:'/images/Determinants.PNG',
+    image2:'/images/Determinants.PNG',
+    image3:'/images/Determinants.PNG',
+    image4:'/images/Determinants.PNG',
     abstract:' We analyze the effects of managerial incentive, firm characteristics and market timing on'
                                         +    " floating-to-fixed rate debt structure of firms. We find that chief financial officer's (CFO's),"
                                         +    " not chief executive officer's (CEO's), incentive has a strong influence on firm's debt structure."

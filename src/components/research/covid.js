@@ -41,7 +41,7 @@ class COVID extends Component{
                         <Card.Body>
                             <Row>
                                 <Col xs={12} md = {12} lg = {4}>
-                                    <Carousel>
+                                    <Carousel controls = 'false' indicators = 'false'>
                                         <Carousel.Item>
                                             <img
                                             height = "300px"

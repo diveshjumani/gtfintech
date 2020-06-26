@@ -23,6 +23,8 @@
     height: 450px;
   }
 
+  .carousel-indicators li { visibility: hidden; }
+  
   @media (max-width: 768px) {
     .image-research {
         height: 350px;

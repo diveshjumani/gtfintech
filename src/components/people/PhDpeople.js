@@ -8,10 +8,10 @@ export const PhDpeople = [
     },
     {
         id: 2,
-        name: 'Ernest Jang',
+        name: 'Yafei Zhang',
         role: 'Finance',
-        website: '',
-        imagef: '/images/Ernest_Jang.jpg'
+        website: 'https://www.scheller.gatech.edu/directory/phd/zhang/index.html',
+        imagef: '/images/Yafei.jpg'
     },
     {
         id: 3,
