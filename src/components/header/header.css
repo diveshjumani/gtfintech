@@ -139,13 +139,6 @@
     background-color: #343a40;
 }
 
-.CL_dropdown_texts{
-    font-size: 100%;
-}
-.CL_header_texts{
-    font-size: 100%;
-}
-
 @media (max-width: 768px) {
     .CL_header_texts{
         margin-top: -3px;
