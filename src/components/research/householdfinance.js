@@ -1,10 +1,5 @@
 import React, { Component } from 'react';
-import {Card, Container,Row,Col,Carousel} from 'react-bootstrap';
 import { animateScroll as scroll} from 'react-scroll'
-import Cog1 from '../../images/Cog1.png';
-import Cog2 from '../../images/Cog2.png';
-import Cog3 from '../../images/Cog3.png';
-import Cog4 from '../../images/Cog4.png';
 import household_finance from '../../images/household_finance.jpg';
 import Householdfinanceresearchcardlist from './householdfinanceresearchcardlist';
 import './research.css';

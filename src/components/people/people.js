@@ -1,7 +1,6 @@
 import React, {useState, useEffect } from 'react';
-import {Container,Card} from 'react-bootstrap';
+import {Container} from 'react-bootstrap';
 import  {Button,Image} from 'react-bootstrap';
-import {Element} from 'react-scroll'
 import Sudheer_Chava from '../../images/Sudheer_Chava.jpg';
 import PeopleCardList from './PeopleCardList';
 import 'tachyons';
@@ -63,7 +62,7 @@ function People() {
                     <div class="row">
                         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-3" >
                                 <a target="_blank" rel="noopener noreferrer" href = "https://www.scheller.gatech.edu/directory/faculty/chava/index.html">
-                                    <img className= 'Chava' style ={{height:'34p8x'}} variant="top" src={Sudheer_Chava} />
+                                    <img className= 'Chava' style ={{height:'34p8x'}} variant="top" src={Sudheer_Chava} alt = "prof" />
                                 </a>
                                 <div>
                                     <h4>Sudheer Chava</h4>

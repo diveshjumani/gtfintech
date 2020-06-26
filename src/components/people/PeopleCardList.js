@@ -1,5 +1,5 @@
 import React from 'react';
-import {Container,Card} from 'react-bootstrap';
+import {Container} from 'react-bootstrap';
 import Peoplelist from './Peoplelist';
 import {Facultypeople} from './Facultypeople';
 import {PhDpeople} from './PhDpeople';

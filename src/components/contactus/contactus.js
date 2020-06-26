@@ -1,6 +1,5 @@
-import PropTypes from 'prop-types';
 import React, { Component } from 'react';
-import { Form, Col, Row, Button} from 'react-bootstrap';
+import { Form, Col, Row} from 'react-bootstrap';
 import './contactus.css'
 import contactus_img from '../../images/contactus_img.jpg';
 

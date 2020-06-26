@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Card, Container, Col,Row} from 'react-bootstrap';
+import {Container} from 'react-bootstrap';
 import {animateScroll as scroll} from 'react-scroll';
 import Sponsors from '../../images/shaking-hands-5217122.jpg';
 import CAlist from './CAlist';

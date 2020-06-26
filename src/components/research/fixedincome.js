@@ -1,9 +1,5 @@
 import React, { Component } from 'react';
-import {Card, Container,Row,Col,Carousel} from 'react-bootstrap';
 import { animateScroll as scroll} from 'react-scroll'
-import Nikhil_11 from '../../images/Nikhil_11.jpg';
-import Nikhil_12 from '../../images/Nikhil_12.jpg';
-import Nikhil_13 from '../../images/Nikhil_13.jpg';
 import Fixedincomeresearchcardlist from './fixedincomeresearchcardlist';
 import fixedincome from '../../images/heap-of-united-states-dollar-bills-and-calculator-4386393.jpg';
 import './research.css';
