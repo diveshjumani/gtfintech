@@ -1,20 +1,11 @@
 import React, {Component} from 'react';
 import {Card, Container, Col,Row} from 'react-bootstrap';
 import {animateScroll as scroll} from 'react-scroll';
+import Sponsors from '../../images/shaking-hands-5217122.jpg';
+import CAlist from './CAlist';
+import {Affiliates} from './Affiliates';
 import './corporateaffiliates.css'
 import '../../App.css';
-import Amazon from '../../images/amazon_logo.jpg';
-import Bloomberg from '../../images/Bloomberg_logo.jpg';
-import BOA from '../../images/BOA_logo.png';
-import CapitalOne from '../../images/CapitalOne_logo.png';
-import IBM from '../../images/IBM_logo.jpg';
-import JPM from '../../images/JPM_logo.jpg';
-import Microsoft from '../../images/Microsoft_logo.png';
-import Truist from '../../images/Truist_logo.jpg';
-import Walmart from '../../images/Walmart_logo.jpg';
-import Workday from '../../images/Workday_Logo.png';
-import Sponsors from '../../images/shaking-hands-5217122.jpg';
-
 
 class CorporateAffiliates extends Component{
   scrollToTop() {
@@ -25,15 +16,17 @@ class CorporateAffiliates extends Component{
             <div>
                 
                 <div >
-                    <img height = "600px" src={Sponsors} alt="" style={{width:'100%'}}/>
+                    <img height = "400px" src={Sponsors} alt="" style={{width:'100%'}}/>
                     <div class="text-block-ca">
                         <h1 style = {{fontSize: '500%'}} ><strong>Corporate Affiliates </strong></h1>
                     </div>
                 </div>
 
                 <br/>
+
+                <CAlist AffiliateArray = {Affiliates} />
                 
-                <Container fluid className = "noHover">
+                {/* <Container className = "noHover">
                     <Row>  
                             <Col xs={4} md = {4} lg = {2}>
                             <Card border="light">
@@ -101,7 +94,7 @@ class CorporateAffiliates extends Component{
                             </Col>
                     </Row>
 
-                </Container>
+                </Container> */}
             
                 <br/>
 
