@@ -112,7 +112,7 @@ export default class FeedbackForm extends Component {
 			<img className="CL_contactus_img" height = "350px" src={contactus_img} alt="" style={{width:'100%'}}/>
 		</div>
 		<div class="row justify-content-center">
-		<div class="col-sm-6">
+		<div class="col-sm-8">
 		<div className="CL_contactus_box">
 		<Form onSubmit={this.handleSubmit}>
 			<h2>Contact Us</h2>

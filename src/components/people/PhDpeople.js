@@ -29,16 +29,16 @@ export const PhDpeople = [
     },
     {
         id: 5,
-        name: 'Peter Simasek',
-        role: 'Finance',
-        website: '',
-        imagef: '/images/Peter_Simasek.jpg'
-    },
-    {
-        id: 6,
         name: 'Mingxun Wang',
         role: 'Finance',
         website: 'https://www.linkedin.com/in/mingxunrichardwang/',
         imagef: '/images/personal_photo_Wang,Mingxun.jpg'
+    },
+    {
+        id: 6,
+        name: 'Student Name',
+        role: 'Specialisation',
+        website: '',
+        imagef: '/images/career_buzz_logo.png'
     }
 ]
