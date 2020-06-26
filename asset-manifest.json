@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/gtfintech/static/css/main.8380c8af.chunk.css",
-    "main.js": "/gtfintech/static/js/main.bd050c75.chunk.js",
-    "main.js.map": "/gtfintech/static/js/main.bd050c75.chunk.js.map",
+    "main.css": "/gtfintech/static/css/main.d137c90b.chunk.css",
+    "main.js": "/gtfintech/static/js/main.092bd72d.chunk.js",
+    "main.js.map": "/gtfintech/static/js/main.092bd72d.chunk.js.map",
     "runtime-main.js": "/gtfintech/static/js/runtime-main.acddfa5a.js",
     "runtime-main.js.map": "/gtfintech/static/js/runtime-main.acddfa5a.js.map",
     "static/css/2.7e2e2a84.chunk.css": "/gtfintech/static/css/2.7e2e2a84.chunk.css",
     "static/js/2.2579c71a.chunk.js": "/gtfintech/static/js/2.2579c71a.chunk.js",
     "static/js/2.2579c71a.chunk.js.map": "/gtfintech/static/js/2.2579c71a.chunk.js.map",
     "index.html": "/gtfintech/index.html",
-    "precache-manifest.789177df6d3bed833a759db33db257df.js": "/gtfintech/precache-manifest.789177df6d3bed833a759db33db257df.js",
+    "precache-manifest.bb99ced98bb5f1aa3f88c4b79eda2063.js": "/gtfintech/precache-manifest.bb99ced98bb5f1aa3f88c4b79eda2063.js",
     "service-worker.js": "/gtfintech/service-worker.js",
     "static/css/2.7e2e2a84.chunk.css.map": "/gtfintech/static/css/2.7e2e2a84.chunk.css.map",
-    "static/css/main.8380c8af.chunk.css.map": "/gtfintech/static/css/main.8380c8af.chunk.css.map",
+    "static/css/main.d137c90b.chunk.css.map": "/gtfintech/static/css/main.d137c90b.chunk.css.map",
     "static/js/2.2579c71a.chunk.js.LICENSE.txt": "/gtfintech/static/js/2.2579c71a.chunk.js.LICENSE.txt",
     "static/media/Cog1.png": "/gtfintech/static/media/Cog1.130900c2.png",
     "static/media/Cog2.png": "/gtfintech/static/media/Cog2.db39330b.png",
@@ -55,7 +55,7 @@
     "static/js/runtime-main.acddfa5a.js",
     "static/css/2.7e2e2a84.chunk.css",
     "static/js/2.2579c71a.chunk.js",
-    "static/css/main.8380c8af.chunk.css",
-    "static/js/main.bd050c75.chunk.js"
+    "static/css/main.d137c90b.chunk.css",
+    "static/js/main.092bd72d.chunk.js"
   ]
 }
