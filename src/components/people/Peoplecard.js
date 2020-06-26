@@ -5,10 +5,10 @@ const Peoplecard = ({website, imagef, name, role}) => {
     return(
         <div className = ' dib br3 pa3 ma2 grow bw2'>
                 <a target="_blank" rel="noopener noreferrer" href = {website}>
-                    <img style={{ width: '194px', height: '220px'}} alt="professor" src = {process.env.PUBLIC_URL + imagef} />
+                    <img style={{ width: '190px', height: '220px'}} alt="professor" src = {process.env.PUBLIC_URL + imagef} />
                 </a>
                 
-                <div style={{ width: '194px'}}>
+                <div style={{ width: '190px'}}>
                     <h5><b>{name}</b></h5>   
                     <h5>{role}</h5>
                 </div>     

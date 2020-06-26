@@ -131,6 +131,10 @@ a:hover{
   overflow-x: hidden;
 }
 
+.CL_contactus{
+  overflow-x: hidden;
+}
+
 .Logo {
   grid-area: logo;
   height: 70px;
