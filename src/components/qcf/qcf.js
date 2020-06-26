@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import qcf_logo from '../../images/GT_QCF_Logo.png';
 import { Container } from 'react-bootstrap';
+import qcf_background from '../../images/stock-1863880.jpg';
 import './qcf.css'
 
 class QCF extends Component{
@@ -9,7 +10,7 @@ class QCF extends Component{
     	<div className = "qcf">	
 				<div >
 					<a target="_blank"  rel="noopener noreferrer" href = "https://www.scheller.gatech.edu/degree-programs/interdisciplinary-ms/quantitative-and-computational-finance/index.html">
-						<img height = '425px' src="https://www.imperial.ac.uk/ImageCropToolT4/imageTool/uploaded-images/spread--tojpeg_1466430752374_x1.jpg" alt="Nature" style={{width:'100%'}} />
+						<img height = '425px' src={qcf_background} alt="Nature" style={{width:'100%'}} />
 						<div class="text-block-qcf">
 							<img className="CL_qcf_logo" src = {qcf_logo} alt="404"></img>	
 						</div>
