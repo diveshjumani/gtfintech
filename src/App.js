@@ -17,6 +17,7 @@ import FixedIncome from './components/research/fixedincome';
 import Banking from './components/research/banking';
 import QCF from './components/qcf/qcf';
 import data from './components/data/data';
+import FeedbackForm from './components/contactus/contactus';
 import CorporateAffiliates from './components/corporateaffiliate/corporateaffiliates';
 import News from './components/news/news';
 import People from './components/people/people';
@@ -46,6 +47,7 @@ class App extends Component {
           <Route path = '/gtfintech/qcf' component = {QCF} exact />
           <Route path = '/gtfintech/data' component = {data} exact />
           <Route path = '/gtfintech/news' component = {News} exact />
+          <Route path = '/gtfintech/contactus' component = {FeedbackForm} exact />
         </Switch>
         <Footer />
       </HashRouter>

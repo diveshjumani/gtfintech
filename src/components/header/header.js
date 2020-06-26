@@ -53,6 +53,7 @@ function Header () {
                       <NavLink eventKey="4" className="CL_header_texts"><Link to='/gtfintech/qcf'><strong>QCF</strong></Link></NavLink>
                       <NavLink eventKey="17" className="CL_header_texts"><Link to='/gtfintech/data'><strong>Data</strong></Link></NavLink>
                       <NavLink eventKey="5" className="CL_header_texts"><Link to='/gtfintech/news'><strong>News & Events</strong></Link></NavLink>
+                      <NavLink eventKey="18" className="CL_header_texts"><Link to='/gtfintech/contactus'><strong>Contact Us</strong></Link></NavLink>
                 </Nav>
               </Navbar.Collapse>
             </Navbar>

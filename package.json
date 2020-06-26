@@ -47,6 +47,6 @@
   ],
   "devDependencies": {
     "gh-pages": "^2.2.0",
-    "webpack-dev-server": "^3.11.0"
+    "webpack-dev-server": "3.10.3"
   }
 }
