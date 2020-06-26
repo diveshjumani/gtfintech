@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/gtfintech/static/css/main.02b81cd1.chunk.css",
-    "main.js": "/gtfintech/static/js/main.4e1f85c8.chunk.js",
-    "main.js.map": "/gtfintech/static/js/main.4e1f85c8.chunk.js.map",
+    "main.js": "/gtfintech/static/js/main.5cc43c92.chunk.js",
+    "main.js.map": "/gtfintech/static/js/main.5cc43c92.chunk.js.map",
     "runtime-main.js": "/gtfintech/static/js/runtime-main.acddfa5a.js",
     "runtime-main.js.map": "/gtfintech/static/js/runtime-main.acddfa5a.js.map",
     "static/css/2.7e2e2a84.chunk.css": "/gtfintech/static/css/2.7e2e2a84.chunk.css",
-    "static/js/2.2579c71a.chunk.js": "/gtfintech/static/js/2.2579c71a.chunk.js",
-    "static/js/2.2579c71a.chunk.js.map": "/gtfintech/static/js/2.2579c71a.chunk.js.map",
+    "static/js/2.60d7e91d.chunk.js": "/gtfintech/static/js/2.60d7e91d.chunk.js",
+    "static/js/2.60d7e91d.chunk.js.map": "/gtfintech/static/js/2.60d7e91d.chunk.js.map",
     "index.html": "/gtfintech/index.html",
-    "precache-manifest.546b47de975b07edddf7e1f7a06bfa3f.js": "/gtfintech/precache-manifest.546b47de975b07edddf7e1f7a06bfa3f.js",
+    "precache-manifest.da6417e766c76b74b9a08954fb2db9ab.js": "/gtfintech/precache-manifest.da6417e766c76b74b9a08954fb2db9ab.js",
     "service-worker.js": "/gtfintech/service-worker.js",
     "static/css/2.7e2e2a84.chunk.css.map": "/gtfintech/static/css/2.7e2e2a84.chunk.css.map",
     "static/css/main.02b81cd1.chunk.css.map": "/gtfintech/static/css/main.02b81cd1.chunk.css.map",
-    "static/js/2.2579c71a.chunk.js.LICENSE.txt": "/gtfintech/static/js/2.2579c71a.chunk.js.LICENSE.txt",
+    "static/js/2.60d7e91d.chunk.js.LICENSE.txt": "/gtfintech/static/js/2.60d7e91d.chunk.js.LICENSE.txt",
     "static/media/Cog1.png": "/gtfintech/static/media/Cog1.130900c2.png",
     "static/media/Cog2.png": "/gtfintech/static/media/Cog2.db39330b.png",
     "static/media/Cog3.png": "/gtfintech/static/media/Cog3.a9720f07.png",
@@ -49,13 +49,14 @@
     "static/media/household_finance.jpg": "/gtfintech/static/media/household_finance.05ab2201.jpg",
     "static/media/micheile-henderson-SoT4-mZhyhE-unsplash.jpg": "/gtfintech/static/media/micheile-henderson-SoT4-mZhyhE-unsplash.9f918e57.jpg",
     "static/media/safe-913452.jpg": "/gtfintech/static/media/safe-913452.d2f4fffa.jpg",
-    "static/media/shaking-hands-5217122.jpg": "/gtfintech/static/media/shaking-hands-5217122.aec66771.jpg"
+    "static/media/shaking-hands-5217122.jpg": "/gtfintech/static/media/shaking-hands-5217122.aec66771.jpg",
+    "static/media/stock-1863880.jpg": "/gtfintech/static/media/stock-1863880.0c79595e.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.acddfa5a.js",
     "static/css/2.7e2e2a84.chunk.css",
-    "static/js/2.2579c71a.chunk.js",
+    "static/js/2.60d7e91d.chunk.js",
     "static/css/main.02b81cd1.chunk.css",
-    "static/js/main.4e1f85c8.chunk.js"
+    "static/js/main.5cc43c92.chunk.js"
   ]
 }
