@@ -14,7 +14,7 @@
     transform: translate(-50%, -50%);
     z-index: 2;
     width: 60%;
-    height: 25%;
+    height: 250px;
     padding: 5px;
     text-align: center;
   }
@@ -32,5 +32,6 @@
 
       .text-block-research {
         top: 25%;
+        height: 190px;
       }
   }
