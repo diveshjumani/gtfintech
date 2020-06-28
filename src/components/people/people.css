@@ -37,8 +37,8 @@
 @media (max-width: 768px) {
     .CL_img-container {
         overflow: hidden;
-        height: 100vw;
-        min-height:90vh;
+        height: 80vw;
+        min-height:80vh;
         position: relative;
     }
     
