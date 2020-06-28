@@ -46,7 +46,7 @@ function People() {
                         <div class="text-block">
                             <br/> <br/> 
                             <h4><b>People</b></h4>
-                <p align ="justify"> TThe Financial Services Innovation Lab at Georgia Tech is led by Dr. Sudheer Chava. The lab brings together many other faculty, undergraduate, Masters and PhD students from various colleges across Georgia Tech that are interested in the Financial Services and FinTech industry.  </p>
+                <p align ="justify"> The Financial Services Innovation Lab at Georgia Tech is led by Dr. Sudheer Chava. The lab brings together many other faculty, undergraduate, Masters and PhD students from various colleges across Georgia Tech that are interested in the Financial Services and FinTech industry.  </p>
                         </div>
                     
                 </div>

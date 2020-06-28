@@ -59,9 +59,9 @@
         align-items: center;
         justify-items: center;
         font-size: 0;
-      }
+    }
 
-      .cardimgstyling{
+    .cardimgstyling{
         height: 200px;
         width: 100px;
     }
@@ -70,4 +70,8 @@
 .cardimgstyling{
     height: 200px;
     width: 150px;
+}
+
+.cardtextstyling{
+    width: 185px;
 }
