@@ -65,6 +65,10 @@
         height: 200px;
         width: 100px;
     }
+
+    .cardtextstyling{
+        width: 155px;
+    }
 }
 
 .cardimgstyling{
@@ -72,6 +76,3 @@
     width: 150px;
 }
 
-.cardtextstyling{
-    width: 185px;
-}
