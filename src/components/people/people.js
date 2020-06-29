@@ -71,7 +71,7 @@ function People() {
                                         Alton M. Costley Chair
                                     <br/>Professor of Finance 
                                     <br/>Area Coordinator, Finance
-                                    <br/>Director, Quantitative and Computational Finance (MS-QCF)
+                                    <br/>Director, Quantitative and Computational Finance
                                     <br/>Director, Financial Services Innovation Lab
                                     <br/>Associate Director, Risk Management, Institute for Information Security and Privacy (IISP)
                                     </p>
