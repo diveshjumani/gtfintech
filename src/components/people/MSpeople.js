@@ -22,17 +22,17 @@ export const MSpeople = [
     },
     {
         id: 4,
-        name: 'Student Name',
-        role: 'Specialisation',
-        website: '',
-        imagef: '/images/career_buzz_logo.png'
+        name: 'Bisola Rufai',
+        role: 'QCF',
+        website: 'www.linkedin.com/in/brufai',
+        imagef: '/images/Bisola.jpg'
     },
     {
         id: 5,
-        name: 'Student Name',
-        role: 'Specialisation',
-        website: '',
-        imagef: '/images/career_buzz_logo.png'
+        name: 'Akshay Sekar',
+        role: 'QCF',
+        website: 'https://www.linkedin.com/in/akshay-sekar/ ',
+        imagef: '/images/Akshay_Sekar.jpg'
     },
     {
         id: 6,

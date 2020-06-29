@@ -32,7 +32,12 @@
     align-items: center;
     justify-items: center;
     padding: 10px;
-  }
+}
+
+.cardimgstyling{
+    height: 250px;
+    width: 200px;
+}
 
 @media (max-width: 768px) {
     .CL_img-container {
@@ -62,8 +67,8 @@
     }
 
     .cardimgstyling{
-        height: 200px;
-        width: 100px;
+        height: 190px;
+        width: 150px;
     }
 
     .cardtextstyling{
@@ -71,8 +76,5 @@
     }
 }
 
-.cardimgstyling{
-    height: 200px;
-    width: 150px;
-}
+
 
