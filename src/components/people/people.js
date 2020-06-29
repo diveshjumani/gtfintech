@@ -77,11 +77,10 @@ function People() {
                                     </p>
                                 </div>
                         </div>
-
                         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-9">
                             <row>
                                 <p align = "justify"> 
-                                
+                                <br/>
                                 Sudheer Chava is Alton M. Costley Chair and Professor of Finance at Scheller College of Business at Georgia Tech. He has received his Ph.D. from Cornell University in 2003. Prior to that he has an MBA degree from Indian Institute of Management – Bangalore and worked as a fixed income analyst at a leading investment bank in India. He joined Georgia Tech in 2010. <br/> <br/>
                                 
                                 Dr. Chava has taught a variety of courses at the undergraduate and master’s level including FinTech Ventures, Derivatives, Risk Analytics, Valuation, Cases in Financial Crisis, Management of Financial Institutions, and Credit Risk Analysis. He has also taught both theoretical and empirical finance courses at the doctoral level. <br/><br/>
