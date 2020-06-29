@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1e313f791b51f0e48bcf1fc618a0bbbe",
+    "revision": "82eb9adf5e7b6fe829d94ad69bf1e902",
     "url": "/gtfintech/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/gtfintech/static/css/2.7e2e2a84.chunk.css"
   },
   {
-    "revision": "404846952e60fbf0ef5e",
-    "url": "/gtfintech/static/css/main.8ad0308d.chunk.css"
+    "revision": "710fe86336fcb76ca37d",
+    "url": "/gtfintech/static/css/main.61383488.chunk.css"
   },
   {
     "revision": "ddbb643368bdf0f4d165",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/gtfintech/static/js/2.077a7dfe.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "404846952e60fbf0ef5e",
-    "url": "/gtfintech/static/js/main.b23337c0.chunk.js"
+    "revision": "710fe86336fcb76ca37d",
+    "url": "/gtfintech/static/js/main.32145151.chunk.js"
   },
   {
     "revision": "97a79a0606e5611a86f3",
