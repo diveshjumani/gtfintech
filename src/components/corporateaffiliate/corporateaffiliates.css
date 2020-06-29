@@ -11,6 +11,13 @@
     margin:20px;
   }
 
+  .CAcardimgstyling{
+    height: 250px;
+    width: 200px;
+}
 @media (max-width: 768px) {
-    
+  .CAcardimgstyling{
+    height: 190px;
+    width: 150px;
+}
 }

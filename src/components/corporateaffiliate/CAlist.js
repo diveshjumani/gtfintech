@@ -4,7 +4,7 @@ import {Container} from 'react-bootstrap';
 
 const CAlist = ({AffiliateArray})  => { 
     return(
-        <Container fluid>
+        <Container>
             {
                 AffiliateArray.map((user,i) => {
                     return (
