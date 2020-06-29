@@ -1,7 +1,7 @@
 export const Alumni = [
     {
         id: 1,
-        name: 'Steven Chong Xiao',
+        name: 'Steven Xiao',
         role: 'Assistant Professor',
         website: 'https://sites.google.com/site/stevencxiao',
         imagef: '/images/steven chong xiao profile photo.jpg'

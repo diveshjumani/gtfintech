@@ -25,4 +25,10 @@
     .CL_data_card_title{
         height: 3rem;
     }   
+    .CL_data_img{
+        height: 220px;
+    }
+    .text-block-data{
+        top: 20%;
+    }
 }

@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import { Container, Card, ListGroup } from 'react-bootstrap';
+import {Link} from 'react-router-dom';
 import './data.css'
 import data_img from '../../images/banner-909710.jpg';
 
@@ -10,8 +11,8 @@ class data extends Component{
 				<br/>
 				<br/>	
 				<div >
-                    <img height = "400px" src={data_img} alt="" style={{width:'100%'}}/>
-                    <div class="text-block-data">
+                    <img className="CL_data_img" height = "400px" src={data_img} alt="" style={{width:'100%'}}/>
+                    <div className="text-block-data">
                         <h1 style = {{fontSize: '500%'}} ><strong>Data</strong></h1>
                     </div>
                 </div>
@@ -20,7 +21,7 @@ class data extends Component{
 				<Card className="CL_data_outer" bg="light" text="dark" style={{ width: '100%' }}>
 				<Card.Header style={{fontWeight: "600"}} as="h5"> Bankruptcy Data (1964-2016) </Card.Header>
 				<Card.Body>
-					<Card.Title className="CL_data_card_title">Please contact us if you want access to the bankruptcy data used in the following papers</Card.Title>
+					<Card.Title className="CL_data_card_title">Please <Link style={{color: "#007bff"}} to='/gtfintech/contactus'>contact us</Link> if you want access to the bankruptcy data used in the following papers</Card.Title>
 					<Card.Text>
 					<ListGroup>
 						<ListGroup.Item ><a style={{fontWeight: "400"}} target="_blank" rel="noopener noreferrer" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=287474">Chava, Sudheer and Robert Jarrow, 2004, “Bankruptcy Prediction with Industry Effects”, <b>Review of Finance</b>, 2004, 8(4), 537-569</a></ListGroup.Item>
@@ -46,7 +47,7 @@ class data extends Component{
 				<Card className="CL_data_outer" bg="light" text="dark" style={{ width: '100%' }}>
 				<Card.Header style={{fontWeight: "600"}} as="h5"> Debt Overhang Measures </Card.Header>
 				<Card.Body>
-					<Card.Title className="CL_data_card_title">Please contact us if you want access to the bankruptcy data used in the following papers</Card.Title>
+					<Card.Title className="CL_data_card_title">Please <Link style={{color: "#007bff"}} to='/gtfintech/contactus'>contact us</Link> if you want access to the bankruptcy data used in the following papers</Card.Title>
 					<Card.Text>
 					<ListGroup>
 						<ListGroup.Item ><a style={{fontWeight: "400"}} target="_blank" rel="noopener noreferrer" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2053511">Alanis, Emmanuel, Sudheer Chava and Praveen Kumar, 2015, “Shareholder Bargaining Power, Debt Overhang and Investment”, <b> Review of Corporate Finance Studies</b>, 7(2), 276-318.</a></ListGroup.Item>

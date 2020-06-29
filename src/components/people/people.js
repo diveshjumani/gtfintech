@@ -41,8 +41,8 @@ function People() {
                 <br/>
                 <br/>
                 
-                <div class="CL_img-container">
-                    <Image class="CL_img" src="https://www.scheller.gatech.edu/pix/why-scheller/unrestricted-endowment.jpg.pagespeed.ce.9X1ZWk_qnv.jpg" alt="Nature" style={{width:'100%',height:'100%'}} />
+                <div className="CL_img-container">
+                    <Image className="CL_img" src="https://www.scheller.gatech.edu/pix/why-scheller/unrestricted-endowment.jpg.pagespeed.ce.9X1ZWk_qnv.jpg" alt="Nature" style={{width:'100%',height:'100%'}} />
                         <div class="text-block">
                             <br/> <br/> 
                             <h4><b>People</b></h4>
@@ -61,12 +61,13 @@ function People() {
 
                     <div class="row">
                         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-3" >
+                            <div class="col-sm-3"></div>
                                 <a target="_blank" rel="noopener noreferrer" href = "https://www.scheller.gatech.edu/directory/faculty/chava/index.html">
-                                    <img className= 'Chava' style ={{height:'34p8x'}} variant="top" src={Sudheer_Chava} alt = "prof" />
+                                    <img align="left" className= 'Chava' variant="top" src={Sudheer_Chava} alt = "prof" />
                                 </a>
                                 <div>
                                     <h4>Sudheer Chava</h4>
-                                    <p align = "left">
+                                    <p className="Prof_Chava_designations">
                                         Alton M. Costley Chair
                                     <br/>Professor of Finance 
                                     <br/>Area Coordinator, Finance

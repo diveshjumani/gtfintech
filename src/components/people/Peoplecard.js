@@ -9,8 +9,8 @@ const Peoplecard = ({website, imagef, name, role}) => {
                 </a>
                 
                 <div className = "cardtextstyling">
-                    <h5>{name}</h5>   
-                    <h6>{role}</h6>
+                    <h5 className="CL_h5_new">{name}</h5>   
+                    <h6 className="CL_h6_new">{role}</h6>
                 </div>     
         </div>
     )
