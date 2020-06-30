@@ -7,11 +7,12 @@
     background: rgb(0, 0, 0); /* Fallback color */
     background: rgba(0, 0, 0, 0.6); /* Black background with 0.5 opacity */
     color: white;
-    position: absolute;
-    left: 50%;
-    bottom: 300%;
-    transform: translate(-50%, -50%);
-    display: inline-block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: baseline;
+    transform: translate(0%, -100%);
+  
 }
 
 .CL_text_about{
@@ -29,11 +30,7 @@
     height: 170px;
     width: 350px;
     color: white;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    display: inline-block;
+    transform: translate(0%, -140%);
   }
 
   .aboutimg{
