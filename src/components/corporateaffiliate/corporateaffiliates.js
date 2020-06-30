@@ -16,7 +16,7 @@ class CorporateAffiliates extends Component{
             <div>
                 
                 <div >
-                    <img height = "400px" src={Sponsors} alt="" style={{width:'100%'}}/>
+                    <img className = "CAimg" src={Sponsors} alt="" style={{width:'100%'}}/>
                     <div class="text-block-ca">
                         <h1 style = {{fontSize: '500%'}} ><strong>Corporate Affiliates </strong></h1>
                     </div>
