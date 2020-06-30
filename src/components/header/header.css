@@ -165,3 +165,18 @@
         font-size: 120%;
     }
 }
+
+
+@media (max-width: 1242px) {
+    .CL_header_texts{
+        margin-top: -3px;
+        margin-bottom: -3px;
+        font-size: 200%;
+        text-align: left;
+    }
+    .CL_dropdown_texts{
+        margin-top: -4px;
+        margin-bottom: -4px;
+        font-size: 120%;
+    }
+}
