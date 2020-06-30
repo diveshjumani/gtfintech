@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4525d18d62c64290f8558fa7bea2d7fa",
+    "revision": "2b0c5aa65c49652f937e0ee362bf5bbd",
     "url": "/gtfintech/index.html"
   },
   {
-    "revision": "0bfeaeb0e2b8dac4130a",
+    "revision": "e24cef414b97c49f5400",
     "url": "/gtfintech/static/css/2.7e2e2a84.chunk.css"
   },
   {
-    "revision": "a1c6c128b1f1e9e21538",
-    "url": "/gtfintech/static/css/main.1ecfcf27.chunk.css"
+    "revision": "ad36fea40160e36858b1",
+    "url": "/gtfintech/static/css/main.c9997761.chunk.css"
   },
   {
-    "revision": "0bfeaeb0e2b8dac4130a",
-    "url": "/gtfintech/static/js/2.5d025dd3.chunk.js"
+    "revision": "e24cef414b97c49f5400",
+    "url": "/gtfintech/static/js/2.da66bd0c.chunk.js"
   },
   {
     "revision": "d2966845b94a3318bf32eecc7af8015d",
-    "url": "/gtfintech/static/js/2.5d025dd3.chunk.js.LICENSE.txt"
+    "url": "/gtfintech/static/js/2.da66bd0c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a1c6c128b1f1e9e21538",
-    "url": "/gtfintech/static/js/main.ec7ce8fa.chunk.js"
+    "revision": "ad36fea40160e36858b1",
+    "url": "/gtfintech/static/js/main.54f84caa.chunk.js"
   },
   {
     "revision": "97a79a0606e5611a86f3",
@@ -38,6 +38,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ade237cf6e0e7f67f4ec14f295a1eb18",
     "url": "/gtfintech/static/media/GeorgiaTechLogo-RGB-Gray.ade237cf.png"
+  },
+  {
+    "revision": "2e11a72aeb4d6edf3d44edd5fa36f277",
+    "url": "/gtfintech/static/media/Invesco 4 crop.2e11a72a.jpg"
   },
   {
     "revision": "72bfc2021da6d9f643f5c5314a7f3c92",
