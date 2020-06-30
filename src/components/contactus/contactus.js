@@ -156,7 +156,6 @@ export default class FeedbackForm extends Component {
 		</div>
 		</div>
 		<br/>
-		<br/>
 		</div>
     );
   }

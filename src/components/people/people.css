@@ -15,7 +15,7 @@
 .CL_img-container {
     overflow: hidden;
     height: auto;
-    
+    max-height: 100vh;
     position: relative;
 }
 
@@ -45,6 +45,7 @@
 .Prof_Chava_designations{
     text-align: left;
 }
+
 @media (max-width: 768px) {
     .Prof_Chava_designations{
         text-align: left;
