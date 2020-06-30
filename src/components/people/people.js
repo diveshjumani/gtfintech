@@ -60,7 +60,7 @@ function People() {
                     <br/>
 
                     <div class="row">
-                        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-3" >
+                        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-3 col-xl-3" >
                             <div class="col-sm-3"></div>
                                 <a target="_blank" rel="noopener noreferrer" href = "https://www.scheller.gatech.edu/directory/faculty/chava/index.html">
                                     <img align="left" className= 'Chava' variant="top" src={Sudheer_Chava} alt = "prof" />
