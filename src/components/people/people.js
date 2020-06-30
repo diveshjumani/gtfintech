@@ -77,7 +77,7 @@ function People() {
                                     </p>
                                 </div>
                         </div>
-                        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-9">
+                        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-9 col-xl-9">
                             <row>
                                 <p align = "justify"> 
                                 <br/>
