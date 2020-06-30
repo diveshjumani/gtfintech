@@ -60,7 +60,7 @@ function People() {
                     <br/>
 
                     <div class="row">
-                        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-3 col-xl-3" >
+                        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3" >
                             <div class="col-sm-3"></div>
                                 <a target="_blank" rel="noopener noreferrer" href = "https://www.scheller.gatech.edu/directory/faculty/chava/index.html">
                                     <img align="left" className= 'Chava' variant="top" src={Sudheer_Chava} alt = "prof" />
@@ -77,7 +77,7 @@ function People() {
                                     </p>
                                 </div>
                         </div>
-                        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-9 col-xl-9">
+                        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-9 col-xl-9 col-xxl-9">
                             <row>
                                 <p align = "justify"> 
                                 <br/>
