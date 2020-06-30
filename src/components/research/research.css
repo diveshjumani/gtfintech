@@ -20,18 +20,14 @@
   }
 
   .image-research {
-    height: 450px;
+    height: 60vh;
   }
 
   .carousel-indicators li { visibility: hidden; }
   
   @media (max-width: 768px) {
-    .image-research {
-        height: 350px;
-      }
-
       .text-block-research {
-        top: 25%;
+        top: 35%;
         height: 190px;
       }
   }
