@@ -27,6 +27,10 @@
     margin-top: 20px;
 }
 
+.QCFimg{
+    height: 60vh;
+}
+
 @media (max-width: 768px) {
     .CL_qcf_logo{
         width: 100%;
