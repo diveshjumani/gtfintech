@@ -37,7 +37,7 @@
 @media (min-width: 1920px) {
     .text-block-about {
         width: 40%;
-        transform: translateY(-300%); 
+        transform: translateY(-275%); 
       }
     }
 
