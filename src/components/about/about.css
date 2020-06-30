@@ -10,8 +10,12 @@
     position: relative;
     margin-left: auto;
     margin-right: auto;
-    
-  
+    transform: translate(0%, -50%);
+    /* position: relative;
+    top: -15vh;
+    left:30%;
+    transform: translate(-50%, -50%);
+    display: inline-block; */
 }
 
 .CL_text_about{
@@ -29,6 +33,11 @@
     height: 170px;
     width: 350px;
     color: white;
+    /* position: relative;
+    top: -15vh;
+    left:30%;
+    transform: translate(-50%, -50%);
+    display: inline-block; */
   }
 
   .aboutimg{
