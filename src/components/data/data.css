@@ -21,6 +21,10 @@
     height: 2rem;
 }
 
+.CL_data_img{
+    height: 50vh;
+}
+
 @media (max-width: 768px) {
     .CL_data_card_title{
         height: 3rem;

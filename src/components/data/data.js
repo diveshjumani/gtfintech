@@ -11,7 +11,7 @@ class data extends Component{
 				<br/>
 				<br/>	
 				<div >
-                    <img className="CL_data_img" height = "400px" src={data_img} alt="" style={{width:'100%'}}/>
+                    <img className="CL_data_img" src={data_img} alt="" style={{width:'100%'}}/>
                     <div className="text-block-data">
                         <h1 style = {{fontSize: '500%'}} ><strong>Data</strong></h1>
                     </div>
