@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b1a137785faea74c24078d15e27c9ee9",
+    "revision": "b0095d4218702162b607f7af97f9b9c1",
     "url": "/gtfintech/index.html"
   },
   {
-    "revision": "e24cef414b97c49f5400",
+    "revision": "43193aababd28a80728c",
     "url": "/gtfintech/static/css/2.7e2e2a84.chunk.css"
   },
   {
-    "revision": "d244ebbebffd27fe7ab5",
+    "revision": "9ed73300eaa31415260a",
     "url": "/gtfintech/static/css/main.10f3f4c8.chunk.css"
   },
   {
-    "revision": "e24cef414b97c49f5400",
-    "url": "/gtfintech/static/js/2.da66bd0c.chunk.js"
+    "revision": "43193aababd28a80728c",
+    "url": "/gtfintech/static/js/2.0c594f9a.chunk.js"
   },
   {
     "revision": "d2966845b94a3318bf32eecc7af8015d",
-    "url": "/gtfintech/static/js/2.da66bd0c.chunk.js.LICENSE.txt"
+    "url": "/gtfintech/static/js/2.0c594f9a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d244ebbebffd27fe7ab5",
-    "url": "/gtfintech/static/js/main.9bfce1d1.chunk.js"
+    "revision": "9ed73300eaa31415260a",
+    "url": "/gtfintech/static/js/main.a2f76fe9.chunk.js"
   },
   {
     "revision": "97a79a0606e5611a86f3",
@@ -42,26 +42,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "2e11a72aeb4d6edf3d44edd5fa36f277",
     "url": "/gtfintech/static/media/Invesco 4 crop.2e11a72a.jpg"
-  },
-  {
-    "revision": "72bfc2021da6d9f643f5c5314a7f3c92",
-    "url": "/gtfintech/static/media/Nikhil_1.72bfc202.png"
-  },
-  {
-    "revision": "103937e30f7983de3fc0990f98e1a1ea",
-    "url": "/gtfintech/static/media/Nikhil_2.103937e3.png"
-  },
-  {
-    "revision": "d99f70cfc7c062fec784f242585eba27",
-    "url": "/gtfintech/static/media/Nikhil_3.d99f70cf.png"
-  },
-  {
-    "revision": "149b1960761dcb09f75a624b6929efaf",
-    "url": "/gtfintech/static/media/Nikhil_4.149b1960.png"
-  },
-  {
-    "revision": "0e8662c2cf8346599934fb1bcd7633cf",
-    "url": "/gtfintech/static/media/Nikhil_5.0e8662c2.png"
   },
   {
     "revision": "93c1f9f806f925b49a2a5fab74ec5860",
