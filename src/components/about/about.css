@@ -10,8 +10,7 @@
     position: relative;
     margin-left: auto;
     margin-right: auto;
-    vertical-align: baseline;
-    transform: translate(0%, -100%);
+    
   
 }
 
@@ -30,7 +29,6 @@
     height: 170px;
     width: 350px;
     color: white;
-    transform: translate(0%, -140%);
   }
 
   .aboutimg{
