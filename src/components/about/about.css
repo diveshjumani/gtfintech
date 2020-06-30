@@ -31,7 +31,7 @@
     color: white;
     position: absolute;
     left: 50%;
-    bottom: 250%;
+    bottom: 50%;
     transform: translate(-50%, -50%);
     display: inline-block;
   }
