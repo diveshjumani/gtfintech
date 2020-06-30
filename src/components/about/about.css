@@ -21,7 +21,7 @@
 }
 
 .aboutimg{
-    height:800px;
+    height:100vh;
 }
 
 @media (max-width: 768px) {
@@ -37,6 +37,6 @@
   }
 
   .aboutimg{
-    height:650px;
+    height:100vh;
     }
 }
