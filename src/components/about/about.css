@@ -37,7 +37,7 @@
 @media (min-width: 1920px) {
     .text-block-about {
         width: 40%;
-        transform: translateY(-200%); 
+        transform: translateY(-300%); 
       }
     }
 
@@ -48,6 +48,6 @@ and (-webkit-min-device-pixel-ratio: 1) {
     .text-block-about {
         width: 100%;
         color: white;
-        transform: translateY(-150%); 
+        transform: translateY(-140%); 
         }
 }
