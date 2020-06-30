@@ -303,3 +303,23 @@ li {
   filter: blur(8px);
   -webkit-filter: blur(8px);
 }
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+  
+    .research{
+      overflow-x: hidden;
+    }
+    
+    .news{
+      overflow-x: hidden;
+    }
+    
+    .CL_contactus{
+      overflow-x: hidden;
+      overflow-y: hidden;
+    }
+  
+}
