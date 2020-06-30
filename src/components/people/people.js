@@ -3,6 +3,7 @@ import {Container} from 'react-bootstrap';
 import  {Button,Image} from 'react-bootstrap';
 import Sudheer_Chava from '../../images/Sudheer_Chava.jpg';
 import PeopleCardList from './PeopleCardList';
+import peopleimage from '../../images/Invesco 4 crop.jpg';
 import 'tachyons';
 import './people.css'
 
@@ -42,7 +43,7 @@ function People() {
                 <br/>
                 
                 <div className="CL_img-container">
-                    <Image className="CL_img" src="https://www.scheller.gatech.edu/pix/why-scheller/unrestricted-endowment.jpg.pagespeed.ce.9X1ZWk_qnv.jpg" alt="Nature" style={{width:'100%',height:'100%'}} />
+                    <Image className="CL_img" src={peopleimage} alt="Nature" style={{width:'100%',height:'100%'}} />
                         <div class="text-block">
                             <br/> <br/> 
                             <h4><b>People</b></h4>
