@@ -20,8 +20,7 @@
 }
 
 .text-block {
-    height: 220px;
-    width: 700px;
+    width: 40%;
     background: rgb(0, 0, 0); /* Fallback color */
     background: rgba(0, 0, 0, 0.6); /* Black background with 0.5 opacity */
     color: white;
@@ -68,7 +67,6 @@
     }
 
     .text-block {
-        height: 150px;
         width: 350px;
         color: white;
         position: absolute;

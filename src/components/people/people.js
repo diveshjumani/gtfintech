@@ -44,8 +44,7 @@ function People() {
                 
                 <div className="CL_img-container">
                     <Image className="CL_img" src={peopleimage} alt="Nature" style={{width:'100%',height:'100%'}} />
-                        <div class="text-block">
-                            <br/> <br/> 
+                        <div class="text-block"> 
                             <h4><b>People</b></h4>
                 <p align ="justify"> The Financial Services Innovation Lab at Georgia Tech is led by Dr. Sudheer Chava. The lab brings together many other faculty, undergraduate, Masters and PhD students from various colleges across Georgia Tech that are interested in the Financial Services and FinTech industry.  </p>
                         </div>
