@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/gtfintech/static/css/main.e22e22aa.chunk.css",
-    "main.js": "/gtfintech/static/js/main.795003dd.chunk.js",
-    "main.js.map": "/gtfintech/static/js/main.795003dd.chunk.js.map",
+    "main.js": "/gtfintech/static/js/main.db8faeb2.chunk.js",
+    "main.js.map": "/gtfintech/static/js/main.db8faeb2.chunk.js.map",
     "runtime-main.js": "/gtfintech/static/js/runtime-main.acddfa5a.js",
     "runtime-main.js.map": "/gtfintech/static/js/runtime-main.acddfa5a.js.map",
     "static/css/2.7e2e2a84.chunk.css": "/gtfintech/static/css/2.7e2e2a84.chunk.css",
     "static/js/2.0c594f9a.chunk.js": "/gtfintech/static/js/2.0c594f9a.chunk.js",
     "static/js/2.0c594f9a.chunk.js.map": "/gtfintech/static/js/2.0c594f9a.chunk.js.map",
     "index.html": "/gtfintech/index.html",
-    "precache-manifest.f8978f1fe8b9d284599c4492d857aee7.js": "/gtfintech/precache-manifest.f8978f1fe8b9d284599c4492d857aee7.js",
+    "precache-manifest.a1d657b123e606470eb6de16d35aef66.js": "/gtfintech/precache-manifest.a1d657b123e606470eb6de16d35aef66.js",
     "service-worker.js": "/gtfintech/service-worker.js",
     "static/css/2.7e2e2a84.chunk.css.map": "/gtfintech/static/css/2.7e2e2a84.chunk.css.map",
     "static/css/main.e22e22aa.chunk.css.map": "/gtfintech/static/css/main.e22e22aa.chunk.css.map",
@@ -32,7 +32,7 @@
     "static/media/heap-of-united-states-dollar-bills-and-calculator-4386393.jpg": "/gtfintech/static/media/heap-of-united-states-dollar-bills-and-calculator-4386393.49b3a628.jpg",
     "static/media/household_finance.jpg": "/gtfintech/static/media/household_finance.05ab2201.jpg",
     "static/media/money-2724241.jpg": "/gtfintech/static/media/money-2724241.62d68ead.jpg",
-    "static/media/safe-913452.jpg": "/gtfintech/static/media/safe-913452.d2f4fffa.jpg",
+    "static/media/packs-163497.jpg": "/gtfintech/static/media/packs-163497.578ba5bb.jpg",
     "static/media/shaking-hands-5217122.jpg": "/gtfintech/static/media/shaking-hands-5217122.aec66771.jpg",
     "static/media/stock-1863880.jpg": "/gtfintech/static/media/stock-1863880.0c79595e.jpg"
   },
@@ -41,6 +41,6 @@
     "static/css/2.7e2e2a84.chunk.css",
     "static/js/2.0c594f9a.chunk.js",
     "static/css/main.e22e22aa.chunk.css",
-    "static/js/main.795003dd.chunk.js"
+    "static/js/main.db8faeb2.chunk.js"
   ]
 }
