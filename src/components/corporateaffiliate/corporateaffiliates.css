@@ -12,8 +12,8 @@
   }
 
   .CAcardimgstyling{
-    height: 250px;
-    width: 200px;
+    height: 25vh;
+    width: 20vw;
 }
 
   .CAimg{
@@ -22,7 +22,7 @@
 
 @media (max-width: 768px) {
   .CAcardimgstyling{
-    height: 190px;
-    width: 150px;
+    height: 25vh;
+    width: 35vw;
 }
 }

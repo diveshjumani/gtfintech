@@ -37,6 +37,6 @@ export const Affiliates = [
     {
         id: 8,
         website: '',
-        imageaff: '/images/Speedwell_1.png'
+        imageaff: '/images/Speedwell_2.png'
     }
 ]
