@@ -23,7 +23,7 @@ export const Alumni = [
     {
         id: 4,
         name: 'Nikhil Paradkar',
-        role: 'Finance',
+        role: 'Assistant Professor',
         website: 'https://www.nikhil-paradkar.com/home',
         imagef: '/images/Nikhil_Paradkar.jpg'
     },
