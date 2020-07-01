@@ -1050,5 +1050,27 @@ export const allresearch = [
     image4:'/images/Nikhil_4.png',
     abstract: "Using proprietary account-level data from a major credit bureau, I examine the impact of stress tests on bank risk-taking in the U.S. consumer credit card market. I decompose credit supply and demand effects by exploiting credit card--level data on limits and balances matched to both consumers and banks. For the same consumer, I examine the lending response of banks experiencing higher stress-test induced capital requirements (i.e., high-exposure banks) relative to less-exposed banks. I find that the earlier rounds of stress tests induced high-exposure banks to sharply reduce credit limits, especially to ex-ante risky borrowers. In contrast, more exposed banks in later rounds have increased limits for risky consumers. Consistent with higher bank risk-taking in later rounds, cards issued by highly-exposed banks have a higher ex-post likelihood of default. Additionally, I document that more affected non-prime borrowers are more likely to default subsequently, and that this effect is markedly pronounced for the low-income and less-educated consumer segments. My findings suggest that stress-test induced increases in capital requirements can encourage higher bank risk-taking, with distributional consequences for consumer creditworthiness.",
     keytakeaway:'Higher capital requirements can induce higher bank risk-taking, with significant distributional impact on consumer creditworthiness.'
+},
+{
+    id: 36,
+    research:'Household Finance',
+    researchname: 'Does a One-Size-Fits-All Minimum Wage Cause Financial Stress for Small Businesses?',
+    researchwebsite: 'https://www.nber.org/papers/w26523',
+    author1: 'Sudheer Chava',
+    author2: 'Alexander Oettl',
+    author3: 'Manpreet Singh',
+    author4: '',
+    author5: '',
+    author1website: 'https://www.scheller.gatech.edu/directory/faculty/chava/index.html',
+    author2website: 'https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=655634',
+    author3website: 'https://www.manpreets.com/',
+    author4website: '',
+    author5website: '',
+    image1:'/images/MW_1.jpg',
+    image2:'/images/MW_2.jpg',
+    image3:'/images/MW_3.jpg',
+    image4:'/images/MW_4.jpg',
+    abstract: "Using proprietary account-level data from a major credit bureau, I examine the impact of stress tests on bank risk-taking in the U.S. consumer credit card market. I decompose credit supply and demand effects by exploiting credit card--level data on limits and balances matched to both consumers and banks. For the same consumer, I examine the lending response of banks experiencing higher stress-test induced capital requirements (i.e., high-exposure banks) relative to less-exposed banks. I find that the earlier rounds of stress tests induced high-exposure banks to sharply reduce credit limits, especially to ex-ante risky borrowers. In contrast, more exposed banks in later rounds have increased limits for risky consumers. Consistent with higher bank risk-taking in later rounds, cards issued by highly-exposed banks have a higher ex-post likelihood of default. Additionally, I document that more affected non-prime borrowers are more likely to default subsequently, and that this effect is markedly pronounced for the low-income and less-educated consumer segments. My findings suggest that stress-test induced increases in capital requirements can encourage higher bank risk-taking, with distributional consequences for consumer creditworthiness.",
+    keytakeaway:'Higher capital requirements can induce higher bank risk-taking, with significant distributional impact on consumer creditworthiness.'
 }
 ]

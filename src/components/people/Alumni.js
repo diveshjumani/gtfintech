@@ -15,17 +15,17 @@ export const Alumni = [
     },
     {
         id: 3,
-        name: 'Student Name',
-        role: 'Specialisation',
-        website: '',
-        imagef: '/images/career_buzz_logo.png'
+        name: 'Manpreet Singh',
+        role: 'Assistant Professor',
+        website: 'https://www.manpreets.com/',
+        imagef: '/images/singh_manpreet_profile.jpg'
     },
     {
         id: 4,
-        name: 'Student Name',
-        role: 'Specialisation',
-        website: '',
-        imagef: '/images/career_buzz_logo.png'
+        name: 'Nikhil Paradkar',
+        role: 'Finance',
+        website: 'https://www.nikhil-paradkar.com/home',
+        imagef: '/images/Nikhil_Paradkar.jpg'
     },
     {
         id: 5,
