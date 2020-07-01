@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { animateScroll as scroll} from 'react-scroll'
 import Bankingresearchcardlist from './bankingresearchcardlist';
-import bank from '../../images/safe-913452.jpg';
+import bank from '../../images/packs-163497.jpg';
 import './research.css';
 
 class Banking extends Component{
