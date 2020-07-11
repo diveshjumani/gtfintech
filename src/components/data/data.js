@@ -1,8 +1,14 @@
-import React, {Component} from 'react';
+import React, { Component, PureComponent, Fragment  } from 'react';
 import { Container, Card, ListGroup } from 'react-bootstrap';
 import {Link} from 'react-router-dom';
 import './data.css'
 import data_img from '../../images/banner-909710.jpg';
+
+import {Helmet} from "react-helmet";
+import ReactDOM from 'react-dom';
+import Plotly from "plotly.js";
+import createPlotlyComponent from "react-plotly.js/factory";
+const Plot = createPlotlyComponent(Plotly);
 
 class data extends Component{
     render(){
@@ -18,6 +24,11 @@ class data extends Component{
                 </div>
 
 				<Container fluid>
+				<div id='divPlotly2'></div>
+				<Helmet>
+					<script src="https://cdn.plot.ly/plotly-1.42.3.min.js"></script>
+					<script>Plotly.react('divPlotly2', plotly_data2.data, plotly_data2.layout);</script>
+				</Helmet>
 				<Card className="CL_data_outer" bg="light" text="dark" style={{ width: '100%' }}>
 				<Card.Header style={{fontWeight: "600"}} as="h5"> Bankruptcy Data (1964-2016) </Card.Header>
 				<Card.Body>
